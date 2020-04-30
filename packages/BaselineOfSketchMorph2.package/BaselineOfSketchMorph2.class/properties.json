@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfSketchMorph2",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfSketchMorph2",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
