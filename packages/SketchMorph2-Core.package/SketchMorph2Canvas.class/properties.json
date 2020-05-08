@@ -1,0 +1,14 @@
+{
+	"category" : "SketchMorph2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mk 5/8/2020 13:07",
+	"instvars" : [
+		"backend" ],
+	"name" : "SketchMorph2Canvas",
+	"pools" : [
+		 ],
+	"super" : "ImageMorph",
+	"type" : "normal" }

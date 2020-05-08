@@ -1,0 +1,14 @@
+{
+	"category" : "SketchMorph2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mk 5/8/2020 13:06",
+	"instvars" : [
+		"form" ],
+	"name" : "SketchMorph2",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

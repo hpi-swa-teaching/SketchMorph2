@@ -1,0 +1,3 @@
+defaults
+defaultDepth
+	^ 8
