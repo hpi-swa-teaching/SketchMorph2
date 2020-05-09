@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "mk 5/8/2020 13:06",
 	"instvars" : [
-		"form" ],
+		"form",
+		"pen" ],
 	"name" : "SketchMorph2",
 	"pools" : [
 		 ],

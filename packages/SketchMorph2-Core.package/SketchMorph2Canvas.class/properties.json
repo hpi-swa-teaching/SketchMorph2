@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "mk 5/8/2020 13:07",
 	"instvars" : [
-		"backend" ],
+		"backend",
+		"absoluteMousePosition",
+		"isMouseDown" ],
 	"name" : "SketchMorph2Canvas",
 	"pools" : [
 		 ],

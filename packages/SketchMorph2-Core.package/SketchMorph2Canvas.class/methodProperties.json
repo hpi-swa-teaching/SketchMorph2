@@ -2,7 +2,19 @@
 	"class" : {
 		 },
 	"instance" : {
+		"absoluteMousePosition" : "NC 5/9/2020 20:05",
+		"absoluteMousePosition:" : "NC 5/9/2020 20:05",
 		"backend" : "mk 5/8/2020 12:58",
 		"backend:" : "mk 5/8/2020 13:02",
 		"defaultCanvasSize" : "mk 5/8/2020 13:01",
-		"initialize" : "mk 5/8/2020 12:58" } }
+		"handlesMouseDown:" : "NC 5/9/2020 20:06",
+		"handlesMouseMove:" : "NC 5/9/2020 20:06",
+		"initialize" : "mk 5/8/2020 12:58",
+		"isMouseDown" : "NC 5/9/2020 20:05",
+		"isMouseDown:" : "NC 5/9/2020 20:05",
+		"mouseDown:" : "NC 5/9/2020 20:06",
+		"mouseMove:" : "NC 5/9/2020 20:06",
+		"mouseUp:" : "NC 5/9/2020 20:06",
+		"relativeMousePosition" : "NC 5/9/2020 20:05",
+		"setToBlank" : "NC 5/9/2020 20:06",
+		"toggleIsMouseDown:" : "NC 5/9/2020 20:05" } }
