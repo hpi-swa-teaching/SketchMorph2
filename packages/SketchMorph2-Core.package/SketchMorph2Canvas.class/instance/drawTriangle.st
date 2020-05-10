@@ -1,6 +1,7 @@
 mouse handling
-drawTriangleOfSize: width
-	| triangleForm temporaryPen height |	
+drawTriangle
+	| triangleForm temporaryPen height width |
+	width := self backend brushSize.	
 	height := (3 sqrt*(width / 2)) ceiling.
 	triangleForm := Form extent: width@height.
 	temporaryPen := (Pen newOnForm: triangleForm) 
