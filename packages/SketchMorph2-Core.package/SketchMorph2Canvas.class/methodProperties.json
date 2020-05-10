@@ -1,12 +1,17 @@
 {
 	"class" : {
-		 },
+		"openWithUI" : "wr 5/10/2020 15:34" },
 	"instance" : {
 		"absoluteMousePosition" : "NC 5/9/2020 20:05",
 		"absoluteMousePosition:" : "NC 5/9/2020 20:05",
 		"backend" : "mk 5/8/2020 12:58",
 		"backend:" : "mk 5/8/2020 13:02",
+		"currentColor" : "wr 5/10/2020 13:33",
+		"currentColor:" : "wr 5/10/2020 13:34",
 		"defaultCanvasSize" : "mk 5/8/2020 13:01",
+		"drawCircleOfSize:" : "wr 5/10/2020 12:36",
+		"drawRectangleOfSize:times:" : "wr 5/10/2020 14:51",
+		"drawTriangleOfSize:" : "wr 5/10/2020 14:45",
 		"handlesMouseDown:" : "NC 5/9/2020 20:06",
 		"handlesMouseMove:" : "NC 5/9/2020 20:06",
 		"initialize" : "mk 5/8/2020 12:58",

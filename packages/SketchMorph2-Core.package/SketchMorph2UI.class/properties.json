@@ -1,0 +1,19 @@
+{
+	"category" : "SketchMorph2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "wr 5/10/2020 16:00",
+	"instvars" : [
+		"canvas",
+		"pencilButton",
+		"triangleButton",
+		"circleButton",
+		"rectangleButton",
+		"closeButton" ],
+	"name" : "SketchMorph2UI",
+	"pools" : [
+		 ],
+	"super" : "MenuMorph",
+	"type" : "normal" }

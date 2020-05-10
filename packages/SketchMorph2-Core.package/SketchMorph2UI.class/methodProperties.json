@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"newFromCanvas:" : "wr 5/10/2020 15:06" },
+	"instance" : {
+		"canvas" : "wr 5/10/2020 15:03",
+		"canvas:" : "wr 5/10/2020 15:06",
+		"circleButton" : "wr 5/10/2020 15:52",
+		"circleButton:" : "wr 5/10/2020 15:17",
+		"closeButton" : "wr 5/10/2020 15:53",
+		"closeButton:" : "wr 5/10/2020 15:48",
+		"initialize" : "wr 5/10/2020 15:57",
+		"pencilButton" : "wr 5/10/2020 15:57",
+		"pencilButton:" : "wr 5/10/2020 15:55",
+		"rectangleButton" : "wr 5/10/2020 15:52",
+		"rectangleButton:" : "wr 5/10/2020 15:17",
+		"triangleButton" : "wr 5/10/2020 15:52",
+		"triangleButton:" : "wr 5/10/2020 15:17" } }

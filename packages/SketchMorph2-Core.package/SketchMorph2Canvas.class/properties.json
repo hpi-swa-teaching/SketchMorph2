@@ -8,7 +8,8 @@
 	"instvars" : [
 		"backend",
 		"absoluteMousePosition",
-		"isMouseDown" ],
+		"isMouseDown",
+		"currentColor" ],
 	"name" : "SketchMorph2Canvas",
 	"pools" : [
 		 ],
