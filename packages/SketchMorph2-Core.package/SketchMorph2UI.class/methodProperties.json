@@ -1,17 +1,19 @@
 {
 	"class" : {
-		"newFromCanvas:" : "wr 5/10/2020 15:06" },
+		 },
 	"instance" : {
+		"backend" : "wr 5/11/2020 12:59",
+		"backend:" : "wr 5/11/2020 13:00",
 		"canvas" : "wr 5/10/2020 15:03",
 		"canvas:" : "wr 5/10/2020 15:06",
-		"circleButton" : "mk 5/10/2020 20:40",
+		"circleButton" : "wr 5/11/2020 13:02",
 		"circleButton:" : "wr 5/10/2020 15:17",
-		"closeButton" : "wr 5/10/2020 15:53",
+		"closeButton" : "wr 5/11/2020 13:15",
 		"closeButton:" : "wr 5/10/2020 15:48",
 		"initialize" : "wr 5/10/2020 15:57",
-		"pencilButton" : "mk 5/10/2020 20:41",
+		"pencilButton" : "wr 5/11/2020 13:03",
 		"pencilButton:" : "wr 5/10/2020 15:55",
-		"rectangleButton" : "mk 5/10/2020 20:45",
+		"rectangleButton" : "wr 5/11/2020 13:17",
 		"rectangleButton:" : "wr 5/10/2020 15:17",
-		"triangleButton" : "mk 5/10/2020 20:40",
+		"triangleButton" : "wr 5/11/2020 13:17",
 		"triangleButton:" : "wr 5/10/2020 15:17" } }

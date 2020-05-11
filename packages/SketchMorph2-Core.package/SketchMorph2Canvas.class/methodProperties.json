@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"openWithUI" : "wr 5/10/2020 15:34" },
+		"openWithUI" : "wr 5/11/2020 13:00" },
 	"instance" : {
 		"absoluteMousePosition" : "NC 5/9/2020 20:05",
 		"absoluteMousePosition:" : "NC 5/9/2020 20:05",
@@ -9,17 +9,13 @@
 		"currentColor" : "wr 5/10/2020 13:33",
 		"currentColor:" : "wr 5/10/2020 13:34",
 		"defaultCanvasSize" : "mk 5/8/2020 13:01",
-		"drawCircle" : "mk 5/10/2020 20:37",
-		"drawPencil" : "mk 5/10/2020 20:41",
-		"drawRectangle" : "mk 5/10/2020 20:45",
-		"drawTriangle" : "mk 5/10/2020 20:49",
 		"handlesMouseDown:" : "NC 5/9/2020 20:06",
 		"handlesMouseMove:" : "NC 5/9/2020 20:06",
 		"initialize" : "mk 5/8/2020 12:58",
 		"isMouseDown" : "NC 5/9/2020 20:05",
 		"isMouseDown:" : "NC 5/9/2020 20:05",
-		"mouseDown:" : "mk 5/10/2020 17:33",
-		"mouseMove:" : "NC 5/9/2020 20:06",
+		"mouseDown:" : "wr 5/11/2020 13:16",
+		"mouseMove:" : "wr 5/11/2020 12:56",
 		"mouseUp:" : "NC 5/9/2020 20:06",
 		"relativeMousePosition" : "NC 5/9/2020 20:05",
 		"setToBlank" : "NC 5/9/2020 20:06",

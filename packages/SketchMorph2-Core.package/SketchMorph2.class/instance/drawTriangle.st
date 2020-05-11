@@ -1,7 +1,7 @@
-mouse handling
+drawing
 drawTriangle
 	| triangleForm temporaryPen height width |
-	width := self backend brushSize.	
+	width := self brushSize.	
 	height := (3 sqrt*(width / 2)) ceiling.
 	triangleForm := Form extent: width@height.
 	temporaryPen := (Pen newOnForm: triangleForm) 
@@ -12,5 +12,5 @@ drawTriangle
 	1 to: 3 do: [:i | temporaryPen go: width; turn: 120].
 	triangleForm convexShapeFill: Color black.		
 	
-	self backend pen sourceForm: triangleForm.
-	self backend pen combinationRule: Form paint.
+	self pen sourceForm: triangleForm.
+	self pen combinationRule: Form paint.
