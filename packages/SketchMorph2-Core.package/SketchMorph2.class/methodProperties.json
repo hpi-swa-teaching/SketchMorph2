@@ -20,8 +20,9 @@
 		"initialize" : "mk 5/8/2020 12:00",
 		"pen" : "NC 5/9/2020 20:09",
 		"pen:" : "NC 5/9/2020 20:04",
-		"penNibOffset" : "wr 5/11/2020 13:14",
+		"penNibOffset" : "mp 5/11/2020 17:03",
 		"pencilSize" : "mk 5/10/2020 20:34",
 		"pencilSize:" : "mk 5/10/2020 20:34",
 		"rectangleBrushSize" : "mk 5/10/2020 20:44",
-		"rectangleBrushSize:" : "mk 5/10/2020 20:44" } }
+		"rectangleBrushSize:" : "mk 5/10/2020 20:44",
+		"setPenDown:" : "mp 5/11/2020 17:11" } }

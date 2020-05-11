@@ -13,10 +13,8 @@
 		"handlesMouseMove:" : "NC 5/9/2020 20:06",
 		"initialize" : "mk 5/8/2020 12:58",
 		"isMouseDown" : "NC 5/9/2020 20:05",
-		"isMouseDown:" : "NC 5/9/2020 20:05",
+		"isMouseDown:" : "mp 5/11/2020 17:07",
 		"mouseDown:" : "wr 5/11/2020 13:16",
 		"mouseMove:" : "wr 5/11/2020 12:56",
 		"mouseUp:" : "NC 5/9/2020 20:06",
-		"relativeMousePosition" : "NC 5/9/2020 20:05",
-		"setToBlank" : "NC 5/9/2020 20:06",
-		"toggleIsMouseDown:" : "NC 5/9/2020 20:05" } }
+		"relativeMousePosition" : "NC 5/9/2020 20:05" } }

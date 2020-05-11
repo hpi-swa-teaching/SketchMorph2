@@ -1,4 +1,4 @@
-mouse handling
+event handling
 mouseMove: evt
 	self isMouseDown 
 		ifTrue: [(self bounds containsPoint: evt position)
