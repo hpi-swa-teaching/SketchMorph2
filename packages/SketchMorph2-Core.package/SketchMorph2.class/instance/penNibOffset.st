@@ -1,3 +1,3 @@
 accessing
 penNibOffset
-	^ (self form extent / 2) ceiling
+	^ (self sourceForm extent / 2) ceiling
