@@ -1,3 +1,3 @@
 event handling
-mouseUp: evt
+mouseLeaveDragging: evt
 	self backend pen up.

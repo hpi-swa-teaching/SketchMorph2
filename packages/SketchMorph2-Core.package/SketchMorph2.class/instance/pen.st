@@ -1,3 +1,3 @@
 accessing
 pen
-	^ pen ifNil: [pen := Pen newOnForm: self form. pen up].
+	^ pen ifNil: [(pen := Pen newOnForm: self form) up; yourself].
