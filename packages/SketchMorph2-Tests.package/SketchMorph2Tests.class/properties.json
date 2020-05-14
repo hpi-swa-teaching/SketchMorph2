@@ -1,0 +1,14 @@
+{
+	"category" : "SketchMorph2-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"backend" ],
+	"name" : "SketchMorph2Tests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
