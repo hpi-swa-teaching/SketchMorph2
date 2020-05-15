@@ -1,0 +1,3 @@
+instance creation
+open
+	SketchMorph2Canvas openWithUI
