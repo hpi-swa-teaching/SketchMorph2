@@ -2,8 +2,6 @@
 	"class" : {
 		"openWithUI" : "wr 5/11/2020 13:00" },
 	"instance" : {
-		"absoluteMousePosition" : "NC 5/9/2020 20:05",
-		"absoluteMousePosition:" : "NC 5/9/2020 20:05",
 		"backend" : "mk 5/8/2020 12:58",
 		"backend:" : "mk 5/8/2020 13:02",
 		"currentColor" : "wr 5/10/2020 13:33",
@@ -13,9 +11,9 @@
 		"handlesMouseMove:" : "NC 5/9/2020 20:06",
 		"handlesMouseOverDragging:" : "NC 5/14/2020 09:34",
 		"initialize" : "mk 5/8/2020 12:58",
-		"mouseDown:" : "NC 5/14/2020 09:32",
-		"mouseEnterDragging:" : "NC 5/14/2020 09:42",
-		"mouseLeaveDragging:" : "NC 5/10/2020 17:54",
-		"mouseMove:" : "NC 5/14/2020 09:41",
-		"mouseUp:" : "NC 5/14/2020 09:33",
-		"relativeMousePosition" : "CCJ 5/13/2020 14:44" } }
+		"mouseDown:" : "mp 5/15/2020 12:42",
+		"mouseEnterDragging:" : "mp 5/15/2020 12:44",
+		"mouseLeaveDragging:" : "mp 5/15/2020 12:43",
+		"mouseMove:" : "mp 5/15/2020 12:47",
+		"mouseUp:" : "mp 5/15/2020 12:47",
+		"relativeMousePosition:" : "mp 5/15/2020 12:42" } }

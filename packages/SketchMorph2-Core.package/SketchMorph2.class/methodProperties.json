@@ -18,6 +18,7 @@
 		"form:" : "mk 5/8/2020 11:45",
 		"formSize:" : "mk 5/8/2020 13:05",
 		"initialize" : "mk 5/8/2020 12:00",
+		"moveDrawing:" : "mp 5/15/2020 12:46",
 		"pen" : "NC 5/14/2020 09:37",
 		"pen:" : "NC 5/9/2020 20:04",
 		"penNibOffset" : "wr 5/14/2020 16:26",
@@ -26,4 +27,7 @@
 		"rectangleBrushSize" : "mk 5/10/2020 20:44",
 		"rectangleBrushSize:" : "mk 5/10/2020 20:44",
 		"setPenDown:" : "mp 5/11/2020 17:11",
-		"sourceForm" : "CCJ 5/13/2020 16:07" } }
+		"sourceForm" : "CCJ 5/13/2020 16:07",
+		"startDrawing" : "mp 5/15/2020 12:44",
+		"startDrawingAt:" : "mp 5/15/2020 12:52",
+		"stopDrawing" : "mp 5/15/2020 12:43" } }

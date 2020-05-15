@@ -1,3 +1,3 @@
 event handling
 mouseLeaveDragging: evt
-	self backend pen up.
+	self backend stopDrawing.
