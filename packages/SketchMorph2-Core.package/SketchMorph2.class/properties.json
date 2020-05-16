@@ -4,13 +4,16 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "mk 5/8/2020 13:06",
+	"commentStamp" : "NC 5/16/2020 11:32",
 	"instvars" : [
 		"form",
 		"pen",
 		"pencilSize",
 		"brushSize",
-		"rectangleBrushSize" ],
+		"rectangleBrushSize",
+		"modus",
+		"startPoint",
+		"temporaryForm" ],
 	"name" : "SketchMorph2",
 	"pools" : [
 		 ],

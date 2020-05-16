@@ -1,3 +1,3 @@
 instance creation
 open
-	SketchMorph2Canvas openWithUI
+	SketchMorph2FrontEnd openWithUI

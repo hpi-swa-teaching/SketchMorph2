@@ -15,3 +15,4 @@ drawTriangle
 	
 	self pen sourceForm: triangleForm.
 	self pen combinationRule: Form paint.
+	self modus: #pen

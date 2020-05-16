@@ -7,8 +7,9 @@
 	"commentStamp" : "mk 5/8/2020 13:07",
 	"instvars" : [
 		"backend",
-		"currentColor" ],
-	"name" : "SketchMorph2Canvas",
+		"startPosition",
+		"temporaryCanvas" ],
+	"name" : "SketchMorph2FrontEnd",
 	"pools" : [
 		 ],
 	"super" : "ImageMorph",
