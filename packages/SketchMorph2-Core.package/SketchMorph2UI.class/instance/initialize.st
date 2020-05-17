@@ -8,4 +8,5 @@ initialize
 	self addMenuItem: self rectangleButton.
 	self addMenuItem: self triangleButton.
 	self addMenuItem: self formButton.
+	self addMenuItem: self fillButton.
 	self addMenuItem: self closeButton.
