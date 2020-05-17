@@ -1,3 +1,3 @@
 event handling
 handlesMouseOverDragging: evt
-	^true.
+	^ true

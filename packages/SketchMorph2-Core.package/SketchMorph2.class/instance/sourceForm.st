@@ -1,3 +1,3 @@
 accessing
 sourceForm
-	^self pen sourceForm.
+	^ self pen sourceForm

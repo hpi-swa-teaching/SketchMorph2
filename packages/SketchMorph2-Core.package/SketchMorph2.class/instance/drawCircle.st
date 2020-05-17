@@ -4,7 +4,7 @@ drawCircle
 	diameter := self brushSize + 1.
 	circleForm := Form extent: diameter@diameter.
 	
-	self dragCircleOn: circleForm.
+	self dragCircleOn: circleForm at: (0@0 corner: diameter@diameter).
 	circleForm convexShapeFill: Color black.
 	
 	self pen sourceForm: circleForm.

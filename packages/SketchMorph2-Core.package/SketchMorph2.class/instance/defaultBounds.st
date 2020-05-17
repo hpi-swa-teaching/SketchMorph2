@@ -1,3 +1,3 @@
 defaults
 defaultBounds
-	^ 100@100
+	^ 100 @ 100

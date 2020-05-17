@@ -1,3 +1,3 @@
 defaults
 defaultRectangleBrushSize
-	^ 18@30
+	^ 18 @ 30

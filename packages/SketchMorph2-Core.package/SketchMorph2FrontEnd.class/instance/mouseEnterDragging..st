@@ -1,3 +1,5 @@
 event handling
 mouseEnterDragging: evt
-	self backend startDrawing.
+	self backend isInGeometricMode ifTrue: [^ false].
+	
+	self backend startDrawing

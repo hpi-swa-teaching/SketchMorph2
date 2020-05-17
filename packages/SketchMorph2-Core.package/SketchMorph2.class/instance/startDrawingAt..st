@@ -1,7 +1,7 @@
 drawing
 startDrawingAt: aPoint
-	self modus = #pen 
-		ifTrue: [self moveDrawing: aPoint.
+	self isInGeometricMode
+		ifTrue: [self startPoint: aPoint]
+		ifFalse: [self pen place: aPoint - self penNibOffset.
 			self startDrawing.
 			self moveDrawing: aPoint]
-		ifFalse: [self startPoint: aPoint]

@@ -1,3 +1,5 @@
 event handling
 mouseLeaveDragging: evt
-	self backend stopDrawing.
+	self backend isInGeometricMode ifTrue: [^ false].
+	
+	self backend stopDrawing
