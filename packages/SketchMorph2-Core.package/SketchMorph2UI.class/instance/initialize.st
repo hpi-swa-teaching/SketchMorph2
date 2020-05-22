@@ -7,6 +7,7 @@ initialize
 	self addMenuItem: self circleButton.
 	self addMenuItem: self rectangleButton.
 	self addMenuItem: self triangleButton.
-	self addMenuItem: self formButton.
+	self addMenuItem: self formCircleButton.
+	self addMenuItem: self formRectangleButton.
 	self addMenuItem: self fillButton.
 	self addMenuItem: self closeButton.

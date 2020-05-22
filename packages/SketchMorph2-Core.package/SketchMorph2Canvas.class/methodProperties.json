@@ -1,7 +1,9 @@
 {
 	"class" : {
-		"openWithUI" : "NC 5/16/2020 11:43" },
+		"openWithUI" : "mp 5/22/2020 10:52" },
 	"instance" : {
+		"absoluteMousePosition:" : "mp 5/22/2020 11:16",
+		"adjustTemporaryCanvasPosition:" : "mp 5/22/2020 11:20",
 		"backend" : "mk 5/8/2020 12:58",
 		"backend:" : "mk 5/8/2020 13:02",
 		"changed" : "NC 5/16/2020 12:02",
@@ -14,7 +16,7 @@
 		"mouseDown:" : "CCJ 5/17/2020 15:59",
 		"mouseEnterDragging:" : "mp 5/17/2020 11:48",
 		"mouseLeaveDragging:" : "mp 5/17/2020 11:46",
-		"mouseMove:" : "mp 5/17/2020 11:43",
+		"mouseMove:" : "mp 5/22/2020 11:09",
 		"mouseUp:" : "mp 5/17/2020 11:32",
 		"relativeMousePosition:" : "mp 5/15/2020 12:42",
 		"temporaryCanvas" : "NC 5/16/2020 11:52",
