@@ -6,7 +6,7 @@ setUp
 		extent: 300@200;
 		yourself.
 
-	canvas := SketchMorph2Canvas new openInWorld: world.
+	canvas := SketchMorph2FrontEnd new openInWorld: world.
 		
 	hand := HandMorphForEventTests new.
 	

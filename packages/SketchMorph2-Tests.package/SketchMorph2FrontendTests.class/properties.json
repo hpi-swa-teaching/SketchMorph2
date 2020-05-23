@@ -9,7 +9,7 @@
 		"canvas",
 		"world",
 		"hand" ],
-	"name" : "SketchMorph2CanvasTests",
+	"name" : "SketchMorph2FrontendTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

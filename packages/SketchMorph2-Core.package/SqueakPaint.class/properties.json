@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"canvas",
+		"backend" ],
 	"name" : "SqueakPaint",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PluggableSystemWindow",
 	"type" : "normal" }
