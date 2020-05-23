@@ -8,7 +8,7 @@
 	"instvars" : [
 		"backend",
 		"temporaryCanvas" ],
-	"name" : "SketchMorph2FrontEnd",
+	"name" : "SketchMorph2Canvas",
 	"pools" : [
 		 ],
 	"super" : "ImageMorph",

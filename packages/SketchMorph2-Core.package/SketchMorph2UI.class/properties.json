@@ -13,8 +13,9 @@
 		"circleButton",
 		"rectangleButton",
 		"closeButton",
-		"formButton",
-		"fillButton" ],
+		"fillButton",
+		"formCircleButton",
+		"formRectangleButton" ],
 	"name" : "SketchMorph2UI",
 	"pools" : [
 		 ],
