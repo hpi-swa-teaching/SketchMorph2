@@ -1,3 +1,3 @@
 accessing
 canvas
-	^ canvas ifNil: [canvas := SketchMorph2FrontEnd new]
+	^ canvas ifNil: [canvas := SketchMorph2Canvas new]

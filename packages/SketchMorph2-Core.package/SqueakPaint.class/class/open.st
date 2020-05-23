@@ -1,3 +1,6 @@
 instance creation
 open
-	SqueakPaint new
+	| instance |
+	instance := SqueakPaint new openInWorld.
+	instance loadCanvas.
+	instance loadMenu.

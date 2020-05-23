@@ -1,3 +1,3 @@
 accessing
-canvas: aSketchMorph2FrontEnd
-	canvas := aSketchMorph2FrontEnd
+canvas: aSketchMorph2Canvas
+	canvas := aSketchMorph2Canvas

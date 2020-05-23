@@ -1,9 +1,21 @@
 {
 	"class" : {
-		"open" : "mk 5/18/2020 10:58" },
+		"open" : "wr 5/23/2020 11:50" },
 	"instance" : {
+		"addButtonForAction:labeled:to:" : "wr 5/23/2020 12:12",
 		"backend" : "mk 5/18/2020 11:16",
 		"backend:" : "mk 5/18/2020 11:15",
-		"canvas" : "mk 5/18/2020 11:16",
-		"canvas:" : "mk 5/18/2020 11:15",
-		"initialize" : "mk 5/18/2020 12:42" } }
+		"brushActionDict" : "wr 5/23/2020 12:15",
+		"buttonActionDict" : "wr 5/23/2020 12:04",
+		"canvas" : "wr 5/23/2020 10:42",
+		"canvas:" : "wr 5/23/2020 10:42",
+		"canvasPanel" : "wr 5/23/2020 11:29",
+		"canvasPanel:" : "wr 5/23/2020 11:28",
+		"geometricActionDict" : "wr 5/23/2020 12:15",
+		"initialize" : "wr 5/23/2020 12:26",
+		"loadCanvas" : "wr 5/23/2020 11:31",
+		"loadMenu" : "wr 5/23/2020 12:22",
+		"menuPanel" : "wr 5/23/2020 11:28",
+		"menuPanel:" : "wr 5/23/2020 11:28",
+		"miscActionDict" : "wr 5/23/2020 12:15",
+		"submenuDict" : "wr 5/23/2020 12:16" } }
