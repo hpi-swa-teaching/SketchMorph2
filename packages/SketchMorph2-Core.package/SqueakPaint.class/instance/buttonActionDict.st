@@ -8,4 +8,5 @@ buttonActionDict
 		at: 'Fill Area' put: [self backend fillShape];
 		at: 'Circle Tool' put: [self backend drawGeometricCircle];
 		at: 'Rectangle Tool' put: [self backend drawGeometricRectangle];
+		at: 'Export as Morph' put: [self backend exportAsMorph];
 		yourself.
