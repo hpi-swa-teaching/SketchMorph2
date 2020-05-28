@@ -1,3 +1,3 @@
 as yet unclassified
 tearDown
-	canvas delete.
+	canvas abandon.

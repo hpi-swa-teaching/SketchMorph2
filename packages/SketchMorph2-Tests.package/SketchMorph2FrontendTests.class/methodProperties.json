@@ -4,6 +4,6 @@
 	"instance" : {
 		"mouseDownAt:" : "wr 5/14/2020 16:06",
 		"setUp" : "mk 5/28/2020 14:01",
-		"tearDown" : "wr 5/14/2020 15:44",
+		"tearDown" : "mk 5/28/2020 14:20",
 		"testIsMorph" : "wr 5/14/2020 15:48",
 		"testPencil" : "wr 5/14/2020 16:45" } }
