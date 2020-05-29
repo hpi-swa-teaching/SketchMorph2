@@ -1,17 +1,9 @@
 drawing
 dragCircleOn: aForm at: aRectangle
 	| temporaryPen diameter radius center |
-	diameter := aRectangle width abs min: aRectangle height abs. 
+	diameter := aRectangle width min: aRectangle height . 
 	radius := (diameter / 2) floor.
-
-	center := aRectangle width negative
-		ifTrue: [	aRectangle height negative
-			ifTrue: [aRectangle bottomRight - radius]
-			ifFalse: [aRectangle topRight - (radius * (1 @ -1))]]
-		ifFalse: [aRectangle height negative
-			ifTrue: [aRectangle bottomLeft - (radius * (-1 @ 1))]
-			ifFalse: [aRectangle topLeft + radius]].
-	
+	center := aRectangle topLeft + radius.
 	temporaryPen := (Pen newOnForm: aForm)
 		place: center + (0 @ radius).
 	
