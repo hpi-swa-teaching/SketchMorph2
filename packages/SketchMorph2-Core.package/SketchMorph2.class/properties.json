@@ -14,7 +14,8 @@
 		"modus",
 		"startPoint",
 		"temporaryForm",
-		"currentGeometricForm" ],
+		"currentGeometricForm",
+		"fillGeometricForm" ],
 	"name" : "SketchMorph2",
 	"pools" : [
 		 ],

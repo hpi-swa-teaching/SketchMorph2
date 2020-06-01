@@ -1,0 +1,3 @@
+drawing
+toggleFillGeometricForm
+	self fillGeometricForm: self fillGeometricForm not
