@@ -2,7 +2,7 @@
 	"class" : {
 		"IconDirectory" : "mk 5/25/2020 17:16",
 		"RootDirectory" : "mk 5/25/2020 17:15",
-		"open" : "wr 5/23/2020 11:50" },
+		"open" : "wr 6/1/2020 13:40" },
 	"instance" : {
 		"addButtonForAction:labeled:withIcon:to:" : "mk 5/25/2020 17:36",
 		"applyDefaultSettingsTo:" : "mk 5/25/2020 17:47",
@@ -18,10 +18,11 @@
 		"defaultIconSize" : "mk 5/25/2020 17:37",
 		"defaultMenuPanelHeight" : "mk 5/25/2020 17:39",
 		"geometricActionDict" : "mk 5/25/2020 17:32",
-		"initialize" : "mk 5/25/2020 17:41",
+		"initialize" : "wr 6/1/2020 13:46",
 		"loadCanvas" : "mk 5/25/2020 17:46",
 		"loadMenu" : "mk 5/25/2020 17:47",
 		"menuPanel" : "wr 5/23/2020 11:28",
 		"menuPanel:" : "wr 5/23/2020 11:28",
 		"miscActionDict" : "mk 5/25/2020 17:31",
+		"openInWorld:" : "wr 6/1/2020 13:46",
 		"submenuDict" : "wr 5/23/2020 12:16" } }

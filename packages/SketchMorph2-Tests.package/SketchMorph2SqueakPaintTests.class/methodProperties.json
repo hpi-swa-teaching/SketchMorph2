@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"mouseDownAt:" : "wr 6/1/2020 13:48",
+		"setUp" : "wr 6/1/2020 13:56",
+		"testAreSubmenusThere" : "wr 6/1/2020 14:21",
+		"testDoMenusContainButtons" : "wr 6/1/2020 14:26",
+		"testDoesPencilButtonWork" : "wr 6/1/2020 14:54",
+		"testIsCanvasPanelThere" : "wr 6/1/2020 13:53",
+		"testIsCanvasPanelVisible" : "wr 6/1/2020 13:56",
+		"testIsMenuPanelThere" : "wr 6/1/2020 13:53",
+		"testIsMenuPanelVisible" : "wr 6/1/2020 13:54" } }
