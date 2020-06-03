@@ -4,7 +4,7 @@ fillGeometricFormButtonForAction: aSymbol labeled: aLabel
 	^ (PluggableCheckBoxMorph new)
 		actionSelector: aSymbol;
 		label: aLabel;
-		model: self backend;
+		model: self;
 		valueSelector: #fillGeometricForm;
 		installButton;
 		yourself.

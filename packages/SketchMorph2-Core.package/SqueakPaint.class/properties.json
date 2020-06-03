@@ -4,10 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "mk 5/25/2020 17:51",
+	"commentStamp" : "CCJ 6/3/2020 16:30",
 	"instvars" : [
 		"canvas",
-		"backend",
 		"canvasPanel",
 		"menuPanel" ],
 	"name" : "SqueakPaint",
