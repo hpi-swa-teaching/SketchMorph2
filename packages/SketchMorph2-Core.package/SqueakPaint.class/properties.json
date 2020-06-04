@@ -4,11 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "mk 5/25/2020 17:51",
 	"instvars" : [
-		 ],
+		"canvas",
+		"canvasPanel",
+		"menuPanel" ],
 	"name" : "SqueakPaint",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PluggableSystemWindow",
 	"type" : "normal" }

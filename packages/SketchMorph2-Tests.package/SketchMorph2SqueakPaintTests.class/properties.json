@@ -1,0 +1,16 @@
+{
+	"category" : "SketchMorph2-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"world",
+		"hand",
+		"squeakPaint" ],
+	"name" : "SketchMorph2SqueakPaintTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

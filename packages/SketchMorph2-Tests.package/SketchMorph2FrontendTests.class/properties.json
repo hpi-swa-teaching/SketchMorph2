@@ -1,0 +1,16 @@
+{
+	"category" : "SketchMorph2-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"canvas",
+		"world",
+		"hand" ],
+	"name" : "SketchMorph2FrontendTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

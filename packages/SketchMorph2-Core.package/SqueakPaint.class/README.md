@@ -1,0 +1,1 @@
+SqueakPaint is the FrontEnd to SketchMorph2. It is a system window that has a user interface comprising of MenuMorphs. The icons and actions of the buttons are listed in their respective static dictionaries. Each dictionary describes one category of menu buttons.

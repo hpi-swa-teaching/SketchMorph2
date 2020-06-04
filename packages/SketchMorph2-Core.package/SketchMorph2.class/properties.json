@@ -11,10 +11,11 @@
 		"pencilSize",
 		"brushSize",
 		"rectangleBrushSize",
-		"modus",
 		"startPoint",
 		"temporaryForm",
-		"currentGeometricForm" ],
+		"currentGeometricForm",
+		"fillGeometricForm",
+		"mode" ],
 	"name" : "SketchMorph2",
 	"pools" : [
 		 ],

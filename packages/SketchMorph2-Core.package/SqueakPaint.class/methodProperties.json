@@ -1,5 +1,31 @@
 {
 	"class" : {
-		"open" : "mp 5/22/2020 10:52" },
+		"IconDirectory" : "mk 5/25/2020 17:16",
+		"RootDirectory" : "mk 5/25/2020 17:15",
+		"open" : "wr 6/1/2020 13:40" },
 	"instance" : {
-		 } }
+		"addButtonForAction:labeled:withIcon:to:" : "NC 6/4/2020 11:31",
+		"applyDefaultSettingsTo:" : "mk 5/25/2020 17:47",
+		"backend" : "CCJ 6/3/2020 17:20",
+		"brushActionDict" : "mk 5/25/2020 17:30",
+		"buttonTypeDict" : "NC 6/4/2020 11:37",
+		"canvas" : "wr 5/23/2020 10:42",
+		"canvas:" : "wr 5/23/2020 10:42",
+		"canvasPanel" : "wr 5/23/2020 11:29",
+		"canvasPanel:" : "wr 5/23/2020 11:28",
+		"checkBoxActionSelector" : "CCJ 6/1/2020 19:18",
+		"defaultCanvasPanelBorder" : "mk 5/25/2020 17:44",
+		"defaultCanvasPanelHeight" : "mk 5/25/2020 17:40",
+		"defaultIconSize" : "mk 5/25/2020 17:37",
+		"defaultMenuPanelHeight" : "mk 5/25/2020 17:39",
+		"fillGeometricForm" : "CCJ 6/3/2020 17:53",
+		"fillGeometricFormButtonForAction:labeled:" : "CCJ 6/3/2020 17:52",
+		"geometricActionDict" : "CCJ 6/3/2020 17:53",
+		"initialize" : "CCJ 6/3/2020 17:52",
+		"loadCanvas" : "mk 5/25/2020 17:46",
+		"loadMenu" : "mk 5/25/2020 17:47",
+		"menuPanel" : "wr 5/23/2020 11:28",
+		"menuPanel:" : "wr 5/23/2020 11:28",
+		"miscActionDict" : "NC 6/4/2020 11:37",
+		"openInWorld:" : "wr 6/1/2020 13:46",
+		"submenuDict" : "wr 5/23/2020 12:16" } }

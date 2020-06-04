@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"mouseDownAt:" : "wr 5/14/2020 16:06",
-		"setUp" : "wr 5/14/2020 16:12",
-		"tearDown" : "wr 5/14/2020 15:44",
-		"testIsMorph" : "wr 5/14/2020 15:48",
-		"testPencil" : "wr 5/14/2020 16:45" } }

@@ -9,4 +9,4 @@ drawCircle
 	
 	self pen sourceForm: circleForm.
 	self pen combinationRule: Form paint.
-	self modus: #pen
+	self mode: #pen
