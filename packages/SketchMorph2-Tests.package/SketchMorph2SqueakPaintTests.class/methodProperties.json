@@ -2,11 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
+		"lookForMenuWithItem:" : "NC 6/4/2020 11:41",
 		"mouseDownAt:" : "wr 6/1/2020 13:48",
 		"setUp" : "wr 6/1/2020 13:56",
 		"testAreSubmenusThere" : "wr 6/1/2020 14:21",
 		"testDoMenusContainButtons" : "wr 6/1/2020 14:26",
-		"testDoesPencilButtonWork" : "wr 6/1/2020 14:54",
+		"testDoesCircleButtonWork" : "NC 6/4/2020 11:46",
+		"testDoesCircleToolButtonWork" : "NC 6/4/2020 11:48",
+		"testDoesFillButtonWork" : "NC 6/4/2020 11:45",
+		"testDoesPencilButtonWork" : "NC 6/4/2020 11:44",
+		"testDoesRectangleToolButtonWork" : "NC 6/4/2020 11:48",
 		"testIsCanvasPanelThere" : "wr 6/1/2020 13:53",
 		"testIsCanvasPanelVisible" : "wr 6/1/2020 13:56",
 		"testIsMenuPanelThere" : "wr 6/1/2020 13:53",

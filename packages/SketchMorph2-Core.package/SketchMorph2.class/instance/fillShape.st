@@ -1,3 +1,3 @@
 accessing
 fillShape
-	self modus: #fill
+	self mode: #fill

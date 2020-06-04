@@ -1,4 +1,4 @@
 drawing
 drawGeometricCircle
-	self modus: #geometric.
+	self mode: #geometric.
 	self currentGeometricForm: #circle

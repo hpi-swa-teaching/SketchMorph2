@@ -1,4 +1,4 @@
 drawing
 drawGeometricRectangle
-	self modus: #geometric.
+	self mode: #geometric.
 	self currentGeometricForm: #rectangle

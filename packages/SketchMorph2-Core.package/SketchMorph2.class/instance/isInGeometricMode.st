@@ -1,3 +1,3 @@
 accessing
 isInGeometricMode
-	^ self modus = #geometric
+	^ self mode = #geometric
