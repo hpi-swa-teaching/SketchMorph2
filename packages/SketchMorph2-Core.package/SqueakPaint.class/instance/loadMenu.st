@@ -6,4 +6,5 @@ loadMenu
 		actiondict keysAndValuesDo: [:label :contents | 
 			self addButtonForAction: (contents at: 1) labeled: label withIcon: (contents at: 2) to: submenu].
 		self applyDefaultSettingsTo: submenu.
-		self menuPanel addMorph: submenu].
+		submenu beSticky.
+		self menuPanel addMorph: submenu]

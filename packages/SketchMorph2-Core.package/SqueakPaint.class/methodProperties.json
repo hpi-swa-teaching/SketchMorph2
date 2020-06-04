@@ -13,7 +13,7 @@
 		"paintPotIcon" : "m.k. 6/4/2020 13:20",
 		"pencilIcon" : "m.k. 6/4/2020 13:21" },
 	"instance" : {
-		"addButtonForAction:labeled:withIcon:to:" : "m.k. 6/4/2020 14:06",
+		"addButtonForAction:labeled:withIcon:to:" : "m.k. 6/4/2020 16:26",
 		"applyDefaultSettingsTo:" : "mk 5/25/2020 17:47",
 		"backend" : "CCJ 6/3/2020 17:20",
 		"brushActionDict" : "m.k. 6/4/2020 13:29",
@@ -32,7 +32,7 @@
 		"geometricActionDict" : "m.k. 6/4/2020 13:26",
 		"initialize" : "CCJ 6/3/2020 17:52",
 		"loadCanvas" : "mk 5/25/2020 17:46",
-		"loadMenu" : "mk 5/25/2020 17:47",
+		"loadMenu" : "m.k. 6/4/2020 16:40",
 		"menuPanel" : "wr 5/23/2020 11:28",
 		"menuPanel:" : "wr 5/23/2020 11:28",
 		"miscActionDict" : "m.k. 6/4/2020 13:27",
