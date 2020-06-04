@@ -1,3 +1,3 @@
 defaults
 defaultIconSize
-	^ Preferences standardMenuFont pointSize
+	^ Preferences standardMenuFont pointSize * 2
