@@ -1,0 +1,14 @@
+{
+	"category" : "SketchMorph2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"button" ],
+	"name" : "SqueakPaintMenuItem",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

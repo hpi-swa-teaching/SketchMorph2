@@ -1,0 +1,3 @@
+accessing
+itemClass
+	^ CheckBoxItemMorph
