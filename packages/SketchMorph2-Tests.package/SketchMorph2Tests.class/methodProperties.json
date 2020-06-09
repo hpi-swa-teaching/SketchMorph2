@@ -1,13 +1,16 @@
 {
 	"class" : {
-		 },
+		"notFilledCircle" : "mp 6/9/2020 20:57" },
 	"instance" : {
-		"drawOnlyCircleTo50" : "mp 6/1/2020 16:54",
-		"drawOnlyRectangleTo50" : "mp 6/1/2020 16:50",
+		"drawOnlyCircleTo50" : "mp 6/9/2020 20:19",
+		"drawOnlyRectangleTo50" : "mp 6/9/2020 20:19",
 		"setUp" : "wr 5/14/2020 16:57",
 		"tearDown" : "wr 5/14/2020 17:04",
+		"testCompareGeometricCircleNotFilled" : "mp 6/9/2020 21:00",
 		"testGeometricCircleBorder" : "mp 6/1/2020 17:02",
+		"testGeometricCircleFilled" : "mp 6/9/2020 20:21",
 		"testGeometricCircleNotFilled" : "mp 6/1/2020 17:04",
 		"testGeometricRectangleBorder" : "mp 6/1/2020 17:03",
+		"testGeometricRectangleFilled" : "mp 6/9/2020 20:22",
 		"testGeometricRectangleNotFilled" : "mp 6/1/2020 16:51",
 		"testRectangleBrush" : "wr 5/14/2020 17:21" } }
