@@ -2,6 +2,7 @@ comparing
 testCompareGeometricCircleOverlapping
 	backend form fillWhite.
 	backend mode: #geometric. 
+	backend penColor: (Color black).
 	backend currentGeometricForm: #circle.
 	backend fillGeometricForm: false.
 	backend startDrawingAt: (10 @ 10).

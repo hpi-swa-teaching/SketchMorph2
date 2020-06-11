@@ -6,4 +6,4 @@ testPencil
 	
 	canvas mouseDown: (self mouseDownAt: point).
 	
-	self assert: (canvas backend form colorAt: point) equals: (Color black)
+	self assert: (canvas backend form colorAt: point) equals: (canvas backend penColor)

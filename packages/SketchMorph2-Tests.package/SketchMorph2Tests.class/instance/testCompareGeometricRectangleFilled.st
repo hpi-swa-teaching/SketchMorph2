@@ -2,6 +2,7 @@ comparing
 testCompareGeometricRectangleFilled
 	backend form fillWhite.
 	backend mode: #geometric.
+	backend penColor: (Color black).
 	backend currentGeometricForm: #rectangle.
 	backend fillGeometricForm: true.
 	backend startDrawingAt: (40 @ 10).
