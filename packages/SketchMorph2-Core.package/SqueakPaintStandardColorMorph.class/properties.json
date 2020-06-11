@@ -1,0 +1,14 @@
+{
+	"category" : "SketchMorph2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"colors" ],
+	"name" : "SqueakPaintStandardColorMorph",
+	"pools" : [
+		 ],
+	"super" : "PluggablePanelMorph",
+	"type" : "normal" }

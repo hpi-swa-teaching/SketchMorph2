@@ -15,18 +15,18 @@
 	"instance" : {
 		"applyDefaultSettingsTo:" : "mk 5/25/2020 17:47",
 		"backend" : "CCJ 6/3/2020 17:20",
-		"brushCollection" : "NC 6/8/2020 10:46",
+		"brushCollection" : "mk 6/11/2020 12:09",
 		"canvas" : "wr 5/23/2020 10:42",
 		"canvas:" : "wr 5/23/2020 10:42",
 		"canvasPanel" : "wr 5/23/2020 11:29",
 		"canvasPanel:" : "wr 5/23/2020 11:28",
 		"checkBoxActionSelector" : "CCJ 6/1/2020 19:18",
+		"colorCollection" : "mk 6/11/2020 11:51",
 		"defaultCanvasPanelBorder" : "mk 5/25/2020 17:44",
 		"defaultCanvasPanelHeight" : "mk 5/25/2020 17:40",
 		"defaultIconSize" : "m.k. 6/4/2020 15:34",
 		"defaultMenuPanelHeight" : "mk 5/25/2020 17:39",
 		"fillGeometricForm" : "CCJ 6/3/2020 17:53",
-		"fillGeometricFormButtonForAction:labeled:" : "CCJ 6/3/2020 17:52",
 		"geometricCollection" : "NC 6/8/2020 10:53",
 		"initialize" : "NC 6/4/2020 12:56",
 		"loadCanvas" : "mk 5/25/2020 17:46",
@@ -35,4 +35,4 @@
 		"menuPanel:" : "wr 5/23/2020 11:28",
 		"miscCollection" : "NC 6/8/2020 10:46",
 		"openInWorld:" : "wr 6/1/2020 13:46",
-		"submenuDict" : "NC 6/8/2020 09:27" } }
+		"submenuDict" : "mk 6/11/2020 11:52" } }

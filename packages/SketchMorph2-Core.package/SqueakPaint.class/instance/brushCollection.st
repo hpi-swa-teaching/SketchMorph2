@@ -13,5 +13,5 @@ brushCollection
 				label:  'Rectangle Brush'; 
 				action: [self backend drawRectangle]; 
 				icon: #brushRectangleIcon);
-			yourself.
+			yourself
 		
