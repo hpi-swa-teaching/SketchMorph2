@@ -1,0 +1,3 @@
+accessing
+colorMorphCollection: anOrderedCollection
+	colorMorphCollection := anOrderedCollection

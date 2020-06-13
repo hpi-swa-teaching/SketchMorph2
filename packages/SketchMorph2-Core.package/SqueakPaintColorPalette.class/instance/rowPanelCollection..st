@@ -1,0 +1,3 @@
+accessing
+rowPanelCollection: anOrderedCollection
+	rowPanelCollection := anOrderedCollection

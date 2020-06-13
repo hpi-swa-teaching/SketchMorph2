@@ -1,0 +1,26 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"colorCollection" : "wr 6/11/2020 12:00",
+		"colorCollection:" : "wr 6/11/2020 12:00",
+		"colorMorphCollection" : "wr 6/11/2020 12:10",
+		"colorMorphCollection:" : "wr 6/11/2020 11:38",
+		"colorMorphWith:" : "wr 6/11/2020 12:46",
+		"createColorMorphCollection" : "wr 6/11/2020 12:10",
+		"createPalettePanel" : "wr 6/11/2020 12:34",
+		"createRowPanelCollection" : "wr 6/11/2020 12:38",
+		"defaultColorCollection" : "wr 6/11/2020 12:36",
+		"defaultColorMorphBorderColor" : "wr 6/11/2020 11:49",
+		"defaultColorMorphBorderWidth" : "wr 6/11/2020 11:48",
+		"defaultColorMorphCollection" : "wr 6/11/2020 12:01",
+		"defaultColorMorphExtent" : "wr 6/11/2020 11:49",
+		"defaultExtent" : "wr 6/11/2020 12:48",
+		"defaultRowNumber" : "wr 6/11/2020 11:56",
+		"initialize" : "wr 6/11/2020 12:49",
+		"palettePanel" : "wr 6/11/2020 12:20",
+		"palettePanel:" : "wr 6/11/2020 12:19",
+		"rowPanelCollection" : "wr 6/11/2020 12:09",
+		"rowPanelCollection:" : "wr 6/11/2020 12:08",
+		"rows" : "wr 6/11/2020 11:56",
+		"rows:" : "wr 6/11/2020 11:56" } }

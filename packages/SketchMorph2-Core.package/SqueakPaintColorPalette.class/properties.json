@@ -1,0 +1,18 @@
+{
+	"category" : "SketchMorph2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"palettePanel",
+		"rowPanelCollection",
+		"colorMorphCollection",
+		"colorCollection",
+		"rows" ],
+	"name" : "SqueakPaintColorPalette",
+	"pools" : [
+		 ],
+	"super" : "PluggableSystemWindow",
+	"type" : "normal" }
