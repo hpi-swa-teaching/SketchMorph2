@@ -15,7 +15,9 @@
 		"temporaryForm",
 		"currentGeometricForm",
 		"fillGeometricForm",
-		"mode" ],
+		"mode",
+		"undoStack",
+		"currentUserAction" ],
 	"name" : "SketchMorph2",
 	"pools" : [
 		 ],

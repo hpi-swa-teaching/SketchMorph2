@@ -17,5 +17,9 @@ miscCollection
 				label: 'Export as PNG'; 
 				action: [self backend exportAsPNG]; 
 				icon: #exportPNGIcon);
+		add: ((SqueakPaintMenuItem new) 
+				label: 'Undo'; 
+				action: [self undo]; 
+				icon: #exportPNGIcon);
 		yourself.
 		

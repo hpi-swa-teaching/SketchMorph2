@@ -1,0 +1,17 @@
+{
+	"category" : "SketchMorph2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mode",
+		"start",
+		"mousePositions",
+		"methodCalls" ],
+	"name" : "M2UserAction",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

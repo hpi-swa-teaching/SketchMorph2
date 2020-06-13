@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"colors" ],
-	"name" : "SqueakPaintStandardColorMorph",
+		"form",
+		"actions" ],
+	"name" : "M2UndoLevel",
 	"pools" : [
 		 ],
-	"super" : "PluggablePanelMorph",
+	"super" : "Object",
 	"type" : "normal" }

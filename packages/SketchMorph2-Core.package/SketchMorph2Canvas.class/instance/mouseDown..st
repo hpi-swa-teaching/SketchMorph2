@@ -5,4 +5,5 @@ mouseDown: evt
 		ifFalse:[self backend startDrawingAt: (self relativeMousePosition: evt position).
 			self backend isInGeometricMode ifTrue: [self temporaryCanvas topLeft: evt position.
 			self temporaryCanvas show]].
-	self changed
+	self changed.
+	self backend createUserActionWithStart: (self relativeMousePosition: evt position)
