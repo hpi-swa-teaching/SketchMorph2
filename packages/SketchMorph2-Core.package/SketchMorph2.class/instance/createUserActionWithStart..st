@@ -8,4 +8,6 @@ createUserActionWithStart: aPoint
 		addMethodCall: #penColor: withArguments: (Array with: self penColor);
 		addMethodCall: #rectangleBrushSize: withArguments: (Array with: self rectangleBrushSize);
 		addMethodCall: #pencilSize: withArguments: (Array with: self pencilSize);
+		addMethodCall: #fillGeometricForm: withArguments: (Array with: self fillGeometricForm);
+		addMethodCall: #sourceForm: withArguments: (Array with: self sourceForm);
 		addMethodCall: #startDrawingAt: withArguments: (Array with: aPoint).

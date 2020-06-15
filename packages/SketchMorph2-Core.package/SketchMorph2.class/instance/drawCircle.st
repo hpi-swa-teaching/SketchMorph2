@@ -8,5 +8,4 @@ drawCircle
 	circleForm convexShapeFill: self penColor.
 	
 	self pen sourceForm: circleForm.
-	self pen combinationRule: Form paint.
 	self mode: #pen

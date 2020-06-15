@@ -14,5 +14,4 @@ drawTriangle
 	triangleForm convexShapeFill: Color black.		
 	
 	self pen sourceForm: triangleForm.
-	self pen combinationRule: Form paint.
 	self mode: #pen
