@@ -4,7 +4,7 @@ testCompareGeometricRectangleFilled
 	backend mode: #geometric.
 	backend penColor: (Color black).
 	backend currentGeometricForm: #rectangle.
-	backend fillGeometricForm: true.
+	backend isFillingGeometricForm: true.
 	backend startDrawingAt: (40 @ 10).
 	backend moveDrawing: (80 @ 90).
 	backend stopDrawing.

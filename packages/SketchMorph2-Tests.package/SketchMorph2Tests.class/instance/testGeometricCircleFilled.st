@@ -1,6 +1,6 @@
 geometric forms
 testGeometricCircleFilled
-	backend fillGeometricForm: true.
+	backend isFillingGeometricForm: true.
 	self drawOnlyCircleTo50.
 	
 	self assert: (backend form colorAt: 25 asPoint) equals: (backend penColor).

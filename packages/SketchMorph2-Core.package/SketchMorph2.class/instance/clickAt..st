@@ -1,4 +1,4 @@
-accessing
+drawing
 clickAt: aPoint
 	self isInFillMode 
 		ifTrue: [self fillShapeAt: aPoint]

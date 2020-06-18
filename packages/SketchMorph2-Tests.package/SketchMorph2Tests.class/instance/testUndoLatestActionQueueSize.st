@@ -4,7 +4,7 @@ testUndoLatestActionQueueSize
 	backend mode: #geometric.
 	backend penColor: (Color black).
 	backend currentGeometricForm: #circle.
-	backend fillGeometricForm: true.
+	backend isFillingGeometricForm: true.
 	
 	1 to: 15 do: [:x |
 		backend startDrawingAt: (4 * x ) @ (4 * x ).

@@ -13,7 +13,7 @@ dataGeometricCollection
 				label: 'Fill Geometric Form' ; 
 				action: #checkBoxActionSelector; 
 				model: self;
-				valueSelector: #fillGeometricForm;
+				valueSelector: #isFillingGeometricForm;
 				install);
 			yourself.
 		

@@ -1,3 +1,3 @@
 drawing
 toggleFillGeometricForm
-	self fillGeometricForm: self fillGeometricForm not
+	self isFillingGeometricForm: self isFillingGeometricForm not

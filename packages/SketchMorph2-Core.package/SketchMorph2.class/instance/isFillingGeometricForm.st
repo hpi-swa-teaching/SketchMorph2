@@ -1,3 +1,3 @@
 accessing
-fillGeometricForm
+isFillingGeometricForm
 	^ fillGeometricForm ifNil: [fillGeometricForm := false]

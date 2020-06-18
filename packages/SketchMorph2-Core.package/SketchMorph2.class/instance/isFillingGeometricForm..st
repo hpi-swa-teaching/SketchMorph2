@@ -1,3 +1,3 @@
 accessing
-fillGeometricForm: aBoolean
+isFillingGeometricForm: aBoolean
 	fillGeometricForm := aBoolean

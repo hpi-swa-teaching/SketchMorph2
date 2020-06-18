@@ -9,6 +9,12 @@ dragCircleOn: aForm at: aRectangle
 		color: self penColor.
 	
 	0 to: 360 do: [ :degrees |
-		| radians |
+		| radians position |
 		radians := degrees degreesToRadians.
-		temporaryPen goto: (center + (radius * (radians sin @ radians cos)))]
+		position := (center + (radius * (radians sin @ radians cos))).
+		temporaryPen 
+			goto: position.";
+			goto: position + (0 @ 1);
+			goto: position + 1 ;
+			goto: position + (1 @ 0);
+			goto: position"]

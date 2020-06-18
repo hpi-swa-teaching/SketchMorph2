@@ -4,7 +4,7 @@ testCompareGeometricCircleFilledNarrow
 	backend mode: #geometric.
 	backend penColor: (Color black).
 	backend currentGeometricForm: #circle.
-	backend fillGeometricForm: true.
+	backend isFillingGeometricForm: true.
 	backend startDrawingAt: (10 @ 80).
 	backend moveDrawing: (80 @ 90).
 	backend stopDrawing.
