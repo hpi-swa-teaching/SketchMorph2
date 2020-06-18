@@ -1,15 +1,15 @@
 static
 brushCollection
 	^ (OrderedCollection new)
-			add: ((SqueakPaintMenuItem new) 
+			add: ((M2MenuItem new) 
 				label: 'Triangle Brush'; 
 				action: [self backend drawTriangle]; 
 				icon: #brushTriangleIcon);
-			add: ((SqueakPaintMenuItem new) 
+			add: ((M2MenuItem new) 
 				label:  'Circle Brush'; 
 				action: [self backend drawCircle]; 
 				icon: #brushCircleIcon);
-			add: ((SqueakPaintMenuItem new) 
+			add: ((M2MenuItem new) 
 				label:  'Rectangle Brush'; 
 				action: [self backend drawRectangle]; 
 				icon: #brushRectangleIcon);

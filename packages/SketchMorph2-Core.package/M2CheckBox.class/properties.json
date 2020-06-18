@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"button" ],
-	"name" : "SqueakPaintMenuItem",
+		 ],
+	"name" : "M2CheckBox",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "M2MenuItem",
 	"type" : "normal" }

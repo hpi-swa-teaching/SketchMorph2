@@ -12,7 +12,7 @@
 		"colorMorphCollection",
 		"colorCollection",
 		"rows" ],
-	"name" : "SqueakPaintColorPalette",
+	"name" : "M2ColorPalette",
 	"pools" : [
 		 ],
 	"super" : "PluggablePanelMorph",

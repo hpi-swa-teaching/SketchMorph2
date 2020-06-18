@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "CheckBoxItemMorph",
+	"name" : "M2CheckBoxItemMorph",
 	"pools" : [
 		 ],
 	"super" : "PluggableCheckBoxMorph",

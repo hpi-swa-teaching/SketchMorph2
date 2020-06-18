@@ -4,11 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "mk 5/8/2020 13:07",
 	"instvars" : [
-		 ],
-	"name" : "SqueakPaintCheckBox",
+		"backend",
+		"temporaryCanvas" ],
+	"name" : "M2Canvas",
 	"pools" : [
 		 ],
-	"super" : "SqueakPaintMenuItem",
+	"super" : "ImageMorph",
 	"type" : "normal" }

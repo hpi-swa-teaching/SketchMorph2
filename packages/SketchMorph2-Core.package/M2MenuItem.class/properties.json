@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "mk 5/8/2020 13:07",
+	"commentStamp" : "",
 	"instvars" : [
-		"backend",
-		"temporaryCanvas" ],
-	"name" : "SketchMorph2Canvas",
+		"button" ],
+	"name" : "M2MenuItem",
 	"pools" : [
 		 ],
-	"super" : "ImageMorph",
+	"super" : "Object",
 	"type" : "normal" }
