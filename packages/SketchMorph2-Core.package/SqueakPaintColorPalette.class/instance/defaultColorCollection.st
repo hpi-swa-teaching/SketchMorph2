@@ -1,4 +1,4 @@
-accessing
+default
 defaultColorCollection
 	^ (OrderedCollection new)
 	 	add: Color black;

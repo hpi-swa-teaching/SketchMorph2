@@ -1,3 +1,3 @@
-accessing
+default
 defaultColorMorphBorderWidth
 	^ 1

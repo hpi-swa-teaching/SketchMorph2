@@ -1,4 +1,4 @@
-accessing
+initialization
 createRowPanelCollection
 	| colorsPerRow |
 	self rowPanelCollection: OrderedCollection new.

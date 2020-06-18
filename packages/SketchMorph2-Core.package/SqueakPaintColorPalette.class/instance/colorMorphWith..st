@@ -1,6 +1,8 @@
-accessing
+initialization
 colorMorphWith: aColor
-	^ (PluggableButtonMorphPlus new)
+	^ (PluggableButtonMorph new)
+		model: self squeakPaint;
+		action: ('set' , aColor name asString capitalized) asSymbol; "[self model setColor: aColor];"
 		onColor: aColor offColor: aColor;
 		hResizing: #spaceFill;
 		vResizing: #spaceFill;

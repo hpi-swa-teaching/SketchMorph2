@@ -1,4 +1,4 @@
-accessing
+default
 defaultColorMorphCollection
 	| collection |
 	collection := OrderedCollection new.

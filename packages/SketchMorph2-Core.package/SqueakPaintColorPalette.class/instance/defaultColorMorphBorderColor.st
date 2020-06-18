@@ -1,3 +1,3 @@
-accessing
+default
 defaultColorMorphBorderColor
 	^ Color black

@@ -8,7 +8,10 @@
 	"instvars" : [
 		"canvas",
 		"canvasPanel",
-		"menuPanel" ],
+		"menuPanel",
+		"topPanel",
+		"colorPanel",
+		"colorPalette" ],
 	"name" : "SqueakPaint",
 	"pools" : [
 		 ],
