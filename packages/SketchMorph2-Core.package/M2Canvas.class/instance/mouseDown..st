@@ -1,5 +1,7 @@
 event handling
 mouseDown: evt
+	self hasMouseFocus ifFalse: [^ false].
+	
 	self backend isInFillMode 
 		ifTrue: [self backend fillShapeAt: (self relativeMousePosition: evt position)]
 		ifFalse:[self backend startDrawingAt: (self relativeMousePosition: evt position).
