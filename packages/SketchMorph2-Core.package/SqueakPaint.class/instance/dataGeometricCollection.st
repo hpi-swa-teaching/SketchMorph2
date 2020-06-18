@@ -1,5 +1,5 @@
 static
-geometricCollection
+dataGeometricCollection
 	^ (OrderedCollection new)
 			add: ((M2MenuItem new) 
 				label: 'Circle Tool'; 

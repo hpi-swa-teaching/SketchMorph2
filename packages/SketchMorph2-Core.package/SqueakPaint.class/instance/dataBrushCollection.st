@@ -1,5 +1,5 @@
 static
-brushCollection
+dataBrushCollection
 	^ (OrderedCollection new)
 			add: ((M2MenuItem new) 
 				label: 'Triangle Brush'; 

@@ -1,5 +1,5 @@
 static
-miscCollection
+dataMiscCollection
 	^ (OrderedCollection new)
 		add: ((M2MenuItem new) 
 			label: 'Pencil'; 
