@@ -6,10 +6,12 @@ setUp
 		extent: 300@200;
 		yourself.
 
-	canvas := SketchMorph2Canvas new openInWorld: world.
+	canvas := M2Canvas new openInWorld: world.
 		
 	hand := HandMorphForEventTests new.
 	
 	world
 		removeHand: world firstHand; "the default hand"
 		addHand: hand.
+		
+	canvas hasMouseFocus: hand.
