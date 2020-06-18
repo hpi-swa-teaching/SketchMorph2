@@ -1,5 +1,6 @@
 drawing
 importPNG: aFileName
-	self temporaryForm: (Form fromFileNamed: aFileName).
-	self form setExtent: (self temporaryForm extent) depth: self form depth.
-	self projectTemporaryForm
+	| tempForm |
+	tempForm := (Form fromFileNamed: aFileName).
+	self form setExtent: (tempForm extent) depth: self form depth.	
+	self project: tempForm at: 0 asPoint.
