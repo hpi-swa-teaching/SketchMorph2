@@ -10,4 +10,4 @@ createUserActionWithStart: aPoint
 		addMethodCall: #pencilSize: withArguments: (Array with: self pencilSize);
 		addMethodCall: #isFillingGeometricForm: withArguments: (Array with: self isFillingGeometricForm);
 		addMethodCall: #sourceForm: withArguments: (Array with: self sourceForm);
-		addMethodCall: #startDrawingAt: withArguments: (Array with: aPoint).
+		addMethodCall: #clickAt: withArguments: (Array with: aPoint).

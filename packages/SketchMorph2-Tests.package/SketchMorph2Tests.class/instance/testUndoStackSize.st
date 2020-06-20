@@ -6,10 +6,6 @@ testUndoStackSize
 	backend currentGeometricForm: #circle.
 	backend isFillingGeometricForm: true.
 	
-	1 to: 50 do: [:x |
-		backend startDrawingAt: (4 * x ) @ (4 * x ).
-		backend moveDrawing: ((4 * x) + 2 )@ ((4 * x) + 2).
-		backend stopDrawing.
-	].
+	self drawAmountOfDiagonalCircles: 50.
 	
 	self assert: backend undoStack size equals: 4.

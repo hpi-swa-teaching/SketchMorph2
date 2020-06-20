@@ -5,11 +5,10 @@ testCachedForm
 	backend penColor: (Color black).
 	backend currentGeometricForm: #circle.
 	backend isFillingGeometricForm: true.
+	backend pushNewUndoLevelWithForm: backend form copy.
 	
-	1 to: 16 do: [:x |
-		backend startDrawingAt: (4 * x ) @ (4 * x ).
-		backend moveDrawing: ((4 * x) + 2 )@ ((4 * x) + 2).
-		backend stopDrawing.
-	].
+	self drawAmountOfDiagonalCircles: 10.
+	self compare: backend cachedForm with: #whiteBackground.
 	
-	self compare: backend cachedForm with: #filledCircle
+	self drawDiagonalCirclesFrom: 11 to: 20.
+	self compare: backend cachedForm with: #circlesDiagonal15
