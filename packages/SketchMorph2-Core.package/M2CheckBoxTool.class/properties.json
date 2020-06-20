@@ -1,0 +1,14 @@
+{
+	"category" : "SketchMorph2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "M2CheckBoxTool",
+	"pools" : [
+		 ],
+	"super" : "M2Tool",
+	"type" : "normal" }

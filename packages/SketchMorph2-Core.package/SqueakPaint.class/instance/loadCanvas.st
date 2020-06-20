@@ -1,6 +1,5 @@
 initialization
 loadCanvas
-	self canvas: M2Canvas new.
 	self canvasPanel addMorph: self canvas.
 	self canvas backend formSize: (self canvasPanel extent - self defaultCanvasPanelBorder).
 	self canvas backend undoStack push: M2UndoLevel new.
