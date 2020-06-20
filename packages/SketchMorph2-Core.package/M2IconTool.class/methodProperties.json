@@ -1,6 +1,11 @@
 {
 	"class" : {
 		"defaultIconSize" : "mp 6/20/2020 12:10",
-		"getMenuItemForTarget:" : "mp 6/20/2020 12:46" },
+		"exportPNGIcon" : "wr 6/20/2020 13:04",
+		"formCircleIcon" : "wr 6/20/2020 13:03",
+		"formRectangleIcon" : "wr 6/20/2020 13:03",
+		"getMenuItemForTarget:" : "mp 6/20/2020 12:46",
+		"paintPotIcon" : "wr 6/20/2020 13:02",
+		"pencilIcon" : "wr 6/20/2020 13:02" },
 	"instance" : {
 		 } }
