@@ -1,10 +1,15 @@
 {
 	"class" : {
+		"brushCircleIcon" : "mp 6/20/2020 13:00",
+		"brushRectangleIcon" : "mp 6/20/2020 13:01",
+		"brushTriangleIcon" : "mp 6/20/2020 13:02",
 		"defaultIconSize" : "mp 6/20/2020 12:10",
+		"exportMorphIcon" : "mp 6/20/2020 13:02",
 		"exportPNGIcon" : "wr 6/20/2020 13:04",
 		"formCircleIcon" : "wr 6/20/2020 13:03",
 		"formRectangleIcon" : "wr 6/20/2020 13:03",
-		"getMenuItemForTarget:" : "mp 6/20/2020 12:46",
+		"getMenuItemForTarget:" : "mp 6/20/2020 13:04",
+		"iconSelector" : "mp 6/20/2020 13:05",
 		"paintPotIcon" : "wr 6/20/2020 13:02",
 		"pencilIcon" : "wr 6/20/2020 13:02" },
 	"instance" : {

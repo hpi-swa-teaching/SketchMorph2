@@ -2,16 +2,7 @@
 	"class" : {
 		"IconDirectory" : "mk 5/25/2020 17:16",
 		"RootDirectory" : "mk 5/25/2020 17:15",
-		"brushCircleIcon" : "m.k. 6/4/2020 13:18",
-		"brushRectangleIcon" : "m.k. 6/4/2020 13:19",
-		"brushTriangleIcon" : "m.k. 6/4/2020 13:19",
-		"exportMorphIcon" : "m.k. 6/4/2020 13:21",
-		"exportPNGIcon" : "m.k. 6/4/2020 13:21",
-		"formCircleIcon" : "m.k. 6/4/2020 13:20",
-		"formRectangleIcon" : "m.k. 6/4/2020 17:01",
-		"open" : "wr 6/1/2020 13:40",
-		"paintPotIcon" : "m.k. 6/4/2020 13:20",
-		"pencilIcon" : "m.k. 6/4/2020 13:21" },
+		"open" : "wr 6/1/2020 13:40" },
 	"instance" : {
 		"applyDefaultSettingsTo:" : "mk 5/25/2020 17:47",
 		"backend" : "CCJ 6/3/2020 17:20",
