@@ -1,7 +1,7 @@
 initialization
 initialize
-	super initialize.		
-	
+	super initialize.	
+		
 	self
 		menuPanel: PluggablePanelMorph newRow;
 		colorPanel: (PluggablePanelMorph newColumn
@@ -18,4 +18,5 @@ initialize
 		setLabel: 'SqueakPaint';
 		addMorph: self canvasPanel frame: (0@0.4 corner: 1 asPoint);
 		addMorph: self topPanel frame: (0 asPoint corner: 1@0.4);
-		loadMenu.
+		loadMenu;
+		addPaneSplitters.
