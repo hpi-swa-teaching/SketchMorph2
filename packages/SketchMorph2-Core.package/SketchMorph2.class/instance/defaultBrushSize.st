@@ -1,3 +1,3 @@
 defaults
 defaultBrushSize
-	^ 18
+	^ 12

@@ -1,3 +1,3 @@
 accessing
 rectangleBrushSize
-	^ rectangleBrushSize ifNil: [rectangleBrushSize := self defaultRectangleBrushSize]
+	^ (0.5@1) * self brushSize

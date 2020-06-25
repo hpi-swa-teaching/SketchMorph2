@@ -6,7 +6,6 @@ createUserActionWithStart: aPoint
 		addMethodCall: #currentGeometricForm: withArguments: (Array with: self currentGeometricForm);
 		addMethodCall: #brushSize: withArguments: (Array with: self brushSize);
 		addMethodCall: #penColor: withArguments: (Array with: self penColor);
-		addMethodCall: #rectangleBrushSize: withArguments: (Array with: self rectangleBrushSize);
 		addMethodCall: #pencilSize: withArguments: (Array with: self pencilSize);
 		addMethodCall: #isFillingGeometricForm: withArguments: (Array with: self isFillingGeometricForm);
 		addMethodCall: #sourceForm: withArguments: (Array with: self sourceForm);
