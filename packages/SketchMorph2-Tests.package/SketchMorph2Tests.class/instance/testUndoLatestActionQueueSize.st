@@ -7,9 +7,7 @@ testUndoLatestActionQueueSize
 	backend isFillingGeometricForm: true.
 	
 	1 to: 15 do: [:x |
-		backend startDrawingAt: (4 * x ) @ (4 * x ).
-		backend moveDrawing: ((4 * x) + 2 )@ ((4 * x) + 2).
-		backend stopDrawing.
+		self drawFrom: (4 * x ) @ (4 * x ) To: ((4 * x) + 2 )@ ((4 * x) + 2).
 	].
 	
 	self assert: backend latestActionQueue size equals: 15.

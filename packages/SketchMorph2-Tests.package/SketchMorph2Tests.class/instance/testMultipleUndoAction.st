@@ -5,15 +5,11 @@ testMultipleUndoAction
 	backend penColor: (Color black).
 	backend currentGeometricForm: #circle.
 	backend isFillingGeometricForm: true.
-	backend startDrawingAt: (40 @ 10).
-	backend moveDrawing: (80 @ 90).
-	backend stopDrawing.
+	self drawFrom: (40 @ 10) To: (80 @ 90).
 	
 	1 to: 5 do: [: x | 
-		backend startDrawingAt: (5 * x @ x).
-		backend moveDrawing: (8 * x @ 2 * x).
-		backend stopDrawing.
+		self drawFrom: (5 * x @ x) To: (8 * x @ 2 * x).
 	].
 	
-	5 timesRepeat: backend undo.
+	5 timesRepeat: [backend undo].
 	self compareFormWith: #filledCircle

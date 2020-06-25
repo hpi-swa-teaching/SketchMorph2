@@ -4,4 +4,5 @@ popUndoStack
 	(self undoStack isEmpty) 
 		ifTrue: [
 			self form fillWhite.
+			self formChanged.
 		].

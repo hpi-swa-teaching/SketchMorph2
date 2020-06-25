@@ -5,13 +5,9 @@ testSingleUndoAction
 	backend penColor: (Color black).
 	backend currentGeometricForm: #circle.
 	backend isFillingGeometricForm: true.
-	backend startDrawingAt: (40 @ 10).
-	backend moveDrawing: (80 @ 90).
-	backend stopDrawing.
+	self drawFrom: (40 @ 10) To: (80 @ 90).
 	
-	backend startDrawingAt: (80 @ 10).
-	backend moveDrawing: (80 @ 200).
-	backend stopDrawing.
+	self drawFrom: (80 @ 10) To: (80 @ 200).
 	
 	backend undo.
 	

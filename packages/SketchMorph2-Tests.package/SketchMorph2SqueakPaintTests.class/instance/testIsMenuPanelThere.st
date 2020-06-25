@@ -1,3 +1,3 @@
 as yet unclassified
 testIsMenuPanelThere
-	self assert: (squeakPaint submorphs includes: squeakPaint menuPanel)
+	self assert: (squeakPaint topPanel submorphs includes: squeakPaint menuPanel)

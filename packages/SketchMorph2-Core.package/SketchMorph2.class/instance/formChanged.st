@@ -1,3 +1,3 @@
 accessing
 formChanged
-	self pen setDestForm: self form.
+	self pen: self defaultPen
