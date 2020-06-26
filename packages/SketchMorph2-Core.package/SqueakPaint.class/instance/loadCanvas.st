@@ -1,7 +1,8 @@
 initialization
 loadCanvas
 	self canvasPanel addMorph: self canvas.
-	self canvas backend formSize: (self canvasPanel extent - self defaultCanvasPanelBorder).
-	self canvas backend pushNewUndoLevelWithForm: self canvas backend form copy.
-	self canvas image: (self canvas backend form);
-		when: #sizeChanged send: #sizeChanged to: self
+	self backend 
+		formSize: (self canvasPanel extent - self defaultCanvasPanelBorder);
+		pushNewUndoLevelWithForm: self form copy;
+		pen: self backend defaultPen.
+	self canvas image: self form.

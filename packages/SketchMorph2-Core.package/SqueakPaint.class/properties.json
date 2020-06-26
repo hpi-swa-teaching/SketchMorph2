@@ -11,7 +11,8 @@
 		"menuPanel",
 		"topPanel",
 		"colorPanel",
-		"colorPalette" ],
+		"colorPalette",
+		"colorPicker" ],
 	"name" : "SqueakPaint",
 	"pools" : [
 		 ],

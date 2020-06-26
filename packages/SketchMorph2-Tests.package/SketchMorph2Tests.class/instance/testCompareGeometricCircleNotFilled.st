@@ -1,5 +1,6 @@
 comparing
 testCompareGeometricCircleNotFilled
+	backend isFillingGeometricForm: false.
 	backend form fillWhite.
 	backend mode: #geometric. 
 	backend penColor: (Color black).
