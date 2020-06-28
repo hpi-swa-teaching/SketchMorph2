@@ -16,7 +16,8 @@
 		"fillGeometricForm",
 		"mode",
 		"undoStack",
-		"currentUserAction" ],
+		"currentUserAction",
+		"backgroundColor" ],
 	"name" : "SketchMorph2",
 	"pools" : [
 		 ],
