@@ -1,11 +1,13 @@
 comparing
 testCompareGeometricRectangleNotFilled
-	backend form fillWhite.
-	backend mode: #geometric.
-	backend penColor: (Color black).
-	backend currentGeometricForm: #rectangle.
-	backend startDrawingAt: (40 @ 10).
-	backend moveDrawing: (80 @ 90).
-	backend stopDrawing.
+	self backend 
+		backgroundColor: Color white;
+		clearCanvas;
+		mode: #geometric;
+		penColor: Color black;
+		currentGeometricForm: #rectangle;
+		isFillingGeometricForm: false.
+	
+	self drawFrom: (40 @ 10) To: (80 @ 90).
 	
 	self compareFormWith: #notFilledRectangle

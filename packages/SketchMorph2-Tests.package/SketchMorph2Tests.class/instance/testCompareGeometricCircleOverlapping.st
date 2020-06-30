@@ -1,16 +1,15 @@
 comparing
 testCompareGeometricCircleOverlapping
-	backend form fillWhite.
-	backend mode: #geometric. 
-	backend penColor: (Color black).
-	backend currentGeometricForm: #circle.
-	backend isFillingGeometricForm: false.
-	backend startDrawingAt: (10 @ 10).
-	backend moveDrawing: (40 @ 40).
-	backend stopDrawing.
-	backend isFillingGeometricForm: true.
-	backend startDrawingAt: (20 @ 20).
-	backend moveDrawing: (80 @ 90).
-	backend stopDrawing.
+	self backend 
+		backgroundColor: Color white;
+		clearCanvas;
+		mode: #geometric; 
+		penColor: Color black;
+		currentGeometricForm: #circle;
+		isFillingGeometricForm: false.
+
+	self drawFrom: (10 @ 10) To: (40 @ 40).
+	self backend isFillingGeometricForm: true.
+	self drawFrom: (20 @ 20) To: (80 @ 90).
 	
 	self compareFormWith: #overlappingCircles

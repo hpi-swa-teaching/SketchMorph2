@@ -1,8 +1,10 @@
 as yet unclassified
 testClearCanvas
-	backend startDrawingAt: 0 asPoint;
+	self backend
+		backgroundColor: Color white; 
+		startDrawingAt: 0 asPoint;
 		moveDrawing: 10 asPoint;
 		stopDrawing;
 		clearCanvas.
 	
-	self assert: (backend form colorsUsed equals: (Array with: Color white))
+	self assert: (backend form colorsUsed = (Array with: Color white))

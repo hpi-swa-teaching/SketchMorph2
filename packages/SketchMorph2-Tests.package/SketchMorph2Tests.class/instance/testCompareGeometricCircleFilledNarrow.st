@@ -1,12 +1,13 @@
 comparing
 testCompareGeometricCircleFilledNarrow
-	backend form fillWhite.
-	backend mode: #geometric.
-	backend penColor: (Color black).
-	backend currentGeometricForm: #circle.
-	backend isFillingGeometricForm: true.
-	backend startDrawingAt: (10 @ 80).
-	backend moveDrawing: (80 @ 90).
-	backend stopDrawing.
+	self backend
+		backgroundColor: Color white;
+		clearCanvas;
+		mode: #geometric;
+		penColor: (Color black);
+		currentGeometricForm: #circle;
+		isFillingGeometricForm: true.
+		
+	self drawFrom: (10 @ 80) To: (80 @ 90).
 	
 	self compareFormWith: #filledCircleNarrow

@@ -1,5 +1,5 @@
 geometric forms
 testUndoWhenUndoStackEmpty
-	backend form fillWhite.
-	backend undo.
+	self backend form fillWhite.
+	self backend undo.
 	self compareFormWith: #whiteBackground

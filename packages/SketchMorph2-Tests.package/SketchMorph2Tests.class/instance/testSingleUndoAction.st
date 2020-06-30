@@ -1,14 +1,14 @@
 geometric forms
 testSingleUndoAction
-	backend form fillWhite.
-	backend mode: #geometric.
-	backend penColor: (Color black).
-	backend currentGeometricForm: #circle.
-	backend isFillingGeometricForm: true.
+	self backend 
+		backgroundColor: Color white;
+		clearCanvas;
+		mode: #geometric;
+		penColor: Color black;
+		isFillingGeometricForm: true.
+		
 	self drawFrom: (40 @ 10) To: (80 @ 90).
-	
-	self drawFrom: (80 @ 10) To: (80 @ 200).
-	
-	backend undo.
+	self drawFrom: (80 @ 10) To: (80 @ 200).	
+	self backend undo.
 	
 	self compareFormWith: #filledCircle

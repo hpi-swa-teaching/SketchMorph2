@@ -1,3 +1,3 @@
-accessing
+defaults
 defaultBackgroundColor
 	^ Color white

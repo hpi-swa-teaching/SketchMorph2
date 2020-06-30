@@ -1,6 +1,8 @@
 geometric forms
 testUndoImport
-	backend form fillWhite.
-	backend importPNG: 'importTestPNG.png'.
-	backend undo.
+	self backend
+		backgroundColor: Color white;
+		clearCanvas;
+		importPNG: 'importTestPNG.png';
+		undo.
 	self compareFormWith: #whiteBackground
