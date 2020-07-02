@@ -1,3 +1,0 @@
-accessing
-itemClass
-	^ MenuItemMorph
