@@ -1,16 +1,21 @@
 {
 	"class" : {
-		"brushCircleIcon" : "mp 6/20/2020 13:00",
-		"brushRectangleIcon" : "mp 6/20/2020 13:01",
-		"brushTriangleIcon" : "mp 6/20/2020 13:02",
+		"brushCircleIcon" : "NC 7/3/2020 22:19",
+		"brushRectangleIcon" : "NC 7/3/2020 22:19",
+		"brushTriangleIcon" : "NC 7/3/2020 22:19",
+		"clearCanvasIcon" : "NC 7/3/2020 22:22",
 		"defaultIconSize" : "mp 6/20/2020 12:10",
+		"exportAsMorphIcon" : "NC 7/3/2020 22:21",
+		"exportAsPNGIcon" : "NC 7/3/2020 22:21",
 		"exportMorphIcon" : "mp 6/20/2020 13:02",
 		"exportPNGIcon" : "wr 6/20/2020 13:04",
-		"formCircleIcon" : "wr 6/20/2020 13:03",
-		"formRectangleIcon" : "wr 6/20/2020 13:03",
+		"formCircleIcon" : "NC 7/3/2020 22:20",
+		"formRectangleIcon" : "NC 7/3/2020 22:20",
 		"getMenuItemForTarget:" : "mp 6/20/2020 13:04",
 		"iconSelector" : "mp 6/20/2020 13:05",
-		"paintPotIcon" : "wr 6/20/2020 13:02",
-		"pencilIcon" : "wr 6/20/2020 13:02" },
+		"importIcon" : "NC 7/3/2020 22:22",
+		"paintPotIcon" : "NC 7/3/2020 22:20",
+		"pencilIcon" : "NC 7/3/2020 22:20",
+		"undoIcon" : "NC 7/3/2020 22:21" },
 	"instance" : {
 		 } }
