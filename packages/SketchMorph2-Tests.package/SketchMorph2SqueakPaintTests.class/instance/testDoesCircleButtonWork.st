@@ -2,7 +2,6 @@ as yet unclassified
 testDoesCircleButtonWork
 	| submenu button buttonFound buttonLabel|
 	squeakPaint backend mode: #geometric.
-	button := nil.
 	buttonFound := true.
 	buttonLabel := 'Fill Area'.
 	(submenu := self lookForMenuWithItem: buttonLabel) ifNil: [buttonFound := false].
