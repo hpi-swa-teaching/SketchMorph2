@@ -1,10 +1,7 @@
 geometric forms
 testUndoStackSize
 	self backend
-		backgroundColor: Color white;
-		clearCanvas;
 		mode: #geometric;
-		penColor: Color black;
 		currentGeometricForm: #circle;
 		isFillingGeometricForm: true.
 	

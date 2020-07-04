@@ -1,10 +1,7 @@
 comparing
 testCompareGeometricRectangleNotFilled
 	self backend 
-		backgroundColor: Color white;
-		clearCanvas;
 		mode: #geometric;
-		penColor: Color black;
 		currentGeometricForm: #rectangle;
 		isFillingGeometricForm: false.
 	

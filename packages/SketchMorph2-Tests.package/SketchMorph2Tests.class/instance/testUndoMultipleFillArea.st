@@ -1,8 +1,6 @@
 geometric forms
 testUndoMultipleFillArea
 	self backend 
-		backgroundColor: Color white;
-		clearCanvas;
 		mode: #fill;
 		penColor: Color blue.
 		

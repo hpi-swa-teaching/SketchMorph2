@@ -1,6 +1,6 @@
 undo
 finishUserAction
-	self currentUserAction addMethodCall: #stopDrawing withArguments: nil.
+	self currentUserAction addMethodCall: #stopDrawing.
 	(self undoStack isEmpty) 
 		ifTrue: [
 			self undoStack push: M2UndoLevel new.

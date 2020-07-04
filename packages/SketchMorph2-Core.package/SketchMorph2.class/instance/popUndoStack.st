@@ -1,8 +1,4 @@
 undo
 popUndoStack
-	self undoStack pop.
-	(self undoStack isEmpty) 
-		ifTrue: [
-			self form fillWhite.
-			self formChanged.
-		].
+	self undoStack size > 1 
+		ifTrue: [self undoStack pop]
