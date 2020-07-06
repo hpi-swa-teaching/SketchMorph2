@@ -18,7 +18,7 @@
 		"undoStack",
 		"currentUserAction",
 		"backgroundColor" ],
-	"name" : "SketchMorph2",
+	"name" : "M2Backend",
 	"pools" : [
 		 ],
 	"super" : "Object",

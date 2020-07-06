@@ -1,3 +1,3 @@
 comparing
 backend 
-	^ backend ifNil: [backend := SketchMorph2 new]
+	^ backend ifNil: [backend := M2Backend new]
