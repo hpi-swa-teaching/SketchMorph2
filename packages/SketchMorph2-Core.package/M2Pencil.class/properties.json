@@ -10,5 +10,5 @@
 	"name" : "M2Pencil",
 	"pools" : [
 		 ],
-	"super" : "M2IconTool",
+	"super" : "M2IconMenuItem",
 	"type" : "normal" }

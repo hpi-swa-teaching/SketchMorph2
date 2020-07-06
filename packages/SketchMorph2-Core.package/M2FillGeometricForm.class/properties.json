@@ -10,5 +10,5 @@
 	"name" : "M2FillGeometricForm",
 	"pools" : [
 		 ],
-	"super" : "M2CheckBoxTool",
+	"super" : "M2CheckBoxMenuItem",
 	"type" : "normal" }

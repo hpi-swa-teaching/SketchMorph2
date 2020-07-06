@@ -10,5 +10,5 @@
 	"name" : "M2FillArea",
 	"pools" : [
 		 ],
-	"super" : "M2IconTool",
+	"super" : "M2IconMenuItem",
 	"type" : "normal" }

@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "M2Tool",
+	"name" : "M2CheckBoxMenuItem",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "M2MenuItem",
 	"type" : "normal" }
