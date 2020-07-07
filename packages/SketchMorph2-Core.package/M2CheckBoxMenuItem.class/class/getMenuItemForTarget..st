@@ -1,5 +1,5 @@
 as yet unclassified
-"an Object needs to be a SketchMorph2 object"
+"an Object needs to be a M2Backend object"
 getMenuItemForTarget: anObject
 	^ (PluggableCheckBoxMorph new)
 		actionSelector: self actionSelector;

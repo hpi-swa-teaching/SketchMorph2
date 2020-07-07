@@ -9,9 +9,7 @@
 		"squeakPaint",
 		"palettePanel",
 		"rowPanelCollection",
-		"colorMorphCollection",
-		"colorCollection",
-		"rows" ],
+		"colorMorphCollection" ],
 	"name" : "M2ColorPalette",
 	"pools" : [
 		 ],

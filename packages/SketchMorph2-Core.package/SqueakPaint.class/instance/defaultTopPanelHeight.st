@@ -1,3 +1,0 @@
-accessing
-defaultTopPanelHeight
-	^ 50
