@@ -1,7 +1,6 @@
 undo
 undo
-	self removeLastUserAction.
-	self restoreFormFromStack.
-	self restoreUserActions
-		
-	
+	self 
+		removeLastUserAction;
+		restoreFormFromStack;
+		restoreUserActions
