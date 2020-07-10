@@ -16,7 +16,7 @@ initialize
 	self canvasPanel: PluggablePanelMorph new.
 
 	self 
-		setLabel: 'SqueakPaint';
+		setLabel: 'Morphic Monet';
 		addMorph: self canvasPanel frame: (0@0.27 corner: 1 asPoint);
 		addMorph: self topPanel frame: (0 asPoint corner: 1@0.27);
 		loadMenu;

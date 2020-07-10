@@ -13,7 +13,7 @@
 		"colorPanel",
 		"colorPalette",
 		"colorPicker" ],
-	"name" : "SqueakPaint",
+	"name" : "MorphicMonet",
 	"pools" : [
 		 ],
 	"super" : "PluggableSystemWindow",
