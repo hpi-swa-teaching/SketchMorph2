@@ -1,7 +1,7 @@
 as yet unclassified
 testDoesFillButtonWork
 	| submenu button buttonFound buttonLabel|
-	squeakPaint backend mode: #geometric.
+	morphicMonet backend mode: #geometric.
 	button := nil.
 	buttonFound := true.
 	buttonLabel := 'Fill Area'.
@@ -10,5 +10,5 @@ testDoesFillButtonWork
 	
 	buttonFound ifTrue: [button := submenu submorphs detect: [:item | item contents = buttonLabel] ifNone: [].
 		button doButtonAction.
-		self assert: (squeakPaint backend mode = #fill)]
+		self assert: (morphicMonet backend mode = #fill)]
 	

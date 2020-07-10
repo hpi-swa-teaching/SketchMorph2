@@ -1,0 +1,22 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"lookForMenuWithItem:" : "mk 7/10/2020 13:28",
+		"mouseDownAt:" : "wr 6/1/2020 13:48",
+		"setUp" : "mk 7/10/2020 13:28",
+		"testAreSubmenusThere" : "mk 7/10/2020 13:28",
+		"testDoMenusContainButtons" : "mk 7/10/2020 13:28",
+		"testDoesCircleButtonWork" : "mk 7/10/2020 13:28",
+		"testDoesCircleToolButtonWork" : "mk 7/10/2020 13:28",
+		"testDoesColorPickerSetPenColor" : "mk 7/10/2020 13:28",
+		"testDoesFillButtonWork" : "mk 7/10/2020 13:28",
+		"testDoesPencilButtonWork" : "mk 7/10/2020 13:28",
+		"testDoesRectangleToolButtonWork" : "mk 7/10/2020 13:28",
+		"testIsCanvasPanelThere" : "mk 7/10/2020 13:28",
+		"testIsCanvasPanelVisible" : "mk 7/10/2020 13:28",
+		"testIsColorPanelThere" : "mk 7/10/2020 13:28",
+		"testIsColorPickerThere" : "mk 7/10/2020 13:28",
+		"testIsMenuPanelThere" : "mk 7/10/2020 13:28",
+		"testIsMenuPanelVisible" : "mk 7/10/2020 13:28",
+		"testIsTopPanelThere" : "mk 7/10/2020 13:28" } }

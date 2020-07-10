@@ -8,8 +8,8 @@
 	"instvars" : [
 		"world",
 		"hand",
-		"squeakPaint" ],
-	"name" : "SketchMorph2SqueakPaintTests",
+		"morphicMonet" ],
+	"name" : "SketchMorph2MorphicMonetTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

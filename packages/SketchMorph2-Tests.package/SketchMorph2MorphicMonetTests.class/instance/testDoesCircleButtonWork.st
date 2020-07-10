@@ -1,15 +1,13 @@
 as yet unclassified
-testDoesCircleToolButtonWork
+testDoesCircleButtonWork
 	| submenu button buttonFound buttonLabel|
-	squeakPaint backend mode: #pen.
-	button := nil.
+	morphicMonet backend mode: #geometric.
 	buttonFound := true.
-	buttonLabel := 'Circle Tool'.
+	buttonLabel := 'Fill Area'.
 	(submenu := self lookForMenuWithItem: buttonLabel) ifNil: [buttonFound := false].
 	self assert: buttonFound.
 	
 	buttonFound ifTrue: [button := submenu submorphs detect: [:item | item contents = buttonLabel] ifNone: [].
 		button doButtonAction.
-		self assert: (squeakPaint backend mode = #geometric).
-		self assert: (squeakPaint backend currentGeometricForm = #circle)]
+		self assert: (morphicMonet backend mode = #fill)]
 	

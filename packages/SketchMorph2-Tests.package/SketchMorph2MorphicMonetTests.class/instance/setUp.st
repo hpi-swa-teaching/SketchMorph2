@@ -6,7 +6,7 @@ setUp
 		extent: 300@200;
 		yourself.
 
-	squeakPaint := SqueakPaint new openInWorld: world.
+	morphicMonet := MorphicMonet new openInWorld: world.
 		
 	hand := HandMorphForEventTests new.
 	
