@@ -1,3 +1,3 @@
 instance creation
 open
-	self new openInWorld.
+	^ self new openInWorld

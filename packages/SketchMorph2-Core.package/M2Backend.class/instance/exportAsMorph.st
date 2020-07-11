@@ -1,5 +1,5 @@
 drawing
 exportAsMorph
 	ImageMorph new
-		image: (self form);
+		image: self form copy;
 		openInHand.
