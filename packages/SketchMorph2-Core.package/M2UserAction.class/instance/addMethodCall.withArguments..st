@@ -1,3 +1,3 @@
 accessing
 addMethodCall: aMessage withArguments: anArgumentArray
-	self methodCalls add: (MessageSend receiver: nil selector: aMessage arguments: anArgumentArray)
+	self methodCalls add: (MessageSend receiver: self backend selector: aMessage arguments: anArgumentArray)

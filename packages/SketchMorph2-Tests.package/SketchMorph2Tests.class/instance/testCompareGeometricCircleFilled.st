@@ -5,6 +5,6 @@ testCompareGeometricCircleFilled
 		currentGeometricForm: #circle;
 		isFillingGeometricForm: true.
 	
-	self drawFrom: (40 @ 10) To: (80 @ 90).
-		
-	self compareFormWith: #filledCircle
+	self 
+		drawFrom: (40 @ 10) To: (80 @ 90);
+		compareFormWith: #filledCircle

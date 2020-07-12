@@ -9,6 +9,7 @@
 		"mode",
 		"start",
 		"mousePositions",
+		"backend",
 		"methodCalls" ],
 	"name" : "M2UserAction",
 	"pools" : [
