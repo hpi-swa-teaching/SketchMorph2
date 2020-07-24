@@ -1,4 +1,4 @@
-as yet unclassified
+icons
 exportAsPNGIcon
 	"This is an auto-generated method"
 	^ ((ColorForm

@@ -1,4 +1,4 @@
-Icons
+icons
 brushTriangleIcon
 	"This is an auto-generated method"
 	^ ((ColorForm

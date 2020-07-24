@@ -1,4 +1,4 @@
-as yet unclassified
+icons
 undoIcon
 	"This is an auto-generated method"
 	^ ((ColorForm

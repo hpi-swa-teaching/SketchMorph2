@@ -1,4 +1,4 @@
-as yet unclassified
+icons
 exportAsMorphIcon
 	"This is an auto-generated method"
 	^ ((ColorForm
