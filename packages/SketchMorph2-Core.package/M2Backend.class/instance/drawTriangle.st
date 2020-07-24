@@ -11,7 +11,8 @@ drawTriangle
 
 	1 to: 3 do: [:i | temporaryPen go: width; turn: -120].
 	
-	triangleForm convexShapeFill: Color black.		
-	
+	triangleForm convexShapeFill: Color black.
+			
+	self isErasing: false.
 	self pen sourceForm: triangleForm.
 	self mode: #pen

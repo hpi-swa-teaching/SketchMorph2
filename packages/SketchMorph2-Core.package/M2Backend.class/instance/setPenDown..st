@@ -1,5 +1,5 @@
 accessing
 setPenDown: aBoolean
 	aBoolean 
-		ifTrue: [self pen down]
-		ifFalse: [self pen up]
+		ifTrue: [self currentPen down]
+		ifFalse: [self currentPen up]

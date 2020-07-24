@@ -1,3 +1,3 @@
 accessing
-brushSize: anObject
-	brushSize := anObject
+brushSize: anInteger
+	brushSize := anInteger

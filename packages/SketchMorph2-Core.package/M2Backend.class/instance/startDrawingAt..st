@@ -2,6 +2,6 @@ drawing
 startDrawingAt: aPoint
 	self isInGeometricMode
 		ifTrue: [self startPoint: aPoint]
-		ifFalse: [self pen place: aPoint - self penNibOffset.
+		ifFalse: [self currentPen place: aPoint - self penNibOffset.
 			self startDrawing.
 			self userActionMoveDrawing: aPoint]
