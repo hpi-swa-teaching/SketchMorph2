@@ -1,6 +1,6 @@
 accessing
 importPNG
-	| file |
-	file := FileChooserDialog openOn: FileDirectory default suffixList: {'png'} label: 'Import PNG'.
-	file ifNil: [^ false].
-	self importPNG: file
+	| fileName |
+	fileName := FileChooserDialog openOn: FileDirectory default suffixList: {'png'} label: 'Import PNG'.
+	fileName ifNil: [^ false].
+	self importPNG: fileName

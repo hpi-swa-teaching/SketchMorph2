@@ -1,0 +1,3 @@
+comparing
+fileDirectory
+	^ fileDirectory

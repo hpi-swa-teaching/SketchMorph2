@@ -1,6 +1,6 @@
 geometric forms
 testUndoImport
 	self backend
-		importPNG: 'importTestPNG.png';
+		importPNG: self importTestPNGPath;
 		undo.
 	self compareFormWith: #whiteBackground

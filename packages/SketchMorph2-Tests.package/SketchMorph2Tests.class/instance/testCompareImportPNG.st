@@ -1,4 +1,4 @@
 comparing
 testCompareImportPNG
-	self backend importPNG: 'importTestPNG.png'.	
+	self backend importPNG: self importTestPNGPath.	
 	self compareFormWith: #importTestPNG
