@@ -11,6 +11,4 @@ colorCollection
 		add: Color blue;
 		add: Color cyan;
 		add: Color magenta;
-		"add: Color tan;
-		add: Color paleTan;"
 		yourself

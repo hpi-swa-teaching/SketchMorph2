@@ -1,5 +1,5 @@
 as yet unclassified
 newWithSqueakPaint: aSqueakPaint
-	^(self basicNew)
+	^ self basicNew
 		squeakPaint: aSqueakPaint;
-		initialize.
+		initialize

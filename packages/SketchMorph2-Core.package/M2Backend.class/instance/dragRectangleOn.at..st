@@ -1,12 +1,9 @@
 drawing
 dragRectangleOn: aForm at: aRectangle
-	| temporaryPen |
-	temporaryPen := (Pen newOnForm: aForm)
+	(Pen newOnForm: aForm)
+		color: self penColor;
 		place: aRectangle topLeft;
-		color: self penColor.
-	
-	
-	temporaryPen goto: aRectangle topRight.
-	temporaryPen goto: aRectangle bottomRight.
-	temporaryPen goto: aRectangle bottomLeft.
-	temporaryPen goto: aRectangle topLeft
+		goto: aRectangle topRight;
+		goto: aRectangle bottomRight;
+		goto: aRectangle bottomLeft;
+		goto: aRectangle topLeft

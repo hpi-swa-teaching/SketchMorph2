@@ -8,4 +8,3 @@ project: aForm at: aPoint
 		rule: Form paint
 		fillColor: nil.
 	self resetTemporaryForm
-	

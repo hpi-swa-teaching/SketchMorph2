@@ -12,9 +12,4 @@ dragCircleOn: aForm at: aRectangle
 		| radians position |
 		radians := degrees degreesToRadians.
 		position := (center + (radius * (radians sin @ radians cos))).
-		temporaryPen 
-			goto: position.";
-			goto: position + (0 @ 1);
-			goto: position + 1 ;
-			goto: position + (1 @ 0);
-			goto: position"]
+		temporaryPen goto: position]

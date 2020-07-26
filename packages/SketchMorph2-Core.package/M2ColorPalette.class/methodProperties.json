@@ -1,11 +1,11 @@
 {
 	"class" : {
-		"newWithSqueakPaint:" : "NC 6/18/2020 10:30" },
+		"newWithSqueakPaint:" : "mp 7/26/2020 16:27" },
 	"instance" : {
-		"colorCollection" : "mp 7/7/2020 17:39",
+		"colorCollection" : "mp 7/26/2020 16:34",
 		"colorMorphCollection" : "wr 6/11/2020 12:10",
 		"colorMorphCollection:" : "wr 6/11/2020 11:38",
-		"colorMorphWith:" : "NC 6/26/2020 17:13",
+		"colorMorphWith:" : "mp 7/26/2020 16:27",
 		"createColorMorphCollection" : "wr 6/11/2020 12:10",
 		"createPalettePanel" : "NC 6/26/2020 17:04",
 		"createRowPanelCollection" : "mp 7/7/2020 17:53",
