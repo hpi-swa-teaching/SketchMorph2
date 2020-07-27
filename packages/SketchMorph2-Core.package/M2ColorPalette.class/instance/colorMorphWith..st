@@ -8,4 +8,5 @@ colorMorphWith: aColor
 		hResizing: #spaceFill;
 		vResizing: #spaceFill;
 		borderWidth: self defaultColorMorphBorderWidth;
-		borderColor: self defaultColorMorphBorderColor
+		borderColor: self defaultColorMorphBorderColor;
+		yourself

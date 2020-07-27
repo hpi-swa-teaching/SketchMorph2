@@ -1,3 +1,3 @@
 accessing
 colorMorphCollection
-	^ colorMorphCollection ifNil: [self createColorMorphCollection]
+	^ colorMorphCollection ifNil: [colorMorphCollection := self createColorMorphCollection]

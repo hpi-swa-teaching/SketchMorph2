@@ -16,11 +16,11 @@
 		"startPoint",
 		"temporaryForm",
 		"currentGeometricForm",
-		"fillGeometricForm",
 		"mode",
 		"undoStack",
 		"currentUserAction",
-		"backgroundColor" ],
+		"backgroundColor",
+		"isFillingGeometricForm" ],
 	"name" : "M2Backend",
 	"pools" : [
 		 ],

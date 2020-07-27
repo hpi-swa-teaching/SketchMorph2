@@ -11,4 +11,5 @@ createUserActionWithStart: aPoint
 		addMethodCall: #eraserSize: withArguments: (Array with: self eraserSize);
 		addMethodCall: #isFillingGeometricForm: withArguments: (Array with: self isFillingGeometricForm);
 		addMethodCall: #sourceForm: withArguments: (Array with: self sourceForm);
-		addMethodCall: #clickAt: withArguments: (Array with: aPoint)).
+		addMethodCall: #clickAt: withArguments: (Array with: aPoint);
+		yourself).

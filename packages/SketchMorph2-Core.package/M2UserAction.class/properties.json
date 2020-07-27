@@ -6,9 +6,6 @@
 		 ],
 	"commentStamp" : "CCJ 6/25/2020 12:17",
 	"instvars" : [
-		"mode",
-		"start",
-		"mousePositions",
 		"backend",
 		"methodCalls" ],
 	"name" : "M2UserAction",

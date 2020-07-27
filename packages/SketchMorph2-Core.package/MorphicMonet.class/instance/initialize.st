@@ -6,15 +6,14 @@ initialize
 		menuPanel: PluggablePanelMorph newRow;
 		colorPanel: (PluggablePanelMorph newRow
 			addMorph: self colorPalette;
-			addMorph: self colorPicker);
+			addMorph: self colorPicker;
+			yourself);
 		topPanel: (PluggablePanelMorph newRow
 			addMorph: self colorPanel;
-			addMorph: self menuPanel)." frame: (0 asPoint corner: 0.8@1);"
-			 "frame: (0.8@0 corner: 1@1))."
-			
-				
+			addMorph: self menuPanel;
+			yourself).
+	
 	self canvasPanel: PluggablePanelMorph new.
-
 	self 
 		setLabel: 'Morphic Monet';
 		addMorph: self canvasPanel frame: (0@0.27 corner: 1 asPoint);
