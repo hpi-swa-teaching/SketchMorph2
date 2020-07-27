@@ -1,10 +1,9 @@
 as yet unclassified
-"an Object needs to be a M2Backend object"
-getMenuItemForTarget: anObject
+getMenuItemForTarget: anM2Backend
 	^ (PluggableCheckBoxMorph new)
 		actionSelector: self actionSelector;
 		label: self label;
 		valueSelector: self valueSelector;
-		model: anObject;
+		model: anM2Backend;
 		installButton;
 		yourself

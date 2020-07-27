@@ -1,4 +1,4 @@
 drawing
 clearCanvasAndPushUndoLevel
 	self clearCanvas.
-	self pushNewUndoLevelWithForm: self form copy
+	self pushNewUndoLevelWithForm: self copyForm
