@@ -1,3 +1,0 @@
-comparing
-fileDirectory
-	^ fileDirectory

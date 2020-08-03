@@ -1,3 +1,3 @@
 as yet unclassified
-iconSelector
+label
 	^ self subclassResponsibility

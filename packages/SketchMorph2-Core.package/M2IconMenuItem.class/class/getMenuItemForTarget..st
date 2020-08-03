@@ -4,4 +4,4 @@ getMenuItemForTarget: anObject
 		contents: self label; 
 		target: anObject;
 		selector: self actionSelector;
-		icon: ((M2IconMenuItem perform: self iconSelector) scaledToHeight: self defaultIconSize)
+		icon: ((self perform: self iconSelector) scaledToHeight: self defaultIconSize)

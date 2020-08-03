@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"actionSelector" : "mk 8/3/2020 15:57",
 		"brushCircleIcon" : "NC 7/3/2020 22:19",
 		"brushRectangleIcon" : "NC 7/3/2020 22:19",
 		"brushTriangleIcon" : "NC 7/3/2020 22:19",
@@ -10,9 +11,10 @@
 		"exportAsPNGIcon" : "NC 7/3/2020 22:21",
 		"formCircleIcon" : "NC 7/3/2020 22:20",
 		"formRectangleIcon" : "NC 7/3/2020 22:20",
-		"getMenuItemForTarget:" : "mk 7/6/2020 11:21",
-		"iconSelector" : "mp 6/20/2020 13:05",
+		"getMenuItemForTarget:" : "mk 8/3/2020 15:58",
+		"iconSelector" : "mk 8/3/2020 15:57",
 		"importIcon" : "NC 7/3/2020 22:22",
+		"label" : "mk 8/3/2020 15:57",
 		"paintPotIcon" : "NC 7/3/2020 22:20",
 		"pencilIcon" : "NC 7/3/2020 22:20",
 		"undoIcon" : "NC 7/3/2020 22:21" },
