@@ -1,3 +1,3 @@
 as yet unclassified
 actionSelector
-	^ self shouldBeImplemented
+	^ self subclassResponsibility

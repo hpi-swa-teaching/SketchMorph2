@@ -1,6 +1,5 @@
 initialization
 initialize
 	super initialize.
-	self createPalettePanel.
-	self addMorph: self palettePanel "frame: (0 asPoint corner: 1 asPoint)".
+	self addMorph: self createPalettePanel.
 	self extent: self defaultExtent.

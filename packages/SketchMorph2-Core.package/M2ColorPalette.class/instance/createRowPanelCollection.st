@@ -1,12 +1,13 @@
 initialization
 createRowPanelCollection
-	| colorsPerRow colorMorphIndex |
+	| colorMorphCollection colorsPerRow colorMorphIndex |
 	colorMorphIndex := 1.
-	colorsPerRow := (self colorMorphCollection size / self defaultRowNumber) ceiling.
+	colorMorphCollection := self createColorMorphCollection.
+	colorsPerRow := (colorMorphCollection size / self defaultRowNumber) ceiling.
 	
 	^ (1 to: self defaultRowNumber) collect: [:rowIndex | 
 		| row |
 		row := PluggablePanelMorph newRow.
-		1 to: colorsPerRow do: [:columnIndex | row addMorph: (self colorMorphCollection at: colorMorphIndex).
+		1 to: colorsPerRow do: [:columnIndex | row addMorph: (colorMorphCollection at: colorMorphIndex).
 			colorMorphIndex := colorMorphIndex + 1].
 		row].

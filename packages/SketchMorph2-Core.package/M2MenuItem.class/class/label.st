@@ -1,3 +1,3 @@
 as yet unclassified
 label
-	^ self shouldBeImplemented
+	^ self subclassResponsibility

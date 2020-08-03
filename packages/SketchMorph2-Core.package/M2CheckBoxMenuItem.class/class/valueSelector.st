@@ -1,3 +1,3 @@
 as yet unclassified
 valueSelector
-	^ self shouldBeImplemented
+	^ self subclassResponsibility
