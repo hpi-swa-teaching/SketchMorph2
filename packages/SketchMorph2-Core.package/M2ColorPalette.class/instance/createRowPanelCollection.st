@@ -1,12 +1,12 @@
 initialization
 createRowPanelCollection
-	| colorsPerRow |
-	self rowPanelCollection: OrderedCollection new.
-	1 to: self defaultRowNumber do: [:row | self rowPanelCollection add: (PluggablePanelMorph newRow)].
-	
+	| colorsPerRow colorMorphIndex |
+	colorMorphIndex := 1.
 	colorsPerRow := (self colorMorphCollection size / self defaultRowNumber) ceiling.
-	1 to: (self rowPanelCollection size) do: [:rowPanelIndex | 
-		1 to: colorsPerRow do: [:indexInRow | 
-			(self rowPanelCollection at: rowPanelIndex) addMorph: (self colorMorphCollection at: (((rowPanelIndex - 1) * colorsPerRow) + indexInRow))]].
 	
-	^ self rowPanelCollection
+	^ (1 to: self defaultRowNumber) collect: [:rowIndex | 
+		| row |
+		row := PluggablePanelMorph newRow.
+		1 to: colorsPerRow do: [:columnIndex | row addMorph: (self colorMorphCollection at: colorMorphIndex).
+			colorMorphIndex := colorMorphIndex + 1].
+		row].

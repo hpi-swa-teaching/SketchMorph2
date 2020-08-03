@@ -1,3 +1,3 @@
 accessing
 rowPanelCollection
-	^ rowPanelCollection ifNil: [self createRowPanelCollection]
+	^ rowPanelCollection ifNil: [rowPanelCollection := self createRowPanelCollection]

@@ -7,7 +7,7 @@
 		"colorMorphWith:" : "mp 7/27/2020 16:56",
 		"createColorMorphCollection" : "mp 7/27/2020 17:23",
 		"createPalettePanel" : "NC 6/26/2020 17:04",
-		"createRowPanelCollection" : "mk 7/27/2020 20:23",
+		"createRowPanelCollection" : "mp 8/3/2020 16:29",
 		"defaultColorMorphBorderColor" : "wr 6/11/2020 11:49",
 		"defaultColorMorphBorderWidth" : "wr 6/11/2020 11:48",
 		"defaultExtent" : "mk 7/27/2020 20:42",
@@ -15,7 +15,7 @@
 		"initialize" : "NC 6/14/2020 16:21",
 		"palettePanel" : "wr 6/11/2020 12:20",
 		"palettePanel:" : "wr 6/11/2020 12:19",
-		"rowPanelCollection" : "wr 6/11/2020 12:09",
+		"rowPanelCollection" : "mp 8/3/2020 16:22",
 		"rowPanelCollection:" : "wr 6/11/2020 12:08",
 		"squeakPaint" : "NC 6/14/2020 16:39",
 		"squeakPaint:" : "NC 6/14/2020 16:39" } }
