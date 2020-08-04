@@ -1,5 +1,5 @@
 static
-dataMiscCollection
+menuMiscCollection
 	^ (OrderedCollection new)
 		add: (M2ClearCanvas getMenuItemForTarget: self);
 		add: (M2ImportPNG getMenuItemForTarget: self);

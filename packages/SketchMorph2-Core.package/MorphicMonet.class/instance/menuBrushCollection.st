@@ -1,5 +1,5 @@
 static
-dataBrushCollection
+menuBrushCollection
 	^ (OrderedCollection new)
 			add: (M2Pencil getMenuItemForTarget: self backend);
 			add: (M2Eraser getMenuItemForTarget: self backend);

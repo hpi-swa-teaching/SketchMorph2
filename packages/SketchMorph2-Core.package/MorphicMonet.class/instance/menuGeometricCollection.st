@@ -1,5 +1,5 @@
 static
-dataGeometricCollection
+menuGeometricCollection
 	^ (OrderedCollection new)
 			add: (M2FillArea getMenuItemForTarget: self backend);
 			add: (M2GeometricCircle getMenuItemForTarget: self backend);

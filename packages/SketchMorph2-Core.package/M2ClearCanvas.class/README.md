@@ -1,0 +1,1 @@
+M2ClearCanvas is an M2IconMenuItem used to invoke the clear canvas functionality.

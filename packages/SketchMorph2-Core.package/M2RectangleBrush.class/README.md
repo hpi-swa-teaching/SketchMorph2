@@ -1,0 +1,1 @@
+M2RectangleBrush is an M2IconMenuItem used to select the rectangle brush tool.
