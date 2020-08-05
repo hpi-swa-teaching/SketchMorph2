@@ -1,4 +1,4 @@
-as yet unclassified
+state tests
 testDoesColorPickerSetPenColor
 	morphicMonet colorPicker colorSelected: Color blue.
 	self assert: (morphicMonet backend penColor = Color blue).

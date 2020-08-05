@@ -1,4 +1,4 @@
-as yet unclassified
+state tests
 testDoesCircleToolButtonWork
 	| submenu button buttonFound buttonLabel|
 	morphicMonet backend mode: #pen.

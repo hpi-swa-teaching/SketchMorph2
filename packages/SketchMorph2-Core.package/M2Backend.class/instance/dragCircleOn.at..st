@@ -4,11 +4,7 @@ dragCircleOn: aForm at: aRectangle
 	diameter := aRectangle width min: aRectangle height . 
 	radius := (diameter / 2) floor.
 	center := aRectangle topLeft + radius.
-	temporaryPen := (Pen newOnForm: aForm)
-		place: center + (0 @ radius);
-		color: self penColor;
-		yourself.
-	
+	temporaryPen := self prepareCirclePenOn: aForm radius: radius.
 	0 to: 360 do: [ :degrees |
 		| radians position |
 		radians := degrees degreesToRadians.

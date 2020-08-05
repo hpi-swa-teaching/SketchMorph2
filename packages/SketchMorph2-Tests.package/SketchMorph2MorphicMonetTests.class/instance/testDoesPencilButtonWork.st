@@ -1,8 +1,7 @@
-as yet unclassified
+state tests
 testDoesPencilButtonWork
 	| submenu button buttonFound buttonLabel|
 	morphicMonet backend mode: #geometric.
-	button := nil.
 	buttonFound := true.
 	buttonLabel := 'Pencil'.
 	(submenu := self lookForMenuWithItem: buttonLabel) ifNil: [buttonFound := false].

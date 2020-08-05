@@ -2,6 +2,5 @@ drawing
 drawRectangle
 	self isErasing: false.
 	self pen sourceForm: ((Form extent: self rectangleBrushSize) fillBlack).
-	self pen combinationRule: Form paint.
 	self mode: #pen
 	

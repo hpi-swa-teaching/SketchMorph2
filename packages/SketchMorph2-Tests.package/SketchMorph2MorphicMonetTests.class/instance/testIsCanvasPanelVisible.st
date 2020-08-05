@@ -1,3 +1,3 @@
-as yet unclassified
+UI existence tests
 testIsCanvasPanelVisible
 	self assert: morphicMonet canvasPanel visible

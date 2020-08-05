@@ -1,14 +1,11 @@
-as yet unclassified
+state tests
 testDoesFillButtonWork
-	| submenu button buttonFound buttonLabel|
+	| buttonLabel |
 	morphicMonet backend mode: #geometric.
-	button := nil.
-	buttonFound := true.
 	buttonLabel := 'Fill Area'.
-	(submenu := self lookForMenuWithItem: buttonLabel) ifNil: [buttonFound := false].
-	self assert: buttonFound.
-	
-	buttonFound ifTrue: [button := submenu submorphs detect: [:item | item contents = buttonLabel] ifNone: [].
-		button doButtonAction.
-		self assert: (morphicMonet backend mode = #fill)]
-	
+	self assert: (self isButtonThere: buttonLabel).
+	self doButtonAction: buttonLabel.
+	self assert: (self doesButtonWork: buttonLabel).
+	"To test if reclick the button does not change anything:"
+	self doButtonAction: buttonLabel.
+	self assert: (self doesButtonWork: buttonLabel)

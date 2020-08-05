@@ -2,16 +2,18 @@
 	"class" : {
 		 },
 	"instance" : {
+		"doButtonAction:" : "NC 8/5/2020 17:28",
+		"doesButtonWork:" : "NC 8/5/2020 17:18",
+		"isButtonThere:" : "NC 8/5/2020 17:32",
 		"lookForMenuWithItem:" : "mk 7/10/2020 13:28",
 		"mouseDownAt:" : "wr 6/1/2020 13:48",
 		"setUp" : "mk 7/10/2020 13:28",
 		"testAreSubmenusThere" : "wr 8/4/2020 13:10",
 		"testDoMenusContainButtons" : "mk 7/10/2020 13:28",
-		"testDoesCircleButtonWork" : "mk 7/10/2020 13:28",
 		"testDoesCircleToolButtonWork" : "mk 7/10/2020 13:28",
 		"testDoesColorPickerSetPenColor" : "mk 7/10/2020 13:28",
-		"testDoesFillButtonWork" : "mk 7/10/2020 13:28",
-		"testDoesPencilButtonWork" : "mk 7/10/2020 13:28",
+		"testDoesFillButtonWork" : "NC 8/5/2020 17:34",
+		"testDoesPencilButtonWork" : "NC 8/5/2020 15:27",
 		"testDoesRectangleToolButtonWork" : "mk 7/10/2020 13:28",
 		"testIsCanvasPanelThere" : "mk 7/10/2020 13:28",
 		"testIsCanvasPanelVisible" : "mk 8/3/2020 15:39",
@@ -19,4 +21,5 @@
 		"testIsColorPickerThere" : "mk 7/10/2020 13:28",
 		"testIsMenuPanelThere" : "mk 7/10/2020 13:28",
 		"testIsMenuPanelVisible" : "mk 7/10/2020 13:28",
-		"testIsTopPanelThere" : "mk 7/10/2020 13:28" } }
+		"testIsTopPanelThere" : "mk 7/10/2020 13:28",
+		"toolButtonsDict" : "NC 8/5/2020 17:40" } }

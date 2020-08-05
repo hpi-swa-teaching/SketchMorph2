@@ -1,5 +1,5 @@
 undo
-setUserActionMethodCallsWithStart: aPoint
+saveStateInCurrentUserAction
 	self currentUserAction
 		addMethodCall: #mode: withArguments: {self mode};
 		addMethodCall: #currentGeometricForm: withArguments: {self currentGeometricForm};
@@ -9,5 +9,4 @@ setUserActionMethodCallsWithStart: aPoint
 		addMethodCall: #pencilSize: withArguments: {self pencilSize};
 		addMethodCall: #eraserSize: withArguments: {self eraserSize};
 		addMethodCall: #isFillingGeometricForm: withArguments: {self isFillingGeometricForm};
-		addMethodCall: #sourceForm: withArguments: {self sourceForm};
-		addMethodCall: #clickAt: withArguments: {aPoint}
+		addMethodCall: #sourceForm: withArguments: {self sourceForm}
