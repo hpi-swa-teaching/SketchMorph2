@@ -2,6 +2,7 @@
 	"class" : {
 		"blueBackground" : "CCJ 6/25/2020 10:59",
 		"circlesDiagonal14" : "NC 7/4/2020 13:04",
+		"diagonalPencilLine" : "wr 8/6/2020 13:49",
 		"filledCircle" : "NC 6/26/2020 16:43",
 		"filledCircleNarrow" : "NC 6/26/2020 16:47",
 		"filledRectangle" : "NC 6/26/2020 16:48",
@@ -31,6 +32,7 @@
 		"testCachedForm" : "mk 8/3/2020 16:16",
 		"testCachedFormAfterImport" : "mk 8/3/2020 16:04",
 		"testClearCanvas" : "mk 8/3/2020 16:08",
+		"testCompareDrawPencil" : "wr 8/6/2020 13:48",
 		"testCompareGeometricCircleFilled" : "mk 8/3/2020 16:17",
 		"testCompareGeometricCircleFilledNarrow" : "mk 8/3/2020 16:17",
 		"testCompareGeometricCircleNotFilled" : "mk 8/3/2020 16:18",
