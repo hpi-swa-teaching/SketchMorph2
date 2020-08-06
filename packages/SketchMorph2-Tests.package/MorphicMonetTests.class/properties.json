@@ -9,7 +9,7 @@
 		"world",
 		"hand",
 		"morphicMonet" ],
-	"name" : "SketchMorph2MorphicMonetTests",
+	"name" : "MorphicMonetTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

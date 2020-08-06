@@ -8,7 +8,7 @@
 	"instvars" : [
 		"backend",
 		"fileDirectory" ],
-	"name" : "SketchMorph2BackendTests",
+	"name" : "M2BackendTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
