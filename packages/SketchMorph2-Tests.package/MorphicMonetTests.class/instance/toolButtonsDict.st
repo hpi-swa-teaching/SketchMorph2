@@ -1,6 +1,6 @@
 private
 toolButtonsDict
-	" -Label - Setup - assertion"
+	" -Label of the button - assertion after action"
 	^ (OrderedDictionary new)
 		at: 'Fill Area' 			put: [:backend | backend mode = #fill];
 		at: 'Circle Tool' 		put: [:backend | (backend mode = #geometric) and: [backend currentGeometricForm = #circle]];

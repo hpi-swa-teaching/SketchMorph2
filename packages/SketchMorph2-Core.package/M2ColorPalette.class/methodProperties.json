@@ -2,11 +2,12 @@
 	"class" : {
 		"newWithSqueakPaint:" : "mp 7/26/2020 16:27" },
 	"instance" : {
+		"buttons" : "NC 8/6/2020 17:04",
+		"buttons:" : "NC 8/6/2020 17:03",
 		"colorCollection" : "mp 7/26/2020 16:34",
 		"colorMorphWith:" : "mp 7/27/2020 16:56",
-		"createColorMorphCollection" : "mp 7/27/2020 17:23",
 		"createPalettePanel" : "mp 8/3/2020 17:15",
-		"createRowPanelCollection" : "mp 8/3/2020 17:14",
+		"createRowPanelCollection" : "NC 8/6/2020 17:05",
 		"defaultColorMorphBorderColor" : "wr 6/11/2020 11:49",
 		"defaultColorMorphBorderWidth" : "wr 6/11/2020 11:48",
 		"defaultExtent" : "mk 7/27/2020 20:42",

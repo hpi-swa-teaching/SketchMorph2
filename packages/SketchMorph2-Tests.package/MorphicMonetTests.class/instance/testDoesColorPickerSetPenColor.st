@@ -1,5 +1,6 @@
-state tests
+changing state tests
 testDoesColorPickerSetPenColor
+	morphicMonet backend penColor: Color red.
 	morphicMonet colorPicker colorSelected: Color blue.
 	self assert: (morphicMonet backend penColor = Color blue).
 	
