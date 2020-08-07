@@ -7,10 +7,8 @@
 	"commentStamp" : "NC 8/7/2020 14:59",
 	"instvars" : [
 		"form",
-		"calledImportPNG",
 		"calledUndo",
-		"calledClearCanvas",
-		"calledExportPNG" ],
+		"calledClearCanvas" ],
 	"name" : "M2BackendMock",
 	"pools" : [
 		 ],

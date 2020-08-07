@@ -4,16 +4,10 @@
 	"instance" : {
 		"calledClearCanvas" : "NC 8/7/2020 15:01",
 		"calledClearCanvas:" : "NC 8/7/2020 15:01",
-		"calledExportPNG" : "NC 8/7/2020 15:02",
-		"calledExportPNG:" : "NC 8/7/2020 15:01",
-		"calledImportPNG" : "NC 8/7/2020 15:02",
-		"calledImportPNG:" : "NC 8/7/2020 15:01",
 		"calledUndo" : "NC 8/7/2020 15:02",
 		"calledUndo:" : "NC 8/7/2020 15:01",
 		"clearCanvasAndPushUndoLevel" : "NC 8/7/2020 15:20",
-		"exportPNG" : "NC 8/7/2020 15:04",
 		"form" : "NC 8/7/2020 15:15",
 		"form:" : "NC 8/7/2020 15:00",
-		"importPNG:" : "NC 8/7/2020 15:03",
 		"isInGeometricMode" : "NC 8/7/2020 15:15",
 		"undo" : "NC 8/7/2020 15:02" } }
