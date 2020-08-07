@@ -4,6 +4,7 @@ defaultBackend
 	default := (M2Backend new) 
 		backgroundColor: Color white;
 		penColor: Color black;
-		clearCanvas.
+		clearCanvas;
+		yourself.
 	default pushNewUndoLevelWithForm: default form copy.
 	^ default

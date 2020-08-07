@@ -9,4 +9,4 @@ createRowPanelCollection
 		row := PluggablePanelMorph newRow.
 		1 to: colorsPerRow do: [:columnIndex | row addMorph: (self buttons at: colorMorphIndex).
 			colorMorphIndex := colorMorphIndex + 1].
-		row].
+		row]
