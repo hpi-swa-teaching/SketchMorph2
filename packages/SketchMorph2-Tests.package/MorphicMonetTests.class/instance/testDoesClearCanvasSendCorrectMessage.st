@@ -1,4 +1,4 @@
 mockObject tests
 testDoesClearCanvasSendCorrectMessage
-	self morphicMonet clearCanvas.
+	self doButtonAction: 'Clear Canvas'.
 	self assert: self morphicMonet backend lastCalledMethod == #clearCanvasAndPushUndoLevel

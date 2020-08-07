@@ -1,4 +1,4 @@
-changing state tests
+support
 generatePasteEvent
 	^ KeyboardEvent new
 		setType: #keystroke

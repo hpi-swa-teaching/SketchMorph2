@@ -1,5 +1,5 @@
-support
-writeTestPNG
+accessing
+getNameOfFileToImport
 	^ M2BackendTests new 
 		initializeLocalFiles;
 		importTestPNGPath.
