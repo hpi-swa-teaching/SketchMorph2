@@ -1,3 +1,3 @@
 UI existence tests
 testIsColorPickerThere
-	self assert: (morphicMonet colorPanel submorphs includes: morphicMonet colorPicker)
+	self assert: (self morphicMonet colorPanel submorphs includes: self morphicMonet colorPicker)

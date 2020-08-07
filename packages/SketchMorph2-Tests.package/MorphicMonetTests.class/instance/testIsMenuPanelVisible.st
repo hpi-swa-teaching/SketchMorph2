@@ -1,3 +1,3 @@
 UI existence tests
 testIsMenuPanelVisible
-	self assert: (morphicMonet menuPanel visible)
+	self assert: (self morphicMonet menuPanel visible)

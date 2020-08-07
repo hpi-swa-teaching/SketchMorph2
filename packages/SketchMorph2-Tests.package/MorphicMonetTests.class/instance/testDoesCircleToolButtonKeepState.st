@@ -1,7 +1,7 @@
 keeping state tests
 testDoesCircleToolButtonKeepState
-	| buttonLabel|
-	morphicMonet backend 
+	| buttonLabel |
+	self morphicMonet backend 
 		mode: #geometric;
 		currentGeometricForm: #circle.
 	buttonLabel := 'Circle Tool'.

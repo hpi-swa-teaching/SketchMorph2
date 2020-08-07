@@ -1,7 +1,7 @@
 UI existence tests
 testHasColorPaletteNoDuplicates
 	| palette current |
-	palette := morphicMonet colorPalette.
+	palette := self morphicMonet colorPalette.
 	current := nil.
 	palette colorCollection withIndexDo: [:color1 :index1 | 
 		palette colorCollection withIndexDo: [:color2 :index2 | 

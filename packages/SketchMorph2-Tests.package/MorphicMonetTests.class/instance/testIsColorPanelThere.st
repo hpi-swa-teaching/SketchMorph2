@@ -1,3 +1,3 @@
 UI existence tests
 testIsColorPanelThere
-	self assert: (morphicMonet topPanel submorphs includes: morphicMonet colorPanel)
+	self assert: (self morphicMonet topPanel submorphs includes: self morphicMonet colorPanel)

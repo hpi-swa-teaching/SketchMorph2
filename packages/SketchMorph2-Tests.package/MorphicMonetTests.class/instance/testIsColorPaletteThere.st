@@ -1,5 +1,5 @@
 UI existence tests
 testIsColorPaletteThere
 	| palette |
-	palette := morphicMonet colorPalette.
-	self assert: [morphicMonet colorPanel submorphs includes: palette]
+	palette := self morphicMonet colorPalette.
+	self assert: [self morphicMonet colorPanel submorphs includes: palette]

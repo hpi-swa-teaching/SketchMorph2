@@ -1,3 +1,3 @@
-private
+support
 isButtonThere: aLabel
-	^(self lookForMenuWithItem: aLabel) ~~ nil.
+	^ ((self lookForMenuWithItem: aLabel) = nil) not.

@@ -1,5 +1,5 @@
-private
+support
 doesButtonWork: aLabel
 	| block | 
 	block := self toolButtonsDict at: aLabel.
-	^ block value: morphicMonet backend
+	^ block value: self morphicMonet backend

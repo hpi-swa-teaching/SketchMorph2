@@ -1,3 +1,3 @@
 UI existence tests
 testIsCanvasPanelThere
-	self assert: (morphicMonet submorphs includes: morphicMonet canvasPanel)
+	self assert: (self morphicMonet submorphs includes: self morphicMonet canvasPanel)

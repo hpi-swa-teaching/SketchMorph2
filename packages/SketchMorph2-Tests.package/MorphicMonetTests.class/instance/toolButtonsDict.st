@@ -1,4 +1,4 @@
-private
+support
 toolButtonsDict
 	" -Label of the button - assertion after action"
 	^ (OrderedDictionary new)
@@ -11,4 +11,3 @@ toolButtonsDict
 		at: 'Circle Brush' 		put: [:backend | backend mode = #pen and: [backend isErasing not]];
 		at: 'Rectangle Brush' put: [:backend | backend mode = #pen and: [backend isErasing not]];
 		yourself
-		"Clear Canvas does not change State"

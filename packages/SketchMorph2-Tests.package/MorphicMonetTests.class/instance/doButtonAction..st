@@ -1,4 +1,4 @@
-private
+support
 doButtonAction: aLabel
 	| submenu button |
 	submenu := self lookForMenuWithItem: aLabel.

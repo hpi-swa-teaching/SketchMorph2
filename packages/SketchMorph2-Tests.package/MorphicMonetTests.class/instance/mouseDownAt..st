@@ -1,4 +1,4 @@
-private
+support
 mouseDownAt: point
 
 	^ MouseButtonEvent new

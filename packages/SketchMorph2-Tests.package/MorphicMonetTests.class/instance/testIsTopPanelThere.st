@@ -1,3 +1,3 @@
 UI existence tests
 testIsTopPanelThere
-	self assert: (morphicMonet submorphs includes: morphicMonet topPanel)
+	self assert: (self morphicMonet submorphs includes: self morphicMonet topPanel)

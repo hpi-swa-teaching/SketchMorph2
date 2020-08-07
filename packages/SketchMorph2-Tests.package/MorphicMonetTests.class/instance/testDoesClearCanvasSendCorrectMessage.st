@@ -1,5 +1,5 @@
 mockObject tests
 testDoesClearCanvasSendCorrectMessage
-	morphicMonet canvas backend: mockBackend.
-	morphicMonet clearCanvas.
-	self assert: morphicMonet backend calledClearCanvas
+	self morphicMonet canvas backend: self mockBackend.
+	self morphicMonet clearCanvas.
+	self assert: self morphicMonet backend calledClearCanvas

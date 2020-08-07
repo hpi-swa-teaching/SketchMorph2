@@ -1,7 +1,7 @@
 keeping state tests
 testDoesRectangleToolButtonKeepState
 	| buttonLabel |
-	morphicMonet backend 
+	self morphicMonet backend 
 		mode: #geometric;
 		currentGeometricForm: #rectangle.
 	buttonLabel := 'Rectangle Tool'.
