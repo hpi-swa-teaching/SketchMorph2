@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "NC 8/7/2020 14:59",
+	"commentStamp" : "",
 	"instvars" : [
-		"lastCalledMethod" ],
-	"name" : "M2BackendMock",
+		 ],
+	"name" : "MorphicMonetMock",
 	"pools" : [
 		 ],
-	"super" : "M2Backend",
+	"super" : "MorphicMonet",
 	"type" : "normal" }

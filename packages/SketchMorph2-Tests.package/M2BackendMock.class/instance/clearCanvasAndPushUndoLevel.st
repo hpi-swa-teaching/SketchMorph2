@@ -1,4 +1,4 @@
 accessing
 clearCanvasAndPushUndoLevel
-	self calledClearCanvas: true
-	
+	super clearCanvasAndPushUndoLevel.
+	self lastCalledMethod: #clearCanvasAndPushUndoLevel

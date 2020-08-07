@@ -2,12 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"calledClearCanvas" : "NC 8/7/2020 15:01",
-		"calledClearCanvas:" : "NC 8/7/2020 15:01",
-		"calledUndo" : "NC 8/7/2020 15:02",
-		"calledUndo:" : "NC 8/7/2020 15:01",
-		"clearCanvasAndPushUndoLevel" : "NC 8/7/2020 15:20",
-		"form" : "NC 8/7/2020 15:15",
-		"form:" : "NC 8/7/2020 15:00",
-		"isInGeometricMode" : "NC 8/7/2020 15:15",
-		"undo" : "NC 8/7/2020 15:02" } }
+		"clearCanvasAndPushUndoLevel" : "mp 8/7/2020 17:31",
+		"importPNG:" : "mp 8/7/2020 20:42",
+		"lastCalledMethod" : "mp 8/7/2020 17:13",
+		"lastCalledMethod:" : "mp 8/7/2020 17:14",
+		"undo" : "mp 8/7/2020 17:43" } }

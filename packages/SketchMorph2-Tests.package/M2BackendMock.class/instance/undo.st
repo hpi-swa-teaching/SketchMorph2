@@ -1,3 +1,4 @@
 accessing
 undo
-	self calledUndo: true
+	super undo.
+	self lastCalledMethod: #undo

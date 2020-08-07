@@ -8,8 +8,7 @@
 	"instvars" : [
 		"world",
 		"hand",
-		"morphicMonet",
-		"mockBackend" ],
+		"morphicMonet" ],
 	"name" : "MorphicMonetTests",
 	"pools" : [
 		 ],
