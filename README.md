@@ -4,7 +4,11 @@
 Sketching tool for Squeak. Offers a flexible backend through image form manipulation and friendly usage with a Morphic frontend.
 
 ## How to Install
-Install as you would any SAR file: Drag and drop into your squeak image.
+
+    Metacello new 
+      baseline: 'SketchMorph2';
+      repository: 'github://HPI-SWA-Teaching/SketchMorph2:dev/packages';
+      load
 
 ## Usage
 Open the frontend by executing ```MorphicMonet open```.\
