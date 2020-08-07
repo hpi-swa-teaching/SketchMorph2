@@ -1,5 +1,5 @@
 UI existence tests
-testDoesFillButtonExist
+testIsPencilButtonThere
 	| buttonLabel |
-	buttonLabel := 'Fill Area'.
+	buttonLabel := 'Pencil'.
 	self assert: (self isButtonThere: buttonLabel)

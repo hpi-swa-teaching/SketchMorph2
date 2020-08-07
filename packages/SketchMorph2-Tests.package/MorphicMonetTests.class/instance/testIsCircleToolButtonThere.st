@@ -1,5 +1,5 @@
 UI existence tests
-testDoesCircleToolButtonExist
+testIsCircleToolButtonThere
 	| buttonLabel|
 	buttonLabel := 'Circle Tool'.
 	self assert: (self isButtonThere: buttonLabel)
