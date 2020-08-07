@@ -4,11 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "NC 8/7/2020 14:58",
 	"instvars" : [
 		"world",
 		"hand",
-		"morphicMonet" ],
+		"morphicMonet",
+		"mockBackend" ],
 	"name" : "MorphicMonetTests",
 	"pools" : [
 		 ],

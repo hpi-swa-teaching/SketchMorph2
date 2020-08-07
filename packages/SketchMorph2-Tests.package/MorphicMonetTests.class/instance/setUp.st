@@ -7,8 +7,8 @@ setUp
 		yourself.
 
 	morphicMonet := MorphicMonet new openInWorld: world.
-		
 	hand := HandMorphForEventTests new.
+	mockBackend := M2BackendMock new.
 	
 	world
 		removeHand: world firstHand;
