@@ -1,0 +1,1 @@
+Stores every action an user does to recreate the steps done during the undo process. Uses an orderedCollection where every methodCall is stored together with its arguments.

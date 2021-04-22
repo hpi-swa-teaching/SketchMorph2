@@ -1,0 +1,14 @@
+{
+	"category" : "SketchMorph2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "wr 8/4/2020 13:02",
+	"instvars" : [
+		 ],
+	"name" : "M2FillGeometricForm",
+	"pools" : [
+		 ],
+	"super" : "M2CheckBoxMenuItem",
+	"type" : "normal" }

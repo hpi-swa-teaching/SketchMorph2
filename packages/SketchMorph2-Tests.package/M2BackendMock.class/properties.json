@@ -1,0 +1,14 @@
+{
+	"category" : "SketchMorph2-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "NC 8/7/2020 14:59",
+	"instvars" : [
+		"lastCalledMethod" ],
+	"name" : "M2BackendMock",
+	"pools" : [
+		 ],
+	"super" : "M2Backend",
+	"type" : "normal" }

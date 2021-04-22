@@ -1,0 +1,14 @@
+{
+	"category" : "SketchMorph2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "wr 8/4/2020 13:04",
+	"instvars" : [
+		 ],
+	"name" : "M2ClearCanvas",
+	"pools" : [
+		 ],
+	"super" : "M2IconMenuItem",
+	"type" : "normal" }

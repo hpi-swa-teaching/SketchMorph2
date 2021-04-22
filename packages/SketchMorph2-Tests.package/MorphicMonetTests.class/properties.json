@@ -1,0 +1,16 @@
+{
+	"category" : "SketchMorph2-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "NC 8/7/2020 14:58",
+	"instvars" : [
+		"world",
+		"hand",
+		"morphicMonet" ],
+	"name" : "MorphicMonetTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

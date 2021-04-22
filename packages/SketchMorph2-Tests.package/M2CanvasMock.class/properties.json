@@ -1,0 +1,14 @@
+{
+	"category" : "SketchMorph2-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mp 8/7/2020 20:49",
+	"instvars" : [
+		 ],
+	"name" : "M2CanvasMock",
+	"pools" : [
+		 ],
+	"super" : "M2Canvas",
+	"type" : "normal" }

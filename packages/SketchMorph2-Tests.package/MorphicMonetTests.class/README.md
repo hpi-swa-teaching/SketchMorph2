@@ -1,0 +1,1 @@
+Tests the functionality of the MorphicMonet class (UI - Frontend requirements).

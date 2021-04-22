@@ -1,0 +1,15 @@
+{
+	"category" : "SketchMorph2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "CCJ 6/25/2020 12:17",
+	"instvars" : [
+		"backend",
+		"methodCalls" ],
+	"name" : "M2UserAction",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

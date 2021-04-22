@@ -1,0 +1,1 @@
+M2CircleBrush is an M2IconMenuItem used to select the circle brush tool.

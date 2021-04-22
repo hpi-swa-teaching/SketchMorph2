@@ -1,0 +1,15 @@
+{
+	"category" : "SketchMorph2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "wr 8/4/2020 12:56",
+	"instvars" : [
+		"backend",
+		"temporaryCanvas" ],
+	"name" : "M2Canvas",
+	"pools" : [
+		 ],
+	"super" : "ImageMorph",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+default
+defaultColorMorphBorderColor
+	^ Color black

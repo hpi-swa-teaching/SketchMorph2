@@ -1,0 +1,15 @@
+{
+	"category" : "SketchMorph2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mk 6/25/2020 12:17",
+	"instvars" : [
+		"form",
+		"actions" ],
+	"name" : "M2UndoLevel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "SketchMorph2-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mp 8/7/2020 20:49",
+	"instvars" : [
+		 ],
+	"name" : "MorphicMonetMock",
+	"pools" : [
+		 ],
+	"super" : "MorphicMonet",
+	"type" : "normal" }

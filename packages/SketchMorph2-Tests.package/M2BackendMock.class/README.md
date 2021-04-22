@@ -1,0 +1,1 @@
+This is a Mock Object imitating a M2Backend, it just remembers if some methods were called. Useful to test if UI Buttons call the right methods

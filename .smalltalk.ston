@@ -1,0 +1,11 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'SketchMorph2',
+      #directory : 'packages',
+      #platforms : [ #squeak ],
+      #load : [ 'tests' ],
+      #useLatestMetacello : true
+    }
+  ]
+}

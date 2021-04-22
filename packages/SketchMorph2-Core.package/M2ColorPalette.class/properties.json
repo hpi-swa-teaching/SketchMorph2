@@ -1,0 +1,15 @@
+{
+	"category" : "SketchMorph2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "wr 8/4/2020 12:58",
+	"instvars" : [
+		"squeakPaint",
+		"buttons" ],
+	"name" : "M2ColorPalette",
+	"pools" : [
+		 ],
+	"super" : "PluggablePanelMorph",
+	"type" : "normal" }

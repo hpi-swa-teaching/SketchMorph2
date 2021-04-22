@@ -1,0 +1,28 @@
+{
+	"category" : "SketchMorph2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mp 5/22/2020 10:37",
+	"instvars" : [
+		"form",
+		"isErasing",
+		"eraser",
+		"pen",
+		"eraserSize",
+		"pencilSize",
+		"brushSize",
+		"startPoint",
+		"temporaryForm",
+		"currentGeometricForm",
+		"mode",
+		"undoStack",
+		"currentUserAction",
+		"backgroundColor",
+		"isFillingGeometricForm" ],
+	"name" : "M2Backend",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

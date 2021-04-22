@@ -1,0 +1,15 @@
+{
+	"category" : "SketchMorph2-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mk 8/3/2020 16:51",
+	"instvars" : [
+		"backend",
+		"fileDirectory" ],
+	"name" : "M2BackendTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

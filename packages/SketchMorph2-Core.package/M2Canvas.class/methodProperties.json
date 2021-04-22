@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"backend" : "mk 7/27/2020 20:43",
+		"changed" : "wr 6/22/2020 16:11",
+		"defaultCanvasSize" : "wr 5/23/2020 10:56",
+		"extent:" : "wr 6/22/2020 16:26",
+		"handlesMouseDown:" : "mp 5/17/2020 11:53",
+		"handlesMouseMove:" : "mp 5/17/2020 11:52",
+		"handlesMouseOverDragging:" : "mp 5/17/2020 11:52",
+		"initialize" : "mp 5/17/2020 11:50",
+		"isMouseDown:" : "NC 5/16/2020 13:16",
+		"mouseDown:" : "mk 7/3/2020 18:38",
+		"mouseEnterDragging:" : "mp 7/27/2020 16:58",
+		"mouseLeaveDragging:" : "mp 7/27/2020 16:58",
+		"mouseMove:" : "mp 7/27/2020 16:58",
+		"mouseUp:" : "mk 7/3/2020 19:27",
+		"relativeMousePosition:" : "mp 5/15/2020 12:42",
+		"temporaryCanvas" : "NC 5/16/2020 11:52" } }
