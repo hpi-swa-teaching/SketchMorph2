@@ -1,3 +1,5 @@
 drawing
 startDrawing
-	self currentPen down.
+	self currentPen down
+
+

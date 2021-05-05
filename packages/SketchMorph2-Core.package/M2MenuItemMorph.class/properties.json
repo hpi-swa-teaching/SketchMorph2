@@ -1,0 +1,15 @@
+{
+	"category" : "SketchMorph2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "K.P. 5/1/2021 13:26",
+	"instvars" : [
+		"isActivatable",
+		"isActivated" ],
+	"name" : "M2MenuItemMorph",
+	"pools" : [
+		 ],
+	"super" : "MenuItemMorph",
+	"type" : "normal" }

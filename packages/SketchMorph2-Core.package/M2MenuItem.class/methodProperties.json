@@ -2,6 +2,7 @@
 	"class" : {
 		"actionSelector" : "mp 8/3/2020 17:10",
 		"getMenuItemForTarget:" : "mp 8/3/2020 17:10",
+		"isActivatable" : "K.P. 5/1/2021 13:31",
 		"label" : "mp 8/3/2020 17:10" },
 	"instance" : {
 		 } }
