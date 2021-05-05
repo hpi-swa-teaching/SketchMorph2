@@ -5,6 +5,6 @@ project: aForm at: aPoint
 		from: aForm 
 		at: aPoint
 		clippingBox: (0 asPoint corner: self form extent) 
-		rule: Form paint
+		rule: Form blend
 		fillColor: nil.
 	self resetTemporaryForm
