@@ -7,7 +7,8 @@
 	"commentStamp" : "K.P. 5/1/2021 13:26",
 	"instvars" : [
 		"isActivatable",
-		"isActivated" ],
+		"isActivated",
+		"isDefaultTool" ],
 	"name" : "M2MenuItemMorph",
 	"pools" : [
 		 ],
