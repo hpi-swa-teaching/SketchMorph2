@@ -2,17 +2,17 @@
 	"class" : {
 		"newWithSqueakPaint:" : "mp 7/26/2020 16:27" },
 	"instance" : {
-		"buttons" : "mp 8/7/2020 20:54",
-		"colorCollection" : "mFr 5/6/2021 17:29",
-		"colorMorphWith:" : "mp 7/27/2020 16:56",
-		"createPalettePanel" : "mFr 5/6/2021 18:07",
-		"createRowPanelCollection" : "mk 8/7/2020 16:57",
-		"customizableColorMorph" : "mFr 5/6/2021 18:07",
-		"customizableColorMorphCollection" : "mFr 5/6/2021 17:49",
-		"defaultColorMorphBorderColor" : "wr 6/11/2020 11:49",
-		"defaultColorMorphBorderWidth" : "wr 6/11/2020 11:48",
+		"buttons" : "mFr 5/7/2021 10:12",
+		"buttons:" : "mFr 5/7/2021 09:48",
+		"colorCollection" : "mFr 5/7/2021 09:25",
+		"createPalettePanel" : "mFr 5/6/2021 23:16",
+		"createRowPanelCollection" : "mFr 5/7/2021 10:11",
+		"customizableButtons" : "mFr 5/7/2021 18:38",
+		"customizableButtons:" : "mFr 5/7/2021 09:27",
+		"defaultButtonsPerRow" : "mFr 5/7/2021 14:43",
 		"defaultExtent" : "mk 7/27/2020 20:42",
-		"defaultRowNumber" : "mFr 5/6/2021 17:44",
 		"initialize" : "mp 8/3/2020 17:15",
 		"squeakPaint" : "NC 6/14/2020 16:39",
-		"squeakPaint:" : "NC 6/14/2020 16:39" } }
+		"squeakPaint:" : "NC 6/14/2020 16:39",
+		"uncustomizableButtons" : "mFr 5/7/2021 18:38",
+		"uncustomizableButtons:" : "mFr 5/7/2021 09:27" } }

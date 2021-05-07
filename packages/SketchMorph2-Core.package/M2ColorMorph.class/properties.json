@@ -1,0 +1,15 @@
+{
+	"category" : "SketchMorph2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"initialColor",
+		"palette" ],
+	"name" : "M2ColorMorph",
+	"pools" : [
+		 ],
+	"super" : "PluggableButtonMorph",
+	"type" : "normal" }

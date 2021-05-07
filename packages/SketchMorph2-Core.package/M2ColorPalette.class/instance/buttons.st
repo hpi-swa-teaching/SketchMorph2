@@ -1,3 +1,3 @@
 accessing
 buttons
-	^ buttons ifNil: [buttons := self colorCollection collect: [:aColor | self colorMorphWith: aColor]]
+	^ buttons ifNil: [buttons := OrderedCollection new addAll: self customizableButtons; addAll: self uncustomizableButtons; yourself]
