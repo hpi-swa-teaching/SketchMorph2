@@ -3,4 +3,3 @@ testIsImportPNGButtonThere
 	| buttonLabel |
 	buttonLabel := 'Import PNG'.
 	self assert: (self isButtonThere: buttonLabel).
-	
