@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "CS 5/8/2021 19:18",
 	"instvars" : [
-		 ],
-	"name" : "MorphicMonetTests",
+		"world",
+		"hand",
+		"morphicMonet" ],
+	"name" : "MorphicMonetLegacyTests",
 	"pools" : [
 		 ],
-	"super" : "MTFTestCase",
+	"super" : "TestCase",
 	"type" : "normal" }
