@@ -1,3 +1,3 @@
 running
 setUp
-	self wantsToTest: MorphicMonetMock new.
+	self wantsToTest: MorphicMonetMock new

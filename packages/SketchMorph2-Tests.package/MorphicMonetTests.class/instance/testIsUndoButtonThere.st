@@ -2,5 +2,4 @@ UI existence tests
 testIsUndoButtonThere
 	| buttonLabel |
 	buttonLabel := 'Undo'.
-	self assert: (self isButtonThere: buttonLabel).
-	
+	self assert: (self isButtonThere: buttonLabel)
