@@ -6,5 +6,6 @@ menuBrushCollection
 			add: (M2TriangleBrush getMenuItemForTarget: self backend);
 			add: (M2CircleBrush getMenuItemForTarget: self backend);
 			add: (M2RectangleBrush getMenuItemForTarget: self backend);
+			add: (M2Pipette getMenuItemForTarget: self);
 			yourself
 		
