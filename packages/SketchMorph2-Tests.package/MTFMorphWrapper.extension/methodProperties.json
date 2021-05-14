@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"generateKeyboardEvent:with:on:modifiedBy:" : "CS 5/13/2021 10:27",
+		"sendKey:modifiedBy:" : "CS 5/13/2021 10:22",
+		"sendKeyEvent:characterValue:modifiedBy:" : "CS 5/14/2021 12:48" } }

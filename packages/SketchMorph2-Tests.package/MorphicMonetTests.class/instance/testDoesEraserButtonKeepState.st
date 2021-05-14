@@ -1,7 +1,7 @@
 keeping state tests
 testDoesEraserButtonKeepState
 	| buttonLabel |
-	self morphicMonet backend 
+	self subject backend 
 		mode: #pen;
 		isErasing: true.
 	buttonLabel := 'Eraser'.
