@@ -12,7 +12,11 @@
 		"topPanel",
 		"colorPanel",
 		"colorPalette",
-		"colorPicker" ],
+		"colorPicker",
+		"menuBrushCollection",
+		"menuGeometricCollection",
+		"menuMiscCollection",
+		"submenuDict" ],
 	"name" : "MorphicMonet",
 	"pools" : [
 		 ],
