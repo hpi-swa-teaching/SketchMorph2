@@ -1,3 +1,3 @@
 support
 isButtonThere: aLabel
-	^ ((self lookForMenuWithItem: aLabel) isNil) not
+	^ (self lookForMenuWithItem: aLabel) notNil

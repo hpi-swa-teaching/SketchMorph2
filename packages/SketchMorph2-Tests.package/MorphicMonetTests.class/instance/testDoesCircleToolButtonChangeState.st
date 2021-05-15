@@ -1,6 +1,6 @@
 changing state tests
 testDoesCircleToolButtonChangeState
-	| buttonLabel|
+	| buttonLabel |
 	self subject backend mode: #pen.
 	buttonLabel := 'Circle Tool'.
 	self doButtonAction: buttonLabel.
