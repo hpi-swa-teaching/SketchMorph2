@@ -1,1 +1,0 @@
-Tests the functionality of the MorphicMonet class (UI - Frontend requirements). - Legacy, to be replaced by MorphicMonetTests class.
