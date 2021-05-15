@@ -2,12 +2,13 @@
 	"class" : {
 		"open" : "mp 7/11/2020 10:58" },
 	"instance" : {
+		"activateDefaultItem" : "K.P. 5/15/2021 14:16",
 		"applyDefaultSettingsTo:" : "mk 5/25/2020 17:47",
 		"backend" : "CCJ 6/3/2020 17:20",
 		"canvas" : "mk 7/27/2020 20:44",
 		"canvasPanel" : "NC 6/14/2020 15:53",
 		"canvasPanel:" : "wr 5/23/2020 11:28",
-		"chooseColor" : "mFr 5/14/2021 15:00",
+		"chooseColor" : "K.P. 5/15/2021 14:11",
 		"clearCanvas" : "NC 7/24/2020 16:54",
 		"colorPalette" : "NC 6/18/2020 11:39",
 		"colorPanel" : "NC 6/14/2020 15:58",
@@ -31,7 +32,7 @@
 		"initializePanels" : "mk 7/27/2020 20:16",
 		"initializeTopPanel" : "mk 7/27/2020 20:15",
 		"loadCanvas" : "JP 5/19/2021 00:27",
-		"loadMenu" : "mFr 5/6/2021 16:06",
+		"loadMenu" : "K.P. 5/15/2021 14:11",
 		"menuBrushCollection" : "mFr 5/14/2021 15:05",
 		"menuBrushCollection:" : "mFr 5/14/2021 15:03",
 		"menuGeometricCollection" : "mFr 5/14/2021 15:05",
