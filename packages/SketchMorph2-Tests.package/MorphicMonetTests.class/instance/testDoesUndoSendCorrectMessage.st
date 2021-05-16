@@ -1,4 +1,5 @@
 mockObject tests
 testDoesUndoSendCorrectMessage
-	self morphicMonet undo.
-	self assert: self morphicMonet backend lastCalledMethod == #undo
+	self doDummyAction.
+	self subject undo.
+	self assert: self subject backend lastCalledMethod == #undo

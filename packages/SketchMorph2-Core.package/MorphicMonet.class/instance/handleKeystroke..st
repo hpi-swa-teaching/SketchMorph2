@@ -1,6 +1,6 @@
 event handling
-filterEvent: aKeyboardEvent for: anObject
-	super filterEvent: aKeyboardEvent for: anObject.
+handleKeystroke: aKeyboardEvent
+	super handleKeystroke: aKeyboardEvent.
 	
 	aKeyboardEvent commandKeyPressed ifTrue: [
 		aKeyboardEvent keyCharacter caseOf: {

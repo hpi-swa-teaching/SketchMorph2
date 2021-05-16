@@ -1,6 +1,5 @@
 mockObject tests
 testPasteClipboardImage
 	Clipboard clipboardText: self writeTestPNG.
-	self hand newKeyboardFocus: self morphicMonet.
-	self hand handleEvent: self generatePasteEvent.
-	self assert: self morphicMonet backend lastCalledMethod == #importPNG:
+	self subject sendKey: $v modifiedBy: MTFMorphWrapper commandModifier.
+	self assert: self subject backend lastCalledMethod == #importPNG:

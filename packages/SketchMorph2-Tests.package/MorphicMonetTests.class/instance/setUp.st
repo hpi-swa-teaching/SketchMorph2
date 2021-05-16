@@ -1,4 +1,3 @@
-support
+running
 setUp
-	super setUp.
-	self morphicMonet: (MorphicMonetMock new openInWorld: self world)
+	self wantsToTest: MorphicMonetMock new
