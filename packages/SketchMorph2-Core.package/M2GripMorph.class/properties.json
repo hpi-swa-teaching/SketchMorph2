@@ -1,0 +1,15 @@
+{
+	"category" : "SketchMorph2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"target",
+		"cursorOffset" ],
+	"name" : "M2GripMorph",
+	"pools" : [
+		 ],
+	"super" : "AbstractResizerMorph",
+	"type" : "normal" }
