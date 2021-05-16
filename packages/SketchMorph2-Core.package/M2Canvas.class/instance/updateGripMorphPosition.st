@@ -1,0 +1,3 @@
+updating
+updateGripMorphPosition
+	self gripMorph updatePosition

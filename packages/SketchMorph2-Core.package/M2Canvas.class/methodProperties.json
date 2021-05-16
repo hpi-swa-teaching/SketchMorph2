@@ -2,11 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
+		"addGripMorph:" : "CS 5/16/2021 20:26",
 		"backend" : "mk 7/27/2020 20:43",
 		"changed" : "wr 6/22/2020 16:11",
 		"defaultCanvasSize" : "wr 5/23/2020 10:56",
 		"extent:" : "wr 6/22/2020 16:26",
 		"fastFramingOn" : "mFr 5/16/2021 17:48",
+		"gripMorph" : "CS 5/16/2021 20:20",
+		"gripMorph:" : "CS 5/16/2021 20:21",
 		"handlesMouseDown:" : "mp 5/17/2020 11:53",
 		"handlesMouseMove:" : "mp 5/17/2020 11:52",
 		"handlesMouseOverDragging:" : "mp 5/17/2020 11:52",
@@ -18,5 +21,6 @@
 		"mouseMove:" : "mp 7/27/2020 16:58",
 		"mouseUp:" : "mk 7/3/2020 19:27",
 		"relativeMousePosition:" : "mp 5/15/2020 12:42",
-		"setCanvasSize:" : "CS 5/16/2021 20:04",
-		"temporaryCanvas" : "NC 5/16/2020 11:52" } }
+		"setCanvasSize:" : "CS 5/16/2021 20:30",
+		"temporaryCanvas" : "NC 5/16/2020 11:52",
+		"updateGripMorphPosition" : "CS 5/16/2021 20:25" } }

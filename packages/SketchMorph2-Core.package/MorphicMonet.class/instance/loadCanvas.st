@@ -6,4 +6,4 @@ loadCanvas
 		pushNewUndoLevelWithForm: self form copy;
 		pen: self backend defaultPen.
 	self canvas image: self form.
-	self canvas addMorph: (M2GripMorph newOn: self canvas)
+	self canvas addGripMorph: (M2GripMorph newOn: self canvas)
