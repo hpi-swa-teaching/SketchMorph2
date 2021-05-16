@@ -1,8 +1,9 @@
 accessing
 setCanvasSize: aSize
-	| tempForm |
+	| clippedSize tempForm |
+	clippedSize := aSize min: self owner extent.
 	tempForm := self backend copyForm.
-	self backend form setExtent: aSize depth:  tempForm depth.
+	self backend form setExtent: clippedSize depth:  tempForm depth.
 	self backend
 		clearCanvas;
 		project: tempForm at: 0 asPoint;
