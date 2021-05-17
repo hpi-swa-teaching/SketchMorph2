@@ -1,3 +1,3 @@
 updating
 updateGripMorphPosition
-	self gripMorph updatePosition
+	self gripMorph ifNotNil: [self gripMorph updatePosition]
