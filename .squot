@@ -1,6 +1,5 @@
 OrderedDictionary {
 	'packages/SketchMorph2-Core.package' : #SquotCypressCodeSerializer,
 	'packages/SketchMorph2-Tests.package' : #SquotCypressCodeSerializer,
-	'packages/BaselineOfSketchMorph2.package' : #SquotCypressCodeSerializer,
-	'SketchMorph2-Icons.package' : #SquotCypressCodeSerializer
+	'packages/BaselineOfSketchMorph2.package' : #SquotCypressCodeSerializer
 }
