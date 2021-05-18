@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addGripMorph:" : "CS 5/16/2021 20:26",
+		"addGripMorph:" : "JP 5/19/2021 00:31",
 		"backend" : "mk 7/27/2020 20:43",
 		"changed" : "wr 6/22/2020 16:11",
 		"defaultCanvasSize" : "wr 5/23/2020 10:56",
 		"extent:" : "wr 6/22/2020 16:26",
-		"fastFramingOn" : "mFr 5/16/2021 17:48",
+		"fastFramingOn" : "JP 5/19/2021 00:17",
 		"gripMorph" : "CS 5/16/2021 20:20",
 		"gripMorph:" : "CS 5/16/2021 20:21",
 		"handlesMouseDown:" : "mp 5/17/2020 11:53",
