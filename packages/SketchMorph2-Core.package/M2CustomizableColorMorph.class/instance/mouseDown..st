@@ -8,4 +8,4 @@ mouseDown: evt
 		ifTrue: [self performAction]
 		ifFalse: [
 			allButtons := owner submorphs select: [:m | m class = self class].
-			self updateFillStyle: evt].
+			self updateFillStyle: evt]

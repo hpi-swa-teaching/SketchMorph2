@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"on:color:" : "mFr 5/7/2021 18:28" },
+		"on:color:" : "mFr 5/18/2021 17:41" },
 	"instance" : {
-		"defaultColorMorphBorderColor" : "mFr 5/6/2021 22:58",
-		"defaultColorMorphBorderWidth" : "mFr 5/6/2021 22:59",
-		"initialColor" : "mFr 5/6/2021 23:06",
-		"initialColor:" : "mFr 5/6/2021 23:07",
-		"initialize" : "mFr 5/7/2021 20:36",
+		"defaultColorMorphBorderColor" : "mFr 5/18/2021 17:41",
+		"defaultColorMorphBorderWidth" : "mFr 5/18/2021 17:41",
+		"initialColor" : "mFr 5/18/2021 17:41",
+		"initialColor:" : "mFr 5/18/2021 17:41",
+		"initialize" : "mFr 5/18/2021 17:41",
 		"isM2ColorMorph" : "mFr 5/17/2021 11:45",
-		"palette" : "mFr 5/6/2021 23:02",
-		"palette:" : "mFr 5/6/2021 23:03" } }
+		"palette" : "mFr 5/18/2021 17:41",
+		"palette:" : "mFr 5/18/2021 17:40" } }

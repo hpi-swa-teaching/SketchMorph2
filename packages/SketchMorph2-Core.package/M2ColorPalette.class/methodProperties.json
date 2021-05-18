@@ -1,18 +1,18 @@
 {
 	"class" : {
-		"newWithSqueakPaint:" : "mp 7/26/2020 16:27" },
+		"newWithSqueakPaint:" : "mFr 5/18/2021 17:41" },
 	"instance" : {
-		"buttons" : "mFr 5/18/2021 17:35",
-		"buttons:" : "mFr 5/7/2021 09:48",
-		"colorCollection" : "mFr 5/7/2021 09:25",
-		"createPalettePanel" : "mFr 5/6/2021 23:16",
-		"createRowPanelCollection" : "mFr 5/7/2021 10:11",
-		"customizableButtons" : "mFr 5/7/2021 18:38",
-		"customizableButtons:" : "mFr 5/7/2021 09:27",
-		"defaultButtonsPerRow" : "mFr 5/7/2021 14:43",
-		"defaultExtent" : "mk 7/27/2020 20:42",
-		"initialize" : "mp 8/3/2020 17:15",
-		"squeakPaint" : "NC 6/14/2020 16:39",
-		"squeakPaint:" : "NC 6/14/2020 16:39",
-		"uncustomizableButtons" : "mFr 5/7/2021 18:38",
-		"uncustomizableButtons:" : "mFr 5/7/2021 09:27" } }
+		"buttons" : "mFr 5/18/2021 17:40",
+		"buttons:" : "mFr 5/18/2021 17:43",
+		"colorCollection" : "mFr 5/18/2021 17:43",
+		"createPalettePanel" : "mFr 5/18/2021 17:43",
+		"createRowPanelCollection" : "mFr 5/18/2021 17:43",
+		"customizableButtons" : "mFr 5/18/2021 17:43",
+		"customizableButtons:" : "mFr 5/18/2021 17:43",
+		"defaultButtonsPerRow" : "mFr 5/18/2021 17:43",
+		"defaultExtent" : "mFr 5/18/2021 17:43",
+		"initialize" : "mFr 5/18/2021 17:44",
+		"squeakPaint" : "mFr 5/18/2021 17:42",
+		"squeakPaint:" : "mFr 5/18/2021 17:42",
+		"uncustomizableButtons" : "mFr 5/18/2021 17:42",
+		"uncustomizableButtons:" : "mFr 5/18/2021 17:42" } }

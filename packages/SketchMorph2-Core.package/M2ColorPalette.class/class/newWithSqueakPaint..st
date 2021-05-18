@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 newWithSqueakPaint: aSqueakPaint
 	^ self basicNew
 		squeakPaint: aSqueakPaint;
