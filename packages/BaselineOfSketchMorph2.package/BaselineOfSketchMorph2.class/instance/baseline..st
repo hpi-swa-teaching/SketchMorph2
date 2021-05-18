@@ -7,9 +7,8 @@ baseline: spec
 			spec
 				baseline: 'MorphicTestingFramework' with: [
 					spec repository: 'github://hpi-swa-teaching/Morphic-Testing-Framework:master/packages'];
-				package: 'Icons' with: [spec repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/SwaUtilities'];
 				package: 'SketchMorph2-Core';
-				package: 'SketchMorph2-Tests' with: [spec requires: #('SketchMorph2-Core' 'MorphicTestingFramework' 'Icons')];
+				package: 'SketchMorph2-Tests' with: [spec requires: #('SketchMorph2-Core' 'MorphicTestingFramework')];
 				yourself.
 			spec
 				group: 'default' with: #('SketchMorph2-Core');
