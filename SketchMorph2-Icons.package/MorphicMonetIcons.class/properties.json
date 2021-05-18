@@ -1,0 +1,14 @@
+{
+	"category" : "SketchMorph2-Icons",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "K.P. 5/18/2021 19:41",
+	"instvars" : [
+		 ],
+	"name" : "MorphicMonetIcons",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

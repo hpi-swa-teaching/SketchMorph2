@@ -1,3 +1,3 @@
 as yet unclassified
 icon
-	^ UiFugueIcons paintBrushIcon
+	^ MorphicMonetIcons paintBrushIcon

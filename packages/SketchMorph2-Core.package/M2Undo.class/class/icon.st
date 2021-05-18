@@ -1,3 +1,3 @@
 as yet unclassified
 icon
-	^ UiFugueIcons arrowCurve180Icon
+	^ MorphicMonetIcons arrowCurve180Icon
