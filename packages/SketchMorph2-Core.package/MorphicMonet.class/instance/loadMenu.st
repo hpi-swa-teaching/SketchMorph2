@@ -7,4 +7,4 @@ loadMenu
 		self applyDefaultSettingsTo: submenu.
 		submenu beSticky.
 		self menuPanel addMorph: submenu].
-	    self activateDefaultItem
+	self activateDefaultItem
