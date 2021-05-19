@@ -4,4 +4,3 @@ initializeTopPanel
 		addMorph: self colorPanel;
 		addMorph: self menuPanel;
 		yourself)
-		

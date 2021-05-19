@@ -1,3 +1,3 @@
 accessing
-submenuDict: anObject
-	submenuDict := anObject
+submenuDict: aDictionary
+	submenuDict := aDictionary

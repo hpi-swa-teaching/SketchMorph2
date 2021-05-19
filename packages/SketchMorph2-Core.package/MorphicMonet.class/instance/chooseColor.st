@@ -1,9 +1,8 @@
 tooling
 chooseColor
-	| currentColor |
+	| probePosition |
 	self world activeHand showTemporaryCursor: 
-		(CursorWithAlpha fromIcon: UiFugueIcons pipetteIcon).
-	[Sensor redButtonPressed] whileFalse:
-		[currentColor := (Display colorAt: Sensor cursorPoint)].
-	self setColor: currentColor.
+		(CursorWithAlpha fromIcon: MorphicMonetIcons pipetteIcon).
+	[Sensor redButtonPressed] whileFalse: [probePosition := Sensor cursorPoint].
+	self setColor: (Display colorAt: probePosition).
 	self activateDefaultItem

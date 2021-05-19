@@ -1,3 +1,3 @@
 accessing
-menuMiscCollection: anObject
-	menuMiscCollection := anObject
+menuMiscCollection: aCollection
+	menuMiscCollection := aCollection

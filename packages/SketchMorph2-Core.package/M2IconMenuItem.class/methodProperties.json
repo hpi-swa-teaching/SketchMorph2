@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"actionSelector" : "mk 8/3/2020 15:57",
-		"defaultIconSize" : "mFr 5/16/2021 14:09",
-		"getMenuItemForTarget:" : "mFr 5/16/2021 14:08",
-		"handlesMouseDown:" : "K.P. 5/1/2021 00:13",
-		"icon" : "mFr 5/16/2021 14:05",
-		"isActivatable" : "K.P. 5/1/2021 13:31",
-		"isDefaultTool" : "mFr 5/6/2021 16:01",
-		"label" : "mk 8/3/2020 15:57" },
+		"actionSelector" : "mFr 5/19/2021 10:55",
+		"defaultIconSize" : "mFr 5/19/2021 12:14",
+		"getMenuItemForTarget:" : "mFr 5/19/2021 10:54",
+		"handlesMouseDown:" : "mFr 5/19/2021 10:55",
+		"icon" : "mFr 5/19/2021 10:55",
+		"isActivatable" : "mFr 5/19/2021 10:55",
+		"isDefaultTool" : "mFr 5/19/2021 10:55",
+		"label" : "mFr 5/19/2021 10:55" },
 	"instance" : {
 		 } }

@@ -4,4 +4,3 @@ license
 		© 2008-2010 Yusuke Kamiyamane
 		Website: http://p.yusukekamiyamane.com
 		License: http://creativecommons.org/licenses/by/3.0'
-		

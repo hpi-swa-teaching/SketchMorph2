@@ -1,3 +1,3 @@
 accessing
-menuGeometricCollection: anObject
-	menuGeometricCollection := anObject
+menuGeometricCollection: aCollection
+	menuGeometricCollection := aCollection

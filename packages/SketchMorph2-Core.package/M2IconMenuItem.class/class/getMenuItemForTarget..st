@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 getMenuItemForTarget: anObject
 	^ (M2MenuItemMorph new)
 		contents: self label; 
