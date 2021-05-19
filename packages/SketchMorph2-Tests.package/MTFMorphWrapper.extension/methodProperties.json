@@ -4,8 +4,8 @@
 	"instance" : {
 		"generateKeyboardEvent:with:on:modifiedBy:" : "CS 5/13/2021 10:27",
 		"leftClickAssert:" : "mFr 5/17/2021 11:54",
-		"leftClickWith:assert:" : "mFr 5/17/2021 12:06",
+		"leftClickWith:assert:" : "mFr 5/19/2021 12:58",
 		"rightClickAssert:" : "mFr 5/17/2021 11:55",
-		"rightClickWith:assert:" : "mFr 5/17/2021 12:06",
+		"rightClickWith:assert:" : "mFr 5/19/2021 12:58",
 		"sendKey:modifiedBy:" : "CS 5/13/2021 10:22",
 		"sendKeyEvent:characterValue:modifiedBy:" : "CS 5/14/2021 12:48" } }

@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"on:color:" : "mFr 5/18/2021 17:41" },
+		"on:for:" : "mFr 5/19/2021 12:53" },
 	"instance" : {
 		"defaultColorMorphBorderColor" : "mFr 5/18/2021 17:41",
 		"defaultColorMorphBorderWidth" : "mFr 5/18/2021 17:41",
 		"initialColor" : "mFr 5/18/2021 17:41",
 		"initialColor:" : "mFr 5/18/2021 17:41",
-		"initialize" : "mFr 5/18/2021 17:41",
+		"initialize" : "mFr 5/19/2021 12:55",
 		"isM2ColorMorph" : "mFr 5/17/2021 11:45",
 		"palette" : "mFr 5/18/2021 17:41",
 		"palette:" : "mFr 5/18/2021 17:40" } }
