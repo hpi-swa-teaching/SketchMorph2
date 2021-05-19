@@ -7,6 +7,7 @@
 	"commentStamp" : "K.P. 5/19/2021 01:01",
 	"instvars" : [
 		"cursorOffset",
+		"outline",
 		"target" ],
 	"name" : "M2GripMorph",
 	"pools" : [

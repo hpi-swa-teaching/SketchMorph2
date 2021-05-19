@@ -1,7 +1,7 @@
 accessing
 setCanvasSize: aSize
 	| clippedSize tempForm |
-	clippedSize := aSize min: self owner extent - (2 * self owner layoutInset asPoint).
+	clippedSize := aSize min: self maximumSize.
 	tempForm := self backend copyForm.
 	self backend form setExtent: clippedSize depth: tempForm depth.
 	self backend
