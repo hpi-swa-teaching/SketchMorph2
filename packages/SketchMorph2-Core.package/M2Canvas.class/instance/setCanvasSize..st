@@ -5,6 +5,7 @@ setCanvasSize: aSize
 	tempForm := self backend copyForm.
 	self backend form setExtent: clippedSize depth: tempForm depth.
 	self backend
+		formChanged;
 		clearCanvas;
 		project: tempForm at: 0 asPoint;
 		pushNewUndoLevelWithForm: self backend copyForm.
