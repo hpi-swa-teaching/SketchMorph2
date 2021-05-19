@@ -1,3 +1,3 @@
 accessing
-isM2MenuItemMorph
+isM2ColorMorph
 	^ true
