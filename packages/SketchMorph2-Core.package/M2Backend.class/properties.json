@@ -9,6 +9,7 @@
 		"form",
 		"isErasing",
 		"eraser",
+		"currentTool",
 		"pen",
 		"eraserSize",
 		"pencilSize",
