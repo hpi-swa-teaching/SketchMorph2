@@ -5,4 +5,6 @@ loadCanvas
 		formSize: (self canvasPanel extent - self defaultCanvasPanelBorder);
 		pushNewUndoLevelWithForm: self form copy;
 		pen: self backend defaultPen.
-	self canvas image: self form.
+	self canvas 
+		image: self form;
+		addGripMorph: (M2GripMorph newOn: self canvas)

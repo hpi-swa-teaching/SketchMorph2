@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"newOn:" : "mFr 5/16/2021 18:22" },
+	"instance" : {
+		"cursorOffset" : "mFr 5/16/2021 18:15",
+		"cursorOffset:" : "mFr 5/16/2021 18:15",
+		"initialize" : "CS 5/19/2021 19:43",
+		"mouseDown:" : "CS 5/19/2021 19:51",
+		"mouseMove:" : "CS 5/19/2021 19:51",
+		"mouseUp:" : "CS 5/19/2021 19:48",
+		"outline" : "CS 5/19/2021 19:52",
+		"outline:" : "CS 5/19/2021 19:52",
+		"resizeCursor" : "mFr 5/16/2021 18:29",
+		"target" : "JP 5/19/2021 00:19",
+		"target:" : "mFr 5/16/2021 18:15",
+		"updatePosition" : "CS 5/16/2021 20:05" } }
