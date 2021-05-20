@@ -4,4 +4,3 @@ initializeColorPanel
 		addMorph: self colorPalette;
 		addMorph: self colorPicker;
 		yourself)
-		
