@@ -1,6 +1,6 @@
 undo
 undo
-	self 
+	self wrapBlock: [self
 		removeLastUserAction;
 		restoreFormFromStack;
-		restoreUserActions
+		restoreUserActions]
