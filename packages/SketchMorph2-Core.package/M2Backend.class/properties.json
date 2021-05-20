@@ -9,6 +9,7 @@
 		"form",
 		"isErasing",
 		"eraser",
+		"currentColor",
 		"currentTool",
 		"pen",
 		"eraserSize",

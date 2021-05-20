@@ -1,5 +1,4 @@
 accessing
 formChanged
-	self pen: self defaultPen.
-	self eraser: self defaultEraser.
-	self isErasing: false.
+	self reloadCurrentPen.
+	self eraser: self defaultEraser
