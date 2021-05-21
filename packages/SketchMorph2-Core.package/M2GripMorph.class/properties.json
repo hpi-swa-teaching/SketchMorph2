@@ -7,10 +7,9 @@
 	"commentStamp" : "K.P. 5/19/2021 01:01",
 	"instvars" : [
 		"cursorOffset",
-		"outline",
-		"target" ],
+		"outline" ],
 	"name" : "M2GripMorph",
 	"pools" : [
 		 ],
-	"super" : "AbstractResizerMorph",
+	"super" : "BottomRightGripMorph",
 	"type" : "normal" }
