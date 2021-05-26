@@ -1,7 +1,7 @@
 testing
 testBrushSize
 	self backend
-		brushSize: 100;
+		brushSize: 50;
 		drawCircle;
-		clickAt: 500@200.
+		clickAt: 50 asPoint.
 	self compareFormWith: #brushSizeTest

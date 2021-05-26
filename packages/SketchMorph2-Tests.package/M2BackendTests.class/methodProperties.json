@@ -1,8 +1,8 @@
 {
 	"class" : {
 		"blueBackground" : "CCJ 6/25/2020 10:59",
-		"brushSizeTest" : "mFr 5/26/2021 11:19",
-		"circleBrushTest" : "mk 8/7/2020 15:47",
+		"brushSizeTest" : "ms 5/26/2021 16:12",
+		"circleBrushTest" : "ms 5/26/2021 16:17",
 		"circlesDiagonal14" : "NC 7/4/2020 13:04",
 		"diagonalPencilLine" : "wr 8/6/2020 13:49",
 		"filledCircle" : "NC 6/26/2020 16:43",
@@ -14,7 +14,7 @@
 		"notFilledRectangle" : "NC 6/26/2020 16:51",
 		"overlappingCircles" : "NC 6/26/2020 16:52",
 		"redBackground" : "CCJ 6/25/2020 10:58",
-		"triangleBrushTest" : "mk 8/7/2020 15:47",
+		"triangleBrushTest" : "ms 5/26/2021 16:18",
 		"whiteBackground" : "mk 6/20/2020 16:44" },
 	"instance" : {
 		"backend" : "mk 8/7/2020 16:14",
@@ -33,7 +33,7 @@
 		"initializeLocalFiles" : "mp 8/7/2020 20:38",
 		"setUp" : "mp 8/7/2020 20:38",
 		"tearDown" : "mk 7/25/2020 16:26",
-		"testBrushSize" : "mFr 5/26/2021 11:21",
+		"testBrushSize" : "ms 5/26/2021 16:13",
 		"testCachedForm" : "mk 8/3/2020 16:16",
 		"testCachedFormAfterImport" : "mk 8/3/2020 16:04",
 		"testCircleBrush" : "mk 8/7/2020 15:49",
