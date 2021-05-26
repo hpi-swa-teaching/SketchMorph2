@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"blueBackground" : "CCJ 6/25/2020 10:59",
+		"brushSizeTest" : "mFr 5/26/2021 11:19",
 		"circleBrushTest" : "mk 8/7/2020 15:47",
 		"circlesDiagonal14" : "NC 7/4/2020 13:04",
 		"diagonalPencilLine" : "wr 8/6/2020 13:49",
@@ -32,6 +33,7 @@
 		"initializeLocalFiles" : "mp 8/7/2020 20:38",
 		"setUp" : "mp 8/7/2020 20:38",
 		"tearDown" : "mk 7/25/2020 16:26",
+		"testBrushSize" : "mFr 5/26/2021 11:21",
 		"testCachedForm" : "mk 8/3/2020 16:16",
 		"testCachedFormAfterImport" : "mk 8/3/2020 16:04",
 		"testCircleBrush" : "mk 8/7/2020 15:49",

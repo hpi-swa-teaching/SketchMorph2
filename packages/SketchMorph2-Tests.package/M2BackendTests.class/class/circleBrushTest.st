@@ -1,4 +1,4 @@
-as yet unclassified
+testing - forms
 circleBrushTest
 	"This is an auto-generated method"
 	^ (Form
