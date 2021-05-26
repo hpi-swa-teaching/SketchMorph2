@@ -1,0 +1,3 @@
+defaults
+borderWidth
+	^ 10
