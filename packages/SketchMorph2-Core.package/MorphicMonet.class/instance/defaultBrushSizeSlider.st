@@ -4,7 +4,7 @@ defaultBrushSizeSlider
 	slider := SimpleSliderMorph new
 		name: #brushSizeSlider;
 		target: self backend;
-		actionSelector: #setBrushSizeTo:;
+		actionSelector: #setBrushAndEraserSizeTo:;
 		minVal: 1;
 		maxVal: 100;
 		width: 50;

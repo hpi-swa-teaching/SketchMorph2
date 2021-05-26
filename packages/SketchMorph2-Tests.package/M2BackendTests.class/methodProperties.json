@@ -48,6 +48,7 @@
 		"testCompareImportPNG" : "mk 7/25/2020 16:27",
 		"testDoesExportPNGSavesFile" : "mk 7/25/2020 16:30",
 		"testErase" : "mk 8/7/2020 16:12",
+		"testEraserSize" : "ms 5/26/2021 14:49",
 		"testExportAsMorph" : "mk 8/7/2020 16:28",
 		"testMultipleUndoAction" : "mk 8/3/2020 16:27",
 		"testRectangleBrush" : "mk 6/30/2020 12:11",
