@@ -4,5 +4,4 @@ mouseUp: evt
 		+ self position
 		- self cursorOffset
 		- self referencePoint.
-	self updatePosition.
 	self outline delete
