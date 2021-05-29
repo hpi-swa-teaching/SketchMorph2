@@ -5,4 +5,3 @@ setNewOutlineExtent
 		- self cursorOffset
 		- self referencePoint 
 		min: self target maximumSize)
-
