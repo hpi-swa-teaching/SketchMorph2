@@ -1,8 +1,7 @@
 testing
 testEraserSize
 	self backend
-		brushSize: 50;
-		eraserSize: 50;
+		setBrushAndEraserSizeTo: 50;
 		drawCircle;
 		clickAt: 75@75;
 		drawEraser;

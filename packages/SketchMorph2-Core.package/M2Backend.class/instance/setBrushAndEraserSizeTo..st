@@ -3,4 +3,4 @@ setBrushAndEraserSizeTo: aNumber
 	self
 		brushSize: aNumber rounded;
 		eraserSize: aNumber rounded;
-		perform: self currentTool
+		reloadCurrentPen
