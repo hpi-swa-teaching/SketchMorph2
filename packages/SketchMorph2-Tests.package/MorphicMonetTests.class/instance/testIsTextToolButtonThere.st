@@ -1,5 +1,5 @@
 UI existence tests
 testIsTextToolButtonThere
 	| buttonLabel |
-	buttonLabel := 'Text'.
+	buttonLabel := 'Add text'.
 	self assert: (self isButtonThere: buttonLabel)
