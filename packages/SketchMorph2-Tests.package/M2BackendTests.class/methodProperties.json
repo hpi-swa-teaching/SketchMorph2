@@ -14,7 +14,8 @@
 		"notFilledRectangle" : "NC 6/26/2020 16:51",
 		"overlappingCircles" : "NC 6/26/2020 16:52",
 		"redBackground" : "CCJ 6/25/2020 10:58",
-		"triangleBrushTest" : "K.P. 5/31/2021 21:51",
+		"simpleText" : "CS 5/30/2021 19:36",
+		"triangleBrushTest" : "mk 8/7/2020 15:47",
 		"whiteBackground" : "mk 6/20/2020 16:44" },
 	"instance" : {
 		"backend" : "mk 8/7/2020 16:14",
@@ -52,6 +53,7 @@
 		"testExportAsMorph" : "mk 8/7/2020 16:28",
 		"testMultipleUndoAction" : "mk 8/3/2020 16:27",
 		"testRectangleBrush" : "mk 6/30/2020 12:11",
+		"testSimpleText" : "CS 5/30/2021 18:29",
 		"testSingleUndoAction" : "mk 8/3/2020 16:28",
 		"testTriangleBrush" : "K.P. 5/31/2021 21:52",
 		"testUndoAfterClearCanvas" : "NC 8/7/2020 12:39",
