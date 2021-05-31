@@ -4,7 +4,7 @@ drawRectangle
 	self pen sourceForm:
 		(Form
 			extent: self rectangleBrushSize
-			offset: (self rectangleBrushSize / 2) floor negated)
+			offset: (self penNibOffset: self rectangleBrushSize))
 			fillBlack.
 	self mode: #pen.
 	self currentTool: #drawRectangle
