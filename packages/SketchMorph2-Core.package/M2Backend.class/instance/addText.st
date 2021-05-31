@@ -1,7 +1,7 @@
-drawing
+tool selection
 addText
-	self isErasing: false.
+	self
+		isErasing: false;
 	"self currentPen roundNib: self brushSize."
-	self mode: #text.
-	self currentTool: #addText.
-	"self world activeHand showTemporaryCursor: Cursor text"
+		mode: #text;
+		currentTool: #addText

@@ -8,15 +8,8 @@ commitText
 	self temporaryTextMorph
 		keyboardFocusChange: false;
 		selectFrom: 0 to: 0.
-	self project: self temporaryTextMorph imageForm at: point.
+	self temporaryTextMorph contents = ''
+		ifFalse: [self project: self temporaryTextMorph imageForm at: point].
 	self temporaryTextMorph
 		contents: '';
 		position: (-100) asPoint.
-"	self temporaryTextMorph "
-"	self temporaryTextMorph: nil."
-	self mode: #text
-	"self isInGeometricMode
-		ifTrue: [self startPoint: aPoint]
-		ifFalse: [self currentPen place: aPoint - self penNibOffset.
-			self startDrawing.
-			self userActionMoveDrawing: aPoint]"

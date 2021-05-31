@@ -1,5 +1,7 @@
-accessing
+tool selection
 fillShape
-	self isErasing: false.
-	self mode: #fill.
-	self currentTool: #fillShape
+	self
+		isErasing: false;
+		mode: #fill;
+		currentTool: #fillShape;
+		switchMode

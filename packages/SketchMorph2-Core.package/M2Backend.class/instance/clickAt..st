@@ -14,5 +14,5 @@ clickAt: aPoint
 			^ self].
 	self isInEditingTextMode
 		ifTrue: [
-			self commitText.
+			self printText.
 			^ self]

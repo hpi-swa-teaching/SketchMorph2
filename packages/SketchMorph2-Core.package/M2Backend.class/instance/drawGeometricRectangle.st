@@ -1,6 +1,8 @@
-drawing
+tool selection
 drawGeometricRectangle
-	self isErasing: false.
-	self mode: #geometric.
-	self currentGeometricForm: #rectangle.
-	self currentTool: #drawGeometricRectangle
+	self
+		isErasing: false;
+		mode: #geometric;
+		currentGeometricForm: #rectangle;
+		currentTool: #drawGeometricRectangle;
+		switchMode
