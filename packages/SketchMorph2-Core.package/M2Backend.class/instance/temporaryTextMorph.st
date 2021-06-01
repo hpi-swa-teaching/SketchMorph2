@@ -4,4 +4,4 @@ temporaryTextMorph
 			textColor: self penColor;
 			contents: '';
 			position: (-100) asPoint;
-			setTextStyle: TextStyle defaultFixed]
+			beAllFont: (StrikeFont familyName: #ComicSansMS pointSize: 17)]
