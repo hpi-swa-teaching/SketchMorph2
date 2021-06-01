@@ -1,3 +1,3 @@
 accessing
 label
-	^ 'choose Font'
+	^ 'Choose Font'
