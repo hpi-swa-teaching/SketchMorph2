@@ -1,7 +1,7 @@
 defaults
 defaultBrushSizeSlider
 	| slider |
-	slider := SimpleSliderMorph new
+	slider := M2SimpleSliderMorph new
 		name: #brushSizeSlider;
 		target: self backend;
 		actionSelector: #setBrushAndEraserSizeTo:;
