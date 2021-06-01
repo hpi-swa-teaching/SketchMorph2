@@ -1,7 +1,7 @@
 tool selection
 undo
 	self saveSettingsDuring: [self
-		switchMode
+		switchMode;
 		removeLastUserAction;
 		restoreFormFromStack;
 		restoreUserActions]

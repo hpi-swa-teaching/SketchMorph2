@@ -54,6 +54,7 @@
 		"testMultipleUndoAction" : "mk 8/3/2020 16:27",
 		"testRectangleBrush" : "mk 6/30/2020 12:11",
 		"testSimpleText" : "CS 5/30/2021 18:29",
+		"testSimpleTextUndo" : "CS 6/1/2021 17:17",
 		"testSingleUndoAction" : "mk 8/3/2020 16:28",
 		"testTriangleBrush" : "K.P. 5/31/2021 21:52",
 		"testUndoAfterClearCanvas" : "NC 8/7/2020 12:39",
