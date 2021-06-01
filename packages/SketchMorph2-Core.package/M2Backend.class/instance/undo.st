@@ -1,6 +1,6 @@
 undo
 undo
-	self 
+	self saveSettingsDuring: [self
 		removeLastUserAction;
 		restoreFormFromStack;
-		restoreUserActions
+		restoreUserActions]
