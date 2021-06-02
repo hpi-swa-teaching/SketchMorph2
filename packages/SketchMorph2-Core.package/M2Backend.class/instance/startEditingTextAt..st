@@ -1,8 +1,8 @@
 drawing
 startEditingTextAt: aPoint
 	| point |
-	point := aPoint + (self temporaryTextMorph owner
-		ifNotNil: [self temporaryTextMorph owner position]
+	point := aPoint + (self temporaryTextMorph canvas
+		ifNotNil: [self temporaryTextMorph canvas position]
 		ifNil: [0]).
 	self temporaryTextMorph getAt: point.
 	self mode: #editingText

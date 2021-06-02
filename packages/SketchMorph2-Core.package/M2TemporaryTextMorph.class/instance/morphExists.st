@@ -1,3 +1,3 @@
 accessing
 morphExists
-	^ self actualTextMorph isNil not
+	^ morphExists ifNil: [morphExists := false]

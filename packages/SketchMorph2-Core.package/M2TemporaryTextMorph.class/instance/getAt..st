@@ -1,8 +1,6 @@
 interaction
 getAt: aPoint
-	self actualTextMorph: self defaultTextMorph.
-	self actualTextMorph
-		position: aPoint;
-		textColor: self latestTextColor.
-	self canvas ifNotNil: [self canvas addMorph: self actualTextMorph].
-	ActiveHand newKeyboardFocus: self actualTextMorph.
+	self position: aPoint.
+	self canvas ifNotNil: [self canvas addMorph: self].
+	ActiveHand newKeyboardFocus: self.
+	self morphExists: true

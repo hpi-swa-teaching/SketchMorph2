@@ -6,12 +6,10 @@
 		 ],
 	"commentStamp" : "CS 6/2/2021 14:43",
 	"instvars" : [
-		"actualTextMorph",
 		"canvas",
-		"dummyTextMorph",
-		"latestTextColor" ],
+		"morphExists" ],
 	"name" : "M2TemporaryTextMorph",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TextMorph",
 	"type" : "normal" }
