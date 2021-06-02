@@ -1,6 +1,6 @@
 interaction
-getAt: aPoint
+moveTo: aPoint
 	self position: aPoint.
 	self canvas ifNotNil: [self canvas addMorph: self].
-	ActiveHand newKeyboardFocus: self.
+	self activeHand newKeyboardFocus: self.
 	self morphExists: true

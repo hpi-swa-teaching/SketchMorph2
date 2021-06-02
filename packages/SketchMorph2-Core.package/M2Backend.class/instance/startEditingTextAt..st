@@ -4,5 +4,5 @@ startEditingTextAt: aPoint
 	point := aPoint + (self temporaryTextMorph canvas
 		ifNotNil: [self temporaryTextMorph canvas position]
 		ifNil: [0]).
-	self temporaryTextMorph getAt: point.
+	self temporaryTextMorph moveTo: point.
 	self mode: #editingText
