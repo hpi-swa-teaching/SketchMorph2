@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "CS 6/2/2021 14:45",
 	"instvars" : [
 		 ],
-	"name" : "M2SimpleSliderMorph",
+	"name" : "M2BrushSliderMorph",
 	"pools" : [
 		 ],
 	"super" : "SimpleSliderMorph",
