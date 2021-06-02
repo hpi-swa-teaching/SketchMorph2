@@ -8,7 +8,7 @@ commitText
 	self temporaryTextMorph
 		keyboardFocusChange: false;
 		selectFrom: 0 to: 0.
-	self temporaryTextMorph contents isEmpty ifFalse: [
+	self temporaryTextMorph contents ifNotEmpty: [
 		self createTextUserActionWith: self temporaryTextMorph at: point.
 		self projectText: self temporaryTextMorph contents
 			styled: self temporaryTextMorph textStyle
