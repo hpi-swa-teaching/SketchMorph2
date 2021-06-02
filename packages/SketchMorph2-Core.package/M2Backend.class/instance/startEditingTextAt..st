@@ -4,8 +4,5 @@ startEditingTextAt: aPoint
 	point := aPoint + (self temporaryTextMorph owner
 		ifNotNil: [self temporaryTextMorph owner position]
 		ifNil: [0]).
-	self temporaryTextMorph 
-		position: point;
-		comeToFront.
-	ActiveHand newKeyboardFocus: self temporaryTextMorph.
+	self temporaryTextMorph getAt: point.
 	self mode: #editingText

@@ -1,3 +1,3 @@
 accessing
-temporaryTextMorph: anObject
-	temporaryTextMorph := anObject
+temporaryTextMorph: anM2TemporaryTextMorph
+	temporaryTextMorph := anM2TemporaryTextMorph
