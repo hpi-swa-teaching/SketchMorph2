@@ -1,4 +1,4 @@
 instance creation
 open
-	MorphicMonet addToWorldMenu.
+	self addToWorldMenu.
 	^ self new openInWorld
