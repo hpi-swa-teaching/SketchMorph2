@@ -1,7 +1,6 @@
 event handling
 mouseMove: evt
-	self position: evt position + self cursorOffset.
-	self outline extent: ((self target extent
-		+ self position
-		- self cursorOffset
-		- self referencePoint) min: self target maximumSize)
+	self position: (evt position + self cursorOffset
+		min: self target position + self target maximumSize - self extent
+		max: self target position).
+	self setNewOutlineExtent
