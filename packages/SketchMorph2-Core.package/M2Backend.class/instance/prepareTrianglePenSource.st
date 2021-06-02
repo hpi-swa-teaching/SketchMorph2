@@ -1,9 +1,8 @@
 drawing
 prepareTrianglePenSource
 	| triangleForm temporaryPen |
-	triangleForm := Form
-		extent: self brushSize asPoint
-		offset: (self penNibOffset: self brushSize).
+	triangleForm := Form extent: self brushSize asPoint
+		offset: (self penNibOffset: self brushSize asPoint).
 	temporaryPen := (Pen newOnForm: triangleForm) 
 		place: 0 @ (self brushSize - 1); 
 		turn: 90;

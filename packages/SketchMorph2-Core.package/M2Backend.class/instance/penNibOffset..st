@@ -1,3 +1,3 @@
 drawing
-penNibOffset: aNumber
-	^ (aNumber asPoint / 2) floor negated
+penNibOffset: aPoint
+	^ (aPoint / 2) floor negated
