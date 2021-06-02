@@ -1,4 +1,4 @@
-as yet unclassified
+testing - forms
 filledRectangle
 	"This is an auto-generated method"
 	^ (Form
