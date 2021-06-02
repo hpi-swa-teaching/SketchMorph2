@@ -1,0 +1,3 @@
+accessing
+temporaryTextMorph: anM2TemporaryTextMorph
+	temporaryTextMorph := anM2TemporaryTextMorph

@@ -22,7 +22,8 @@
 		"undoStack",
 		"currentUserAction",
 		"backgroundColor",
-		"isFillingGeometricForm" ],
+		"isFillingGeometricForm",
+		"temporaryTextMorph" ],
 	"name" : "M2Backend",
 	"pools" : [
 		 ],

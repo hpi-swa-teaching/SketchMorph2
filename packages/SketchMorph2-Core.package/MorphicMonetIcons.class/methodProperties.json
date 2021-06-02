@@ -10,6 +10,8 @@
 		"controlStopSquareIconContents" : "K.P. 5/19/2021 00:23",
 		"documentIcon" : "K.P. 5/18/2021 19:23",
 		"documentIconContents" : "K.P. 5/19/2021 00:23",
+		"editIcon" : "JP 6/1/2021 01:00",
+		"editIconContents" : "CS 6/2/2021 20:24",
 		"eraserIcon" : "K.P. 5/18/2021 19:23",
 		"eraserIconContents" : "K.P. 5/19/2021 00:23",
 		"imageExportIcon" : "K.P. 5/18/2021 19:24",
@@ -24,6 +26,8 @@
 		"pencilIcon" : "K.P. 5/18/2021 19:24",
 		"pencilIconContents" : "K.P. 5/19/2021 00:23",
 		"pipetteIcon" : "K.P. 5/18/2021 19:24",
-		"pipetteIconContents" : "K.P. 5/19/2021 00:23" },
+		"pipetteIconContents" : "K.P. 5/19/2021 00:23",
+		"uiTextFieldIcon" : "CS 5/30/2021 18:00",
+		"uiTextFieldIconContents" : "CS 6/2/2021 20:24" },
 	"instance" : {
 		 } }

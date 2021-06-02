@@ -1,3 +1,3 @@
-drawing
+tool selection
 toggleFillGeometricForm
 	self isFillingGeometricForm: self isFillingGeometricForm not

@@ -1,4 +1,7 @@
 undo
 userActionStopDrawing
-	self finishUserAction.
-	self stopDrawing
+	(self isInTextMode or: [self isInEditingTextMode])
+		ifTrue: [^ self].
+	self
+		finishUserAction;
+		stopDrawing

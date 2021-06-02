@@ -1,6 +1,8 @@
-drawing
+tool selection
 drawGeometricCircle
-	self isErasing: false.
-	self mode: #geometric.
-	self currentGeometricForm: #circle.
-	self currentTool: #drawGeometricCircle
+	self
+		isErasing: false;
+		mode: #geometric;
+		currentGeometricForm: #circle;
+		currentTool: #drawGeometricCircle;
+		switchMode

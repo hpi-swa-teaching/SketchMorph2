@@ -1,6 +1,8 @@
-drawing
+tool selection
 drawPencil
-	self isErasing: false.
 	self pen roundNib: self pencilSize.
-	self mode: #pen.
-	self currentTool: #drawPencil
+	self
+		isErasing: false;
+		mode: #pen;
+		currentTool: #drawPencil;
+		switchMode
