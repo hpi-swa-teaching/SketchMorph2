@@ -1,3 +1,3 @@
 geometry
 sliderThickness
-	^ 10
+	^ 12
