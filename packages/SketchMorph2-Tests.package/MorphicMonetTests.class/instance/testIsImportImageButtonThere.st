@@ -1,5 +1,5 @@
 UI existence tests
-testIsImportPNGButtonThere
+testIsImportImageButtonThere
 	| buttonLabel |
-	buttonLabel := 'Import PNG'.
+	buttonLabel := 'Import Image'.
 	self assert: (self isButtonThere: buttonLabel)
