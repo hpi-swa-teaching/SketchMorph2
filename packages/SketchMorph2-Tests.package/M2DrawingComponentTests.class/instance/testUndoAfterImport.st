@@ -1,6 +1,6 @@
 testing
 testUndoAfterImport
-	self backend importPNG: self importTestPNGPath.
+	self backend importImage: self importTestPNGPath.
 	self drawFrom: 10 asPoint To: 20 asPoint.
 	self backend undo.
 	self compareBackendFormWith: #importTestPNG

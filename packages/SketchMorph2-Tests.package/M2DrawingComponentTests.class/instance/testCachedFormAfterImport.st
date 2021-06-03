@@ -1,4 +1,4 @@
 testing
 testCachedFormAfterImport
-	self backend importPNG: self importTestPNGPath.
+	self backend importImage: self importTestPNGPath.
 	self compare: self backend cachedForm with: #importTestPNG

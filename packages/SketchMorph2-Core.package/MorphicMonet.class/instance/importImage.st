@@ -1,5 +1,5 @@
 accessing
-importPNG
+importImage
 	| fileName |
 	fileName := self getNameOfFileToImport.
-	fileName ifNotNil: [self importPNG: fileName]
+	fileName ifNotNil: [self importImage: fileName]
