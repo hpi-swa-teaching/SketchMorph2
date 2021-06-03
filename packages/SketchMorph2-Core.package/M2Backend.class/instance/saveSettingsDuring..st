@@ -1,10 +1,12 @@
 undo
 saveSettingsDuring: aBlock
-	| preColor preFillingGeometric preTool |
+	| preBrushAndEraserSize preColor preFillingGeometric preTool |
+	preBrushAndEraserSize := self brushSize.
 	preColor := self currentColor.
 	preFillingGeometric := self isFillingGeometricForm.
 	preTool := self currentTool.
 	
 	aBlock value.
-	self restoreColor: preColor isFilling: preFillingGeometric tool: preTool.
-	self reloadCurrentPen
+	self
+		restoreBrushAndEraserSize: preBrushAndEraserSize color: preColor isFilling: preFillingGeometric tool: preTool;
+		reloadCurrentPen
