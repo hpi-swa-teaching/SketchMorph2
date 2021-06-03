@@ -1,5 +1,5 @@
 tool selection
-importPNG: aFileName
+importImage: aFileName
 	| tempForm |
 	self switchMode.
 	tempForm := (Form fromFileNamed: aFileName).

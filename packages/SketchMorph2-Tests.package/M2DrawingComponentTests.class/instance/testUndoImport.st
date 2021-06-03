@@ -1,6 +1,6 @@
 testing
 testUndoImport
 	self backend
-		importPNG: self importTestPNGPath;
+		importImage: self importTestPNGPath;
 		undo.
 	self compareBackendFormWith: #whiteBackground
