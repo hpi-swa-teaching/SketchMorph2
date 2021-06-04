@@ -7,6 +7,6 @@ setCanvasSize: aPoint
 	self backend
 		formChanged;
 		clearCanvas;
-		project: tempForm at: 0 asPoint;
+		project: tempForm at: 0 asPoint rule: Form paint;
 		pushNewUndoLevelWithForm: self backend copyForm.
 	self viewPort refresh
