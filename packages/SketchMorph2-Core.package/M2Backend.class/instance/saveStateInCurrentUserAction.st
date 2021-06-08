@@ -9,4 +9,5 @@ saveStateInCurrentUserAction
 		addMethodCall: #pencilSize: withArguments: {self pencilSize};
 		addMethodCall: #eraserSize: withArguments: {self eraserSize};
 		addMethodCall: #isFillingGeometricForm: withArguments: {self context isFillingGeometricForm};
-		addMethodCall: #sourceForm: withArguments: {self sourceForm}
+		addMethodCall: #sourceForm: withArguments: {self sourceForm};
+		addMethodCall: #currentTool: withArguments: {self context currentTool}

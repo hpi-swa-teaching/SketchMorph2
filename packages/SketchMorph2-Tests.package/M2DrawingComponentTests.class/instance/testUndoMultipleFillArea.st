@@ -1,7 +1,7 @@
 testing
 testUndoMultipleFillArea
 	self backend 
-		mode: #fill;
+		fillShape;
 		penColor: Color blue.
 		
 	self drawFrom: 10 asPoint To: 20 asPoint.
