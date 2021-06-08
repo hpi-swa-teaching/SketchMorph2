@@ -4,5 +4,6 @@ createTextUserActionWith: aTextMorph at: aPoint
 		currentUserAction: (M2UserAction new backend: self);
 		saveStateInCurrentUserAction.
 	self currentUserAction addMethodCall: #projectText:styled:colored:at:
-		withArguments: {aTextMorph contents . aTextMorph textStyle . aTextMorph textColor . aPoint }.
+		withArguments: {aTextMorph contents . aTextMorph textStyle .
+						aTextMorph textColor . aPoint }.
 	self finishUserAction

@@ -1,3 +1,4 @@
 UI existence tests
 testIsColorPanelThere
-	self assert: (self subject topPanel submorphs includes: self subject colorPanel)
+	self assert: (self subject topPanel submorphs
+		includes: self subject colorPanel)

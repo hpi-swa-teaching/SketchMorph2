@@ -1,3 +1,4 @@
 accessing
 temporaryTextMorph
-	^ temporaryTextMorph ifNil: [temporaryTextMorph := self defaultTemporaryTextMorph]
+	^ temporaryTextMorph
+		ifNil: [temporaryTextMorph := self defaultTemporaryTextMorph]

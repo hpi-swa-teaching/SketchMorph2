@@ -8,5 +8,8 @@ saveSettingsDuring: aBlock
 	
 	aBlock value.
 	self
-		restoreBrushAndEraserSize: preBrushAndEraserSize color: preColor isFilling: preFillingGeometric tool: preTool;
+		restoreBrushAndEraserSize: preBrushAndEraserSize
+			color: preColor
+			isFilling: preFillingGeometric
+			tool: preTool;
 		reloadCurrentPen
