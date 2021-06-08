@@ -1,3 +1,3 @@
 accessing
 fillShapeAt: aPoint
-	self form floodFill: self penColor at: aPoint.
+	self form floodFill: self penColor at: aPoint

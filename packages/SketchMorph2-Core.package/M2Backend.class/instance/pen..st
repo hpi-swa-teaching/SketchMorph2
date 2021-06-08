@@ -1,3 +1,3 @@
 accessing
 pen: aPen
-	pen := aPen.
+	pen := aPen

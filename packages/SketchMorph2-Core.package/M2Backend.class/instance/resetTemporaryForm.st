@@ -1,3 +1,3 @@
 drawing
 resetTemporaryForm
-	self temporaryForm setExtent: self defaultBounds depth: self defaultDepth.
+	self temporaryForm setExtent: self defaultBounds depth: self defaultDepth

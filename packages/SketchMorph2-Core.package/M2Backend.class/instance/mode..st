@@ -1,3 +1,3 @@
 accessing
 mode: aSymbol
-	mode := aSymbol.
+	mode := aSymbol

@@ -1,4 +1,4 @@
 running
 tearDown
 	super tearDown.
-	self fileDirectory recursiveDelete.
+	self fileDirectory recursiveDelete
