@@ -1,3 +1,3 @@
 accessing
-currentUserAction: aM2UserAction
-	currentUserAction := aM2UserAction
+currentUserAction: anM2UserAction
+	currentUserAction := anM2UserAction
