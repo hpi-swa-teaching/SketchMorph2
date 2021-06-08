@@ -4,4 +4,3 @@ testUndoAfterClearCanvas
 	self backend clearCanvasAndPushUndoLevel.
 	self backend undo.
 	self compareFormWith: #diagonalPencilLine
-	

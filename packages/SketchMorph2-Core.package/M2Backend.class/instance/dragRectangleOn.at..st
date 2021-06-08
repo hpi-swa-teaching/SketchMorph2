@@ -7,5 +7,3 @@ dragRectangleOn: aForm at: aRectangle
 		goto: aRectangle bottomRight;
 		goto: aRectangle bottomLeft;
 		goto: aRectangle topLeft
-		
-		

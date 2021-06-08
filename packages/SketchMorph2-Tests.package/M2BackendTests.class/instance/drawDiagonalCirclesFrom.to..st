@@ -6,4 +6,3 @@ drawDiagonalCirclesFrom: aStartNumber to: anEndNumber
 			userActionMoveDrawing: ((4 * x) + 2 ) asPoint;
 			userActionStopDrawing.
 	]
-	
