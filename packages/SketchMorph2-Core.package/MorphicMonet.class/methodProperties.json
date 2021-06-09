@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"addToWorldMenu" : "K.P. 5/27/2021 11:21",
+		"allowedFileExtensions" : "mFr 6/9/2021 18:01",
 		"borderColor" : "K.P. 5/29/2021 14:14",
 		"borderWidth" : "mFr 5/26/2021 12:11",
 		"canvasPanelBorder" : "mFr 5/26/2021 12:00",
@@ -30,7 +31,7 @@
 		"exportPNG" : "mFr 5/19/2021 11:00",
 		"form" : "mFr 5/19/2021 11:00",
 		"getNameOfFileToExport" : "mFr 5/19/2021 11:00",
-		"getNameOfFileToImport" : "mFr 6/3/2021 21:19",
+		"getNameOfFileToImport" : "mFr 6/9/2021 17:50",
 		"handleKeystroke:" : "mFr 5/19/2021 11:00",
 		"importImage" : "mFr 6/3/2021 21:17",
 		"importImage:" : "mFr 6/3/2021 21:17",

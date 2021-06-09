@@ -5,3 +5,4 @@ initializeLocalFiles
 		assureExistence;
 		deleteLocalFiles.
 	self class importTestPNG writePNGfileNamed: self importTestPNGPath.
+	self class importTestJPEG writeJPEGfileNamed: self importTestJPEGPath
