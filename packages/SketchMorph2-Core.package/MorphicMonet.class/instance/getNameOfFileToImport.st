@@ -1,3 +1,3 @@
 accessing
 getNameOfFileToImport
-	^ FileChooserDialog openOn: FileDirectory default suffixList: ImageReadWriter allTypicalFileExtensions label: 'Import Image'
+	^ FileChooserDialog openOn: FileDirectory default suffixList: self class allowedFileExtensions label: 'Import Image'
