@@ -1,3 +1,3 @@
 accessing
 backend
-	^ backend ifNil: [backend := M2Backend new]
+	^ self viewPort backend

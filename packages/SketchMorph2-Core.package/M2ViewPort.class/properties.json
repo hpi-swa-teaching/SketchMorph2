@@ -4,13 +4,14 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "wr 8/4/2020 12:56",
+	"commentStamp" : "",
 	"instvars" : [
-		"gripMorph",
-		"temporaryCanvas",
-		"viewPort" ],
-	"name" : "M2Canvas",
+		"backend",
+		"form",
+		"offset",
+		"scalar" ],
+	"name" : "M2ViewPort",
 	"pools" : [
 		 ],
-	"super" : "ImageMorph",
+	"super" : "Object",
 	"type" : "normal" }
