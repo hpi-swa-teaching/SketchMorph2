@@ -5,5 +5,7 @@ drawTriangle
 		isErasing: false;
 		mode: #pen;
 		currentTool: #drawTriangle.
-	self switchMode.
+	self
+	    switchMode;
+	    currentCursor: nil.
 	self viewPort drawTriangle

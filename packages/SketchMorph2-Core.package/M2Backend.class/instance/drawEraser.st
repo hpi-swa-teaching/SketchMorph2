@@ -5,5 +5,7 @@ drawEraser
 		isErasing: true;
 		mode: #pen;
 		currentTool: #drawEraser.
-	self switchMode.
+	self
+	    switchMode;
+	    currentCursor: (Form dotOfSize: self eraserSize color: Color white).
 	self viewPort drawEraser

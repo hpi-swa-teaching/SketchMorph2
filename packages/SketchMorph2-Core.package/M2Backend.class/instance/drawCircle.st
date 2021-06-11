@@ -5,5 +5,7 @@ drawCircle
 		isErasing: false;
 		mode: #pen;
 		currentTool: #drawCircle.
-	self switchMode.
+	self
+	    switchMode;
+	    currentCursor: (Form dotOfSize: self brushSize color: self penColor).
 	self viewPort drawCircle

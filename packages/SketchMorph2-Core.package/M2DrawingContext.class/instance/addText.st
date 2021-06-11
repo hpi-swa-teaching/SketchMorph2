@@ -3,4 +3,5 @@ addText
 	self
 		isErasing: false;
 		mode: #text;
-		currentTool: #addText
+		currentTool: #addText;
+		currentCursor: Cursor text

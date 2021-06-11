@@ -4,4 +4,6 @@ fillShape
 		isErasing: false;
 		mode: #fill;
 		currentTool: #fillShape.
-	self switchMode
+	self
+	    switchMode;
+	    currentCursor: M2FillArea icon

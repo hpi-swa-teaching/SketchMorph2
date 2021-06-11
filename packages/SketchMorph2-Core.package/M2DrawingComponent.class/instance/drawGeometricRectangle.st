@@ -5,4 +5,6 @@ drawGeometricRectangle
 		mode: #geometric;
 		currentGeometricForm: #rectangle;
 		currentTool: #drawGeometricRectangle.
-	self switchMode
+	self
+	    switchMode;
+	    currentCursor: Cursor crossHair
