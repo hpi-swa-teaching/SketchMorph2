@@ -1,4 +1,4 @@
 tool selection
 clearCanvas
-	self switchMode.
-	self form fillColor: self backgroundColor
+	super clearCanvas.
+	self pushNewUndoLevelWithForm: self copyForm

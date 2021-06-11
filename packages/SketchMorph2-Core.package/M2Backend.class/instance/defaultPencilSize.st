@@ -1,3 +1,0 @@
-defaults
-defaultPencilSize
-	^ 1

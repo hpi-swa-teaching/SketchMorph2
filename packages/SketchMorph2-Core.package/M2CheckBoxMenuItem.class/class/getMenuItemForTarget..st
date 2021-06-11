@@ -1,9 +1,9 @@
 as yet unclassified
-getMenuItemForTarget: anM2Backend
+getMenuItemForTarget: anObject
 	^ (PluggableCheckBoxMorph new)
 		actionSelector: self actionSelector;
 		label: self label;
 		valueSelector: self valueSelector;
-		model: anM2Backend;
+		model: anObject;
 		installButton;
 		yourself

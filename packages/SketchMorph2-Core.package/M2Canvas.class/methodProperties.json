@@ -1,10 +1,12 @@
 {
 	"class" : {
-		 },
+		"newBasicInitialize" : "CS 6/11/2021 19:50",
+		"newWith:" : "CS 6/11/2021 19:04" },
 	"instance" : {
 		"addGripMorph:" : "JP 5/19/2021 00:31",
 		"backend" : "mFr 6/9/2021 16:42",
-		"changed" : "wr 6/22/2020 16:11",
+		"basicInitialize" : "CS 6/11/2021 19:50",
+		"changed" : "CS 6/11/2021 19:54",
 		"defaultCanvasSize" : "wr 5/23/2020 10:56",
 		"extent:" : "wr 6/22/2020 16:26",
 		"fastFramingOn" : "JP 5/19/2021 00:17",
@@ -16,14 +18,15 @@
 		"initialize" : "CS 6/2/2021 14:41",
 		"isMouseDown:" : "NC 5/16/2020 13:16",
 		"maximumSize" : "CS 5/19/2021 19:50",
-		"mouseDown:" : "mk 7/3/2020 18:38",
-		"mouseEnterDragging:" : "mp 7/27/2020 16:58",
-		"mouseLeaveDragging:" : "mp 7/27/2020 16:58",
-		"mouseMove:" : "mp 7/27/2020 16:58",
-		"mouseUp:" : "mk 7/3/2020 19:27",
+		"mouseDown:" : "CS 6/11/2021 19:55",
+		"mouseEnterDragging:" : "CS 6/11/2021 19:55",
+		"mouseLeaveDragging:" : "CS 6/11/2021 19:54",
+		"mouseMove:" : "CS 6/11/2021 15:21",
+		"mouseUp:" : "CS 6/11/2021 15:21",
 		"relativeMousePosition:" : "mp 5/15/2020 12:42",
 		"setCanvasSize:" : "mFr 6/9/2021 17:02",
 		"temporaryCanvas" : "NC 5/16/2020 11:52",
 		"updateGripMorphPosition" : "CS 5/17/2021 10:50",
 		"updateViewPortSize" : "mFr 6/9/2021 17:29",
-		"viewPort" : "mFr 6/9/2021 17:36" } }
+		"viewPort" : "CS 6/11/2021 19:03",
+		"viewPort:" : "CS 6/11/2021 19:13" } }

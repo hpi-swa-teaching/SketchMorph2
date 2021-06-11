@@ -21,7 +21,7 @@
 		"testDoesBrushSizeSliderSetEraserSize" : "ms 5/26/2021 14:37",
 		"testDoesCircleToolButtonChangeState" : "CS 5/15/2021 15:28",
 		"testDoesCircleToolButtonKeepState" : "CS 5/13/2021 09:33",
-		"testDoesClearCanvasSendCorrectMessage" : "CS 5/13/2021 09:36",
+		"testDoesClearCanvasSendCorrectMessage" : "CS 6/11/2021 17:49",
 		"testDoesColorPickerSetPenColor" : "CS 5/13/2021 09:30",
 		"testDoesEraserButtonChangeState" : "CS 5/13/2021 09:30",
 		"testDoesEraserButtonKeepState" : "CS 5/13/2021 09:34",

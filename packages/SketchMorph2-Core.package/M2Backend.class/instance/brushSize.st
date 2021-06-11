@@ -1,3 +1,3 @@
 accessing
 brushSize
-	^ brushSize ifNil: [brushSize := self defaultBrushSize]
+	^ self context brushSize

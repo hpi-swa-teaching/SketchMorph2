@@ -7,11 +7,10 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"backend",
-		"form",
 		"offset",
 		"scalar" ],
 	"name" : "M2ViewPort",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "M2DSuperclass",
 	"type" : "normal" }

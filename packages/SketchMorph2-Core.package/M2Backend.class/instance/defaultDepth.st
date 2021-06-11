@@ -1,3 +1,0 @@
-defaults
-defaultDepth
-	^ 32

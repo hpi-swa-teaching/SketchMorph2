@@ -1,0 +1,16 @@
+{
+	"category" : "SketchMorph2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"backend",
+		"cachedForm",
+		"counter" ],
+	"name" : "M2Magnifier",
+	"pools" : [
+		 ],
+	"super" : "MagnifierMorph",
+	"type" : "normal" }

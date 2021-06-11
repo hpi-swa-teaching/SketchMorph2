@@ -1,14 +1,18 @@
 {
 	"class" : {
-		"newWithExtent:" : "mFr 6/9/2021 17:38" },
+		"newWithExtent:" : "mFr 6/9/2021 17:38",
+		"newWithExtent:and:" : "CS 6/11/2021 19:09" },
 	"instance" : {
-		"backend" : "mFr 6/9/2021 16:41",
-		"form" : "mFr 6/9/2021 17:38",
-		"form:" : "mFr 6/9/2021 16:57",
+		"backend" : "CS 6/11/2021 19:00",
+		"brushSize" : "CS 6/11/2021 18:20",
+		"getBackendPointFrom:" : "CS 6/11/2021 15:27",
 		"initialize" : "mFr 6/9/2021 17:34",
 		"offset" : "mFr 6/9/2021 16:51",
 		"offset:" : "mFr 6/9/2021 16:51",
 		"project:scaledBy:at:" : "mFr 6/9/2021 17:16",
 		"scalar" : "mFr 6/9/2021 16:46",
 		"scalar:" : "mFr 6/9/2021 16:46",
-		"setSize:" : "mFr 6/9/2021 17:28" } }
+		"setSize:" : "mFr 6/9/2021 17:28",
+		"userActionClickAt:" : "CS 6/11/2021 18:39",
+		"userActionMoveDrawing:" : "CS 6/11/2021 18:35",
+		"userActionStopDrawing" : "CS 6/11/2021 18:40" } }

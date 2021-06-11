@@ -1,5 +1,5 @@
 event handling
 mouseUp: evt
-	self backend userActionStopDrawing.
+	self viewPort userActionStopDrawing.
 	self temporaryCanvas hide.
 	self changed

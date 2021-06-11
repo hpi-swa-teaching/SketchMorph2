@@ -1,4 +1,4 @@
 updating
 changed
 	super changed.
-	self backend isInGeometricMode ifTrue: [self temporaryCanvas changed].
+	self backend context isInGeometricMode ifTrue: [self temporaryCanvas changed].
