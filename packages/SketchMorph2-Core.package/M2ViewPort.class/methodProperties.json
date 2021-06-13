@@ -1,7 +1,7 @@
 {
 	"class" : {
-		"newWithExtent:" : "mFr 6/9/2021 17:38",
-		"newWithExtent:and:" : "CS 6/11/2021 19:09" },
+		"newWithExtent:" : "JP 6/13/2021 15:26",
+		"newWithExtent:and:" : "JP 6/13/2021 15:27" },
 	"instance" : {
 		"backend" : "CS 6/11/2021 19:00",
 		"brushSize" : "CS 6/11/2021 18:20",
@@ -13,6 +13,6 @@
 		"scalar" : "mFr 6/9/2021 16:46",
 		"scalar:" : "mFr 6/9/2021 16:46",
 		"setSize:" : "mFr 6/9/2021 17:28",
-		"userActionClickAt:" : "CS 6/11/2021 18:39",
-		"userActionMoveDrawing:" : "CS 6/11/2021 18:35",
-		"userActionStopDrawing" : "CS 6/11/2021 18:40" } }
+		"userActionClickAt:" : "JP 6/13/2021 14:35",
+		"userActionMoveDrawing:" : "JP 6/13/2021 14:45",
+		"userActionStopDrawing" : "JP 6/13/2021 14:46" } }

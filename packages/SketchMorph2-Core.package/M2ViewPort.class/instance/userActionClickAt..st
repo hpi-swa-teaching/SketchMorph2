@@ -1,4 +1,4 @@
 drawing
 userActionClickAt: aPoint
 	self clickAt: aPoint.
-	"TODO: Call backend"
+	self backend userActionClickAt: aPoint

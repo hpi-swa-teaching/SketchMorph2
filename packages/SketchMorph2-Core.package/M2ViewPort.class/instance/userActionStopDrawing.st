@@ -1,4 +1,6 @@
 drawing
 userActionStopDrawing
+	(self context isInTextMode or: [self context isInEditingTextMode])
+		ifTrue: [^ self].
 	self stopDrawing.
-	"TODO: Call backend"
+	self backend userActionStopDrawing

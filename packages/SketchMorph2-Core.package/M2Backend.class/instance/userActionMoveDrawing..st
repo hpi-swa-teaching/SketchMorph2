@@ -1,6 +1,6 @@
 undo
 userActionMoveDrawing: aPoint
-	(self isInTextMode or: [self isInEditingTextMode])
+	(self context isInTextMode or: [self context isInEditingTextMode])
 		ifTrue: [^ self].
 	self addMovementToUserAction: aPoint.
 	self moveDrawing: aPoint
