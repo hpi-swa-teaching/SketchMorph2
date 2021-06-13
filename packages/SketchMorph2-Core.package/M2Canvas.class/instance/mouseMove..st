@@ -1,6 +1,5 @@
 event handling
 mouseMove: evt
-	Transcript showln: evt; show: ' ', (self gripMorph containsPoint: evt cursorPoint).
 	(self gripMorph containsPoint: evt cursorPoint)
 		ifFalse: [self activeHand showTemporaryCursor: self backend currentCursor hotSpotOffset: self backend brushSize asPoint / 2].
 	(self isMouseDown: evt) ifFalse: [^ nil].
