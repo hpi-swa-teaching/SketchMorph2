@@ -1,3 +1,4 @@
 event handling
 mouseLeave: evt
-	self activeHand showTemporaryCursor: Cursor normal
+	evt hand showTemporaryCursor: nil
+
