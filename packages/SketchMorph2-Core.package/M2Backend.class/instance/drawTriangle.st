@@ -7,5 +7,5 @@ drawTriangle
 		currentTool: #drawTriangle.
 	self
 	    switchMode;
-	    currentCursor: nil.
+	    currentCursor: self pen sourceForm.
 	self viewPort drawTriangle
