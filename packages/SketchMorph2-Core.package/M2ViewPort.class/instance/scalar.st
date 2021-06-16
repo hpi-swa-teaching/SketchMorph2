@@ -1,3 +1,3 @@
 accessing
 scalar
-	^ scalar
+	^ scalar ifNil: [scalar := 1]

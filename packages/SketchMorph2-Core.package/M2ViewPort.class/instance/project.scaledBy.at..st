@@ -5,6 +5,7 @@ project: aForm scaledBy: aNumber at: aPoint
 		scalar: aNumber;
 		offset: aPoint.
 	scaledForm := aForm magnifyBy: aNumber.
+	self form fillColor: Color transparent.
 	self form
 		copyBits: (0 asPoint corner: scaledForm extent) 
 		from: scaledForm

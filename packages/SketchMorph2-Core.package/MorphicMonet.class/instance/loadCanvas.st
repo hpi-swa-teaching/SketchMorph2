@@ -1,10 +1,10 @@
 initialization
 loadCanvas
 	self canvasPanel addMorph: self canvas.
-	self backend 
+	"self backend 
 		formSize: (self canvasPanel extent - self class canvasPanelBorder);
 		pushNewUndoLevelWithForm: self form copy;
-		pen: self backend defaultPen.
+		pen: self backend defaultPen."
 	self canvas
 		image: self form;
 		updateViewPortSize;
