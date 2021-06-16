@@ -7,5 +7,7 @@ drawRectangle
 		currentTool: #drawRectangle.
 	self
 	    switchMode;
-	    currentCursor: (Form extent: self rectangleBrushSize offset: (self rectangleBrushSize x / 2) @ 0) fillBlack.
+	    currentCursor: ((Form extent: self rectangleBrushSize depth: self defaultDepth)
+                       			offset: ((self rectangleBrushSize x / 2) @ 0);
+                       			fillWithColor: self currentColor).
 	self viewPort drawRectangle
