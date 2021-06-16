@@ -1,3 +1,3 @@
 accessing
 icon
-	^ MorphicMonetIcons arrowCurve180Icon
+	^ MorphicMonetIcons zoomOutIcon

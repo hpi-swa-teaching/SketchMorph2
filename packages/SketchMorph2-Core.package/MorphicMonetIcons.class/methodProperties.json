@@ -28,6 +28,12 @@
 		"pipetteIcon" : "K.P. 5/18/2021 19:24",
 		"pipetteIconContents" : "K.P. 5/19/2021 00:23",
 		"uiTextFieldIcon" : "CS 5/30/2021 18:00",
-		"uiTextFieldIconContents" : "CS 6/2/2021 20:24" },
+		"uiTextFieldIconContents" : "CS 6/2/2021 20:24",
+		"zoomDefaultIcon" : "jb 6/16/2021 22:07",
+		"zoomDefaultIconContents" : "jb 6/16/2021 22:08",
+		"zoomInIcon" : "jb 6/16/2021 22:10",
+		"zoomInIconContents" : "jb 6/16/2021 22:09",
+		"zoomOutIcon" : "jb 6/16/2021 22:10",
+		"zoomOutIconContents" : "jb 6/16/2021 22:10" },
 	"instance" : {
 		 } }
