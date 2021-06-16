@@ -5,11 +5,11 @@ project: aForm scaledBy: aNumber at: aPoint
 		scalar: aNumber;
 		offset: aPoint.
 	scaledForm := aForm magnifyBy: aNumber.
+	self pen
+		clipHeight: scaledForm height;
+		clipWidth: scaledForm width.
+	self eraser
+		clipHeight: scaledForm height;
+		clipWidth: scaledForm width.
 	self form fillColor: Color transparent.
-	self form
-		copyBits: (0 asPoint corner: scaledForm extent) 
-		from: scaledForm
-		at: aPoint
-		clippingBox: (0 asPoint corner: self form extent)
-		rule: Form paint
-		fillColor: nil
+	super project: scaledForm at: aPoint

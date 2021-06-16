@@ -4,4 +4,5 @@ defaultPen
 		up; 
 		color: self defaultPenColor;
 		combinationRule: Form paint;
+		roundNib: self context pencilSize;
 		yourself
