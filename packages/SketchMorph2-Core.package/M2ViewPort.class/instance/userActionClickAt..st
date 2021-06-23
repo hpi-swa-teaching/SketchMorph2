@@ -5,4 +5,5 @@ userActionClickAt: aPoint
 	translatedPoint := self getBackendPointFor: aPoint.
 	translatedPoint ifNil: [^ self].
 	self clickAt: aPoint.
-	self backend userActionClickAt: translatedPoint
+	self context isInGeometricMode
+		ifFalse: [self backend userActionClickAt: translatedPoint]

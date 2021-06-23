@@ -1,3 +1,3 @@
-drawing
-startDrawingAt: aPoint
+accessing
+eraserSize
 	^ self subclassResponsibility

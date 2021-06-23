@@ -1,3 +1,3 @@
 tool selection
 drawPencil
-	self pen roundNib: self context pencilSize
+	self pen roundNib: self pencilSize

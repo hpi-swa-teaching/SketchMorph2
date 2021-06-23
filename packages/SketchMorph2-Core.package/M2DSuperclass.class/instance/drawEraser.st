@@ -1,3 +1,3 @@
 tool selection
 drawEraser
-	self eraser roundNib: self context eraserSize
+	self eraser roundNib: self eraserSize

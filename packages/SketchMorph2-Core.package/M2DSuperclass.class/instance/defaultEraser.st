@@ -4,5 +4,5 @@ defaultEraser
 		up; 
 		color: self context defaultBackgroundColor;
 		combinationRule: Form paint;
-		roundNib: self context eraserSize;
+		roundNib: self eraserSize;
 		yourself
