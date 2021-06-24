@@ -1,0 +1,14 @@
+{
+	"category" : "SketchMorph2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"target" ],
+	"name" : "M2ColorSensor",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }
