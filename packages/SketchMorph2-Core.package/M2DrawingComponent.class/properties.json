@@ -6,11 +6,15 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"backend",
-		"cachedForm",
-		"counter" ],
-	"name" : "M2Magnifier",
+		"context",
+		"form",
+		"eraser",
+		"pen",
+		"temporaryForm",
+		"temporaryTextMorph",
+		"startPoint" ],
+	"name" : "M2DrawingComponent",
 	"pools" : [
 		 ],
-	"super" : "MagnifierMorph",
+	"super" : "Object",
 	"type" : "normal" }

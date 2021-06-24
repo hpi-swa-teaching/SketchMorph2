@@ -3,5 +3,4 @@ newWithExtent: aPoint canvas: anM2Canvas and: anM2DrawingContext
 	^ self basicNew
 		context: anM2DrawingContext;
 		formSize: aPoint;
-		canvas: anM2Canvas;
-		initialize
+		canvas: anM2Canvas

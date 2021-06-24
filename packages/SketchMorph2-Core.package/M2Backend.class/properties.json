@@ -12,5 +12,5 @@
 	"name" : "M2Backend",
 	"pools" : [
 		 ],
-	"super" : "M2DSuperclass",
+	"super" : "M2DrawingComponent",
 	"type" : "normal" }

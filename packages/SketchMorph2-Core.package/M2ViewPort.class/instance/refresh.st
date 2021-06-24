@@ -1,4 +1,4 @@
 accessing
 refresh
-	self projectBackendScaledBy: self scalar at: self offset
-
+	self projectBackendScaledBy: self scalar.
+	self canvas changed

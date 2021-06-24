@@ -1,3 +1,0 @@
-initialization
-basicInitialize
-	super initialize

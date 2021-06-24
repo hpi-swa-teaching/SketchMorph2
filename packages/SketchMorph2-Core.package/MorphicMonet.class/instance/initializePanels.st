@@ -3,5 +3,4 @@ initializePanels
 	self
 		initializeMenuPanel;
 		initializeColorPanel;
-		initializeTopPanel;
-		initializeCanvasPanel
+		initializeTopPanel

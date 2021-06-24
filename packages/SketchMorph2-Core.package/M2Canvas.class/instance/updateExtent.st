@@ -1,6 +1,6 @@
 accessing
-updateViewPortSize
-	self viewPort setSize: self owner extent.
+updateExtent
 	self
 		extent: self viewPort form extent;
+		updateGripMorphPosition;
 		changed

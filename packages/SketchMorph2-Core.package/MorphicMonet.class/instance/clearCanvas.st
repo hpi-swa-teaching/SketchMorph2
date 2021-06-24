@@ -1,4 +1,4 @@
 defaults
 clearCanvas
-	self backend clearCanvas.
+	self backend clearCanvasAndPushUndoLevel.
 	self changed
