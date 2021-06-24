@@ -7,7 +7,9 @@
 	"commentStamp" : "mk 8/3/2020 16:51",
 	"instvars" : [
 		"backend",
-		"fileDirectory" ],
+		"context",
+		"fileDirectory",
+		"viewPort" ],
 	"name" : "M2BackendTests",
 	"pools" : [
 		 ],

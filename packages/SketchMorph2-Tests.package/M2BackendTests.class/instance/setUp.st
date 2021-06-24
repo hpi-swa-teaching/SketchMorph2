@@ -1,5 +1,7 @@
 running
 setUp
 	super setUp.
-	self backend: self defaultBackend.
+	self context: M2DrawingContext new.
+	self setUpViewPort.
+	self setUpBackend.
 	self initializeLocalFiles.
