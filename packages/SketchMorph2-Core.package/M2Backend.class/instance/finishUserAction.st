@@ -1,7 +1,7 @@
 undo
 finishUserAction
-	(self context isInTextMode or: [self context isInEditingTextMode] or: [self context isInGeometricMode])
-		ifFalse: [self currentUserAction addMethodCall: #stopDrawing].
+	self context isInAnyDrawingMode
+		ifTrue: [self currentUserAction addMethodCall: #stopDrawing].
 	self undoStack isEmpty ifTrue: [ self pushNewUndoLevelWithForm: self copyForm].
 	self latestActionQueue size < self defaultMaxActionQueueSize
 		ifTrue: [ self latestActionQueue add: self currentUserAction ] 

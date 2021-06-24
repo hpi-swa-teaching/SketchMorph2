@@ -10,7 +10,8 @@
 		"canvas",
 		"offset",
 		"scalar",
-		"temporaryGeometricMorph" ],
+		"temporaryGeometricMorph",
+		"temporaryTextMorph" ],
 	"name" : "M2ViewPort",
 	"pools" : [
 		 ],

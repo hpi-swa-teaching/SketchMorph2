@@ -8,10 +8,9 @@ commitText
 	self temporaryTextMorph selectAt: 0.
 	self temporaryTextMorph contents ifNotEmpty: [
 		self 
-			createTextUserActionWith: self temporaryTextMorph at: point;
 			projectText: self temporaryTextMorph contents
 				styled: self temporaryTextMorph textStyle
 				colored: self temporaryTextMorph textColor
-				at: point.
-	].
+				at: point;
+			refresh].
 	self temporaryTextMorph dismissCurrent
