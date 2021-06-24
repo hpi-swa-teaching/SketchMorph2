@@ -1,6 +1,6 @@
 testing
 testUndoStackSize
 	self 
-		backendFillGeometricModeWithForm: #circle;
+		contextFillGeometricModeWithForm: #circle;
 		drawAmountOfDiagonalCircles: 50;
 		assert: self backend undoStack size equals: 4.

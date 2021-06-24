@@ -1,8 +1,8 @@
 testing
 testSimpleText
-	self backend 
+	self viewPort
 		addText;
 		clickAt: 25 asPoint.
-	self backend temporaryTextMorph contents: 'test'.
-	self backend clickAt: 20 asPoint.
+	self viewPort temporaryTextMorph contents: 'test'.
+	self viewPort clickAt: 20 asPoint.
 	self compareFormWith: #simpleText

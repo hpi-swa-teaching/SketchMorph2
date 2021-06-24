@@ -1,6 +1,6 @@
 testing
 testCompareGeometricCircleNotFilled
 	self 
-		backendGeometricModeWithForm: #circle;
+		contextGeometricModeWithForm: #circle;
 		drawFrom: (40 @ 10) To: (80 @ 90);
 		compareFormWith: #notFilledCircle
