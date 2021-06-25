@@ -1,4 +1,4 @@
 support
 doDummyAction
-	self subject backend userActionClickAt: 0 @ 0.
-	self subject backend userActionStopDrawing
+	self subject viewPort userActionClickAt: 0 @ 0.
+	self subject viewPort userActionStopDrawing

@@ -1,7 +1,7 @@
 keeping state tests
 testDoesEraserButtonKeepState
 	| buttonLabel |
-	self subject backend 
+	self subject backend context 
 		mode: #pen;
 		isErasing: true.
 	buttonLabel := 'Eraser'.

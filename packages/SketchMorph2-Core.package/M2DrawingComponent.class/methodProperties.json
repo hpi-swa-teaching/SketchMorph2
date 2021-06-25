@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"newWith:" : "mFr 6/16/2021 17:08" },
+		"newWithExtent:context:" : "mFr 6/25/2021 08:52" },
 	"instance" : {
 		"addText" : "mFr 6/24/2021 22:25",
 		"brushSize" : "CS 6/11/2021 18:19",
@@ -34,6 +34,7 @@
 		"form" : "CS 6/11/2021 19:11",
 		"form:" : "CS 6/11/2021 17:01",
 		"formChanged" : "CS 6/11/2021 17:25",
+		"formSize" : "mFr 6/25/2021 08:54",
 		"formSize:" : "CS 6/11/2021 17:25",
 		"moveDrawing:" : "CS 6/23/2021 14:44",
 		"pen" : "CS 6/11/2021 17:31",

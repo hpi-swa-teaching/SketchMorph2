@@ -2,7 +2,6 @@ initialization
 initialize
 	super initialize.
 	self
-		canvas: M2Canvas new;
 		canvasPanel: PluggableScrollPane new alwaysShowScrollBars;
 		initializePanels;
 		setLabel: 'Morphic Monet';

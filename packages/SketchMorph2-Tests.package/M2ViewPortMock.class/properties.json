@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "mp 8/7/2020 20:49",
+	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "M2CanvasMock",
+	"name" : "M2ViewPortMock",
 	"pools" : [
 		 ],
-	"super" : "M2Canvas",
+	"super" : "M2ViewPort",
 	"type" : "normal" }
