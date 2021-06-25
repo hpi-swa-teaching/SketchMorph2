@@ -1,9 +1,11 @@
 tool selection
 commit: aForm at: aPoint
-	self project: (aForm magnifyBy: self viewPort scalar reciprocal) at: aPoint.
+	| magnifiedForm |
+	magnifiedForm := aForm magnifyBy: self viewPort scalar reciprocal.
+	self project: magnifiedForm at: aPoint.
 	self
 		currentUserAction: (M2UserAction new backend: self);
 		saveStateInCurrentUserAction.
 	self currentUserAction addMethodCall: #project:at:
-		withArguments: { aForm . aPoint }.
+		withArguments: { magnifiedForm . aPoint }.
 	self finishUserAction

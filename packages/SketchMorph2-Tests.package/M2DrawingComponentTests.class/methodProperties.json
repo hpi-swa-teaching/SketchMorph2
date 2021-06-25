@@ -21,9 +21,10 @@
 		"zoomInBrushTest" : "mFr 6/25/2021 16:17",
 		"zoomInPencilTest" : "mFr 6/25/2021 15:50" },
 	"instance" : {
+		"assertEqualityOf:and:" : "ms 6/25/2021 17:06",
 		"backend" : "K.P. 6/24/2021 14:46",
 		"backend:" : "K.P. 6/24/2021 14:46",
-		"compare:with:" : "CCJ 6/25/2020 10:36",
+		"compare:with:" : "ms 6/25/2021 17:09",
 		"compareBackendFormWith:" : "mFr 6/25/2021 15:53",
 		"compareViewPortFormWith:" : "mFr 6/25/2021 15:53",
 		"context" : "K.P. 6/24/2021 15:30",
@@ -72,6 +73,8 @@
 		"testUndoStackSize" : "mFr 6/25/2021 08:57",
 		"testUndoWhenUndoStackEmpty" : "mFr 6/25/2021 15:53",
 		"testZoomInBrush" : "mFr 6/25/2021 16:20",
+		"testZoomInOutPreservesInformation" : "ms 6/25/2021 17:01",
 		"testZoomInPencil" : "mFr 6/25/2021 15:54",
+		"testZoomOutInPreservesInformation" : "ms 6/25/2021 17:09",
 		"viewPort" : "K.P. 6/24/2021 15:31",
 		"viewPort:" : "K.P. 6/24/2021 15:31" } }

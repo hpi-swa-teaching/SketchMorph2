@@ -1,3 +1,4 @@
 event handling
 keyUp: aKeyboardEvent
-	aKeyboardEvent keyValue = 17 ifTrue: [self ctrlPressed: false]
+	aKeyboardEvent commandKeyPressed ifTrue: [self ctrlPressed: false]
+
