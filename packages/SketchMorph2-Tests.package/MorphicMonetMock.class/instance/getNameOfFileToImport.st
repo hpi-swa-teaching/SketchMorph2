@@ -1,5 +1,5 @@
 accessing
 getNameOfFileToImport
-	^ M2BackendTests new 
+	^ M2DrawingComponentTests new 
 		initializeLocalFiles;
 		importTestPNGPath.

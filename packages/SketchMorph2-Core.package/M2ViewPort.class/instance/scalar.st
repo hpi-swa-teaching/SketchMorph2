@@ -1,3 +1,3 @@
 accessing
 scalar
-	^ scalar ifNil: [scalar := 1]
+	^ scalar ifNil: [scalar := self defaultScalar]

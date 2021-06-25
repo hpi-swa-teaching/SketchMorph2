@@ -1,0 +1,3 @@
+zooming
+defaultScalar
+	^ 1
