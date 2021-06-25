@@ -7,4 +7,6 @@ importPNG: aFileName
 	self project: tempForm at: 0 asPoint.
 	self
 		formChanged;
-		pushNewUndoLevelWithForm: self copyForm "add an empty User Action to simulate importPNG being one"
+		pushNewUndoLevelWithForm: self copyForm. "add an empty User Action to simulate importPNG being one"
+	self 	viewPort refresh
+
