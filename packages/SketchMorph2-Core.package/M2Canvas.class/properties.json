@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "K.P. 6/26/2021 14:39",
 	"instvars" : [
-		"igripMorph",
-		"sCtrlPressed",
+		"gripMorph",
+		"isCtrlPressed",
 		"viewPort" ],
 	"name" : "M2Canvas",
 	"pools" : [

@@ -8,7 +8,7 @@ resizeTemporaryGeometricMorphAt: aPoint
 	minimalSquare := (extent x min: extent y) asPoint * (movementVector sign).
 	
 	position := (self context currentGeometricForm = #circle)
-		ifTrue: [self startPoint + ((minimalSquare x min: 0) @ (minimalSquare y min: 0))]
+		ifTrue: [self getCircleOrigin: minimalSquare]
 		ifFalse: [aPoint min: self startPoint].
 	
 	self temporaryGeometricMorph
