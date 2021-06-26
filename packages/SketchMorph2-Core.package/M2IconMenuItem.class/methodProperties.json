@@ -1,7 +1,6 @@
 {
 	"class" : {
 		"actionSelector" : "mFr 5/19/2021 10:55",
-		"cursor" : "mFr 6/11/2021 14:51",
 		"defaultIconSize" : "mFr 5/19/2021 12:14",
 		"getMenuItemForTarget:" : "mFr 6/11/2021 14:47",
 		"handlesMouseDown:" : "mFr 5/19/2021 10:55",

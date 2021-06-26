@@ -7,5 +7,5 @@ drawEraser
 		currentTool: #drawEraser.
 	self
 	    switchMode;
-	    currentCursor: (Form dotOfSize: self eraserSize color: Color white).
+	    currentCursor: self eraserCursor.
 	self viewPort drawEraser
