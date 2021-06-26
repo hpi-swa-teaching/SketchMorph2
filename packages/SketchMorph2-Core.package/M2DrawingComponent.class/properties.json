@@ -7,11 +7,11 @@
 	"commentStamp" : "K.P. 6/26/2021 14:54",
 	"instvars" : [
 		"context",
-		"form",
 		"eraser",
+		"form",
 		"pen",
-		"temporaryForm",
-		"startPoint" ],
+		"startPoint",
+		"temporaryForm" ],
 	"name" : "M2DrawingComponent",
 	"pools" : [
 		 ],

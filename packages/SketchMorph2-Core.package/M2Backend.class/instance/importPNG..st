@@ -8,5 +8,4 @@ importPNG: aFileName
 	self
 		formChanged;
 		pushNewUndoLevelWithForm: self copyForm. "add an empty User Action to simulate importPNG being one"
-	self 	viewPort refresh
-
+	self viewPort refresh

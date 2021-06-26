@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "mk 6/25/2020 12:17",
 	"instvars" : [
-		"form",
-		"actions" ],
+		"actions",
+		"form" ],
 	"name" : "M2UndoLevel",
 	"pools" : [
 		 ],

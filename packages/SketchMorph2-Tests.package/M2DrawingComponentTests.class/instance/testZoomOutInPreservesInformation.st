@@ -2,7 +2,7 @@ testing
 testZoomOutInPreservesInformation
 	| originalForm |
 	self viewPort
-		zoomInBy: 2;
+		zoomBy: 2;
 		userActionClickAt: 50 asPoint;
 		userActionStopDrawing;
 		refresh.
@@ -10,7 +10,7 @@ testZoomOutInPreservesInformation
 	originalForm := self viewPort copyForm.
 	
 	self viewPort 
-		zoomOutBy: 2;
-		zoomInBy: 2.
+		zoomBy: -2;
+		zoomBy: 2.
 		
 	self assertEqualityOf: self viewPort form and: originalForm

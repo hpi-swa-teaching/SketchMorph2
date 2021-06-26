@@ -1,3 +1,3 @@
 accessing
-temporaryGeometricMorph: anObject
-	temporaryGeometricMorph := anObject
+temporaryGeometricMorph: aMorph
+	temporaryGeometricMorph := aMorph

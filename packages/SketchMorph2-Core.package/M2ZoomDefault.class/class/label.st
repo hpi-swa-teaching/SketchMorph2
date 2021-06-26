@@ -1,3 +1,3 @@
-nil
+accessing
 label
 	^ 'Zoom to 100%'

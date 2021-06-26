@@ -1,3 +1,3 @@
 zooming
 zoomOut
-	self zoomOutBy: self zoomStep
+	self zoomBy: self zoomStep negated

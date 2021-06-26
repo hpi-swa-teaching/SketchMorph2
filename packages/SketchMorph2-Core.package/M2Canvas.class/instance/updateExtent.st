@@ -1,6 +1,6 @@
 accessing
 updateExtent
 	self
-		extent: self viewPort form extent;
+		extent: self viewPort formExtent;
 		updateGripMorphPosition;
 		changed

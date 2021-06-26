@@ -9,8 +9,7 @@
 		"buttons",
 		"customizableButtons",
 		"squeakPaint",
-		"uncustomizableButtons",
-		"currentTool" ],
+		"uncustomizableButtons" ],
 	"name" : "M2ColorPalette",
 	"pools" : [
 		 ],

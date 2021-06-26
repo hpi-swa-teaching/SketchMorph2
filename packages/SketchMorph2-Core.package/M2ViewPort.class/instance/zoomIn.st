@@ -1,3 +1,3 @@
 zooming
 zoomIn
-	self zoomInBy: self zoomStep
+	self zoomBy: self zoomStep

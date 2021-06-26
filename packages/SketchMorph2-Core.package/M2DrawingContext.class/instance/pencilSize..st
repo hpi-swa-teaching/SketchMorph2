@@ -1,3 +1,3 @@
 accessing
-pencilSize: anObject
-	pencilSize := anObject
+pencilSize: aNumber
+	pencilSize := aNumber

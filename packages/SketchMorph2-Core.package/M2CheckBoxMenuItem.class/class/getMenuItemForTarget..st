@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 getMenuItemForTarget: anObject
 	^ (PluggableCheckBoxMorph new)
 		actionSelector: self actionSelector;
