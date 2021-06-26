@@ -1,3 +1,3 @@
 defaults
 topPanelHeight
-	^ 0.27 "percentage of total window height"
+	^ 0.35 "percentage of total window height"
