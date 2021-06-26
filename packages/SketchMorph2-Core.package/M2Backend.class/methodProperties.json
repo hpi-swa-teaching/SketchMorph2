@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"addMovementToUserAction:" : "mk 7/3/2020 18:41",
+		"blend:at:" : "mFr 6/26/2021 21:09",
 		"brushSize" : "wr 5/14/2020 16:42",
 		"brushSize:" : "mFr 5/26/2021 11:40",
 		"cachedForm" : "mk 6/13/2020 14:39",
@@ -32,6 +33,7 @@
 		"latestActionQueue" : "mk 6/13/2020 12:38",
 		"mode:" : "NC 7/24/2020 12:32",
 		"moveDrawing:" : "ms 5/26/2021 16:26",
+		"paint:at:" : "mFr 6/26/2021 21:10",
 		"pencilSize" : "mk 5/10/2020 20:34",
 		"pencilSize:" : "mk 5/10/2020 20:34",
 		"popUndoStack" : "NC 7/4/2020 12:50",
