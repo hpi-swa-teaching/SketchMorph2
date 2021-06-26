@@ -1,7 +1,6 @@
 testing
 testZoomInOutPreservesInformation
 	| originalForm |
-
 	self viewPort
 		userActionClickAt: 99 asPoint;
 		userActionStopDrawing.

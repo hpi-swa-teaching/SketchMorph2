@@ -1,4 +1,4 @@
-tool selection
+drawing
 clearCanvasAndPushUndoLevel
 	self
 		clearCanvas;

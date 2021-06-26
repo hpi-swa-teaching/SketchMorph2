@@ -1,3 +1,3 @@
 event handling
 keyDown: aKeyboardEvent
-	aKeyboardEvent commandKeyPressed ifTrue: [self ctrlPressed: true]
+ 	(self isControlKeyEvent: aKeyboardEvent) ifTrue: [self ctrlPressed: true]

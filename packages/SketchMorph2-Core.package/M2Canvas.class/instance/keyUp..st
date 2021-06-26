@@ -1,4 +1,3 @@
 event handling
 keyUp: aKeyboardEvent
-	aKeyboardEvent commandKeyPressed ifTrue: [self ctrlPressed: false]
-
+	(self isControlKeyEvent: aKeyboardEvent) ifTrue: [self ctrlPressed: false]
