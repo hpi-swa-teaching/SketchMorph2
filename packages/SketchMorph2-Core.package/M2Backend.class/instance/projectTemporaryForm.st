@@ -1,5 +1,4 @@
 drawing
 projectTemporaryForm
-	self project: self temporaryForm at: self startPoint rule: Form blend.
+	self blend: self temporaryForm at: self startPoint.
 	self resetTemporaryForm
-	

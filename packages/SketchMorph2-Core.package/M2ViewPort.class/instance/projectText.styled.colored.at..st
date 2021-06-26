@@ -5,5 +5,5 @@ projectText: aString styled: aTextStyle colored: aColor at: aPoint
 		contents: aString;
 		setTextStyle: aTextStyle;
 		textColor: aColor.
-	self backend project: textMorph imageForm at: (self getBackendPointFor: aPoint) rule: Form blend.
+	self backend blend: textMorph imageForm at: (self getBackendPointFor: aPoint).
 	textMorph delete
