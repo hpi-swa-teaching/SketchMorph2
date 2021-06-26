@@ -12,4 +12,3 @@ testZoomInOutPreservesInformation
 		zoomOut.
 		
 	self assertEqualityOf: self viewPort form and: originalForm
-
