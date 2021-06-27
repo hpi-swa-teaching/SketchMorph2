@@ -7,5 +7,5 @@ drawCircle
 		currentTool: #drawCircle.
 	self
 	    switchMode;
-	    currentCursor: (Form dotOfSize: self brushSize color: self penColor).
+	    currentCursor: self circleCursor.
 	self viewPort drawCircle

@@ -1,4 +1,4 @@
-accessing
+cursors
 eraserCursor
 	^ CircleMorph new 
 			extent: self eraserSize asPoint;

@@ -7,5 +7,5 @@ drawTriangle
 		currentTool: #drawTriangle.
 	self
 	    switchMode;
-	    currentCursor: ((Form extent: self brushSize asPoint depth: self defaultDepth) fillShape: self prepareTrianglePenSource fillColor: self currentColor).
+	    currentCursor: self triangleCursor.
 	self viewPort drawTriangle
