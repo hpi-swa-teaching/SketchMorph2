@@ -1,8 +1,8 @@
 accessing
-setCanvasSize: aSize
+setCanvasSize: aPoint
 	| tempForm scaledSize |
 	tempForm := self backend copyForm.
-	scaledSize := aSize / self viewPort scalar.
+	scaledSize := aPoint / self viewPort scalar.
 	self backend form setExtent: scaledSize depth: tempForm depth.
 	self backend
 		formChanged;

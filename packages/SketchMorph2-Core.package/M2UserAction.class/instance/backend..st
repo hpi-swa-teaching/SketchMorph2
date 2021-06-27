@@ -1,3 +1,3 @@
 accessing
-backend: anObject
-	backend := anObject
+backend: anM2Backend
+	backend := anM2Backend

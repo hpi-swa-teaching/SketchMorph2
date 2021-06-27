@@ -1,5 +1,6 @@
 defaults
 reloadCurrentPen
-	self pen: self defaultPen.
-	self penColor: self context currentColor.
-	self perform: self context currentTool
+	self
+		pen: self defaultPen;
+		penColor: self context currentColor;
+		perform: self context currentTool
