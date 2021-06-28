@@ -4,4 +4,5 @@ undo
 		switchMode;
 		removeLastUserAction;
 		restoreFormFromStack;
-		restoreUserActions]
+		restoreUserActions].
+	self viewPort refresh

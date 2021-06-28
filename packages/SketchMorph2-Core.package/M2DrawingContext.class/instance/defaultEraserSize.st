@@ -1,0 +1,3 @@
+defaults
+defaultEraserSize
+	^ 10

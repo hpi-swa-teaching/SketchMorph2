@@ -1,3 +1,3 @@
-accessing
+delegation
 eraserSize: anObject
-	eraserSize := anObject
+	self context eraserSize: anObject

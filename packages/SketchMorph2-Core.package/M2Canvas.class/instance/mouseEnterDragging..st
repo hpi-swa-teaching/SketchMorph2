@@ -1,4 +1,4 @@
 event handling
 mouseEnterDragging: evt
-	self backend isInGeometricMode ifTrue: [^ nil].
-	self backend startDrawing
+	self viewPort isInGeometricMode ifTrue: [^ nil].
+	self viewPort startDrawing

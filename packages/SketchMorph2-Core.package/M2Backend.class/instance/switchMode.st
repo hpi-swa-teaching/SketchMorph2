@@ -1,3 +1,3 @@
 tool selection
 switchMode
-	self commitText
+	self viewPort switchMode

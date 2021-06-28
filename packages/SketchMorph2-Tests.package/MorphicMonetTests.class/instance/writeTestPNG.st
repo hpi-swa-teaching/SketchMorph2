@@ -1,5 +1,5 @@
 support
 writeTestPNG
-	^ M2BackendTests new 
+	^ M2DrawingComponentTests new 
 		initializeLocalFiles;
 		importTestPNGPath

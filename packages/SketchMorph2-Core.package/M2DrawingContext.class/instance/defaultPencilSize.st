@@ -1,0 +1,3 @@
+defaults
+defaultPencilSize
+	^ 1

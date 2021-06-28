@@ -1,0 +1,14 @@
+{
+	"category" : "SketchMorph2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "K.P. 6/26/2021 14:57",
+	"instvars" : [
+		 ],
+	"name" : "M2ZoomDefault",
+	"pools" : [
+		 ],
+	"super" : "M2IconMenuItem",
+	"type" : "normal" }

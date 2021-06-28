@@ -1,3 +1,3 @@
-accessing
-isFillingGeometricForm: aBoolean
-	isFillingGeometricForm := aBoolean
+delegation
+isFillingGeometricForm: anObject
+	self context isFillingGeometricForm: anObject

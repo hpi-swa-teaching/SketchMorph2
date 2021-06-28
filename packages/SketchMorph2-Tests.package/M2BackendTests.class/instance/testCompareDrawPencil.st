@@ -1,5 +1,0 @@
-testing
-testCompareDrawPencil
-	self 
-		drawFrom: 10 asPoint To: 40 asPoint;
-		compareFormWith: #diagonalPencilLine

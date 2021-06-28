@@ -1,3 +1,3 @@
-accessing
+delegation
 pencilSize: anObject
-	pencilSize := anObject
+	self context pencilSize: anObject

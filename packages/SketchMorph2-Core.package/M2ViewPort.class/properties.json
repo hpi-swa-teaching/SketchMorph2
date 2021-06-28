@@ -1,0 +1,19 @@
+{
+	"category" : "SketchMorph2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "K.P. 6/26/2021 14:45",
+	"instvars" : [
+		"backend",
+		"canvas",
+		"offset",
+		"scalar",
+		"temporaryGeometricMorph",
+		"temporaryTextMorph" ],
+	"name" : "M2ViewPort",
+	"pools" : [
+		 ],
+	"super" : "M2DrawingComponent",
+	"type" : "normal" }

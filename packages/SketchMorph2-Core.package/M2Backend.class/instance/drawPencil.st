@@ -1,8 +1,9 @@
 tool selection
 drawPencil
-	self pen roundNib: self pencilSize.
-	self
+	super drawPencil.
+	self context
 		isErasing: false;
 		mode: #pen;
-		currentTool: #drawPencil;
-		switchMode
+		currentTool: #drawPencil.
+	self switchMode.
+	self viewPort drawPencil

@@ -1,10 +1,9 @@
 tool selection
 drawRectangle
-	self pen sourceForm:
-		(Form extent: self rectangleBrushSize
-			offset: (self penNibOffset: self rectangleBrushSize)) fillBlack.
-	self
+	super drawRectangle.
+	self context
 		isErasing: false;
 		mode: #pen;
-		currentTool: #drawRectangle;
-		switchMode
+		currentTool: #drawRectangle.
+	self switchMode.
+	self viewPort drawRectangle

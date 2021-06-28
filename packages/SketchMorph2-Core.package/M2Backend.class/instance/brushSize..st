@@ -1,3 +1,3 @@
-accessing
-brushSize: anInteger
-	brushSize := anInteger
+delegation
+brushSize: anObject
+	self context brushSize: anObject

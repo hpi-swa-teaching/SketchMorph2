@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "wr 8/4/2020 12:56",
+	"commentStamp" : "K.P. 6/26/2021 14:39",
 	"instvars" : [
-		"backend",
 		"gripMorph",
-		"temporaryCanvas" ],
+		"isCtrlPressed",
+		"viewPort" ],
 	"name" : "M2Canvas",
 	"pools" : [
 		 ],

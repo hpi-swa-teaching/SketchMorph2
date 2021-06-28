@@ -1,3 +1,3 @@
-accessing
-currentGeometricForm: aSymbol
-	currentGeometricForm := aSymbol
+delegation
+currentGeometricForm: anObject
+	self context currentGeometricForm: anObject

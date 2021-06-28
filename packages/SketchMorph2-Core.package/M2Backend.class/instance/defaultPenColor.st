@@ -1,3 +1,0 @@
-defaults
-defaultPenColor
-	^ Color red
