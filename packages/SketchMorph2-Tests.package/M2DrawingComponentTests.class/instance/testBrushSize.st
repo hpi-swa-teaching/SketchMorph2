@@ -3,5 +3,6 @@ testBrushSize
 	self backend
 		setBrushAndEraserSizeTo: 50;
 		drawCircle.
-	self drawAt: 50 asPoint.
-	self compareBackendFormWith: #brushSizeTest
+	self
+		drawAt: 50 asPoint;
+		compareBackendFormWith: #brushSizeTest
