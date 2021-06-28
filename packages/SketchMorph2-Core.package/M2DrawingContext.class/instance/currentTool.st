@@ -1,3 +1,3 @@
 accessing
 currentTool
-	^ currentTool ifNil: [currentTool := #pen]
+	^ currentTool ifNil: [currentTool := self defaultPen]

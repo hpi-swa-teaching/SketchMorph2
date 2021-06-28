@@ -1,3 +1,3 @@
 accessing
 currentGeometricForm
-	^ currentGeometricForm ifNil: [currentGeometricForm := #circle]
+	^ currentGeometricForm ifNil: [currentGeometricForm := self defaultGeometricForm]

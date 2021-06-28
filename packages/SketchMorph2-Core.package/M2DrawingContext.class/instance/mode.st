@@ -1,3 +1,3 @@
 accessing
 mode
-	^ mode ifNil: [mode := #pen]
+	^ mode ifNil: [mode := self defaultMode]
