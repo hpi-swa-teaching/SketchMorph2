@@ -1,5 +1,5 @@
 event handling
 pasteClipboard
-	self backend isInEditingTextMode ifTrue: [^ self].
+	self viewPort isInEditingTextMode ifTrue: [^ self].
 	self importPNG: Clipboard clipboardText asString.
 	self canvas changed

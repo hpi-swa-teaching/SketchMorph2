@@ -16,6 +16,7 @@
 		"getCircleOrigin:" : "K.P. 6/26/2021 16:51",
 		"initialize" : "K.P. 6/26/2021 15:17",
 		"initializeTemporaryGeometricMorphAt:" : "mFr 6/23/2021 17:36",
+		"isInEditingTextMode" : "ms 6/28/2021 18:50",
 		"isInGeometricMode" : "JP 6/26/2021 17:41",
 		"isNotInBounds:" : "K.P. 6/26/2021 16:18",
 		"moveDrawing:" : "mFr 6/23/2021 16:09",
