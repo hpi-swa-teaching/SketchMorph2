@@ -3,5 +3,6 @@ testSimpleText
 	self backend addText.
 	self drawAt: 25 asPoint.
 	self backend temporaryTextMorph contents: 'test'.
-	self drawAt: 20 asPoint.
-	self compareFormWith: #simpleText
+	self
+		drawAt: 20 asPoint;
+		compareFormWith: #simpleText

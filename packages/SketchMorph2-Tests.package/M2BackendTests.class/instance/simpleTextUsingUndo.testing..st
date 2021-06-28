@@ -3,11 +3,13 @@ simpleTextUsingUndo: anUndoBlock testing: aTestBlock
 	self backend
 		fillShape;
 		penColor: Color blue.
-	self drawAt: 10 asPoint.
-	self compareFormWith: #blueBackground.
+	self
+		drawAt: 10 asPoint;
+		compareFormWith: #blueBackground.
 	self backend penColor: Color white.
-	self drawAt: 10 asPoint.
-	self compareFormWith: #whiteBackground.
+	self
+		drawAt: 10 asPoint;
+		compareFormWith: #whiteBackground.
 	self backend
 		addText;
 		penColor: Color black.

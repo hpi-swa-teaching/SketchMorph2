@@ -3,13 +3,15 @@ multipleFillAreaTestUsingUndo: anUndoBlock testing: aTestBlock
 	self backend
 		setBrushAndEraserSizeTo: 50;
 		drawCircle.
-	self drawAt: 50 asPoint.
-	self compareFormWith: #brushSizeTest.
+	self
+		drawAt: 50 asPoint;
+		compareFormWith: #brushSizeTest.
 	self backend
 		fillShape;
 		penColor: Color white.
-	self drawAt: 50 asPoint.
-	self compareFormWith: #whiteBackground.
+	self
+		drawAt: 50 asPoint;
+		compareFormWith: #whiteBackground.
 	self backend penColor: Color blue.
 		
 	self drawFrom: 10 asPoint To: 20 asPoint.
