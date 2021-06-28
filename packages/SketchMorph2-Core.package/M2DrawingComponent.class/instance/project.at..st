@@ -5,5 +5,5 @@ project: aForm at: aPoint
 		from: aForm
 		at: aPoint
 		clippingBox: (0 asPoint corner: self form extent)
-		rule: Form blend
+		rule: Form blendAlphaScaled
 		fillColor: nil
