@@ -2,5 +2,7 @@ tool selection
 addText
 	self
 		isErasing: false;
-		mode: #text;
+		mode: (self isInEditingTextMode
+			ifTrue: [#editingText]
+			ifFalse: [#text]);
 		currentTool: #addText

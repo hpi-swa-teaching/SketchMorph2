@@ -1,7 +1,7 @@
 instance creation
 getMenuItemForTarget: anObject
 	^ (M2MenuItemMorph new)
-		contents: self label; 
+		contents: self label;
 		target: anObject;
 		selector: self actionSelector;
 		icon: (self icon scaledToSize: self defaultIconSize);

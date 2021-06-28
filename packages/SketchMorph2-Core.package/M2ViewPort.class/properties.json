@@ -8,6 +8,7 @@
 	"instvars" : [
 		"backend",
 		"canvas",
+		"currentCursor",
 		"offset",
 		"scalar",
 		"temporaryGeometricMorph",

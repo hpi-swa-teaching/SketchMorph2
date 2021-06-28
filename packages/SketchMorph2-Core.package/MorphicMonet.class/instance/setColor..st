@@ -1,4 +1,4 @@
 accessing
 setColor: aColor
-	self backend penColor: aColor.
+	self backend setPenColor: aColor.
 	self colorPicker selectedColor: aColor
