@@ -5,7 +5,5 @@ drawEraser
 		isErasing: true;
 		mode: #pen;
 		currentTool: #drawEraser.
-	self
-	    switchMode;
-	    currentCursor: self eraserCursor.
+	self switchMode.
 	self viewPort drawEraser

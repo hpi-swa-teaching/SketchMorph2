@@ -5,6 +5,4 @@ drawGeometricCircle
 		mode: #geometric;
 		currentGeometricForm: #circle;
 		currentTool: #drawGeometricCircle.
-	self
-	    switchMode;
-	    currentCursor: Cursor crossHair
+	self switchMode

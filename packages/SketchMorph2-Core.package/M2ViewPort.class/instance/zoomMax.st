@@ -1,3 +1,3 @@
 zooming
 zoomMax
-	^ 8
+	^ 3

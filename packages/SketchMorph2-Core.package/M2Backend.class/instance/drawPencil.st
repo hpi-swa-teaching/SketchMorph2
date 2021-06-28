@@ -5,7 +5,5 @@ drawPencil
 		isErasing: false;
 		mode: #pen;
 		currentTool: #drawPencil.
-	self
-	    switchMode;
-	    currentCursor: (CursorWithAlpha fromIcon: M2Pencil icon).
+	self switchMode.
 	self viewPort drawPencil

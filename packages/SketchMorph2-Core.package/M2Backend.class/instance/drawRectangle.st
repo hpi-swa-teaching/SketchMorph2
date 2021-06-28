@@ -5,7 +5,5 @@ drawRectangle
 		isErasing: false;
 		mode: #pen;
 		currentTool: #drawRectangle.
-	self
-	    switchMode;
-	    currentCursor: self rectangleCursor.
+	self switchMode.
 	self viewPort drawRectangle

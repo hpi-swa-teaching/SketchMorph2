@@ -5,7 +5,5 @@ drawCircle
 		isErasing: false;
 		mode: #pen;
 		currentTool: #drawCircle.
-	self
-	    switchMode;
-	    currentCursor: self circleCursor.
+	self switchMode.
 	self viewPort drawCircle
