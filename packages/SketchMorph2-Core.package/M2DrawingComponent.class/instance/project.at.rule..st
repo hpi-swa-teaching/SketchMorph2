@@ -6,5 +6,4 @@ project: aForm at: aPoint rule: aCombinationRule
 		at: aPoint
 		clippingBox: (0 asPoint corner: self form extent) 
 		rule: aCombinationRule
-		fillColor: nil.
-	self resetTemporaryForm
+		fillColor: nil
