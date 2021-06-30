@@ -1,0 +1,14 @@
+{
+	"category" : "SketchMorph2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mFr 6/26/2021 21:13",
+	"instvars" : [
+		 ],
+	"name" : "M2ImportImage",
+	"pools" : [
+		 ],
+	"super" : "M2IconMenuItem",
+	"type" : "normal" }
