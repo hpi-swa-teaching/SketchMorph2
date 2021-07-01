@@ -41,6 +41,7 @@
 		"testDoesZoomInButtonRespectLimit" : "K.P. 6/26/2021 16:20",
 		"testDoesZoomOutButtonDecreaseViewPortScalar" : "mFr 6/25/2021 15:36",
 		"testDoesZoomOutButtonRespectLimit" : "mFr 6/25/2021 15:37",
+		"testIsBrushSizeIndicatorThere" : "mFr 7/1/2021 16:09",
 		"testIsBrushSizeSliderThere" : "mFr 5/26/2021 10:43",
 		"testIsCanvasPanelThere" : "CS 5/9/2021 14:29",
 		"testIsCanvasPanelVisible" : "CS 5/9/2021 14:29",
