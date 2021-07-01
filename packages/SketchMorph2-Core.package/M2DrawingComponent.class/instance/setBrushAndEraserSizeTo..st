@@ -1,4 +1,6 @@
 accessing
 setBrushAndEraserSizeTo: aNumber
 	self context setBrushAndEraserSizeTo: aNumber.
-	self reloadCurrentPen
+	self
+		triggerEvent: #brushSizeChanged;
+		reloadCurrentPen

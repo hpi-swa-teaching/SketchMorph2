@@ -1,0 +1,14 @@
+{
+	"category" : "SketchMorph2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"model" ],
+	"name" : "M2BrushSizeIndicator",
+	"pools" : [
+		 ],
+	"super" : "CircleMorph",
+	"type" : "normal" }
