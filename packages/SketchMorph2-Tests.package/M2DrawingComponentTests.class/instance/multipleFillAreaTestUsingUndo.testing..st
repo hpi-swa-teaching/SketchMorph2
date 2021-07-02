@@ -5,13 +5,13 @@ multipleFillAreaTestUsingUndo: anUndoBlock testing: aTestBlock
 		drawCircle.
 	self
 		drawAt: 50 asPoint;
-		compareFormWith: #brushSizeTest.
+		compareBackendFormWith: #brushSizeTest.
 	self backend
 		fillShape;
 		penColor: Color white.
 	self
 		drawAt: 50 asPoint;
-		compareFormWith: #whiteBackground.
+		compareBackendFormWith: #whiteBackground.
 	self backend penColor: Color blue.
 		
 	self drawFrom: 10 asPoint To: 20 asPoint.
@@ -20,13 +20,13 @@ multipleFillAreaTestUsingUndo: anUndoBlock testing: aTestBlock
 	self backend penColor: Color green.
 	self drawFrom: 10 asPoint To: 20 asPoint.
 	
-	self compareFormWith: #greenBackground.
+	self compareBackendFormWith: #greenBackground.
 	anUndoBlock value.
-	self compareFormWith: #redBackground.
+	self compareBackendFormWith: #redBackground.
 	anUndoBlock value.
-	self compareFormWith: #blueBackground.
+	self compareBackendFormWith: #blueBackground.
 	anUndoBlock value.
-	self compareFormWith: #whiteBackground.
+	self compareBackendFormWith: #whiteBackground.
 	anUndoBlock value.
-	self compareFormWith: #brushSizeTest.
+	self compareBackendFormWith: #brushSizeTest.
 	aTestBlock value

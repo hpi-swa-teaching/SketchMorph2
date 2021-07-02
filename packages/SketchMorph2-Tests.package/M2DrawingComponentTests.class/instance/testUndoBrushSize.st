@@ -5,6 +5,6 @@ testUndoBrushSize
 		drawCircle.
 	self
 		drawAt: 50 asPoint;
-		compareFormWith: #brushSizeTest.
+		compareBackendFormWith: #brushSizeTest.
 	self backend undo.
-	self compareFormWith: #whiteBackground
+	self compareBackendFormWith: #whiteBackground
