@@ -5,18 +5,18 @@ simpleTextUsingUndo: anUndoBlock testing: aTestBlock
 		penColor: Color blue.
 	self
 		drawAt: 10 asPoint;
-		compareFormWith: #blueBackground.
+		compareBackendFormWith: #blueBackground.
 	self backend penColor: Color white.
 	self
 		drawAt: 10 asPoint;
-		compareFormWith: #whiteBackground.
+		compareBackendFormWith: #whiteBackground.
 	self backend
 		addText;
 		penColor: Color black.
 	self drawAt: 25 asPoint.
-	self backend temporaryTextMorph contents: 'test'.
+	self viewPort temporaryTextMorph contents: 'test'.
 	self drawAt: 20 asPoint.
-	self compareFormWith: #simpleText.
+	self compareBackendFormWith: #simpleText.
 	anUndoBlock value.
-	self compareFormWith: #whiteBackground.
+	self compareBackendFormWith: #whiteBackground.
 	aTestBlock value

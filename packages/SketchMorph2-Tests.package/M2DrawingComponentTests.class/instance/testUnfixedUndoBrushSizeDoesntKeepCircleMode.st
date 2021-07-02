@@ -2,5 +2,5 @@ testing
 testUnfixedUndoBrushSizeDoesntKeepCircleMode
 	self brushSizeTestUsingUndo: [self backend unfixedUndo]
 		testing:
-			[self deny: self backend isInPenMode.
-			self deny: #drawCircle equals: self backend currentTool]
+			[self deny: self context isInPenMode.
+			self deny: #drawCircle equals: self context currentTool]
