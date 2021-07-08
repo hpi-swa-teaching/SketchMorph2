@@ -4,4 +4,4 @@ clickMenuItemWith: aString
 		submenu select: [:item | 
 			item isMenuItemMorph and: [item contents = aString]] thenDo: [:item | 
 				item select.
-				item target perform: item selector]].
+				item target perform: item selector]]
