@@ -2,11 +2,18 @@
 	"class" : {
 		 },
 	"instance" : {
+		"beAllFont:" : "JP 7/8/2021 18:53",
 		"canvas" : "CS 6/2/2021 12:08",
 		"canvas:" : "CS 6/2/2021 12:08",
 		"defaultFont" : "CS 6/2/2021 12:11",
+		"defaultHandle" : "JP 7/8/2021 18:35",
+		"defaultHandleOffset" : "JP 7/8/2021 18:20",
 		"dismissCurrent" : "mFr 6/24/2021 17:14",
-		"initialize" : "CS 6/2/2021 15:13",
+		"extent:" : "JP 7/8/2021 18:21",
+		"handle" : "JP 7/8/2021 18:02",
+		"handle:" : "JP 7/8/2021 17:57",
+		"initialize" : "JP 7/8/2021 18:03",
 		"morphExists" : "CS 6/2/2021 15:11",
 		"morphExists:" : "CS 6/2/2021 15:06",
-		"moveTo:" : "mFr 6/24/2021 17:14" } }
+		"moveByHandleTo:" : "JP 7/8/2021 18:43",
+		"moveTo:" : "JP 7/8/2021 18:23" } }
