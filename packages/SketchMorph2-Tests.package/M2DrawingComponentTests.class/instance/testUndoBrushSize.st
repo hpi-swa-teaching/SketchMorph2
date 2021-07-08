@@ -1,10 +1,16 @@
 testing
 testUndoBrushSize
-	self backend
-		setBrushAndEraserSizeTo: 50;
-		drawCircle.
-	self
-		drawAt: 50 asPoint;
-		compareBackendFormWith: #brushSizeTest.
-	self backend undo.
-	self compareBackendFormWith: #whiteBackground
+	self execute: {
+		[self backend
+			fillShape;
+			penColor: Color blue.
+		self drawAt: 10 asPoint] .
+		[self backend penColor: Color white.
+		self drawAt: 20 asPoint] .
+		[self backend
+			setBrushAndEraserSizeTo: 50;
+			drawCircle;
+			penColor: Color black.
+		self drawAt: 50 asPoint] .
+		[self backend setBrushAndEraserSizeTo: 40.
+		self drawAt: 20 asPoint]}

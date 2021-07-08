@@ -1,4 +1,3 @@
 undo
 saveStateInCurrentUserAction
-	self currentState keysAndValuesDo: [:key :value |
-		self currentUserAction addMethodCall: key withArguments: value]
+	self currentUserAction addMethodCall: #restoreState: withArguments: {self currentState}

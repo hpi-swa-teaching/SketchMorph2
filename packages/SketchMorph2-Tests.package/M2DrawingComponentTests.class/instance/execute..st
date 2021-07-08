@@ -1,5 +1,5 @@
 support
-execute: aBlockArray withUndo: anUndoBlock denyStateEquality: aBoolean
+execute: aBlockArray
 	| preState stack |
 	stack := Stack new.
 	stack push: self backend copyForm.
@@ -8,9 +8,7 @@ execute: aBlockArray withUndo: anUndoBlock denyStateEquality: aBoolean
 		stack push: self backend copyForm].
 	preState := self backend currentState.
 	aBlockArray do: [ :aBlock |
-		anUndoBlock value.
+		self backend undo.
 		stack pop.
 		self formCompareBackendFormWith: stack top].
-	aBoolean
-		ifTrue: [self deny: preState equals: self backend currentState]
-		ifFalse: [self assert: preState equals: self backend currentState]
+	self assert: preState equals: self backend currentState
