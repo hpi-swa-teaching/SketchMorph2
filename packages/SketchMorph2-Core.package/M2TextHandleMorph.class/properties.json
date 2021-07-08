@@ -4,13 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "CS 6/2/2021 14:43",
+	"commentStamp" : "",
 	"instvars" : [
-		"canvas",
-		"handle",
-		"morphExists" ],
-	"name" : "M2TemporaryTextMorph",
+		"cursorOffset" ],
+	"name" : "M2TextHandleMorph",
 	"pools" : [
 		 ],
-	"super" : "TextMorph",
+	"super" : "RectangleMorph",
 	"type" : "normal" }
