@@ -1,6 +1,5 @@
 testing
 testUndoAfterClearCanvas
-	self drawFrom: 10 asPoint To: 40 asPoint.
-	self backend clearCanvasAndPushUndoLevel.
-	self backend undo.
-	self compareBackendFormWith: #diagonalPencilLine
+	self execute: {
+		[self drawFrom: 10 asPoint To: 40 asPoint] .
+		[self backend clearCanvasAndPushUndoLevel]}
