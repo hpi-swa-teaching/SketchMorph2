@@ -1,5 +1,6 @@
 accessing
 isInAnyDrawingMode
 	^ (self isInAnyTextMode
-		or: [self isInGeometricMode])
+		or: [self isInGeometricPreviewMode]
+		or: [self isInInsertSelectionMode])
 		not

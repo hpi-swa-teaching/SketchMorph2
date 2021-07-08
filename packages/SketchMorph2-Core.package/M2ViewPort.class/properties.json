@@ -12,7 +12,8 @@
 		"offset",
 		"scalar",
 		"temporaryGeometricMorph",
-		"temporaryTextMorph" ],
+		"temporaryTextMorph",
+		"clipboardForm" ],
 	"name" : "M2ViewPort",
 	"pools" : [
 		 ],
