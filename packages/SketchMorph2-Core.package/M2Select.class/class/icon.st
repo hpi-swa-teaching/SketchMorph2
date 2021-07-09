@@ -1,3 +1,3 @@
 accessing
 icon
-	^ UiFugueIcons selectionSelectIcon
+	^ MorphicMonetIcons selectionSelectIcon

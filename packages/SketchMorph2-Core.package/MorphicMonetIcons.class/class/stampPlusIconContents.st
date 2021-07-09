@@ -1,0 +1,23 @@
+icons
+stampPlusIconContents
+	"Auto-generated.
+
+	Fugue Icons 3.0 (shadowless)
+	© 2008-2010 Yusuke Kamiyamane
+	Website: http://p.yusukekamiyamane.com
+	License: http://creativecommons.org/licenses/by/3.0"
+	
+	^ 'iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9i
+ZSBJbWFnZVJlYWR5ccllPAAAAmpJREFUeNqUUl9IU1EY/527u83LZKtV5hT2sFVEZAl3L1HQ
+n5fMhySLrCcVRF8KyudeBgtfZBBBkAgiSJCFEVgMhAq0p1xQKwi3HixFHHN5i3Xd3b339J1r
+Vo6g/MF3v3Pu932/73znd9ilILDkq4e2ox4CNTU1CIVCkGUZGzBNE486pgHG7tJWJUuD8z6U
+bMgfws2ohm3bh6ioiZY+shLtM5KOt7abqz2t3erw0xHA4k6uXF1MhWptbe25eDx+ua6urjGf
+zy8ev9daZAb3webfNUsDyrZInQVHmjU0NFRzXBsbG7seDAbDsuwiQgvnX3cZ4TMRT3Xi84ln
+ablQKFT/312pVEK5XI5GZjQqR9QKu6fuTC3zAFs4ePGw+m78TdrJZEhLNB+q7Ov8/MLy2pqJ
+UsmA8Bd426JrQL8F3UbRKkJ4mDxGI/S5ToeBfds4kQHFMnOIM5n3SnPzkXq/f6eysrK6NDg4
+8ETTViftA/aub9MrgiBNNgm/DJY8CnhkoRCQ0xhSnyRkNXaMjt6ZTCZ7+vv7h2mU0b0BPmO1
+Msy56PYVifQma/RuVmFPgONKkyWIZm5nXGcjkYi4hy9Xm6wZEcPn9TzOLRimkLu8TkChFvok
+Noiifo7e7abzqMifivoxy/nvRrS8QS7lvAMKtFRMJE60daibpNj/EUsvH+Bke0yNRqObZHrx
++H7iJ2GK3Yxhtr2z+1ex0N7r9cLj8UCSJFgWHdcwyCq0NrFxkonRESFlTNbLQDY7B13X8b9Q
+FAWizmlYWoPTwf5zyH9A5Is6h6CgYejh+KtebBFuGUNuF8nPt9D5b/ghwAAduxtj6SW4dgAA
+AABJRU5ErkJggg=='
