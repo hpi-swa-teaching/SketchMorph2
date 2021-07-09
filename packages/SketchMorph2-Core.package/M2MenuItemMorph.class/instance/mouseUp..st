@@ -1,4 +1,4 @@
 event handling
 mouseUp: evt
-	self isActivatable ifTrue: [self owner clickItem: self].
+	self select.
 	super mouseUp: evt
