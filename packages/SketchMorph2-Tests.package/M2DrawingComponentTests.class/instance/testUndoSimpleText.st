@@ -1,6 +1,6 @@
 testing
 testUndoSimpleText
-	self execute: {
+	self executeAndTestUndo: {
 		[self backend
 			fillShape;
 			penColor: Color blue.

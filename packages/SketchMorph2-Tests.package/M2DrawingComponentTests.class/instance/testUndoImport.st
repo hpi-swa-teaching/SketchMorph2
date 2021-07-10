@@ -1,4 +1,4 @@
 testing
 testUndoImport
-	self execute: {
+	self executeAndTestUndo: {
 		[self backend importImage: self importTestPNGPath]}
