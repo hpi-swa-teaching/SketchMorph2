@@ -1,5 +1,5 @@
 tool selection
-undoBlock
+undoActions
 	^ [self
 		switchMode;
 		removeLastUserAction;

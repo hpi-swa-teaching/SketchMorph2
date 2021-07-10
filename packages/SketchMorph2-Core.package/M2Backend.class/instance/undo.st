@@ -1,4 +1,4 @@
 tool selection
 undo
-	self saveSettingsDuring: self undoBlock.
+	self saveSettingsDuring: self undoActions.
 	self viewPort refresh

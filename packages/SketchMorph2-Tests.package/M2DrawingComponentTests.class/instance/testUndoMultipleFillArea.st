@@ -1,6 +1,6 @@
 testing
 testUndoMultipleFillArea
-	self execute: {
+	self executeAndTestUndo: {
 		[self backend
 			setBrushAndEraserSizeTo: 50;
 			drawCircle.

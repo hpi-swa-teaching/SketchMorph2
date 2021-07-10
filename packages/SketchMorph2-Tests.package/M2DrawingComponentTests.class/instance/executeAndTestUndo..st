@@ -1,5 +1,5 @@
 support
-execute: aBlockArray
+executeAndTestUndo: aBlockArray
 	| preState stack |
 	stack := Stack new.
 	stack push: self backend copyForm.
