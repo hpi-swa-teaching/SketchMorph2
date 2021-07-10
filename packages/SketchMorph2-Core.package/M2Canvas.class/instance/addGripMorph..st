@@ -1,5 +1,5 @@
 initialization
-addGripMorph: aM2GripMorph
+addGripMorph: anM2GripMorph
 	self
-		addMorph: aM2GripMorph;
-		gripMorph: aM2GripMorph
+		addMorph: anM2GripMorph;
+		gripMorph: anM2GripMorph
