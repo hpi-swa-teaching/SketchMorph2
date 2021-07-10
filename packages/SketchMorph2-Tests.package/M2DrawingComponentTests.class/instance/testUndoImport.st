@@ -1,6 +1,4 @@
 testing
 testUndoImport
-	self backend
-		importImage: self importTestPNGPath;
-		undo.
-	self compareBackendFormWith: #whiteBackground
+	self executeAndTestUndo: {
+		[self backend importImage: self importTestPNGPath]}
