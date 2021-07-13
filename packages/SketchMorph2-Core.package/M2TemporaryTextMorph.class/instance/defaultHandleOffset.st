@@ -1,3 +1,3 @@
 defaults
 defaultHandleOffset
-	^ self topCenter - (10@20)
+	^ self topCenter - (self defaultHandleExtent * (0.5@1))
