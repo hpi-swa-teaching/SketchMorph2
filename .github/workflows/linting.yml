@@ -1,0 +1,15 @@
+name: CI
+
+on: [push]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    name: Linting
+    steps:
+      - uses: actions/checkout@v2
+      - run: chmod +x ./linter
+        shell: bash
+      - run: ./linter
+        shell: bash
+        timeout-minutes: 15
