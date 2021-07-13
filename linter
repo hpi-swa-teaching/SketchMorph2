@@ -1,0 +1,95 @@
+#!/bin/bash
+
+# Helper functions
+
+function print_lined_uncorrectable_issue {
+	((uncorrectable_issues+=1))
+	local text="Uncorrectable issue: $1 at '$2' in line $3 in '$4'."
+	output+=$'\n'"$text"
+}
+function print_file_uncorrectable_issue {
+	((uncorrectable_issues+=1))
+	local text="Uncorrectable issue: $1 in file '$2'"
+	output+=$'\n'"$text"
+}
+
+function print_lined_correctable_issue {
+	((correctable_issues+=1))
+	local text="Correctable issue: $1 at '$2' in line $3 in '$4'."
+	output+=$'\n'"$text"
+}
+function print_file_correctable_issue {
+	((correctable_issues+=1))
+	local text="Correctable issue: $1 in file '$2'"
+	output+=$'\n'"$text"
+}
+
+function print_welcome {
+	echo "Issues marked as uncorrectable are not fixable by the auto-linter"
+	echo "Issues marked as correctable are probably fixable by the auto-linter"
+}
+
+# Linting Functions
+
+function lint_st {
+	local content=$(<"$1")
+	local line_number=1
+	while IFS= read -r line
+	do
+		[[ $line =~ ^.{81,1000}$ ]] && print_lined_uncorrectable_issue "Line too long" "$line" "$line_number" "$1"
+		[[ $line =~ ([^[:space:]]@)|(@[^[:space:]]) ]] && print_lined_correctable_issue "No spaces around '@'" "$line" "$line_number" "$1"
+		[[ $line =~ ([aA])([[:space:]]?M2) ]] && print_lined_correctable_issue "Usage of 'aM2', 'a M2', 'A M2' or 'AM2'" "$line" "$line_number" "$1"
+		((line_number+=1))
+	done <<< "$content"
+	[[ $content =~ ^([^[]+?)([[:space:]]{3,})(\|) ]] && print_file_correctable_issue "Empty lines before method local variables" "$1"
+	[[ $content =~ ^([^[]+?)(\|)([[:space:]]{3,}) ]] && print_file_correctable_issue "Empty lines before method local variables" "$1"
+	[[ $content =~ (\.)([[:space:]]*)$ ]] && print_file_correctable_issue "Final point" "$1"
+}
+
+function lint_md {
+	local content=$(<"$1")
+	local line_number=1
+	while IFS= read -r line
+	do
+		[[ $line =~ ([aA])([[:space:]]?M2) ]] && print_lined_correctable_issue "Usage of 'aM2', 'a M2', 'A M2' or 'AM2'" "$line" "$line_number" "$1"
+		((line_number+=1))
+	done <<< "$content"
+	[[ $content =~ ^[[:space:]]*$ ]] && print_file_uncorrectable_issue "Empty class comment" "$1"
+}
+
+# Main script
+
+print_welcome
+
+uncorrectable_issues=0
+correctable_issues=0
+
+output=""
+
+echo "Linting..."
+
+while IFS= read -rd '' f
+do
+	lint_st "$f"
+done < <(git ls-files '*.st' -z)
+
+while IFS= read -rd '' f
+do
+	lint_md "$f"
+done < <(git ls-files '*.md' -z)
+
+total_issues=0
+((total_issues+=uncorrectable_issues))
+((total_issues+=correctable_issues))
+
+if (( total_issues == 0 ))
+then
+	echo "No issues found."
+	exit 0
+else
+	echo "Linting results:"
+	echo "$output"
+
+	echo "Uncorrectable issues: $uncorrectable_issues; correctable issues: $correctable_issues"
+	exit 1
+fi
