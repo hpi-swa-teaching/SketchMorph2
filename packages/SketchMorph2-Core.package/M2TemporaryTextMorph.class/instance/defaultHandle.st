@@ -1,7 +1,7 @@
 defaults
 defaultHandle
 	^ M2TextHandleMorph new 
-		extent: 20 asPoint;
+		extent: self defaultHandleExtent;
 		borderColor: Color black;
 		color: Color white;
 		position: self defaultHandleOffset;
