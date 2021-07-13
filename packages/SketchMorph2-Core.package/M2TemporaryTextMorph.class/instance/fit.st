@@ -1,4 +1,4 @@
-geometry
-extent: aPoint
-	super extent: aPoint.
+private
+fit
+	super fit.
 	self handle position: self defaultHandleOffset
