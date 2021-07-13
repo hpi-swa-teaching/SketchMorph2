@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"beAllFont:" : "JP 7/8/2021 18:53",
 		"canvas" : "CS 6/2/2021 12:08",
 		"canvas:" : "CS 6/2/2021 12:08",
 		"defaultFont" : "CS 6/2/2021 12:11",
@@ -10,7 +9,7 @@
 		"defaultHandleExtent" : "CS 7/13/2021 23:25",
 		"defaultHandleOffset" : "CS 7/13/2021 23:25",
 		"dismissCurrent" : "mFr 6/24/2021 17:14",
-		"extent:" : "JP 7/8/2021 18:21",
+		"fit" : "CS 7/13/2021 23:35",
 		"handle" : "JP 7/8/2021 18:02",
 		"handle:" : "JP 7/8/2021 17:57",
 		"initialize" : "JP 7/8/2021 18:03",
