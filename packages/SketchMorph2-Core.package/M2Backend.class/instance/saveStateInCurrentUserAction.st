@@ -2,7 +2,7 @@ undo
 saveStateInCurrentUserAction
 	self currentUserAction
 		addMethodCall: #mode: withArguments: {self context mode};
-		addMethodCall: #currentGeometricForm: withArguments: {self context currentGeometricForm};
+		addMethodCall: #currentGeometricPreviewShape: withArguments: {self context currentGeometricPreviewShape};
 		addMethodCall: #isErasing: withArguments: {self context isErasing};
 		addMethodCall: #brushSize: withArguments: {self brushSize};
 		addMethodCall: #penColor: withArguments: {self penColor};

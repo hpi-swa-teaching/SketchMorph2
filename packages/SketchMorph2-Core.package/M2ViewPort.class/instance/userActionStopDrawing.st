@@ -1,6 +1,6 @@
 drawing
 userActionStopDrawing
-	self context isInAnyTextMode ifTrue: [^ self].
+	(self context isInAnyTextMode or: [self context isInInsertSelectionMode]) ifTrue: [^ self].
 	self stopDrawing.
-	self context isInGeometricMode
+	self context isInGeometricPreviewMode
 		ifFalse: [self backend userActionStopDrawing]

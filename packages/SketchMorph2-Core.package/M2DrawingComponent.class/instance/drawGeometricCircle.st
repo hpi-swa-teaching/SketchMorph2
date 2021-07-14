@@ -3,6 +3,6 @@ drawGeometricCircle
 	self context
 		isErasing: false;
 		mode: #geometric;
-		currentGeometricForm: #circle;
+		currentGeometricPreviewShape: #circle;
 		currentTool: #drawGeometricCircle.
 	self switchMode

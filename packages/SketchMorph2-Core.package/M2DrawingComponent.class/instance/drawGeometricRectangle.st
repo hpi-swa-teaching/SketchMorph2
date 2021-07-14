@@ -3,6 +3,6 @@ drawGeometricRectangle
 	self context
 		isErasing: false;
 		mode: #geometric;
-		currentGeometricForm: #rectangle;
+		currentGeometricPreviewShape: #rectangle;
 		currentTool: #drawGeometricRectangle.
 	self switchMode
