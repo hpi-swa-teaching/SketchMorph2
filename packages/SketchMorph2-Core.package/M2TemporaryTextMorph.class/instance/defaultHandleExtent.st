@@ -1,3 +1,3 @@
 defaults
 defaultHandleExtent
-	^ 20 asPoint
+	^ 10 asPoint

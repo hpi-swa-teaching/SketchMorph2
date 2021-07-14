@@ -13,4 +13,4 @@ testDoesTextHandleMoveText
 	event position: targetPosition.
 	handle mouseMove: event.
 	self assert: targetPosition equals: handle center.
-	self assert: targetPosition + ((0@0.5) * handle extent) equals: temporaryTextMorph topCenter
+	self assert: targetPosition - (0.5 * handle extent) equals: temporaryTextMorph bottomRight
