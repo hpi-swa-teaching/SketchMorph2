@@ -4,4 +4,5 @@ initialize
 	self
 		contents: '';
 		beAllFont: self defaultFont;
-		morphExists: false
+		morphExists: false;
+		addMorph: self handle
