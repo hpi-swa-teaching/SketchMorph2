@@ -1,6 +1,7 @@
 initialization
 initialize
 	super initialize.
+	self viewPort when: #clipBoardFilled send: #enableInsertSelectionButton to: self.
 	self
 		initializePanels;
 		setLabel: 'Morphic Monet';
