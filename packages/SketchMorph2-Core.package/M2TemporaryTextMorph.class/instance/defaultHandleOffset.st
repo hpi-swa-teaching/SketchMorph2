@@ -1,0 +1,3 @@
+defaults
+defaultHandleOffset
+	^ self bottomRight 
