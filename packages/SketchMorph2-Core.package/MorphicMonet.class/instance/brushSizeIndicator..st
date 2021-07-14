@@ -1,0 +1,3 @@
+accessing
+brushSizeIndicator: anM2BrushSizeIndicator
+	brushSizeIndicator := anM2BrushSizeIndicator
