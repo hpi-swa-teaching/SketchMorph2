@@ -1,6 +1,12 @@
 initialization
 initializeColorPanel
-	self colorPanel: (PluggablePanelMorph newRow
+	self colorPanel: (PluggablePanelMorph newColumn
 		addMorph: self colorPalette;
-		addMorph: self colorPicker;
+		addMorph: (PluggablePanelMorph newRow
+			addMorph: self colorPicker;
+			addMorph: (PluggablePanelMorph newSpacer: Color transparent);
+			addMorph: self brushSizeIndicator;
+			addMorph: (PluggablePanelMorph newSpacer: Color transparent));
+			hResizing: #rigid;
+			extent: self defaultColorPanelExtent;
 		yourself)

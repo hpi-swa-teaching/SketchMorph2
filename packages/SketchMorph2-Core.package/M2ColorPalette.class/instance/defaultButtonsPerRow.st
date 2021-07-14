@@ -1,3 +1,3 @@
 default
 defaultButtonsPerRow
-	^ 5
+	^ 10
