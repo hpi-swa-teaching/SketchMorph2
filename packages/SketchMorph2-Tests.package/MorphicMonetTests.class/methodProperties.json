@@ -23,7 +23,7 @@
 		"testDoesCircleToolButtonChangeState" : "mFr 6/25/2021 15:35",
 		"testDoesCircleToolButtonKeepState" : "ms 7/8/2021 16:31",
 		"testDoesClearCanvasSendCorrectMessage" : "mFr 6/25/2021 00:18",
-		"testDoesColorPickerSetPenColor" : "JP 6/26/2021 17:26",
+		"testDoesColorPickerSetPenColor" : "CS 7/14/2021 19:09",
 		"testDoesEraserButtonChangeState" : "K.P. 6/26/2021 14:38",
 		"testDoesEraserButtonKeepState" : "mFr 6/25/2021 15:36",
 		"testDoesExportAsMorphSendCorrectMessage" : "CS 5/13/2021 09:36",
