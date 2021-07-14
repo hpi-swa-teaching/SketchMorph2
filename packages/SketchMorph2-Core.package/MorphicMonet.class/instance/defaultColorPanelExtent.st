@@ -1,3 +1,3 @@
 defaults
 defaultColorPanelExtent
-	^ 325 @ 250
+	^ 350 @ 250
