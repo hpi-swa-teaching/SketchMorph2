@@ -8,12 +8,12 @@
 	"instvars" : [
 		"backend",
 		"canvas",
+		"clipboardForm",
 		"currentCursor",
 		"offset",
 		"scalar",
 		"temporaryGeometricMorph",
-		"temporaryTextMorph",
-		"clipboardForm" ],
+		"temporaryTextMorph" ],
 	"name" : "M2ViewPort",
 	"pools" : [
 		 ],

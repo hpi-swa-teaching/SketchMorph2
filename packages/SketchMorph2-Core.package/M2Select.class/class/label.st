@@ -1,3 +1,3 @@
 accessing
 label
-	^ 'Select'
+	^ 'Select Area'
