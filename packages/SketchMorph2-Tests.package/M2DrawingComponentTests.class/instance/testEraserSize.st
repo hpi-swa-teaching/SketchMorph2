@@ -2,8 +2,9 @@ testing
 testEraserSize
 	self backend
 		setBrushAndEraserSizeTo: 50;
-		drawCircle;
-		clickAt: 75@75;
-		drawEraser;
-		clickAt: 75@75.
-	self compareBackendFormWith: #whiteBackground
+		drawCircle.
+	self drawAt: 75 asPoint.
+	self backend drawEraser.
+	self
+		drawAt: 75 asPoint;
+		compareBackendFormWith: #whiteBackground

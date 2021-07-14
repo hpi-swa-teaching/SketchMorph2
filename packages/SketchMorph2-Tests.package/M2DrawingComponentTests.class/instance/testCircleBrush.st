@@ -1,6 +1,6 @@
 testing
 testCircleBrush
-	self backend 
-		drawCircle;
-		clickAt: 20 asPoint.
-	self compareBackendFormWith: #circleBrushTest
+	self backend drawCircle.
+	self
+		drawAt: 20 asPoint;
+		compareBackendFormWith: #circleBrushTest
