@@ -1,3 +1,3 @@
 accessing
-model: anObject
-	model := anObject
+model: anM2DrawingComponent
+	model := anM2DrawingComponent
