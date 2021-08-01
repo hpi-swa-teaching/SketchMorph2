@@ -29,7 +29,7 @@
 		"colorPanel" : "mFr 5/19/2021 10:59",
 		"colorPanel:" : "mFr 5/19/2021 10:59",
 		"colorPicker" : "mFr 5/19/2021 10:59",
-		"defaultBrushSizeIndicator" : "mFr 7/26/2021 15:28",
+		"defaultBrushSizeIndicator" : "K.P. 8/1/2021 18:58",
 		"defaultBrushSizeSlider" : "CS 6/2/2021 14:56",
 		"defaultColorPanelExtent" : "mFr 7/14/2021 17:38",
 		"defaultColorPicker" : "CS 7/14/2021 19:02",
@@ -48,7 +48,7 @@
 		"importImage:" : "mFr 6/3/2021 21:17",
 		"initialize" : "mFr 7/14/2021 16:39",
 		"initializeCanvasPanel" : "mk 7/27/2020 20:15",
-		"initializeColorPanel" : "mFr 7/14/2021 17:37",
+		"initializeColorPanel" : "K.P. 8/1/2021 19:06",
 		"initializeMenuPanel" : "mFr 5/26/2021 12:21",
 		"initializePanels" : "mk 7/27/2020 20:16",
 		"initializeTopPanel" : "mFr 7/14/2021 17:09",
@@ -71,4 +71,5 @@
 		"topPanel" : "mFr 5/19/2021 10:58",
 		"topPanel:" : "mFr 5/19/2021 10:58",
 		"undo" : "mFr 5/19/2021 10:58",
+		"upperColorRow" : "K.P. 8/1/2021 19:05",
 		"viewPort" : "6/28/2021 21:03:28" } }
