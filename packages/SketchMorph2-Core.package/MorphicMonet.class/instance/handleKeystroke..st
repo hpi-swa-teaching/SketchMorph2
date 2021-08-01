@@ -7,5 +7,3 @@ handleKeystroke: aKeyboardEvent
 	aKeyboardEvent shiftPressed ifTrue: [^ self handleShiftKeystroke: aKeyboardEvent].	
 	aKeyboardEvent commandKeyPressed ifTrue: [^ self handleCommandKeystroke: aKeyboardEvent].
 	^ self handleNoModifierKeystroke: aKeyboardEvent
-	
-	"TODO: Pipette - see wantsHaloFromClick"
