@@ -39,8 +39,9 @@ function lint_st {
 		[[ $line =~ ^.{81,1000}$ ]] && print_lined_uncorrectable_issue "Line too long" "$line" "$line_number" "$1"
 		[[ $line =~ ([^[:space:]]@)|(@[^[:space:]]) ]] && print_lined_correctable_issue "No spaces around '@'" "$line" "$line_number" "$1"
 		[[ $line =~ ([aA])([[:space:]]?M2) ]] && print_lined_correctable_issue "Usage of 'aM2', 'a M2', 'A M2' or 'AM2'" "$line" "$line_number" "$1"
-		[[ $line =~ ([[:space:]])+\) ]] && print_lined_correctable_issue "Spaces around brackets" "$line" "$line_number" "$1"
-		[[ $line =~ \(([[:space:]])+ ]] && print_lined_correctable_issue "Spaces around brackets" "$line" "$line_number" "$1"
+		[[ $line =~ ([[:space:]])\) ]] && print_lined_correctable_issue "Spaces around brackets" "$line" "$line_number" "$1"
+		[[ $line =~ \(([[:space:]]) ]] && print_lined_correctable_issue "Spaces around brackets" "$line" "$line_number" "$1"
+		[[ $line =~ [^[:space:]][[:space:]]$ ]] && print_lined_correctable_issue "Trailing space" "$line" "$line_number" "$1"
 		((line_number+=1))
 	done <<< "$content"
 	[[ $content =~ ^([^[]+?)([[:space:]]{3,})(\|) ]] && print_file_correctable_issue "Empty lines before method local variables" "$1"
