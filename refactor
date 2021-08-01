@@ -8,6 +8,7 @@ git ls-files '*.st' -z | 								# List all files, then iterate through them and
 			sed -E 's/([aA])(\s?M2)/\1n\2/g' |				# Replace 'aM2', 'a M2', 'A M2', 'AM2' with 'anM2', 'an M2', 'An M2', 'AnM2'
 			sed -E 's/(\()(\s+)/\1/g' |					# Remove spaces after opening brackets
 			sed -E 's/(\s+)(\))/\2/g' |					# Remove spaces before closing brackets
+			sed -E 's/(\S)(\s+)$/\1/g' |				# Remove trailing spaces
 			perl -p0e 's/^([^\[]+?)(\s\s+)(\|)/\1\n\t\3/s' |		# Remove empty lines before args
 			perl -p0e 's/^([^\[]+?)(\|)(\s\s+)([^\s])/\1\2\n\t\4/s' |	# Remove empty lines after args
 			perl -p0e 's/(\.)(\s*)$/\2/s' );				# Remove final point
