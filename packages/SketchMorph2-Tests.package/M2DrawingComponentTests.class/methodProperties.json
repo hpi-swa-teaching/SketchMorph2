@@ -70,6 +70,8 @@
 		"testMultipleUndoAction" : "K.P. 6/26/2021 16:30",
 		"testRectangleBrush" : "K.P. 6/26/2021 16:30",
 		"testSimpleText" : "mFr 6/25/2021 15:53",
+		"testSimpleTextAfterMovingByHandle" : "CS 8/2/2021 17:20",
+		"testSimpleTextAfterMovingOutside" : "CS 8/2/2021 17:20",
 		"testSimpleTextUndo" : "ms 6/28/2021 18:32",
 		"testSingleUndoAction" : "K.P. 6/26/2021 16:30",
 		"testTriangleBrush" : "K.P. 6/26/2021 16:30",

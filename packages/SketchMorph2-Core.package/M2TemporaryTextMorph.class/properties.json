@@ -7,6 +7,7 @@
 	"commentStamp" : "CS 6/2/2021 14:43",
 	"instvars" : [
 		"canvas",
+		"handle",
 		"morphExists" ],
 	"name" : "M2TemporaryTextMorph",
 	"pools" : [
