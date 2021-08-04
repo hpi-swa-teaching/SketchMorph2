@@ -1,8 +1,4 @@
 tool selection
 undo
-	self saveSettingsDuring: [self
-		switchMode;
-		removeLastUserAction;
-		restoreFormFromStack;
-		restoreUserActions].
+	self saveSettingsDuring: self undoActions.
 	self viewPort refresh
