@@ -10,8 +10,7 @@
 		"eraser",
 		"form",
 		"pen",
-		"startPoint",
-		"temporaryForm" ],
+		"startPoint" ],
 	"name" : "M2DrawingComponent",
 	"pools" : [
 		 ],

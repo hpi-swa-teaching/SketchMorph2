@@ -4,7 +4,8 @@ projectText: aString styled: aTextStyle colored: aColor at: aPoint
 	textMorph := TextMorph new
 		contents: aString;
 		setTextStyle: aTextStyle;
-		textColor: aColor.
+		textColor: aColor;
+		yourself.
 	backendPoint := self getBackendPointFor: aPoint.
 	backendPoint ifNil: [^ self].
 	self backend commit: textMorph imageForm at: backendPoint.

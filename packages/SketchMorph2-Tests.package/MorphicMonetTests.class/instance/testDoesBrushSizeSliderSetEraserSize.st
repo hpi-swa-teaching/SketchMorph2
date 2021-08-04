@@ -6,4 +6,4 @@ testDoesBrushSizeSliderSetEraserSize
 	self assert: (sliderWrapper morphs notEmpty).
 	slider := sliderWrapper morphs asOrderedCollection first.
 	slider setScaledValue: 15.
-	self assert: (self subject backend eraserSize = 15)
+	self assert: 15 equals: self subject backend eraserSize

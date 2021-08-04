@@ -1,3 +1,3 @@
 drawing
 penNibOffset: aPoint
-	^ (aPoint / 2) floor negated
+	^ (aPoint * 0.5) floor negated

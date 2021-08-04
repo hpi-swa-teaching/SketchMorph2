@@ -15,8 +15,7 @@
 		"isErasing",
 		"isFillingGeometricForm",
 		"mode",
-		"pencilSize",
-		"startPoint" ],
+		"pencilSize" ],
 	"name" : "M2DrawingContext",
 	"pools" : [
 		 ],

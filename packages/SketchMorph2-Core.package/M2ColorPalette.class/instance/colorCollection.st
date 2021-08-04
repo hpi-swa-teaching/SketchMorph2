@@ -1,6 +1,6 @@
 default
 colorCollection
-	^ (OrderedCollection new)
+	^ OrderedCollection new
 	 	add: Color black;
 		add: Color brown;
 		add: Color red;

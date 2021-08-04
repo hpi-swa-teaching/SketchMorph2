@@ -5,6 +5,7 @@ initializeTemporaryGeometricMorphAt: aPoint
 		color: self getGeometricMorphColor;
 		position: self canvas position + aPoint;
 		extent: 1 asPoint;
-		borderWidth: self pencilSize).
+		borderWidth: self pencilSize;
+		yourself).
 	self setTemporaryGeometricMorphBorder.
 	self canvas addMorph: self temporaryGeometricMorph

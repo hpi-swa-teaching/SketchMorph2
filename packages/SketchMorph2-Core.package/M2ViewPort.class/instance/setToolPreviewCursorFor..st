@@ -1,3 +1,4 @@
 cursors
 setToolPreviewCursorFor: aHandMorph
-	aHandMorph showTemporaryCursor: self currentCursor hotSpotOffset: self brushSize asPoint * 0.5
+	aHandMorph showTemporaryCursor: self currentCursor
+		hotSpotOffset: self brushSize asPoint * 0.5

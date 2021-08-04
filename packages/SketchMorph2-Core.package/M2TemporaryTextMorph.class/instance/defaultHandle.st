@@ -5,4 +5,5 @@ defaultHandle
 		borderColor: Color black;
 		color: Color white;
 		position: self defaultHandleOffset;
-		borderWidth: 1
+		borderWidth: 1;
+		yourself

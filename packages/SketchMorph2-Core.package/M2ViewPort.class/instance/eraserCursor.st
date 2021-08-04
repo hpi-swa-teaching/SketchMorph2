@@ -5,4 +5,5 @@ eraserCursor
 			color: Color white;
 			borderWidth: 1;
 			borderColor: Color black;
-			imageForm
+			imageForm;
+			yourself

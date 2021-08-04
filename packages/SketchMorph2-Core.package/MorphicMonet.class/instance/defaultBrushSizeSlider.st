@@ -4,4 +4,5 @@ defaultBrushSizeSlider
 			target: self backend;
 			borderWidth: self class borderWidth;
 			borderColor: self class borderColor;
-			adjustToValue: self backend context defaultBrushSize
+			adjustToValue: self backend context defaultBrushSize;
+			yourself

@@ -4,5 +4,5 @@ clickAt: aPoint
 	(self context isInPenMode or: [self context isInGeometricPreviewMode])
 		ifTrue: [^ self startDrawingAt: aPoint].
 	self context isInTextMode ifTrue: [^ self startEditingTextAt: aPoint].
-	self context isInEditingTextMode ifTrue: [^ self printText].
+	self context isInEditingTextMode ifTrue: [^ self printText]. "To super"
 	self context isInInsertSelectionMode ifTrue: [^ self projectSelectionAt: aPoint]

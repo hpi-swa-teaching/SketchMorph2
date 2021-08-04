@@ -1,6 +1,6 @@
 accessing
 menuBrushCollection
-	^ menuBrushCollection ifNil: [menuBrushCollection := (OrderedCollection new)
+	^ menuBrushCollection ifNil: [menuBrushCollection := OrderedCollection new
 		add: (M2Pencil getMenuItemForTarget: self backend);
 		add: (M2Eraser getMenuItemForTarget: self backend);
 		add: (M2TriangleBrush getMenuItemForTarget: self backend);
