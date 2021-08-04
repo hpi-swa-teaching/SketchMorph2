@@ -1,7 +1,7 @@
 defaults
 defaultEraser
 	^ (Pen newOnForm: self form)
-		up; 
+		up;
 		color: self context defaultBackgroundColor;
 		combinationRule: Form paint;
 		roundNib: self eraserSize;

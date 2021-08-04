@@ -1,7 +1,7 @@
 drawing
 dragCircleOn: aForm at: aRectangle
 	| temporaryPen diameter radius center |
-	diameter := aRectangle width min: aRectangle height . 
+	diameter := aRectangle width min: aRectangle height .
 	radius := (diameter / 2) floor.
 	center := aRectangle topLeft + radius.
 	temporaryPen := self prepareCirclePenOn: aForm radius: radius.

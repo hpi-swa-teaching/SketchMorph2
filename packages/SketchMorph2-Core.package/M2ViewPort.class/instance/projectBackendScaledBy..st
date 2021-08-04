@@ -3,7 +3,7 @@ projectBackendScaledBy: aNumber
 	| scaledBackend |
 	scaledBackend := self backend form magnifyBy: aNumber.
 	
-	self 
+	self
 		scalar: aNumber;
 		setClipsFor: scaledBackend;
 		scaleFormTo: scaledBackend extent.

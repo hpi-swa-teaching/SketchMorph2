@@ -4,7 +4,7 @@ createRowPanelCollection
 	colorMorphIndex := 1.
 	numberOfRows := (self uncustomizableButtons size / self defaultButtonsPerRow) ceiling + 1.
 	
-	^ (1 to: numberOfRows) collect: [:rowIndex | 
+	^ (1 to: numberOfRows) collect: [:rowIndex |
 		| row |
 		row := PluggablePanelMorph newRow.
 		1 to: self defaultButtonsPerRow do: [:columnIndex |

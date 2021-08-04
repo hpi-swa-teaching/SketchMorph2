@@ -1,9 +1,9 @@
 testing
 testCompareGeometricCircleOverlapping
-	self 
+	self
 		contextGeometricModeWithForm: #circle;
 		drawFrom: 10 asPoint To: 40 asPoint.
 	self context isFillingGeometricForm: true.
-	self 
+	self
 		drawFrom: 20 asPoint To: 80 asPoint;
 		compareBackendFormWith: #overlappingCircles

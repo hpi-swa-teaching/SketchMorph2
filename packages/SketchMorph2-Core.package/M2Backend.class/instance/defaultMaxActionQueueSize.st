@@ -1,3 +1,3 @@
 defaults
-defaultMaxActionQueueSize 
+defaultMaxActionQueueSize
 	^ 15

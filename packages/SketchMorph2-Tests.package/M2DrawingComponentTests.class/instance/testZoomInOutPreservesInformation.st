@@ -7,7 +7,7 @@ testZoomInOutPreservesInformation
 		
 	originalForm := self viewPort form copy.
 	
-	self viewPort	
+	self viewPort
 		zoomIn;
 		zoomOut.
 		

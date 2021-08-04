@@ -1,7 +1,7 @@
 keeping state tests
 testDoesRectangleToolButtonKeepState
 	| buttonLabel |
-	self subject backend context 
+	self subject backend context
 		mode: #geometric;
 		currentGeometricPreviewShape: #rectangle.
 	buttonLabel := 'Rectangle Tool'.

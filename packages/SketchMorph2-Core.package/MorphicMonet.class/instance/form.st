@@ -1,3 +1,3 @@
 accessing
-form 
+form
 	^ self viewPort form

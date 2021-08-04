@@ -1,7 +1,7 @@
 defaults
 defaultPen
 	^ (Pen newOnForm: self form)
-		up; 
+		up;
 		color: self defaultPenColor;
 		combinationRule: Form paint;
 		roundNib: self pencilSize;

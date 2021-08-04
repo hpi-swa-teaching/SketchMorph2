@@ -1,6 +1,6 @@
 support
 drawFrom: aStartPoint To: anEndPoint
-	self viewPort 
+	self viewPort
 		userActionClickAt: aStartPoint;
 		userActionMoveDrawing: anEndPoint;
 		userActionStopDrawing

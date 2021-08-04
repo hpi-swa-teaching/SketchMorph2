@@ -5,4 +5,3 @@ testDoesCircleToolButtonChangeState
 	buttonLabel := 'Circle Tool'.
 	self doButtonAction: buttonLabel.
 	self assert: (self doesButtonWork: buttonLabel forTarget: self subject backend)
-

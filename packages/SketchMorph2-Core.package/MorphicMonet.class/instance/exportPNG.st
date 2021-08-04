@@ -1,5 +1,5 @@
 accessing
 exportPNG
 	| fileName |
-	fileName := self getNameOfFileToExport. 
+	fileName := self getNameOfFileToExport.
 	fileName ifNotNil: [self backend exportAsPNG: fileName]

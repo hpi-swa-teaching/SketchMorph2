@@ -1,6 +1,6 @@
 testing
 testCompareClipboardInsertion
-	self backend 
+	self backend
 		drawCircle;
 		clickAt: 50 asPoint.
 	self

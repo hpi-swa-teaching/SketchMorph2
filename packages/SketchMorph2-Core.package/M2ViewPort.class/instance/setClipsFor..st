@@ -6,4 +6,3 @@ setClipsFor: aForm
 	self eraser
 		clipHeight: aForm height;
 		clipWidth: aForm width
-

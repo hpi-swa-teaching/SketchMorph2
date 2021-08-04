@@ -7,7 +7,7 @@ commitText
 		ifNil: [0]).
 	self temporaryTextMorph selectAt: 0.
 	self temporaryTextMorph contents ifNotEmpty: [
-		self 
+		self
 			projectText: self temporaryTextMorph contents
 				styled: self temporaryTextMorph textStyle
 				colored: self temporaryTextMorph textColor

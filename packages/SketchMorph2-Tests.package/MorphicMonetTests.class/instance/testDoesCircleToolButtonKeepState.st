@@ -1,7 +1,7 @@
 keeping state tests
 testDoesCircleToolButtonKeepState
 	| buttonLabel |
-	self subject backend context 
+	self subject backend context
 		mode: #geometric;
 		currentGeometricPreviewShape: #circle.
 	buttonLabel := 'Circle Tool'.

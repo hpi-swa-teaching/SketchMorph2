@@ -1,4 +1,4 @@
 testing
 testFormAfterPNGImport
-	self backend importImage: self importTestPNGPath.	
+	self backend importImage: self importTestPNGPath.
 	self compareBackendFormWith: #importTestPNG

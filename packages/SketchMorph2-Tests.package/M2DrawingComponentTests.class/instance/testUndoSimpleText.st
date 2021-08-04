@@ -4,7 +4,7 @@ testUndoSimpleText
 		[self backend
 			fillShape;
 			penColor: Color blue.
-		self drawAt: 10 asPoint] . 
+		self drawAt: 10 asPoint] .
 		[self backend penColor: Color white.
 		self drawAt: 10 asPoint] .
 		[self backend

@@ -1,6 +1,6 @@
 event handling
 handleShiftKeystroke: aKeyboardEvent
-	aKeyboardEvent commandKeyPressed 
+	aKeyboardEvent commandKeyPressed
 			ifTrue: [
 				aKeyboardEvent keyCharacter caseOf: {
 					[$E] -> [self clickMenuItemWith: M2ExportMorph label]

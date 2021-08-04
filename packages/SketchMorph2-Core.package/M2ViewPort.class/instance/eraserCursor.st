@@ -1,6 +1,6 @@
 cursors
 eraserCursor
-	^ CircleMorph new 
+	^ CircleMorph new
 			extent: self eraserSize asPoint;
 			color: Color white;
 			borderWidth: 1;

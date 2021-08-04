@@ -1,3 +1,3 @@
 defaults
 defaultBrushSizeIndicator
-	^ (M2BrushSizeIndicator newOn: self backend) 
+	^ (M2BrushSizeIndicator newOn: self backend)
