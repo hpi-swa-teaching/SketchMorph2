@@ -9,4 +9,3 @@ testCompareClipboardInsertion
 	self context mode: #insertSelection.
 	self viewPort clickAt: 20 asPoint.
 	self compareBackendFormWith: #clipboardInsertion
-

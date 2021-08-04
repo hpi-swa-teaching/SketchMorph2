@@ -2,4 +2,4 @@ UI existence tests
 testIsInsertSelectionButtonThere
 	| buttonLabel |
 	buttonLabel := 'Insert Selection'.
-	self assert: (self isButtonEnabled: buttonLabel) not
+	self assert: (self isButtonThere: buttonLabel)

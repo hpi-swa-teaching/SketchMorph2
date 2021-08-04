@@ -5,5 +5,5 @@ testCompareSelection
 		clickAt: 50 asPoint.
 	self
 		contextSelectionMode;
-		drawFrom: (40 @ 40) To: (60 @ 60);
+		drawFrom: 40 asPoint To: 60 asPoint;
 		compare: self viewPort clipboardForm with: #clipboard
