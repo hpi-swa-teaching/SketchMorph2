@@ -9,7 +9,7 @@
 		"backgroundColor",
 		"brushSize",
 		"currentColor",
-		"currentGeometricForm",
+		"currentGeometricPreviewShape",
 		"currentTool",
 		"eraserSize",
 		"isErasing",

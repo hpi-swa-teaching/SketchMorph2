@@ -8,6 +8,7 @@
 	"instvars" : [
 		"backend",
 		"canvas",
+		"clipboardForm",
 		"currentCursor",
 		"offset",
 		"scalar",

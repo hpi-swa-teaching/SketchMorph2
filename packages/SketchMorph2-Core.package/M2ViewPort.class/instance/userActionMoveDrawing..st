@@ -6,5 +6,5 @@ userActionMoveDrawing: aPoint
 	
 	self context isInAnyTextMode ifTrue: [^ self].
 	self moveDrawing: aPoint.
-	self context isInGeometricMode
+	self context isInGeometricPreviewMode
 		ifFalse: [self backend userActionMoveDrawing: translatedPoint]
