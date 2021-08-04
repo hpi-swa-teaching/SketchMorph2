@@ -1,1 +1,1 @@
-A M2GripMorph is used to resize the canvas.
+An M2GripMorph is used to resize the canvas.
