@@ -5,7 +5,7 @@ initialize
 		name: #brushSizeSlider;
 		actionSelector: #setBrushAndEraserSizeTo:;
 		minVal: 1;
-		maxVal: 100;
+		maxVal: 75;
 		width: 50.
 	self thumb
 		borderWidth: 1;
