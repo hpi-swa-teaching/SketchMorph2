@@ -1,3 +1,7 @@
 support
 assertEqualityOf: aForm and: aSecondForm
-	self assert: 0 equals: (aSecondForm pixelCompare: aSecondForm boundingBox with: aForm at: 0 asPoint)
+	| pixelCompare |
+	pixelCompare := aSecondForm pixelCompare: aSecondForm boundingBox
+		with: aForm
+		at: 0 asPoint.
+	self assert: 0 equals: pixelCompare

@@ -4,8 +4,8 @@ importImage: aFileName
 	self switchMode.
 	tempForm := (Form fromFileNamed: aFileName).
 	self form setExtent: (tempForm extent) depth: self defaultDepth.
-	self paint: tempForm at: 0 asPoint.
 	self
+		paint: tempForm at: 0 asPoint;
 		formChanged;
-		pushNewUndoLevelWithForm: self copyForm. "add an empty User Action to simulate importImage being one"
+		pushNewUndoLevelWithForm: self copyForm.
 	self viewPort refresh

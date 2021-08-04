@@ -1,7 +1,7 @@
 *SketchMorph2-Tests
 sendKeyEvent: aType characterValue: aValue modifiedBy: aModifier
-	
-	self morphs do: [ :morph |
+	self morphs do: [ :morph | | keyboardEvent |
 		self hand newKeyboardFocus: morph.
-		morph handleEvent: (self generateKeyboardEvent: aType with: aValue on: morph modifiedBy: aModifier).
+		keyboardEvent := self generateKeyboardEvent: aType with: aValue on: morph modifiedBy: aModifier.
+		morph handleEvent: keyboardEvent.
 		self wait]

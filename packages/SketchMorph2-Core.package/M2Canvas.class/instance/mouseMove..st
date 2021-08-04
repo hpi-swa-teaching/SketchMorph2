@@ -1,8 +1,8 @@
 event handling
 mouseMove: evt
 	(self gripMorph containsPoint: evt cursorPoint)
-		ifFalse: [evt hand showTemporaryCursor: self viewPort currentCursor hotSpotOffset: self viewPort brushSize asPoint / 2].
-	(self isMouseDown: evt) ifFalse: [^ nil].
-	self hasMouseFocus ifFalse: [^ nil].
+		ifFalse: [self viewPort setToolPreviewCursorFor: evt hand].
+	(self isMouseDown: evt) ifFalse: [^ self].
+	self hasMouseFocus ifFalse: [^ self].
 	self viewPort userActionMoveDrawing: (self relativeMousePosition: evt position).
 	self changed

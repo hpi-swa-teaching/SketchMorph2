@@ -1,7 +1,9 @@
 defaults
 defaultColorPicker
 	| picker |
-	picker := NewColorPickerMorph on: self backend originalColor: self backend penColor setColorSelector: #setPenColor:.
+	picker := NewColorPickerMorph on: self backend
+		originalColor: self backend penColor
+		setColorSelector: #setPenColor:.
 	^ picker
 		extent: picker extent x @ (picker extent y * 0.7);
 		hasDropShadow: false;

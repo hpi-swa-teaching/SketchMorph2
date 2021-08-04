@@ -1,8 +1,9 @@
 UI existence tests
 testIsTextHandleThere
-	| handle temporaryTextMorph |
+	| event handle temporaryTextMorph |
 	self doButtonAction: M2TextTool label.
-	self subject canvas mouseDown: (self subject generateMouseEvent: #mouseDown button: MTFMorphWrapper leftButton on: self subject canvas).
+	event := self subject generateMouseEvent: #mouseDown button: MTFMorphWrapper leftButton on: self subject canvas.
+	self subject canvas mouseDown: event.
 	temporaryTextMorph := self subject viewPort temporaryTextMorph.
 	handle := temporaryTextMorph handle.
 	self assert: self subject canvas equals: (handle ownerChain at: 3).

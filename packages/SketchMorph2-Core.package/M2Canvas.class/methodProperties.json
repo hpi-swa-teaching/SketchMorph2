@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"defaultCanvasSize" : "6/28/2021 21:03:28",
-		"newWith:ofSize:" : "6/28/2021 21:03:28" },
+		"newWith:ofSize:" : "CS 8/4/2021 16:28" },
 	"instance" : {
 		"addGripMorph:" : "JP 5/19/2021 00:31",
 		"backend" : "mk 7/27/2020 20:43",
@@ -27,7 +27,7 @@
 		"mouseEnterDragging:" : "ms 7/8/2021 16:24",
 		"mouseLeave:" : "JP 6/26/2021 18:18",
 		"mouseLeaveDragging:" : "ms 7/8/2021 16:24",
-		"mouseMove:" : "CS 6/28/2021 21:31",
+		"mouseMove:" : "CS 8/4/2021 16:35",
 		"mouseUp:" : "mk 7/3/2020 19:27",
 		"mouseWheel:" : "6/28/2021 21:03:28",
 		"relativeMousePosition:" : "mp 5/15/2020 12:42",

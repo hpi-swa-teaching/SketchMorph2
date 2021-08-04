@@ -7,4 +7,5 @@ getMenuItemForTarget: anObject
 		icon: (self icon scaledToSize: self defaultIconSize);
 		isActivatable: self isActivatable;
 		isActivated: false;
-		isDefaultTool: self isDefaultTool
+		isDefaultTool: self isDefaultTool;
+		isEnabled: self isEnabledByDefault
