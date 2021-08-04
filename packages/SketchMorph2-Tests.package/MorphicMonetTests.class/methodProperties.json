@@ -2,10 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"doButtonAction:" : "K.P. 7/8/2021 17:54",
+		"doButtonAction:" : "CS 8/4/2021 15:15",
 		"doDummyAction" : "mFr 6/24/2021 23:59",
 		"doesButtonWork:forTarget:" : "mFr 6/25/2021 15:35",
-		"generatePasteEvent" : "CS 5/13/2021 10:11",
 		"getButtonFor:" : "CS 8/4/2021 14:41",
 		"isButtonActivated:" : "ms 7/26/2021 14:32",
 		"isButtonEnabled:" : "ms 7/26/2021 14:32",
