@@ -2,10 +2,8 @@ event handling
 handleKeystroke: aKeyboardEvent
 	super handleKeystroke: aKeyboardEvent.
 	
-	aKeyboardEvent commandKeyPressed ifTrue: [
-		aKeyboardEvent keyCharacter caseOf: {
-			[$v] -> [self pasteClipboard]
-		} otherwise: [^ aKeyboardEvent "no hit"].
-		^ aKeyboardEvent ignore "hit!"].
+	self viewPort isInEditingTextMode ifTrue: [^ aKeyboardEvent].
 	
-	^ aKeyboardEvent "no hit"
+	aKeyboardEvent shiftPressed ifTrue: [^ self handleShiftKeystroke: aKeyboardEvent].	
+	aKeyboardEvent commandKeyPressed ifTrue: [^ self handleCommandKeystroke: aKeyboardEvent].
+	^ self handleNoModifierKeystroke: aKeyboardEvent
