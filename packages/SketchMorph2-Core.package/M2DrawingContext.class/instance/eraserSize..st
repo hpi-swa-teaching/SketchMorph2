@@ -1,3 +1,3 @@
 accessing
-eraserSize: aNumber
-	eraserSize := aNumber
+eraserSize: anInteger
+	eraserSize := anInteger

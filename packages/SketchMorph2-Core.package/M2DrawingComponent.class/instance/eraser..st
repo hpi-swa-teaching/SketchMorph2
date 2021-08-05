@@ -1,3 +1,3 @@
 accessing
-eraser: anObject
-	eraser := anObject
+eraser: aPen
+	eraser := aPen

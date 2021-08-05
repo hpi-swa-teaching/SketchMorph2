@@ -1,5 +1,5 @@
 testing
 testClearCanvas
-	self drawFrom: 0 asPoint To: 10 asPoint.
+	self drawFrom: 0 asPoint to: 10 asPoint.
 	self backend clearCanvas.
 	self compareBackendFormWith: #whiteBackground

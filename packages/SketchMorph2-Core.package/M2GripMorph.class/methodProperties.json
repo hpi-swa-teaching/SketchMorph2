@@ -1,11 +1,11 @@
 {
 	"class" : {
-		"newOn:" : "mFr 5/16/2021 18:22" },
+		"newOn:" : "CS 8/5/2021 17:35" },
 	"instance" : {
 		"cursorOffset" : "mFr 5/16/2021 18:15",
 		"cursorOffset:" : "mFr 5/16/2021 18:15",
 		"initialize" : "K.P. 5/27/2021 16:31",
 		"mouseDown:" : "mFr 6/24/2021 16:17",
 		"mouseMove:" : "mFr 6/24/2021 16:17",
-		"mouseUp:" : "mFr 6/24/2021 16:17",
+		"mouseUp:" : "CS 8/5/2021 17:20",
 		"updatePosition" : "CS 5/16/2021 20:05" } }

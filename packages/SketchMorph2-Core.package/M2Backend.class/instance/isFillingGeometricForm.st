@@ -1,0 +1,3 @@
+delegation
+isFillingGeometricForm
+	self context isFillingGeometricForm

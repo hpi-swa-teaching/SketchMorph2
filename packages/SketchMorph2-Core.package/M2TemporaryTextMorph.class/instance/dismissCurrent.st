@@ -4,4 +4,4 @@ dismissCurrent
 	self activeHand newKeyboardFocus: nil.
 	self
 		contents: '';
-		morphExists: false
+		isActive: false

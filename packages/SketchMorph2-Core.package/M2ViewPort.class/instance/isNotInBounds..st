@@ -1,3 +1,3 @@
 zooming
 isNotInBounds: aNumber
-	^ aNumber < self defaultScalar or: [aNumber > self zoomMax]
+	^ aNumber < self zoomMin or: [aNumber > self zoomMax]

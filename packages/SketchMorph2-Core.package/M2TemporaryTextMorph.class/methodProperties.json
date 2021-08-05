@@ -1,19 +1,20 @@
 {
 	"class" : {
-		 },
+		"newOn:" : "CS 8/5/2021 17:34" },
 	"instance" : {
 		"canvas" : "CS 6/2/2021 12:08",
 		"canvas:" : "CS 6/2/2021 12:08",
 		"defaultFont" : "CS 6/2/2021 12:11",
-		"defaultHandle" : "CS 8/4/2021 19:32",
+		"defaultHandle" : "CS 8/5/2021 21:51",
 		"defaultHandleExtent" : "K.P. 7/14/2021 15:28",
-		"defaultHandleOffset" : "K.P. 7/14/2021 15:28",
-		"dismissCurrent" : "CS 8/4/2021 19:12",
-		"fit" : "CS 7/13/2021 23:35",
+		"defaultHandlePosition" : "CS 8/5/2021 21:51",
+		"dismissCurrent" : "CS 8/5/2021 21:47",
+		"fit" : "CS 8/5/2021 21:51",
 		"handle" : "JP 7/8/2021 18:02",
 		"handle:" : "JP 7/8/2021 17:57",
-		"initialize" : "JP 7/8/2021 18:03",
-		"morphExists" : "CS 6/2/2021 15:11",
-		"morphExists:" : "CS 6/2/2021 15:06",
-		"moveByHandleTo:" : "CS 7/14/2021 11:42",
-		"moveTo:" : "CS 8/4/2021 19:12" } }
+		"initialize" : "CS 8/5/2021 21:47",
+		"isActive" : "CS 8/5/2021 21:47",
+		"isActive:" : "CS 8/5/2021 21:47",
+		"moveByHandleTo:" : "CS 8/5/2021 21:51",
+		"moveTo:" : "CS 8/5/2021 21:51",
+		"positionRelativeToCanvas" : "CS 8/5/2021 19:38" } }

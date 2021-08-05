@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"generateKeyboardEvent:with:on:modifiedBy:" : "CS 5/13/2021 10:27",
+		"generateKeyboardEvent:with:on:modifiedBy:" : "CS 8/6/2021 00:03",
 		"leftClickAssert:" : "mFr 5/17/2021 11:54",
-		"leftClickWith:assert:" : "mFr 5/19/2021 12:58",
+		"leftClickWith:assert:" : "CS 8/6/2021 00:04",
 		"rightClickAssert:" : "mFr 5/17/2021 11:55",
-		"rightClickWith:assert:" : "mFr 5/19/2021 12:58",
-		"sendKey:modifiedBy:" : "CS 5/13/2021 10:22",
-		"sendKeyEvent:characterValue:modifiedBy:" : "CS 8/4/2021 17:55" } }
+		"rightClickWith:assert:" : "CS 8/6/2021 00:04",
+		"sendKey:modifiedBy:" : "CS 8/6/2021 00:06",
+		"sendKeyEvent:characterValue:modifiedBy:" : "CS 8/6/2021 00:06" } }

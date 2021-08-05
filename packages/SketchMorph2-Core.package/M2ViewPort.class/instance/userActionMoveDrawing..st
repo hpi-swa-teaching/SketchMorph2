@@ -1,8 +1,7 @@
 drawing
 userActionMoveDrawing: aPoint
 	| translatedPoint |
-	translatedPoint := self getBackendPointFor: aPoint.
-	translatedPoint ifNil: [^ self].
+	translatedPoint := self getBackendPointFor: aPoint ifAbsent: [^ self].
 	
 	self context isInAnyTextMode ifTrue: [^ self].
 	self moveDrawing: aPoint.

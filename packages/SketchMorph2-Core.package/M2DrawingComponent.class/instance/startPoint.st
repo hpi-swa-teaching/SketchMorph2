@@ -1,3 +1,3 @@
 accessing
 startPoint
-	^ startPoint ifNil: [startPoint := 0 asPoint]
+	^ startPoint ifNil: [startPoint := self defaultStartPoint]

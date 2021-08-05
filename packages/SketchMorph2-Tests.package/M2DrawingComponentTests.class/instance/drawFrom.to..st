@@ -1,5 +1,5 @@
 support
-drawFrom: aStartPoint To: anEndPoint
+drawFrom: aStartPoint to: anEndPoint
 	self viewPort
 		userActionClickAt: aStartPoint;
 		userActionMoveDrawing: anEndPoint;

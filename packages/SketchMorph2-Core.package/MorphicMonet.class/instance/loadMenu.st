@@ -1,7 +1,7 @@
 initialization
 loadMenu
 	| submenu |
-	self submenuDict keysAndValuesDo: [:submenuLabel :buttonCollection |
+	self submenuDict valuesDo: [:buttonCollection |
 		submenu := M2MenuMorph new.
 		buttonCollection do: [:item | submenu addMenuItem: item].
 		self applyDefaultSettingsTo: submenu.

@@ -6,6 +6,8 @@ testErase
 		drawEraser.
 	
 	self
-		drawFrom: 10 asPoint To: 15 asPoint;
-		assert: self context backgroundColor nearlyEquals: (self backend form colorAt: 10 asPoint);
-		assert: self context backgroundColor negated nearlyEquals: (self backend form colorAt: 1 asPoint)
+		drawFrom: 10 asPoint to: 15 asPoint;
+		assertColor: self context backgroundColor
+			nearlyEquals: (self backend form colorAt: 10 asPoint);
+		assertColor: self context backgroundColor negated
+			nearlyEquals: (self backend form colorAt: 1 asPoint)

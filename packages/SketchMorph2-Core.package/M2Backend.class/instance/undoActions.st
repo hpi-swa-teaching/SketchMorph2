@@ -1,7 +1,7 @@
-tool selection
+undo
 undoActions
 	^ [self
-		switchMode;
-		removeLastUserAction;
-		restoreFormFromStack;
-		restoreUserActions]
+			switchMode;
+			removeLastUserAction;
+			restoreFormFromStack;
+			restoreUserActions]

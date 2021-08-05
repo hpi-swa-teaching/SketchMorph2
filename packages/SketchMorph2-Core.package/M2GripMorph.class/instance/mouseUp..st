@@ -1,6 +1,6 @@
 event handling
 mouseUp: evt
-	self target setCanvasSize: self target extent
+	self target rescaleTo: self target extent
 		+ self position
 		- self cursorOffset
 		- self referencePoint.

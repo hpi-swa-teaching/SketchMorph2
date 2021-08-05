@@ -1,7 +1,4 @@
 zooming
 getBackendPointFor: aPoint
-	| translatedPoint |
-	translatedPoint := aPoint / self scalar.
-	^ self backend formSize >= translatedPoint
-		ifTrue: [translatedPoint]
-		ifFalse: [nil]
+	^ self getBackendPointFor: aPoint
+			ifAbsent: [self error: 'Unexpectedly found no backend point for ' , aPoint]

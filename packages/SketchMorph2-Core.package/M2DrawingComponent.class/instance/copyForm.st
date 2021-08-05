@@ -1,3 +1,3 @@
-undo
+accessing
 copyForm
 	^ self form copy

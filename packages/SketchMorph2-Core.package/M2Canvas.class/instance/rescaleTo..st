@@ -1,5 +1,5 @@
-accessing
-setCanvasSize: aPoint
+updating
+rescaleTo: aPoint
 	| tempForm scaledSize |
 	tempForm := self backend copyForm.
 	scaledSize := aPoint / self viewPort scalar.

@@ -1,4 +1,4 @@
-accessing
+tooling
 importImage
 	| fileName |
 	fileName := self getNameOfFileToImport.

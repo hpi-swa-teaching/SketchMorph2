@@ -1,4 +1,4 @@
-accessing
+tooling
 exportPNG
 	| fileName |
 	fileName := self getNameOfFileToExport.

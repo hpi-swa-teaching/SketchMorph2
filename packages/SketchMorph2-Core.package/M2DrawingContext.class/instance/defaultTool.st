@@ -1,3 +1,3 @@
 defaults
-defaultPen
+defaultTool
 	^ #pen

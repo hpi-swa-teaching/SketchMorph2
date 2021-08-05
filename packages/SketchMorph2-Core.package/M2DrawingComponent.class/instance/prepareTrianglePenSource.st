@@ -7,7 +7,7 @@ prepareTrianglePenSource
 		turn: 90;
 		yourself.
 
-	1 to: 3 do: [:i | temporaryPen go: self brushSize; turn: -120].
+	3 timesRepeat: [temporaryPen go: self brushSize; turn: -120].
 	
 	triangleForm convexShapeFill: Color black.
 	^ triangleForm

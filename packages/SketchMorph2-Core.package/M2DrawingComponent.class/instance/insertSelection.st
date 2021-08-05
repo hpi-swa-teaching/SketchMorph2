@@ -3,4 +3,5 @@ insertSelection
 	self context
 		isErasing: false;
 		mode: #insertSelection;
-		currentTool: #insertSelection
+		currentTool: #insertSelection.
+	self switchMode

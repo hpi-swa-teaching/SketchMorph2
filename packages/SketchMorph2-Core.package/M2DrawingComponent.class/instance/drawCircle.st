@@ -1,3 +1,3 @@
 tool selection
 drawCircle
-	self currentPen roundNib: self brushSize
+	self pen roundNib: self brushSize

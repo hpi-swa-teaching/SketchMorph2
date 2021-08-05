@@ -2,8 +2,7 @@
 	"class" : {
 		"actionSelector" : "mFr 5/19/2021 10:55",
 		"defaultIconSize" : "mFr 5/19/2021 12:14",
-		"getMenuItemForTarget:" : "CS 8/4/2021 17:34",
-		"handlesMouseDown:" : "mFr 5/19/2021 10:55",
+		"getMenuItemForTarget:" : "CS 8/5/2021 21:39",
 		"icon" : "mFr 5/19/2021 10:55",
 		"isActivatable" : "mFr 5/19/2021 10:55",
 		"isDefaultTool" : "mFr 5/19/2021 10:55",

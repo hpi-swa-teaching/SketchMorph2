@@ -6,7 +6,6 @@ projectText: aString styled: aTextStyle colored: aColor at: aPoint
 		setTextStyle: aTextStyle;
 		textColor: aColor;
 		yourself.
-	backendPoint := self getBackendPointFor: aPoint.
-	backendPoint ifNil: [^ self].
+	backendPoint := self getBackendPointFor: aPoint ifAbsent: [^ self].
 	self backend commit: textMorph imageForm at: backendPoint.
 	textMorph delete

@@ -1,3 +1,3 @@
 accessing
-squeakPaint: anObject
-	squeakPaint := anObject
+squeakPaint: aSqueakPaint
+	squeakPaint := aSqueakPaint

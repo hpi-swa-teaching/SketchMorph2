@@ -1,5 +1,5 @@
 accessing
-setPenColor: aColor
+setPenColorAndReloadPen: aColor
 	self
 		penColor: aColor;
 		reloadCurrentPen

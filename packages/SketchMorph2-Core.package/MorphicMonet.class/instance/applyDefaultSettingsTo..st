@@ -1,4 +1,4 @@
-defaults
+initialization
 applyDefaultSettingsTo: aMenuMorph
 	aMenuMorph
 		hasDropShadow: false;

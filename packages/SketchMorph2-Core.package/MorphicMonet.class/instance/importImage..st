@@ -1,7 +1,3 @@
-accessing
+tooling
 importImage: aString
-	self backend importImage: aString.
-	self canvas
-		extent: self backend form extent;
-		changed;
-		updateGripMorphPosition
+	self backend importImage: aString

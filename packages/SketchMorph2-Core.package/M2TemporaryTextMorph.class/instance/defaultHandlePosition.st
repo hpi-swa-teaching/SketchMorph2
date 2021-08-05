@@ -1,3 +1,3 @@
 defaults
-defaultHandleOffset
+defaultHandlePosition
 	^ self bottomRight

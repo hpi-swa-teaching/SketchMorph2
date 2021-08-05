@@ -1,5 +1,5 @@
-accessing
+tooling
 getNameOfFileToImport
 	^ FileChooserDialog openOn: FileDirectory default
-			suffixList: self class allowedFileExtensions
+			suffixList: self allowedFileExtensions
 			label: 'Import Image'

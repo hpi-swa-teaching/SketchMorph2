@@ -1,4 +1,4 @@
-defaults
+updating
 reloadCurrentPen
 	self
 		pen: self defaultPen;

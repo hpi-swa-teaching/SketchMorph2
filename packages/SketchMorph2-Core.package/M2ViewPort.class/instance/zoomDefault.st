@@ -1,6 +1,6 @@
 zooming
 zoomDefault
 	self
-		scalar: nil;
+		scalar: self defaultScalar;
 		refresh;
 		reloadCurrentPen

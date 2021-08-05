@@ -1,3 +1,3 @@
 initialization
 createPalettePanel
-	self createRowPanelCollection do: [:rowPanel | self addMorph: rowPanel]
+	self rowPanelCollection do: [:rowPanel | self addMorph: rowPanel]

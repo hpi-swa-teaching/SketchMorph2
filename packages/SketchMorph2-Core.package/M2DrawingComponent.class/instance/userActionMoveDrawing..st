@@ -1,3 +1,3 @@
-undo
+drawing
 userActionMoveDrawing: aPoint
 	^ self subclassResponsibility

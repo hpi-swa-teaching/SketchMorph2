@@ -1,7 +1,8 @@
 support
 drawDiagonalCirclesFrom: aStartNumber to: anEndNumber
-	aStartNumber to: anEndNumber do: [:x |
-		self viewPort
-			userActionClickAt: (4 * x) asPoint;
-			userActionMoveDrawing: ((4 * x) + 2) asPoint;
-			userActionStopDrawing]
+	| circleDistance |
+	circleDistance := 4.
+	aStartNumber to: anEndNumber do: [:iteration | | endPoint startPoint |
+		startPoint := (circleDistance * iteration) asPoint.
+		endPoint := (circleDistance * iteration + (circleDistance * 0.5)) asPoint.
+		self drawFrom: startPoint to: endPoint]
