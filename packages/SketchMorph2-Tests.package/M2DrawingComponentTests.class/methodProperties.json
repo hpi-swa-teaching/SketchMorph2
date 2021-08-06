@@ -1,6 +1,5 @@
 {
 	"class" : {
-		"blueBackground" : "CCJ 6/25/2020 10:59",
 		"brushSizeTest" : "CS 7/8/2021 12:16",
 		"circleBrushTest" : "K.P. 5/29/2021 14:21",
 		"circlesDiagonal14" : "mFr 6/24/2021 23:46",
@@ -11,13 +10,11 @@
 		"filledCircle" : "mFr 6/24/2021 23:30",
 		"filledCircleNarrow" : "mFr 6/24/2021 23:32",
 		"filledRectangle" : "mFr 6/24/2021 23:34",
-		"greenBackground" : "CCJ 6/25/2020 10:59",
 		"importTestJPEG" : "CS 6/29/2021 11:31",
 		"importTestPNG" : "wr 6/18/2020 16:44",
 		"notFilledCircle" : "mFr 6/24/2021 23:33",
 		"notFilledRectangle" : "mFr 6/24/2021 23:34",
 		"overlappingCircles" : "mFr 6/24/2021 23:33",
-		"redBackground" : "CCJ 6/25/2020 10:58",
 		"simpleText" : "ms 6/28/2021 18:30",
 		"triangleBrushTest" : "mk 8/7/2020 15:47",
 		"whiteBackground" : "mk 6/20/2020 16:44",
@@ -90,8 +87,8 @@
 		"testUndoStackSize" : "CS 8/5/2021 23:17",
 		"testUndoWhenUndoStackEmpty" : "K.P. 6/26/2021 16:32",
 		"testZoomInBrush" : "mFr 6/25/2021 16:20",
-		"testZoomInOutPreservesInformation" : "JP 6/26/2021 17:29",
+		"testZoomInOutPreservesInformation" : "CS 8/6/2021 19:06",
 		"testZoomInPencil" : "mFr 6/25/2021 15:54",
-		"testZoomOutInPreservesInformation" : "K.P. 6/26/2021 16:20",
+		"testZoomOutInPreservesInformation" : "CS 8/6/2021 18:36",
 		"viewPort" : "K.P. 6/26/2021 14:34",
 		"viewPort:" : "K.P. 6/24/2021 15:31" } }

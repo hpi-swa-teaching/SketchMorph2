@@ -4,6 +4,6 @@ applyDefaultSettingsTo: aMenuMorph
 		hasDropShadow: false;
 		hResizing: #spaceFill;
 		vResizing: #spaceFill;
-	 	borderWidth: self class borderWidth;
-		borderColor: self class borderColor;
+	 	borderWidth: self menuItemBorderWidth;
+		borderColor: self menuItemBorderColor;
 		stayUp: true

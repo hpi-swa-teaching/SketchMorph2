@@ -1,3 +1,0 @@
-defaults
-borderWidth
-	^ 10

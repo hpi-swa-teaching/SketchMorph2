@@ -1,11 +1,9 @@
 testing
 testZoomOutInPreservesInformation
 	| originalForm |
-	self viewPort
-		zoomBy: 2;
-		userActionClickAt: 50 asPoint;
-		userActionStopDrawing;
-		refresh.
+	self viewPort zoomBy: 2.
+	self drawAt: 50 asPoint.
+	self viewPort refresh.
 		
 	originalForm := self viewPort copyForm.
 	

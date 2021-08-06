@@ -1,8 +1,8 @@
 initialization
 initialize
 	| canvasPanelFrame topPanelFrame |
-	canvasPanelFrame := (0 @ self class topPanelHeight) corner: 1 asPoint.
-	topPanelFrame := 0 asPoint corner: (1 @ self class topPanelHeight).
+	canvasPanelFrame := (0 @ self topPanelHeight) corner: 1 asPoint.
+	topPanelFrame := 0 asPoint corner: (1 @ self topPanelHeight).
 
 	super initialize.
 	self viewPort when: #clipBoardFilled send: #enableInsertSelectionButton to: self.
