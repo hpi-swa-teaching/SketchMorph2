@@ -1,3 +1,7 @@
 initialization
 initializeCanvasPanel
-	self canvasPanel: PluggablePanelMorph new
+	self canvasPanel: (PluggableScrollPane new
+		alwaysShowScrollBars;
+		morph: self canvas;
+		color: self paneColor;
+		yourself)

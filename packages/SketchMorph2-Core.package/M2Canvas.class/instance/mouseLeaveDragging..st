@@ -1,4 +1,4 @@
 event handling
 mouseLeaveDragging: evt
-	self backend isInGeometricMode ifTrue: [^ nil].
-	self backend stopDrawing
+	self viewPort isInGeometricPreviewMode ifTrue: [^ self].
+	self viewPort stopDrawing

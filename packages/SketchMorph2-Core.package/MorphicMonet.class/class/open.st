@@ -1,3 +1,3 @@
 instance creation
 open
-	^ self new openInWorld
+	^ self openWith: (M2Canvas newWith: M2ViewPort ofSize: M2Canvas defaultCanvasSize)

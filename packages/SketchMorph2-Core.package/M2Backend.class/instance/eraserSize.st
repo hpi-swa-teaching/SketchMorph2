@@ -1,3 +1,3 @@
-accessing
+delegation
 eraserSize
-	^ eraserSize ifNil: [eraserSize := self defaultEraserSize]
+	^ self context eraserSize

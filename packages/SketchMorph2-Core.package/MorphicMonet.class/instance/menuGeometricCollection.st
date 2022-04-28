@@ -1,9 +1,11 @@
-static
+accessing
 menuGeometricCollection
-	^ (OrderedCollection new)
-			add: (M2FillArea getMenuItemForTarget: self backend);
-			add: (M2GeometricCircle getMenuItemForTarget: self backend);
-			add: (M2GeometricRectangle getMenuItemForTarget: self backend);
-			add: (M2FillGeometricForm getMenuItemForTarget: self backend);
-			yourself
-		
+	^ menuGeometricCollection ifNil: [menuGeometricCollection := OrderedCollection new
+			add: (M2Select getMenuItemForTarget: self viewPort);
+			add: (M2InsertSelection getMenuItemForTarget: self viewPort);
+			add: (M2FillArea getMenuItemForTarget: self viewPort);
+			add: (M2GeometricCircle getMenuItemForTarget: self viewPort);
+			add: (M2GeometricRectangle getMenuItemForTarget: self viewPort);
+			add: (M2FillGeometricForm getMenuItemForTarget: self backend context);
+			add: (M2TextFont getMenuItemForTarget: self viewPort);
+			yourself]

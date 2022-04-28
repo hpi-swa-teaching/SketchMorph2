@@ -4,13 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "NC 8/7/2020 14:58",
+	"commentStamp" : "CS 5/8/2021 19:18",
 	"instvars" : [
-		"world",
-		"hand",
-		"morphicMonet" ],
+		 ],
 	"name" : "MorphicMonetTests",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "MTFTestCase",
 	"type" : "normal" }

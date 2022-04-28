@@ -6,8 +6,10 @@
 		 ],
 	"commentStamp" : "wr 8/4/2020 12:58",
 	"instvars" : [
+		"buttons",
+		"customizableButtons",
 		"squeakPaint",
-		"buttons" ],
+		"uncustomizableButtons" ],
 	"name" : "M2ColorPalette",
 	"pools" : [
 		 ],

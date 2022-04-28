@@ -1,3 +1,3 @@
-accessing
+delegation
 brushSize
-	^ brushSize ifNil: [brushSize := self defaultBrushSize]
+	^ self context brushSize

@@ -1,3 +1,3 @@
-accessing
+delegation
 isFillingGeometricForm
-	^ isFillingGeometricForm ifNil: [isFillingGeometricForm := false]
+	self context isFillingGeometricForm

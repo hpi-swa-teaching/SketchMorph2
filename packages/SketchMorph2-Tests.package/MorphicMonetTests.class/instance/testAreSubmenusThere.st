@@ -1,4 +1,4 @@
 UI existence tests
 testAreSubmenusThere
-	self assert: ((self morphicMonet menuPanel submorphs count: 
-		[:submorph | submorph isKindOf: MenuMorph]) = self morphicMonet submenuDict size)
+	self assert: self subject submenuDict size
+		equals: (self subject menuPanel submorphs count: [:submorph | submorph isMenuMorph])

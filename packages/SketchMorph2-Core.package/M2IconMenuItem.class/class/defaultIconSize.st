@@ -1,3 +1,3 @@
-as yet unclassified
+default
 defaultIconSize
 	^ Preferences standardMenuFont pointSize * 2

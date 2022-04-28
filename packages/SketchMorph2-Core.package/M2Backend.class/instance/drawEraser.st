@@ -1,7 +1,9 @@
-drawing
+tool selection
 drawEraser
-	self isErasing: true.
-	self eraser roundNib: self eraserSize.
-	self mode: #pen
-	
-	
+	super drawEraser.
+	self context
+		isErasing: true;
+		mode: #pen;
+		currentTool: #drawEraser.
+	self switchMode.
+	self viewPort drawEraser

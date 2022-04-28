@@ -1,3 +1,4 @@
-drawing
+tool selection
 clearCanvas
-	self form fillColor: self backgroundColor
+	super clearCanvas.
+	self viewPort refresh

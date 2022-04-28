@@ -1,0 +1,3 @@
+zooming
+zoomMax
+	^ 3

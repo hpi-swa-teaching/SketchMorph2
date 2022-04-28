@@ -1,6 +1,4 @@
+tool selection
 undo
-undo
-	self 
-		removeLastUserAction;
-		restoreFormFromStack;
-		restoreUserActions
+	self saveSettingsDuring: self undoActions.
+	self viewPort refresh

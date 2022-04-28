@@ -1,7 +1,8 @@
 {
 	"class" : {
-		"actionSelector" : "mp 6/20/2020 12:37",
-		"iconSelector" : "mp 6/20/2020 13:14",
-		"label" : "mp 6/20/2020 12:37" },
+		"actionSelector" : "mFr 5/19/2021 12:30",
+		"icon" : "mFr 5/19/2021 10:50",
+		"isActivatable" : "mFr 5/19/2021 12:30",
+		"label" : "mFr 5/19/2021 12:30" },
 	"instance" : {
 		 } }

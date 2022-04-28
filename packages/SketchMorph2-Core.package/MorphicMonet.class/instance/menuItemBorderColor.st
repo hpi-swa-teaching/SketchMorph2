@@ -1,0 +1,3 @@
+defaults
+menuItemBorderColor
+	^ Color transparent

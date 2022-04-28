@@ -1,0 +1,3 @@
+zooming
+zoomMin
+	^ 1

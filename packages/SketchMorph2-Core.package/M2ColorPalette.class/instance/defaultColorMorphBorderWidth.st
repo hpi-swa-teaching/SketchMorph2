@@ -1,3 +1,0 @@
-default
-defaultColorMorphBorderWidth
-	^ 1

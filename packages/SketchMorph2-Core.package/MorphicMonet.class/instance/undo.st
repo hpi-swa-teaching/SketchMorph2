@@ -1,4 +1,3 @@
-initialization
+tooling
 undo
-	self backend undo.
-	self canvas image: (self backend form)
+	self backend undo

@@ -1,5 +1,5 @@
 undo
 restoreFormFromStack
-	self 
+	self
 		form: self cachedForm copy;
 		formChanged

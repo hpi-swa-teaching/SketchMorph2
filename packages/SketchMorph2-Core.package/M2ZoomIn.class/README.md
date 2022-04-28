@@ -1,0 +1,1 @@
+M2ZoomIn is an M2IconMenuItem used to invoke the zoom-in-functionality.

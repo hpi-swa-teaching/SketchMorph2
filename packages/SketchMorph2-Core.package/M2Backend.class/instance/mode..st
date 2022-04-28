@@ -1,3 +1,3 @@
-accessing
-mode: aSymbol
-	mode := aSymbol.
+delegation
+mode: anObject
+	self context mode: anObject

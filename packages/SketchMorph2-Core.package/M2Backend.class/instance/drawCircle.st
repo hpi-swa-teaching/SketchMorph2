@@ -1,5 +1,9 @@
-drawing
+tool selection
 drawCircle
-	self isErasing: false.
-	self currentPen roundNib: self brushSize.
-	self mode: #pen
+	super drawCircle.
+	self context
+		isErasing: false;
+		mode: #pen;
+		currentTool: #drawCircle.
+	self switchMode.
+	self viewPort drawCircle

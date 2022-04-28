@@ -1,0 +1,3 @@
+geometry
+sliderThickness
+	^ 12

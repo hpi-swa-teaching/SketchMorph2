@@ -1,7 +1,11 @@
-as yet unclassified
+instance creation
 getMenuItemForTarget: anObject
-	^ (MenuItemMorph new)
-		contents: self label; 
-		target: anObject;
-		selector: self actionSelector;
-		icon: ((self perform: self iconSelector) scaledToHeight: self defaultIconSize)
+	^ M2MenuItemMorph new
+			contents: self label;
+			target: anObject;
+			selector: self actionSelector;
+			icon: (self icon scaledToSize: self defaultIconSize);
+			isActivatable: self isActivatable;
+			isActivated: false;
+			isDefaultTool: self isDefaultTool;
+			isEnabled: self isEnabledByDefault

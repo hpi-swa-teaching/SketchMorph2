@@ -1,0 +1,1 @@
+This class is used as a wrapper of data for the text morphs used when adding text to the canvas.

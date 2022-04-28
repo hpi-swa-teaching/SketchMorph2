@@ -1,0 +1,17 @@
+{
+	"category" : "SketchMorph2-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mk 8/3/2020 16:51",
+	"instvars" : [
+		"backend",
+		"context",
+		"fileDirectory",
+		"viewPort" ],
+	"name" : "M2DrawingComponentTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

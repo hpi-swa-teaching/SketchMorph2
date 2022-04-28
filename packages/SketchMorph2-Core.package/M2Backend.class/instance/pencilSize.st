@@ -1,3 +1,3 @@
-accessing
+delegation
 pencilSize
-	^ pencilSize ifNil: [pencilSize := self defaultPencilSize]
+	^ self context pencilSize

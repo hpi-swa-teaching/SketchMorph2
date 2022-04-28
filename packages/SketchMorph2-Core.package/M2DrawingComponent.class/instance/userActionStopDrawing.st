@@ -1,0 +1,3 @@
+drawing
+userActionStopDrawing
+	^ self subclassResponsibility

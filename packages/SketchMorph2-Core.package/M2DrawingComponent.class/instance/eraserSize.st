@@ -1,0 +1,3 @@
+accessing
+eraserSize
+	^ self subclassResponsibility

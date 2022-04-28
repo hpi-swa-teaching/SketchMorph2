@@ -1,3 +1,3 @@
 UI existence tests
 testIsCanvasPanelVisible
-	self assert: self morphicMonet canvasPanel visible
+	self assert: self subject canvasPanel visible

@@ -1,0 +1,6 @@
+tool selection
+drawRectangle
+	| offset sourceForm |
+	offset := self penNibOffset: self rectangleBrushSize.
+	sourceForm := Form extent: self rectangleBrushSize offset: offset.
+	self pen sourceForm: sourceForm fillBlack

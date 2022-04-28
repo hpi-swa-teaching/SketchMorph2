@@ -1,0 +1,3 @@
+accessing
+isActivatable
+	^ self subclassResponsibility

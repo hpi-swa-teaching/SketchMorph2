@@ -1,6 +1,8 @@
 event handling
 mouseMove: evt
-	(self isMouseDown: evt) ifFalse: [^ nil].
-	self hasMouseFocus ifFalse: [^ nil].
-	self backend userActionMoveDrawing: (self relativeMousePosition: evt position).
+	(self gripMorph containsPoint: evt cursorPoint)
+		ifFalse: [self viewPort setToolPreviewCursorFor: evt hand].
+	(self isMouseDown: evt) ifFalse: [^ self].
+	self hasMouseFocus ifFalse: [^ self].
+	self viewPort userActionMoveDrawing: (self relativeMousePosition: evt position).
 	self changed

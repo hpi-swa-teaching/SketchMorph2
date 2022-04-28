@@ -1,16 +1,18 @@
 {
 	"class" : {
-		"newWithSqueakPaint:" : "mp 7/26/2020 16:27" },
+		"newWithSqueakPaint:" : "CS 8/5/2021 17:52" },
 	"instance" : {
-		"buttons" : "mp 8/7/2020 20:54",
-		"colorCollection" : "mp 7/26/2020 16:34",
-		"colorMorphWith:" : "mp 7/27/2020 16:56",
-		"createPalettePanel" : "mp 8/3/2020 17:15",
-		"createRowPanelCollection" : "mk 8/7/2020 16:57",
-		"defaultColorMorphBorderColor" : "wr 6/11/2020 11:49",
-		"defaultColorMorphBorderWidth" : "wr 6/11/2020 11:48",
-		"defaultExtent" : "mk 7/27/2020 20:42",
-		"defaultRowNumber" : "NC 6/26/2020 17:00",
-		"initialize" : "mp 8/3/2020 17:15",
-		"squeakPaint" : "NC 6/14/2020 16:39",
-		"squeakPaint:" : "NC 6/14/2020 16:39" } }
+		"buttons" : "mFr 5/18/2021 17:40",
+		"buttons:" : "mFr 5/18/2021 17:43",
+		"colorCollection" : "CS 8/6/2021 15:43",
+		"createPalettePanel" : "CS 8/5/2021 17:58",
+		"customizableButtons" : "CS 8/5/2021 17:53",
+		"customizableButtons:" : "mFr 5/18/2021 17:43",
+		"defaultButtonsPerRow" : "mFr 7/14/2021 17:23",
+		"initialize" : "mFr 7/14/2021 17:37",
+		"numberOfRows" : "CS 8/5/2021 18:02",
+		"rowPanelCollection" : "CS 8/5/2021 18:08",
+		"squeakPaint" : "mFr 5/18/2021 17:42",
+		"squeakPaint:" : "CS 8/5/2021 17:54",
+		"uncustomizableButtons" : "CS 8/5/2021 17:54",
+		"uncustomizableButtons:" : "mFr 5/18/2021 17:42" } }

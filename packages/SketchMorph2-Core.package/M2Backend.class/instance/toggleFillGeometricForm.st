@@ -1,3 +1,3 @@
-drawing
+delegation
 toggleFillGeometricForm
-	self isFillingGeometricForm: self isFillingGeometricForm not
+	self context toggleFillGeometricForm

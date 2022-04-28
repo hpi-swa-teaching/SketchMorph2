@@ -1,0 +1,23 @@
+{
+	"category" : "SketchMorph2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "K.P. 6/26/2021 14:48",
+	"instvars" : [
+		"backgroundColor",
+		"brushSize",
+		"currentColor",
+		"currentGeometricPreviewShape",
+		"currentTool",
+		"eraserSize",
+		"isErasing",
+		"isFillingGeometricForm",
+		"mode",
+		"pencilSize" ],
+	"name" : "M2DrawingContext",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

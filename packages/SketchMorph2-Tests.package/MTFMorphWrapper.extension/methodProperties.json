@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"generateKeyboardEvent:with:on:modifiedBy:" : "CS 8/6/2021 00:03",
+		"leftClickAssert:" : "mFr 5/17/2021 11:54",
+		"leftClickWith:assert:" : "CS 8/6/2021 00:04",
+		"rightClickAssert:" : "mFr 5/17/2021 11:55",
+		"rightClickWith:assert:" : "CS 8/6/2021 00:04",
+		"sendKey:modifiedBy:" : "CS 8/6/2021 00:06",
+		"sendKeyEvent:characterValue:modifiedBy:" : "CS 8/6/2021 00:06" } }

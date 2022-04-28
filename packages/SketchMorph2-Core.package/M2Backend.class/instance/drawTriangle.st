@@ -1,5 +1,9 @@
-drawing
+tool selection
 drawTriangle
-	self isErasing: false.
-	self pen sourceForm: self prepareTrianglePenSource.
-	self mode: #pen
+	super drawTriangle.
+	self context
+		isErasing: false;
+		mode: #pen;
+		currentTool: #drawTriangle.
+	self switchMode.
+	self viewPort drawTriangle

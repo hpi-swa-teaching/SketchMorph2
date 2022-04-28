@@ -1,0 +1,3 @@
+initialization
+activateDefaultItem
+	self clickMenuItemWith: self defaultActivatedMenuItem label

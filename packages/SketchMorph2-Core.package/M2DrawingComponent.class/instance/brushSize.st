@@ -1,0 +1,3 @@
+accessing
+brushSize
+	^ self subclassResponsibility

@@ -1,3 +1,3 @@
-accessing
-isErasing: aBoolean
-	isErasing := aBoolean
+delegation
+isErasing: anObject
+	self context isErasing: anObject

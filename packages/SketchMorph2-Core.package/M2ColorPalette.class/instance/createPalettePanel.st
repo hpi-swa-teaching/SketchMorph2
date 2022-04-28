@@ -1,6 +1,3 @@
 initialization
 createPalettePanel
-	| palettePanel |
-	palettePanel := PluggablePanelMorph newColumn.
-	self createRowPanelCollection do: [:rowPanel | palettePanel addMorph: rowPanel].
-	^ palettePanel
+	self rowPanelCollection do: [:rowPanel | self addMorph: rowPanel]

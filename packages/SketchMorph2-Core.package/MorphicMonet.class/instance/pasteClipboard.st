@@ -1,4 +1,3 @@
-event handling
+tooling
 pasteClipboard
-	self importPNG: Clipboard clipboardText asString.
-	self canvas changed.
+	self importImage: Clipboard clipboardText asString

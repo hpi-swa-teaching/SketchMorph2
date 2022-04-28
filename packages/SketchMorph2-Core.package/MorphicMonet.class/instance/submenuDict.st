@@ -1,7 +1,7 @@
-static
+accessing
 submenuDict
-	^ (OrderedDictionary new)
-		at: 'Brushes' put: self menuBrushCollection;
-		at: 'Geometric Tools' put: self menuGeometricCollection;
-		at: 'Miscellaneous' put: self menuMiscCollection;
-		yourself
+	^ submenuDict ifNil: [submenuDict := OrderedDictionary new
+			at: #Brushes put: self menuBrushCollection;
+			at: #GeometricTools put: self menuGeometricCollection;
+			at: #Miscellaneous put: self menuMiscCollection;
+			yourself]

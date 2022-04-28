@@ -1,0 +1,18 @@
+{
+	"category" : "SketchMorph2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "K.P. 6/26/2021 14:54",
+	"instvars" : [
+		"context",
+		"eraser",
+		"form",
+		"pen",
+		"startPoint" ],
+	"name" : "M2DrawingComponent",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
