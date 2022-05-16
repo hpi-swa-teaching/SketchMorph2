@@ -1,0 +1,1 @@
+This class is put on temporary geometric/text morph to adjust them when dragged.
