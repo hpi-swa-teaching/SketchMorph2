@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "md 5/16/2022 17:23",
+	"commentStamp" : "ms 5/16/2022 19:06",
 	"instvars" : [
-		"underlyingMorph" ],
-	"name" : "M2TemporaryGeometricMorph",
+		"cursorOffset" ],
+	"name" : "M2HandleMorph",
 	"pools" : [
 		 ],
-	"super" : "TransformationMorph",
+	"super" : "MixedCurveMorph",
 	"type" : "normal" }

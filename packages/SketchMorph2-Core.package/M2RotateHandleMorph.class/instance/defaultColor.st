@@ -1,0 +1,4 @@
+default
+defaultColor
+
+	^ Color tangerine

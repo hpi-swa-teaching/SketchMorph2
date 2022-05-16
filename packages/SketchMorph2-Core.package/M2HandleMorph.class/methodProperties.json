@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"newFor:" : "ms 5/16/2022 20:37" },
+	"instance" : {
+		"cursorOffset" : "ms 5/16/2022 17:33",
+		"cursorOffset:" : "ms 5/16/2022 17:33",
+		"defaultBorderColor" : "ms 5/16/2022 17:54",
+		"defaultBorderWidth" : "ms 5/16/2022 17:54",
+		"defaultColor" : "ms 5/16/2022 17:54",
+		"defaultExtent" : "ms 5/16/2022 17:53",
+		"handlesMouseDown:" : "ms 5/16/2022 17:33",
+		"handlesMouseMove:" : "ms 5/16/2022 17:42",
+		"initialize" : "ms 5/16/2022 20:00",
+		"mouseDown:" : "ms 5/16/2022 17:42",
+		"mouseMove:" : "ms 5/16/2022 20:25",
+		"positionSelf" : "ms 5/16/2022 19:49",
+		"updateActualMorph:" : "ms 5/16/2022 17:57" } }
