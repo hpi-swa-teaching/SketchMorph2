@@ -1,0 +1,14 @@
+{
+	"category" : "SketchMorph2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "md 5/16/2022 17:23",
+	"instvars" : [
+		 ],
+	"name" : "M2TemporaryGeometricMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }
