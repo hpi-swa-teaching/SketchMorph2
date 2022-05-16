@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "md 5/16/2022 17:23",
 	"instvars" : [
-		 ],
+		"underlyingMorph" ],
 	"name" : "M2TemporaryGeometricMorph",
 	"pools" : [
 		 ],
