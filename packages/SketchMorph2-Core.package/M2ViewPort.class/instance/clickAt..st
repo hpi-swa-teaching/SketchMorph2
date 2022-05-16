@@ -6,4 +6,6 @@ clickAt: aPoint
 		ifTrue: [^ self printText].
 	self context isInInsertSelectionMode
 		ifTrue: [^ self projectSelectionAt: aPoint].
+	self context isInTemporaryGeometricMode
+		ifTrue: [^ self finishGeometricForm].
 	super clickAt: aPoint

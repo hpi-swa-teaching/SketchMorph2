@@ -5,4 +5,6 @@ finishGeometricForm
 	position := self getBackendPointFor: positionInViewPort.
 	self backend commit: self temporaryGeometricMorph imageForm at: position.
 	self temporaryGeometricMorph delete.
-	self refresh
+	self refresh.
+	self context isInTemporaryGeometricMode
+		ifTrue: [self context mode: #geometric]
