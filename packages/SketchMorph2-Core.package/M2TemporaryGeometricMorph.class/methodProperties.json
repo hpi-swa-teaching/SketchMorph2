@@ -1,10 +1,16 @@
 {
 	"class" : {
-		"newWithUnderlyingMorph:" : "md 5/16/2022 18:07" },
+		"newWithUnderlyingMorph:" : "ms 5/17/2022 00:24" },
 	"instance" : {
 		"borderColor:" : "md 5/16/2022 18:05",
 		"borderStyle:" : "md 5/16/2022 18:05",
-		"extent:" : "md 5/16/2022 18:19",
-		"initialize" : "ms 5/16/2022 18:26",
+		"deleteHandles" : "ms 5/16/2022 23:27",
+		"extent:" : "ms 5/17/2022 00:03",
+		"initialize" : "ms 5/16/2022 23:57",
+		"moveHandle" : "ms 5/16/2022 22:53",
+		"moveHandle:" : "ms 5/16/2022 22:53",
+		"positionHandles" : "ms 5/17/2022 00:03",
+		"rotateHandle" : "ms 5/16/2022 22:53",
+		"rotateHandle:" : "ms 5/16/2022 22:53",
 		"underlyingMorph" : "md 5/16/2022 18:05",
 		"underlyingMorph:" : "md 5/16/2022 18:06" } }

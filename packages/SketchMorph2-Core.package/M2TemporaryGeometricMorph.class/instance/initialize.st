@@ -1,4 +1,7 @@
 initialization
 initialize
 	super initialize.
-	self asFlexOf: self underlyingMorph
+	self beTransparent;
+		addMorph: self underlyingMorph;
+		moveHandle: (M2MoveHandleMorph newFor: self);
+		rotateHandle: (M2RotateHandleMorph newFor: self)

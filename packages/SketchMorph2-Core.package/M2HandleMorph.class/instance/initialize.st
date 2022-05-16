@@ -7,6 +7,7 @@ initialize
 		borderColor: self defaultBorderColor;
 		extent: self defaultExtent.
 		
+ 	self computeBounds.
 	self clamps atAllPut: 0.
 	self rectOval.
  	self computeBounds
