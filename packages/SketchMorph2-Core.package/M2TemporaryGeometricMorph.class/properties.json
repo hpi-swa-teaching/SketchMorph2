@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "md 5/16/2022 17:23",
 	"instvars" : [
-		"underlyingMorph" ],
+		"underlyingMorph",
+		"moveHandle",
+		"rotateHandle" ],
 	"name" : "M2TemporaryGeometricMorph",
 	"pools" : [
 		 ],
-	"super" : "TransformationMorph",
+	"super" : "Morph",
 	"type" : "normal" }

@@ -2,8 +2,8 @@ event handling
 updateActualMorph: mousePosition
 
 	| newAngle |
-	newAngle := (self owner bounds center - self activeHand position) degrees.
+	newAngle := (self owner bounds center - mousePosition) degrees.
 	
-	
-	Transcript cr; show: ' ',(self owner bounds center); show: ' ',(mousePosition).
-	self owner rotationDegrees: 270 + newAngle
+	self actualMorph rotationDegrees: (newAngle + 90).
+	self actualMorph changed.
+	self positionSelf
