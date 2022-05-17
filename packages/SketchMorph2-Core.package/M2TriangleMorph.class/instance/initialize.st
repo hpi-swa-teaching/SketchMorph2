@@ -5,4 +5,4 @@ initialize
 	super initialize.
 	self addMorph: self triangleMorph.
 	super color: Color transparent.
-	self borderWidth: 0
+	super borderWidth: 0
