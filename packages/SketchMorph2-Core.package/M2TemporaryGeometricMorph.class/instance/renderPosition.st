@@ -1,3 +1,3 @@
-as yet unclassified
+rendering
 renderPosition
 	 ^ self renderSource position

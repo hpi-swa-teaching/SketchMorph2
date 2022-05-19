@@ -1,3 +1,3 @@
-as yet unclassified
+rendering
 render
 	 ^ self renderSource imageForm
