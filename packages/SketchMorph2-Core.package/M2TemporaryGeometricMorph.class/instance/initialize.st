@@ -5,4 +5,5 @@ initialize
 		addMorph: self underlyingMorph;
 		moveHandle: (M2MoveHandleMorph newFor: self);
 		rotateHandle: (M2RotateHandleMorph newFor: self);
-		isActive: true
+		isActive: true.
+	self renderSource: self underlyingMorph addFlexShellIfNecessary

@@ -9,7 +9,8 @@
 		"underlyingMorph",
 		"moveHandle",
 		"rotateHandle",
-		"isActive" ],
+		"isActive",
+		"renderSource" ],
 	"name" : "M2TemporaryGeometricMorph",
 	"pools" : [
 		 ],
