@@ -1,4 +1,4 @@
 default
 defaultColor
 
-	^ Color tangerine
+	^ Color gray

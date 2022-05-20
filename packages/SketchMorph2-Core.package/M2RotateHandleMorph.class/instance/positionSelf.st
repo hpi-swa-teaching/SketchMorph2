@@ -1,3 +1,3 @@
 initialization
 positionSelf
-	self center: (self actualMorph owner bounds) topCenter - (0@(self bounds height / 2))
+	self center: (self actualMorph owner bounds) rightCenter + ((self bounds height / 2)@0)
