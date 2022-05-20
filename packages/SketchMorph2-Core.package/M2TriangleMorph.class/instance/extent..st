@@ -1,4 +1,4 @@
-as yet unclassified
+geometry
 extent: aPoint
 	| rect |	
 	rect := Rectangle origin: self position extent: aPoint.
