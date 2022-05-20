@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"triangleMorph" ],
+		 ],
 	"name" : "M2TriangleMorph",
 	"pools" : [
 		 ],
-	"super" : "RectangleMorph",
+	"super" : "PolygonMorph",
 	"type" : "normal" }
