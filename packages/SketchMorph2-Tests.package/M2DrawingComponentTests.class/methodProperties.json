@@ -62,6 +62,8 @@
 		"testCompareGeometricCircleOverlapping" : "CS 8/5/2021 22:59",
 		"testCompareGeometricRectangleFilled" : "CS 8/5/2021 22:59",
 		"testCompareGeometricRectangleNotFilled" : "CS 8/5/2021 22:59",
+		"testCompareGeometricTriangleFilled" : "SW 5/21/2022 18:00",
+		"testCompareGeometricTriangleNotFilled" : "SW 5/21/2022 18:00",
 		"testCompareSelection" : "CS 8/5/2021 22:59",
 		"testDoesExportPNGSavesFile" : "K.P. 6/26/2021 16:29",
 		"testErase" : "CS 8/5/2021 23:05",
