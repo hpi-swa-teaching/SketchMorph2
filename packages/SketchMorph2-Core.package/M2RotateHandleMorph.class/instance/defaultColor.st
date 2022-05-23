@@ -1,4 +1,3 @@
 default
 defaultColor
-
 	^ Color gray

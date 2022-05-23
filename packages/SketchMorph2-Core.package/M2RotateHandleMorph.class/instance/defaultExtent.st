@@ -1,4 +1,3 @@
 default
 defaultExtent
-
-	^ -10 asPoint
+	^ 10 asPoint

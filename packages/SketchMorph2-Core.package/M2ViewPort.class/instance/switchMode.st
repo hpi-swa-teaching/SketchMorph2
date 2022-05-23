@@ -1,3 +1,4 @@
 tool selection
 switchMode
-	self commitText
+	self commitText.
+	self finishGeometricForm

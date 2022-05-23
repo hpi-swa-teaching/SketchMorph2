@@ -8,7 +8,9 @@
 	"instvars" : [
 		"underlyingMorph",
 		"moveHandle",
-		"rotateHandle" ],
+		"rotateHandle",
+		"isActive",
+		"renderSource" ],
 	"name" : "M2TemporaryGeometricMorph",
 	"pools" : [
 		 ],
