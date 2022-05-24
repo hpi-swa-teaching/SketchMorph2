@@ -7,6 +7,8 @@ resizeTemporaryGeometricMorphAt: aPoint
 	extent := movementVector abs.
 	minimalSquare := (extent x min: extent y) asPoint * (movementVector sign).
 	
+	self canvas isShiftPressed ifTrue: [extent := self shiftResizeExtent: extent].
+	
 	position := (self context currentGeometricPreviewShape = #circle)
 		ifTrue: [self getCircleOrigin: minimalSquare]
 		ifFalse: [aPoint min: self startPoint].
