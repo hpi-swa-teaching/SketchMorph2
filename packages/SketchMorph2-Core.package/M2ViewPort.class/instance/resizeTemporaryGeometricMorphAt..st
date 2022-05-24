@@ -9,7 +9,7 @@ resizeTemporaryGeometricMorphAt: aPoint
 	
 	self canvas isShiftPressed ifTrue: [extent := self shiftResizeExtent: extent].
 	
-	position := (self context currentGeometricPreviewShape = #circle)
+	position := (self context currentGeometricPreviewShape = #ellipse)
 		ifTrue: [self getCircleOrigin: minimalSquare]
 		ifFalse: [aPoint min: self startPoint].
 	
