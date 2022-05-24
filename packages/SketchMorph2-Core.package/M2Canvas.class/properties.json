@@ -8,6 +8,7 @@
 	"instvars" : [
 		"gripMorph",
 		"isCtrlPressed",
+		"isShiftPressed",
 		"viewPort" ],
 	"name" : "M2Canvas",
 	"pools" : [
