@@ -1,5 +1,3 @@
 drawing
 startDrawing
-	self currentPen
-		combinationRule: Form blend;
-		down
+	self currentPen down
