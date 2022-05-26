@@ -9,4 +9,5 @@ projectBackendScaledBy: aNumber
 		scaleFormTo: scaledBackend extent.
 	
 	self canvas updateExtent.
+	self form fillColor: self backgroundColor.
 	self projectUnclipped: scaledBackend at: 0 asPoint
