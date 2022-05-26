@@ -1,0 +1,17 @@
+testing - forms
+simpleColouredText
+	"This is an auto-generated method"
+	^ (Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: 'iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAACj0lEQVR4XuXZQUosMRRGYRGc
+OnIHgiNHTh0JguDUHQiCU0dOBcF9CC5AcAGCO3AH7sAdRPnxFZVKV9HVD6H7ve9AaKtzu0jf
+k+Sm2q2vL59NYstPgS/ExxfiC/HxhfhCfHwhvhAfX4gvxMcX4uML8YX4+EJ8IT6+EF+Ijy/E
+F+LjC/HxhfhCfHwhvhAfX4gvxMcX4gvx8YX4+EJ8IR3v76WcnPQt1+v4wpsyjrULeXsrZXu7
+b7lexxfelHH4QnwhPbe3pRwdDROR627bSH8d//hYysXFcGu5vJxO3v39MLaLz/v1lrTqOP5b
+IefnwyS0Lf2J+/ws5epqOm5np5SHh2HSrq/n3XuVcfgr5M/MzGud/Jubn1me1VJ/9umpT9xY
+/N3dz9/7+8Mk+ytkhb07q2Mq6eHsrO87Pl4Usrs7nsyPj+H7fg2ZmYi2PzUgM71rp6d9X538
+drYnLvHPz6VEsl/Uf0nIstZ9vt7m2ra3t1hzfCG/tELaVm9FOUmlZqQOpG60B4H6pOULmZmI
+JLjuf3n5+0RFQFbH2L18IROJyMmpm+1dUurCfXCwKCVxWTn1ySnXbb1o5dZJnzMO5sfFJHls
+r+/2+XZmz3leWBZ7eLiY5GXjYIRkFtenpbFEJCazfkxM6kFmdH0kTt2YeojMfcZ+PJwzDkLI
+qry+llK3sWNsXTfq2Pb541/B/3+IL8THF+IL8fGF+EJ8fCG+EB9fiC/Exxfi4wvxhfj4Qnwh
+Pr4QX4iPL8QX4uML8fGF+EJ8fCG+EB9fiC/ExxfiC/Hxhfj4QnwhPr4QX4iPL8QX4uML8YX4
++EJ8fCG+EB9fiC/ExxfiC/HxhfhCfHwhPr4QX4iPL8QX4uML8YX4+EI0vgEul3do9oeRXwAA
+AABJRU5ErkJggg==' readStream))
