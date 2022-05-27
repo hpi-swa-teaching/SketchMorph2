@@ -1,3 +1,0 @@
-accessing
-icon
-	^ MorphicMonetIcons controlRecordIcon

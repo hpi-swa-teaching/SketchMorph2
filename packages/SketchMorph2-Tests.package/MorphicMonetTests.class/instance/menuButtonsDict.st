@@ -3,7 +3,7 @@ menuButtonsDict
 	" -Label of the button - assertion after action"
 	^ OrderedDictionary new
 			at: 'Fill Area' 				put: [:backend | backend context mode = #fill];
-			at: 'Circle Tool' 			put: [:backend | backend context mode = #geometric and: [backend context currentGeometricPreviewShape = #circle]];
+			at: 'Ellipse Tool' 			put: [:backend | backend context mode = #geometric and: [backend context currentGeometricPreviewShape = #ellipse]];
 			at: 'Rectangle Tool'		put: [:backend | backend context mode = #geometric and: [backend context currentGeometricPreviewShape = #rectangle]];
 			at: 'Pencil' 					put: [:backend | backend context mode = #pen and: [backend context isErasing not]];
 			at: 'Eraser' 					put: [:backend | backend context mode = #pen and: [backend context isErasing]];
