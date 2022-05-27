@@ -1,5 +1,5 @@
 UI existence tests
 testIsSelectAreaButtonThere
 	| buttonLabel |
-	buttonLabel := 'Select Area'.
+	buttonLabel := 'Select Rectangle'.
     self getButtonFor: buttonLabel
