@@ -1,5 +1,5 @@
 testing - forms
-clipboard
+clipboardRectangle
 		"This is an auto-generated method"
 		^ (Form
 	extent: 20 @ 20
