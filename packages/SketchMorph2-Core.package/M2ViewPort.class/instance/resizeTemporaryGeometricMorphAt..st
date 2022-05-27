@@ -1,18 +1,18 @@
 drawing
 resizeTemporaryGeometricMorphAt: aPoint
-	| extent movementVector minimalSquare position |
+	| extent movementVector rect offset |
 	(aPoint > 0 asPoint) ifFalse: [^ self].
 	
 	movementVector := aPoint - self startPoint.
+	
+	
 	extent := movementVector abs.
-	minimalSquare := (extent x min: extent y) asPoint * (movementVector sign).
 	
 	self canvas isShiftPressed ifTrue: [extent := self shiftResizeExtent: extent].
 	
-	position := (self context currentGeometricPreviewShape = #ellipse)
-		ifTrue: [self getCircleOrigin: minimalSquare]
-		ifFalse: [aPoint min: self startPoint].
+	rect := Rectangle origin: (aPoint min: self startPoint) extent: extent.
+	offset := self startPoint - (rect pointNearestTo: self startPoint).
 	
 	self temporaryGeometricMorph
-		position: self canvas position + position;
-		extent: (extent max: 1 asPoint)
+		position: self canvas position + rect origin + offset;
+		extent: (extent)
