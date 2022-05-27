@@ -2,6 +2,7 @@ accessing
 menuGeometricCollection
 	^ menuGeometricCollection ifNil: [menuGeometricCollection := OrderedCollection new
 			add: (M2SelectRectangle getMenuItemForTarget: self viewPort);
+			add: (M2SelectLasso getMenuItemForTarget: self viewPort);
 			add: (M2InsertSelection getMenuItemForTarget: self viewPort);
 			add: (M2FillArea getMenuItemForTarget: self viewPort);
 			add: (M2GeometricCircle getMenuItemForTarget: self viewPort);
