@@ -2,6 +2,7 @@
 	"class" : {
 		"newWithExtent:on:and:" : "CS 8/5/2021 19:14" },
 	"instance" : {
+		"addPointToTemporaryGeometricMorph:" : "md 5/27/2022 20:35",
 		"addText" : "CS 6/28/2021 21:26",
 		"backend" : "CS 8/4/2021 16:55",
 		"brushSize" : "CS 6/11/2021 18:20",
@@ -44,7 +45,7 @@
 		"isInGeometricMode" : "JP 6/26/2021 17:41",
 		"isInGeometricPreviewMode" : "ms 7/8/2021 16:53",
 		"isNotInBounds:" : "CS 8/5/2021 20:30",
-		"moveDrawing:" : "ms 7/8/2021 16:25",
+		"moveDrawing:" : "md 5/27/2022 20:32",
 		"penColor:" : "mFr 6/24/2021 17:27",
 		"pencilSize" : "CS 6/23/2021 14:23",
 		"printText" : "mFr 6/24/2021 17:29",
@@ -72,6 +73,7 @@
 		"temporaryTextMorph" : "mFr 6/24/2021 17:24",
 		"temporaryTextMorph:" : "mFr 6/24/2021 17:24",
 		"triangleCursor" : "CS 6/28/2021 21:21",
+		"updateTemporaryGeometricMorphTo:" : "md 5/27/2022 20:40",
 		"userActionClickAt:" : "CS 8/5/2021 20:25",
 		"userActionMoveDrawing:" : "CS 8/5/2021 20:25",
 		"userActionStopDrawing" : "CS 8/4/2021 17:19",
