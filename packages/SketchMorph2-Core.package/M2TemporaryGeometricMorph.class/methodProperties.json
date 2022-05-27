@@ -5,6 +5,7 @@
 		"addHandles" : "md 5/19/2022 14:32",
 		"borderColor:" : "md 5/16/2022 18:05",
 		"borderStyle:" : "md 5/16/2022 18:05",
+		"dashedBorder:" : "md 5/27/2022 20:30",
 		"delete" : "md 5/19/2022 14:23",
 		"deleteHandles" : "5/23/2022 21:30:20",
 		"extent:" : "ms 5/17/2022 00:03",
@@ -21,5 +22,6 @@
 		"renderSource:" : "md 5/19/2022 14:15",
 		"rotateHandle" : "ms 5/16/2022 22:53",
 		"rotateHandle:" : "ms 5/16/2022 22:53",
+		"setVertices:" : "md 5/27/2022 20:41",
 		"underlyingMorph" : "md 5/16/2022 18:05",
 		"underlyingMorph:" : "md 5/16/2022 18:06" } }
