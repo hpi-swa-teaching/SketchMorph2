@@ -1,7 +1,7 @@
 changing state tests
-testDoesCircleToolButtonChangeState
+testDoesEllipseToolButtonChangeState
 	| buttonLabel |
 	self subject backend context mode: #pen.
-	buttonLabel := 'Circle Tool'.
+	buttonLabel := 'Ellipse Tool'.
 	self doButtonAction: buttonLabel.
 	self assert: (self doesButtonWork: buttonLabel forTarget: self subject backend)

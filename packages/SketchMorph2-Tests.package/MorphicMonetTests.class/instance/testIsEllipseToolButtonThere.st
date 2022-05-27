@@ -1,5 +1,5 @@
 UI existence tests
-testIsCircleToolButtonThere
+testIsEllipseToolButtonThere
 	| buttonLabel |
-	buttonLabel := 'Circle Tool'.
+	buttonLabel := 'Ellipse Tool'.
     self getButtonFor: buttonLabel
