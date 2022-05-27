@@ -7,7 +7,7 @@ handleShiftKeystroke: aKeyboardEvent
 				} otherwise: [^ aKeyboardEvent "no hit"]]
 			ifFalse: [
 				aKeyboardEvent keyCharacter caseOf: {
-					[$C] -> [self clickMenuItemWith: M2GeometricEllipse label].
+					[$E] -> [self clickMenuItemWith: M2GeometricEllipse label].
 					[$R] -> [self clickMenuItemWith: M2GeometricRectangle label].
 					[$F] -> [self backend toggleFillGeometricForm]
 				} otherwise: [^ aKeyboardEvent "no hit"]].
