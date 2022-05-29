@@ -7,6 +7,6 @@ geometricMorph
 		#triangle -> [M2TriangleMorph new].
 		#selectionRectangle -> [RectangleMorph new].
 		#selectionLasso -> [PolygonMorph new].
-	} asDictionary.
+	} as: Dictionary.
 	constructor := constructors at: self context currentGeometricPreviewShape.
 	^ constructor value
