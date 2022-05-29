@@ -1,3 +1,3 @@
 defaults
 defaultPenColor
-	^ Color black
+	^ Color red
