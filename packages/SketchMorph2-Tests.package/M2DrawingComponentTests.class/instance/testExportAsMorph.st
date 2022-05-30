@@ -1,7 +1,7 @@
 testing
 testExportAsMorph
 	self
-		contextFillGeometricModeWithForm: #circle;
+		contextFillGeometricModeWithForm: #ellipse;
 		drawAmountOfDiagonalCircles: 14.
 	self backend exportAsMorph.
 	self assert: 1 equals: self currentHand submorphCount.

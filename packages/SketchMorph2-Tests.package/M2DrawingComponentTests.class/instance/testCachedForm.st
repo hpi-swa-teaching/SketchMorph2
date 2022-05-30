@@ -1,6 +1,6 @@
 testing
 testCachedForm
-	self contextFillGeometricModeWithForm: #circle.
+	self contextFillGeometricModeWithForm: #ellipse.
 	self backend pushNewUndoLevelWithForm: self backend form copy.
 	
 	self drawAmountOfDiagonalCircles: 10.
