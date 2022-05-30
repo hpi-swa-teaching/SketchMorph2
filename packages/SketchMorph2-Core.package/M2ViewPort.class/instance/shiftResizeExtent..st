@@ -1,10 +1,10 @@
 drawing
 shiftResizeExtent: extent
-	| switch minExtent maxSide |
+	| switch minExtent minLen |
 	minExtent := extent min: (extent transposed).
-	maxSide := (extent max: (extent transposed) )x.
+	minLen := minExtent x.
 	switch := Dictionary new.                                  
 	switch at: #ellipse put: [minExtent].
 	switch at: #rectangle put: [minExtent].
-	switch at: #triangle put: [maxSide@((3 sqrt)/2*maxSide)].
+	switch at: #triangle put: [self calculateTriangleExtent: extent].
 	^ (switch at: self context currentGeometricPreviewShape ifAbsent: [extent]) value
