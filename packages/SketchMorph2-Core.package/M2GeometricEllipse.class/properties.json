@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "wr 8/4/2020 13:06",
+	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "M2GeometricCircle",
+	"name" : "M2GeometricEllipse",
 	"pools" : [
 		 ],
 	"super" : "M2IconMenuItem",

@@ -1,3 +1,3 @@
 accessing
 actionSelector
-	^ #drawGeometricCircle
+	^ #drawGeometricEllipse

@@ -2,7 +2,7 @@ drawing
 geometricMorph
 	| constructors constructor |
 	constructors := {
-		#circle -> [CircleMorph new].
+		#ellipse -> [EllipseMorph new].
 		#rectangle -> [RectangleMorph new].
 		#triangle -> [M2TriangleMorph new].
 		#selectionRectangle -> [RectangleMorph new].

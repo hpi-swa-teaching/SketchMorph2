@@ -1,4 +1,4 @@
 tool selection
-drawGeometricCircle
-	super drawGeometricCircle.
+drawGeometricEllipse
+	super drawGeometricEllipse.
 	self currentCursor: Cursor crossHair
