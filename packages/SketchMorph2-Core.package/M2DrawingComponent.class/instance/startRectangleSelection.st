@@ -1,8 +1,8 @@
 tool selection
-startSelection
+startRectangleSelection
 	self context
 		isErasing: false;
 		mode: #selection;
-		currentTool: #startSelection;
+		currentTool: #startRectangleSelection;
 		currentGeometricPreviewShape: #selectionRectangle.
 	self switchMode

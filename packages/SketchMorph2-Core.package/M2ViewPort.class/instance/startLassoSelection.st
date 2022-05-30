@@ -1,4 +1,4 @@
 tool selection
-startSelection
-	super startSelection.
+startLassoSelection
+	super startLassoSelection.
 	self currentCursor: Cursor crossHair

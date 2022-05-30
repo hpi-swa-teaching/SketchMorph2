@@ -1,6 +1,3 @@
 support
 dragFrom: aStartPoint to: anEndPoint
-	self viewPort
-		userActionClickAt: aStartPoint;
-		userActionMoveDrawing: anEndPoint;
-		userActionStopDrawing
+	self dragAlong: {aStartPoint. anEndPoint}

@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "K.P. 7/14/2021 18:07",
+	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "M2Select",
+	"name" : "M2SelectLasso",
 	"pools" : [
 		 ],
 	"super" : "M2IconMenuItem",

@@ -1,5 +1,5 @@
 support
-contextSelectionMode
+contextSelectionRectangleMode
 	self context
 		mode: #selection;
 		currentGeometricPreviewShape: #selectionRectangle

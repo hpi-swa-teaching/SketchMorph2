@@ -1,3 +1,3 @@
 rendering
 render
-	 ^ self renderSource imageForm
+	^ self renderSource imageForm
