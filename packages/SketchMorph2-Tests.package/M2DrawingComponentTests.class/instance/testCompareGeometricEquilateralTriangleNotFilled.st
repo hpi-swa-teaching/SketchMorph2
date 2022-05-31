@@ -1,7 +1,7 @@
 testing
 testCompareGeometricEquilateralTriangleNotFilled
 	self
-		contextFillGeometricModeWithForm: #triangle;
+		contextGeometricModeWithForm: #triangle;
 		holdShift;
 		drawFrom: (40 @ 10) to: (80 @ 90);
 		compareBackendFormWith: #notFilledEquilateralTriangle;
