@@ -4,7 +4,7 @@
 	"instance" : {
 		"canvas" : "CS 6/2/2021 12:08",
 		"canvas:" : "CS 6/2/2021 12:08",
-		"defaultFont" : "CS 6/2/2021 12:11",
+		"defaultFont" : "AG 5/29/2022 11:52",
 		"defaultHandle" : "CS 8/5/2021 21:51",
 		"defaultHandleExtent" : "K.P. 7/14/2021 15:28",
 		"defaultHandlePosition" : "CS 8/5/2021 21:51",
@@ -17,4 +17,5 @@
 		"isActive:" : "CS 8/5/2021 21:47",
 		"moveByHandleTo:" : "CS 8/5/2021 21:51",
 		"moveTo:" : "CS 8/5/2021 21:51",
-		"positionRelativeToCanvas" : "CS 8/5/2021 19:38" } }
+		"positionRelativeToCanvas" : "CS 8/5/2021 19:38",
+		"textColor:" : "SW 5/26/2022 15:23" } }

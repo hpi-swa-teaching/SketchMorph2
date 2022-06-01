@@ -12,7 +12,8 @@
 		"currentCursor",
 		"scalar",
 		"temporaryGeometricMorph",
-		"temporaryTextMorph" ],
+		"temporaryTextMorph",
+		"backgroundColor" ],
 	"name" : "M2ViewPort",
 	"pools" : [
 		 ],

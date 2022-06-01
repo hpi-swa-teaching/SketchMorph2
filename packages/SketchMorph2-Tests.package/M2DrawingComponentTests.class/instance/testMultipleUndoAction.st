@@ -1,6 +1,6 @@
 testing
 testMultipleUndoAction
-	self contextFillGeometricModeWithForm: #circle.
+	self contextFillGeometricModeWithForm: #ellipse.
 	self executeAndTestUndo: {
 		[self drawFrom: (40 @ 10) to: (80 @ 90)] .
 		[self drawFrom: (10 @ 20) to: (80 @ 85)] .

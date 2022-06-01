@@ -1,3 +1,3 @@
 defaults
 defaultBackgroundColor
-	^ Color white
+	^ Color transparent

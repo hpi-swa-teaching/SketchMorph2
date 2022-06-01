@@ -1,11 +1,13 @@
 drawing
 initializeTemporaryGeometricMorphAt: aPoint
+	| temporaryGeometricMorph |
 	self startPoint: aPoint.
-	self temporaryGeometricMorph: (self geometricMorph
-		color: self geometricMorphColor;
-		position: self canvas position + aPoint;
-		extent: 1 asPoint;
-		borderWidth: self pencilSize;
-		yourself).
+	temporaryGeometricMorph := M2TemporaryGeometricMorph newWithUnderlyingMorph:
+		(self geometricMorph
+			color: self geometricMorphColor;
+			borderWidth: self pencilSize;
+			yourself).
+	self configureTemporaryGeometricMorph: temporaryGeometricMorph at: aPoint.
+	self temporaryGeometricMorph: temporaryGeometricMorph.
 	self setTemporaryGeometricMorphBorder.
 	self canvas addMorph: self temporaryGeometricMorph

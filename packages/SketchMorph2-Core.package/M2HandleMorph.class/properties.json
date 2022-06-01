@@ -1,0 +1,14 @@
+{
+	"category" : "SketchMorph2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ms 5/16/2022 19:06",
+	"instvars" : [
+		"cursorOffset" ],
+	"name" : "M2HandleMorph",
+	"pools" : [
+		 ],
+	"super" : "MixedCurveMorph",
+	"type" : "normal" }
