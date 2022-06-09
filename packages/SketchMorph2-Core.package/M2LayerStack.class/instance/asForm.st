@@ -2,5 +2,5 @@ converting
 asForm
 	| layer |
 	layer := self createLayer.
-	self layers reverseDo: [:each | each drawOn: layer].
+	(self layers select: [:each | each isVisible]) reverseDo: [:each | each drawOn: layer].
 	^ layer form

@@ -1,3 +1,5 @@
 accessing
 printOn: aStream
-	aStream nextPutAll: self name
+	self isVisible ifFalse: [aStream nextPut: $(].
+	aStream nextPutAll: self name.
+	self isVisible ifFalse: [aStream nextPut: $)]
