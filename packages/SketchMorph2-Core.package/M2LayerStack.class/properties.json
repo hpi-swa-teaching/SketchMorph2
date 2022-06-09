@@ -4,10 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "md 6/9/2022 14:26",
 	"instvars" : [
-		"isSelected" ],
-	"name" : "M2MockLayer",
+		"layers",
+		"activeLayer" ],
+	"name" : "M2LayerStack",
 	"pools" : [
 		 ],
 	"super" : "Object",

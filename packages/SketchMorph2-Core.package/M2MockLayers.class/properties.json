@@ -4,15 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "K.P. 6/26/2021 14:54",
+	"commentStamp" : "",
 	"instvars" : [
-		"context",
-		"eraser",
-		"form",
-		"layerStack",
-		"pen",
-		"startPoint" ],
-	"name" : "M2DrawingComponent",
+		"layerList",
+		"selectedIndex" ],
+	"name" : "M2MockLayers",
 	"pools" : [
 		 ],
 	"super" : "Object",
