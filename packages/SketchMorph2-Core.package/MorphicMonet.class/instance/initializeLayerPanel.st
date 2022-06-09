@@ -1,15 +1,13 @@
 initialization
 initializeLayerPanel
 
-	| mockLayers |
-	mockLayers := M2MockLayers new.
-	mockLayers initializeMock.
 	self layerPanel: (PluggablePanelMorph newColumn
 		hResizing: #shrinkWrap;
 		vResizing: #spaceFill;
 		addMorph: self layerEditPanel;
-		addMorph: ((PluggableListMorph on: mockLayers list: #layerList selected: #selectedIndex changeSelected: #selectLayer:)
+		addMorph: ((PluggableListMorphByItem on: self backend layerStack list: #layers selected: #activeLayer changeSelected: #activeLayer:)
 			vResizing: #spaceFill;
+			autoDeselect: false;
 			yourself
 		);
 		yourself)

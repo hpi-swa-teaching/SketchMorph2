@@ -1,0 +1,3 @@
+defaults
+defaultName
+	^ 'unnamed layer'

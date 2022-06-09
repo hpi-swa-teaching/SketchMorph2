@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "md 6/9/2022 14:21",
 	"instvars" : [
-		"form" ],
+		"form",
+		"name" ],
 	"name" : "M2Layer",
 	"pools" : [
 		 ],
