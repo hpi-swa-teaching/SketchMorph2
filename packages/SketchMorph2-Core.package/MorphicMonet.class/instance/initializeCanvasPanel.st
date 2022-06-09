@@ -4,4 +4,6 @@ initializeCanvasPanel
 		alwaysShowScrollBars;
 		morph: self canvas;
 		color: self paneColor;
+		hResizing: #spaceFill;
+		vResizing: #spaceFill;
 		yourself)

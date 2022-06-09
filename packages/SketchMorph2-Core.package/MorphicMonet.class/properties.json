@@ -18,7 +18,10 @@
 		"menuMiscCollection",
 		"menuPanel",
 		"submenuDict",
-		"topPanel" ],
+		"topPanel",
+		"bottomPanel",
+		"layerPanel",
+		"layerEditPanel" ],
 	"name" : "MorphicMonet",
 	"pools" : [
 		 ],

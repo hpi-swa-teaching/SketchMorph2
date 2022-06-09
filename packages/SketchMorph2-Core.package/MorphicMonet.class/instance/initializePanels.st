@@ -4,4 +4,7 @@ initializePanels
 		initializeCanvasPanel;
 		initializeMenuPanel;
 		initializeColorPanel;
-		initializeTopPanel
+		initializeLayerEditPanel;
+		initializeLayerPanel;
+		initializeTopPanel;
+		initializeBottomPanel

@@ -1,7 +1,7 @@
 initialization
 initialize
-	| canvasPanelFrame topPanelFrame |
-	canvasPanelFrame := (0 @ self topPanelHeight) corner: 1 asPoint.
+	| bottomPanelFrame topPanelFrame |
+	bottomPanelFrame := (0 @ self topPanelHeight) corner: 1 asPoint.
 	topPanelFrame := 0 asPoint corner: (1 @ self topPanelHeight).
 
 	super initialize.
@@ -9,7 +9,7 @@ initialize
 	self
 		initializePanels;
 		setLabel: 'Morphic Monet';
-		addMorph: self canvasPanel frame: canvasPanelFrame;
 		addMorph: self topPanel frame: topPanelFrame;
+		addMorph: self bottomPanel frame: bottomPanelFrame;
 		loadMenu;
 		addPaneSplitters

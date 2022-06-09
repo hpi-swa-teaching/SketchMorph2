@@ -1,0 +1,14 @@
+{
+	"category" : "SketchMorph2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"isSelected" ],
+	"name" : "M2MockLayer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
