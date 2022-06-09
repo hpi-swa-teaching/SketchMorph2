@@ -2,8 +2,10 @@
 	"class" : {
 		"newWithExtent:context:" : "CS 8/5/2021 18:08" },
 	"instance" : {
+		"activeForm" : "md 6/9/2022 19:17",
 		"addText" : "CS 8/5/2021 20:40",
 		"alphaBlend:at:" : "CS 6/29/2021 11:35",
+		"asForm" : "md 6/9/2022 19:17",
 		"brushSize" : "CS 6/11/2021 18:19",
 		"clearCanvas" : "CS 6/11/2021 18:41",
 		"clickAt:" : "CS 8/6/2021 16:11",
@@ -15,6 +17,7 @@
 		"defaultDepth" : "CS 6/11/2021 17:42",
 		"defaultEraser" : "md 5/26/2022 21:32",
 		"defaultForm" : "CS 6/11/2021 17:43",
+		"defaultLayerStack" : "md 6/9/2022 19:04",
 		"defaultPen" : "md 5/26/2022 21:32",
 		"defaultPenColor" : "AG 5/29/2022 11:52",
 		"defaultStartPoint" : "CS 8/5/2021 18:18",
@@ -37,6 +40,8 @@
 		"formSize" : "mFr 6/25/2021 08:54",
 		"formSize:" : "md 5/26/2022 19:35",
 		"insertSelection" : "CS 8/5/2021 18:46",
+		"layerStack" : "md 6/9/2022 19:05",
+		"layerStack:" : "md 6/9/2022 19:01",
 		"moveDrawing:" : "CS 6/23/2021 14:44",
 		"paint:at:" : "CS 6/29/2021 11:33",
 		"pen" : "CS 6/11/2021 17:31",

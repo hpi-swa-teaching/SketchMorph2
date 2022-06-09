@@ -9,6 +9,7 @@
 		"context",
 		"eraser",
 		"form",
+		"layerStack",
 		"pen",
 		"startPoint" ],
 	"name" : "M2DrawingComponent",
