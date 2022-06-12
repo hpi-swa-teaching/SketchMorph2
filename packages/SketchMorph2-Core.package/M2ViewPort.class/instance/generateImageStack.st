@@ -6,5 +6,5 @@ generateImageStack
 				ifTrue: [self imageStack
 						add: (self generateLayer: layer)]].
 	self imageStack
-		add: (self generateLayer: ((Form extent: self defaultBounds depth: self defaultDepth) fillColor: Color green;
-					 yourself))
+		add: (self generateLayer: ((Form extent: self defaultBounds depth: self defaultDepth) fillColor: self defaultBackgroundColor;
+					 yourself)).

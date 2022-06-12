@@ -1,4 +1,6 @@
 drawing
 refresh
-	self projectBackendScaledBy: self scalar.
-	self canvas changed
+	"self projectBackendScaledBy: self scalar."
+	Transcript show: 'refresh';cr.
+	self canvas changed;
+		updateExtent

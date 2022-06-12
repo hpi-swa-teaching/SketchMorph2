@@ -1,3 +1,4 @@
 accessing
 formExtent
-	^ self form extent
+Transcript show: 'formExtent';cr.
+	^ self imageStack first extent

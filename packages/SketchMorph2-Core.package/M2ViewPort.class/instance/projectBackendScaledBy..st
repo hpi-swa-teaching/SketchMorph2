@@ -7,6 +7,8 @@ projectBackendScaledBy: aNumber
 		scalar: aNumber;
 		setClipsFor: scaledBackend;
 		scaleFormTo: scaledBackend extent.
+		
+"	self imageStack do: [:image | image scaleToMatch: image extent * aNumber]."
 	
 	self canvas updateExtent.
 	self form fillColor: self backgroundColor.
