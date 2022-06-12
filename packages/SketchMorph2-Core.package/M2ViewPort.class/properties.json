@@ -13,7 +13,8 @@
 		"scalar",
 		"temporaryGeometricMorph",
 		"temporaryTextMorph",
-		"backgroundColor" ],
+		"backgroundColor",
+		"imageStack" ],
 	"name" : "M2ViewPort",
 	"pools" : [
 		 ],

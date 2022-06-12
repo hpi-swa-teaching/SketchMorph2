@@ -13,5 +13,5 @@
 	"name" : "M2Canvas",
 	"pools" : [
 		 ],
-	"super" : "ImageMorph",
+	"super" : "Morph",
 	"type" : "normal" }
