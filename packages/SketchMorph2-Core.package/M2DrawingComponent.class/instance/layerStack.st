@@ -1,3 +1,3 @@
 accessing
 layerStack
-	^ layerStack ifNil: [layerStack := self defaultLayerStack]
+	^ layerStack ifNil: [self layerStack: self defaultLayerStack]

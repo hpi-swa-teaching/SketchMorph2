@@ -1,3 +1,3 @@
 support
 formCompareBackendFormWith: aForm
-	self formCompare: self backend form with: aForm
+	self formCompare: self backend asForm with: aForm

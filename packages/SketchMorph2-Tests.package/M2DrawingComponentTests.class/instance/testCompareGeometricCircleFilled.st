@@ -1,4 +1,4 @@
-testing
+testing - tools
 testCompareGeometricCircleFilled
 	self
 		contextFillGeometricModeWithForm: #ellipse;

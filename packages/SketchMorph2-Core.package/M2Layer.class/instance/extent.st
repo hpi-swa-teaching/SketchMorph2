@@ -1,3 +1,3 @@
 accessing
-formExtent
+extent
 	^ self form extent

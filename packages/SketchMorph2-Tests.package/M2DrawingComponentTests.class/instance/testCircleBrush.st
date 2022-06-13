@@ -1,4 +1,4 @@
-testing
+testing - tools
 testCircleBrush
 	self backend drawCircle.
 	self

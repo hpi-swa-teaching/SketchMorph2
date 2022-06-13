@@ -1,4 +1,4 @@
-testing
+testing - tools
 testCompareClipboardInsertion
 	self backend
 		drawCircle;

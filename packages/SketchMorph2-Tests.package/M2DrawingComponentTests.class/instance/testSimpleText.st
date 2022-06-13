@@ -1,4 +1,4 @@
-testing
+testing - tools
 testSimpleText
 	self backend addText.
 	self drawAt: 25 asPoint.

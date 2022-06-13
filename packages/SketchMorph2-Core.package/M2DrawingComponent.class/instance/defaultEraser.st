@@ -1,6 +1,6 @@
 defaults
 defaultEraser
-	^ (Pen newOnForm: self form)
+	^ (Pen newOnForm: self activeForm)
 			up;
 			color: self context defaultBackgroundColor;
 			yourself

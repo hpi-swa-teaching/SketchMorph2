@@ -1,4 +1,4 @@
-testing
+testing - tools
 testSimpleTextAfterMovingByHandle
 	self viewPort
 		addText;

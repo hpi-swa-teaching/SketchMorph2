@@ -3,5 +3,5 @@ undoActions
 	^ [self
 			switchMode;
 			removeLastUserAction;
-			restoreFormFromStack;
+			restoreLayerStackFromStack;
 			restoreUserActions]

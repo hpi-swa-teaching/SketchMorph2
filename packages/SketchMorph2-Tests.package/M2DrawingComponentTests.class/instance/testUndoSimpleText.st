@@ -1,4 +1,4 @@
-testing
+testing - tools
 testUndoSimpleText
 	self executeAndTestUndo: {
 		[self backend

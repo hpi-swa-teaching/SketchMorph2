@@ -1,4 +1,4 @@
-testing
+testing - tools
 testBrushSize
 	self backend
 		setBrushAndEraserSizeTo: 50;

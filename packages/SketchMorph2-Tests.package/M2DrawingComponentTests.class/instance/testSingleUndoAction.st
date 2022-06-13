@@ -1,4 +1,4 @@
-testing
+testing - tools
 testSingleUndoAction
 	self
 		contextFillGeometricModeWithForm: #ellipse;

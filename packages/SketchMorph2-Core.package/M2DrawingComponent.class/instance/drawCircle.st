@@ -2,4 +2,4 @@ tool selection
 drawCircle
 	self pen
 		roundNib: self brushSize;
-		combinationRule: Form blend
+		combinationRule: Form blendAlphaScaled

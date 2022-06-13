@@ -1,3 +1,3 @@
 undo
 cachedForm
-	^ self undoStack top form
+	^ self cachedLayerStack asForm
