@@ -1,7 +1,7 @@
 layer editing
 renameActiveLayer
 	| newName |
-	newName := ''.
-	[newName isEmpty] whileTrue: [newName := UIManager default request: 'Enter non-empty layer name:'.].
+	newName := UIManager default request: 'Enter new layer name:' initialAnswer: self activeLayer name.
+	newName isEmpty ifTrue: [^self.].
 	
 	self activeLayer name: newName
