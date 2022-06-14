@@ -4,4 +4,5 @@ addLayer
 	layer := self createLayer.
 	self layers add: layer before: self activeLayer.
 	self changed: #layers.
+	self changed: #activeLayer.
 	^ layer
