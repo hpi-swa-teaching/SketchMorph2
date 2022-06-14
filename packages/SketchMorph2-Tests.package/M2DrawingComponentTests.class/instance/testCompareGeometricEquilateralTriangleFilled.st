@@ -1,4 +1,4 @@
-testing
+testing - tools
 testCompareGeometricEquilateralTriangleFilled
 	self
 		contextFillGeometricModeWithForm: #triangle;

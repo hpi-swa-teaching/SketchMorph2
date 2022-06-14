@@ -5,4 +5,4 @@ drawTriangle
 	sourceForm := self prepareTrianglePenSource offset: offset.
 	self pen
 		sourceForm: sourceForm;
-		combinationRule: Form blend
+		combinationRule: Form blendAlphaScaled

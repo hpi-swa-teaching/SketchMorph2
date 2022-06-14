@@ -7,7 +7,7 @@
 	"commentStamp" : "mk 6/25/2020 12:17",
 	"instvars" : [
 		"actions",
-		"form" ],
+		"layerStack" ],
 	"name" : "M2UndoLevel",
 	"pools" : [
 		 ],

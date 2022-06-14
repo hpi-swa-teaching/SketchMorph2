@@ -1,9 +1,9 @@
 drawing
 project: aForm at: aPoint rule: aCombinationRule
-	self form
+	self activeForm
 		copyBits: (0 asPoint corner: aForm extent)
 		from: aForm
 		at: aPoint
-		clippingBox: (0 asPoint corner: self form extent)
+		clippingBox: (0 asPoint corner: self activeForm extent)
 		rule: aCombinationRule
 		fillColor: nil

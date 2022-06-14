@@ -1,3 +1,3 @@
 accessing
 combinationRule
-	^ Form blend
+	^ Form blendAlphaScaled

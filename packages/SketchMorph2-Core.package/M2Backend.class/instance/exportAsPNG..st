@@ -1,4 +1,4 @@
 tool selection
 exportAsPNG: aFileName
 	self switchMode.
-	self form writePNGfileNamed: aFileName
+	self asForm writePNGfileNamed: aFileName

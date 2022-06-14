@@ -1,7 +1,7 @@
-testing
+testing - tools
 testCachedForm
 	self contextFillGeometricModeWithForm: #ellipse.
-	self backend pushNewUndoLevelWithForm: self backend form copy.
+	self backend pushNewUndoLevel.
 	
 	self drawAmountOfDiagonalCircles: 10.
 	self compare: self backend cachedForm with: #whiteBackground.

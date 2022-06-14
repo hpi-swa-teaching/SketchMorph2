@@ -1,4 +1,4 @@
-testing
+testing - tools
 testCompareSelectionRectangle
 	self backend
 		drawCircle;

@@ -1,4 +1,4 @@
-testing
+testing - tools
 testUndoAfterImport
 	self executeAndTestUndo: {
 		[self backend importImage: self importTestPNGPath] .

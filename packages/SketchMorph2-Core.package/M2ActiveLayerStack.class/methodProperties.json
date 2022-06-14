@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"newWithBackend:" : "md 6/11/2022 21:46" },
+	"instance" : {
+		"activeLayer:" : "md 6/12/2022 00:11",
+		"backend" : "md 6/11/2022 21:36",
+		"backend:" : "md 6/11/2022 21:36",
+		"currentLayerStack" : "md 6/11/2022 21:41",
+		"currentLayerStack:" : "md 6/11/2022 23:30",
+		"doesNotUnderstand:" : "md 6/11/2022 21:43",
+		"initialize" : "md 6/11/2022 23:28",
+		"update:" : "md 6/11/2022 21:41" } }

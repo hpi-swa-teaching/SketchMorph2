@@ -1,0 +1,3 @@
+undo
+pushNewUndoLevelWithAction: anM2UserAction
+	self pushNewUndoLevelWithLayerStack: self copyLayerStack withAction: anM2UserAction

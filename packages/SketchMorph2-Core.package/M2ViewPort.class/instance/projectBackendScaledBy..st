@@ -1,14 +1,12 @@
 drawing
 projectBackendScaledBy: aNumber
 	| scaledBackend |
-	scaledBackend := self backend form magnifyBy: aNumber.
+	scaledBackend := self backend asForm magnifyBy: aNumber.
 	
 	self
 		scalar: aNumber;
-		setClipsFor: scaledBackend;
-		scaleFormTo: scaledBackend extent.
-		
-"	self imageStack do: [:image | image scaleToMatch: image extent * aNumber]."
+		setClipsFor: scaledBackend.
+	self form setExtent: scaledBackend extent depth: self form depth.
 	
 	self canvas updateExtent.
 	self form fillColor: self backgroundColor.

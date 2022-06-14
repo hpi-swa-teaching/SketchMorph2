@@ -1,8 +1,6 @@
 updating
 updateExtent
-
-	Transcript show: 'updateExtent';cr.
 	self
-		extent: self viewPort formExtent;
+		extent: self viewPort extent;
 		updateGripMorphPosition;
 		changed

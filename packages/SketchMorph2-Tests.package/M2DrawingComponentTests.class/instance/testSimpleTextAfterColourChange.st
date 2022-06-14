@@ -1,4 +1,4 @@
-testing
+testing - tools
 testSimpleTextAfterColourChange
 	self backend addText.
 	self drawAt: 25 asPoint.

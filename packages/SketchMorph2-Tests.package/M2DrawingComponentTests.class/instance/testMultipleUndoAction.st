@@ -1,4 +1,4 @@
-testing
+testing - tools
 testMultipleUndoAction
 	self contextFillGeometricModeWithForm: #ellipse.
 	self executeAndTestUndo: {

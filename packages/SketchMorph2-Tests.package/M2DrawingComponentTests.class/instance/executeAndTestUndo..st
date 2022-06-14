@@ -2,10 +2,10 @@ support
 executeAndTestUndo: aBlockArray
 	| preState stack |
 	stack := Stack new.
-	stack push: self backend copyForm.
+	stack push: self backend asForm.
 	aBlockArray do: [:aBlock |
 		aBlock value.
-		stack push: self backend copyForm].
+		stack push: self backend asForm].
 	preState := self backend currentState.
 	aBlockArray do: [:aBlock |
 		self backend undo.

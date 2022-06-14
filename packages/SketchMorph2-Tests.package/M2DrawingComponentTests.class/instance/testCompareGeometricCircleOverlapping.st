@@ -1,4 +1,4 @@
-testing
+testing - tools
 testCompareGeometricCircleOverlapping
 	self
 		contextGeometricModeWithForm: #ellipse;

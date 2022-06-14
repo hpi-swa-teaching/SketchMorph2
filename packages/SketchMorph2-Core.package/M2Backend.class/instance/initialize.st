@@ -1,4 +1,4 @@
 initialize-release
 initialize
 	super initialize.
-	self pushNewUndoLevelWithForm: self copyForm
+	self pushNewUndoLevel

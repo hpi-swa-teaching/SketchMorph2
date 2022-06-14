@@ -1,4 +1,4 @@
-testing
+testing - tools
 testUndoAfterClearCanvasAndDraw
 	self executeAndTestUndo: {
 		[self drawFrom: 10 asPoint to: 40 asPoint] .

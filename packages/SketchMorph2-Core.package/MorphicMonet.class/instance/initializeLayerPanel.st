@@ -6,13 +6,14 @@ initializeLayerPanel
 		vResizing: #spaceFill;
 		addMorph: self layerEditPanel;
 		addMorph: ((PluggableListMorphByItem 
-					on: self backend layerStack 
-					list: #layers 
-					selected: #activeLayer 
+					on: self backend activeLayerStack
+					list: #layers
+					selected: #activeLayer
 					changeSelected: #activeLayer:)
 			autoDeselect: false;
 			doubleClickSelector: #renameActiveLayer;
 			getIconSelector: #layerIconAt:;
+			keystrokeActionSelector: nil;
 			vResizing: #spaceFill;
 			yourself
 		);

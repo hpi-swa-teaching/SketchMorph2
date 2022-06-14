@@ -5,4 +5,4 @@ drawRectangle
 	sourceForm := Form extent: self rectangleBrushSize offset: offset.
 	self pen
 		sourceForm: sourceForm fillBlack;
-		combinationRule: Form blend
+		combinationRule: Form blendAlphaScaled

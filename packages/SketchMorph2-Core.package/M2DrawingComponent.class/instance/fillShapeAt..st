@@ -1,3 +1,3 @@
 drawing
 fillShapeAt: aPoint
-	self form floodFill: self penColor at: aPoint
+	self activeForm floodFill: self penColor at: aPoint

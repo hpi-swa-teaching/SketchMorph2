@@ -1,4 +1,4 @@
-testing
+testing - tools
 testCompareGeometricRectangleNotFilled
 	self
 		contextGeometricModeWithForm: #rectangle;

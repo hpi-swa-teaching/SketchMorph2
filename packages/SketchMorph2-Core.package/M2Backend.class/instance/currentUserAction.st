@@ -1,3 +1,3 @@
 accessing
 currentUserAction
-	^ currentUserAction ifNil: [currentUserAction := M2UserAction new backend: self]
+	^ currentUserAction ifNil: [self createUserAction]

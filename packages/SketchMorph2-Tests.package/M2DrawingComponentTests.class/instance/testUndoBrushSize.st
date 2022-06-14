@@ -1,4 +1,4 @@
-testing
+testing - tools
 testUndoBrushSize
 	self executeAndTestUndo: {
 		[self backend

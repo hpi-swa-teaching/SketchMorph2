@@ -1,4 +1,4 @@
-testing
+testing - tools
 testSimpleTextAfterMovingOutside
 	self viewPort
 		addText;

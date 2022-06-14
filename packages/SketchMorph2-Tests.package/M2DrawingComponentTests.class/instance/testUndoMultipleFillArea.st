@@ -1,4 +1,4 @@
-testing
+testing - tools
 testUndoMultipleFillArea
 	self executeAndTestUndo: {
 		[self backend

@@ -1,4 +1,4 @@
-testing
+testing - tools
 testErase
 	self backend
 		penColor: self context backgroundColor negated;
@@ -8,6 +8,6 @@ testErase
 	self
 		drawFrom: 10 asPoint to: 15 asPoint;
 		assertColor: self context backgroundColor
-			nearlyEquals: (self backend form colorAt: 10 asPoint);
+			nearlyEquals: (self backend asForm colorAt: 10 asPoint);
 		assertColor: self context backgroundColor negated
-			nearlyEquals: (self backend form colorAt: 1 asPoint)
+			nearlyEquals: (self backend asForm colorAt: 1 asPoint)
