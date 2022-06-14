@@ -4,5 +4,5 @@ mouseUp: evt
 		+ self position
 		- self cursorOffset
 		- self referencePoint."
-	self target rescaleTo: self position.
+	self target rescaleTo: self position + self extent.
 	self updatePosition

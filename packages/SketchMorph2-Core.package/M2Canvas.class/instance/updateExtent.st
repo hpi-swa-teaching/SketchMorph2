@@ -1,6 +1,6 @@
 updating
 updateExtent
 	self
-		extent: self viewPort extent;
+		extent: self backend extent;
 		updateGripMorphPosition;
 		changed
