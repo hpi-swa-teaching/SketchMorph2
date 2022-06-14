@@ -1,3 +1,3 @@
 accessing
 activeLayerStack
-	^ M2ActiveLayerStack newWithBackend: self
+	^ activeLayerStack ifNil: [activeLayerStack := M2ActiveLayerStack newWithBackend: self]

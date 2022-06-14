@@ -10,6 +10,7 @@
 		"eraser",
 		"form",
 		"layerStack",
+		"activeLayerStack",
 		"pen",
 		"startPoint" ],
 	"name" : "M2DrawingComponent",
