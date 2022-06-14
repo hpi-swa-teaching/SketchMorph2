@@ -1,3 +1,3 @@
-as yet unclassified
+updating
 activeLayerChanged
 	self formChanged

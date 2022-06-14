@@ -1,3 +1,3 @@
-as yet unclassified
+updating
 layersChanged
 	self pushNewUndoLevel

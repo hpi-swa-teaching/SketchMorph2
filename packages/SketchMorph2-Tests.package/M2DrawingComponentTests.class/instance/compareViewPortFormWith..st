@@ -1,3 +1,4 @@
 support
 compareViewPortFormWith: aSymbol
-	self compare: self viewPort form with: aSymbol
+	self compare: self backend layerStack activeLayer form with: aSymbol
+	

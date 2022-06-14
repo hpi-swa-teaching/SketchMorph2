@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 activeLayerIndex: aNumber
 	self layerStack activeLayerIndex: aNumber

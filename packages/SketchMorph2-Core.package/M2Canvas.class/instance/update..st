@@ -1,6 +1,5 @@
-as yet unclassified
+updating
 update: aSymbol
 
-	Transcript show: 'updateCanvas';cr.
 	self viewPort generateImageStack.
 	self updateSubmorphs

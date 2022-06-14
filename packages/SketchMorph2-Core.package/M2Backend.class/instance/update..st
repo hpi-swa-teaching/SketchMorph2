@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 update: anAspect
 	super update: anAspect.
 	anAspect = #layers

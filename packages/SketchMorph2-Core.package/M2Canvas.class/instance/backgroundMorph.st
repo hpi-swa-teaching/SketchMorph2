@@ -1,7 +1,7 @@
-as yet unclassified
+accessing
 backgroundMorph
 	^ RectangleMorph new
-		color: Color white;
+		color: self class defaultBackgroundColor;
 		borderWidth: 0;
 		extent: self getExtent;
 		yourself
