@@ -1,3 +1,3 @@
 accessing
 icon
-	^ MorphicMonetIcons selectionSelectIcon
+	^ MorphicMonetIcons lassoSelectionIcon
