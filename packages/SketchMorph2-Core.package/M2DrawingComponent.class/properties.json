@@ -11,8 +11,7 @@
 		"form",
 		"layerStack",
 		"activeLayerStack",
-		"pen",
-		"startPoint" ],
+		"pen" ],
 	"name" : "M2DrawingComponent",
 	"pools" : [
 		 ],

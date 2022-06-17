@@ -7,6 +7,7 @@
 	"commentStamp" : "K.P. 6/26/2021 14:45",
 	"instvars" : [
 		"backend",
+		"context",
 		"canvas",
 		"clipboardForm",
 		"currentCursor",
@@ -14,9 +15,10 @@
 		"temporaryGeometricMorph",
 		"temporaryTextMorph",
 		"backgroundColor",
-		"imageStack" ],
+		"imageStack",
+		"startPoint" ],
 	"name" : "M2ViewPort",
 	"pools" : [
 		 ],
-	"super" : "M2DrawingComponent",
+	"super" : "Object",
 	"type" : "normal" }
