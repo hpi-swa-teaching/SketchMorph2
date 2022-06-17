@@ -2,7 +2,7 @@ running
 setUp
 	| canvas |
 	super setUp.
-	canvas := M2Canvas newWith: M2ViewPort ofSize: 100 asPoint.
+	canvas := M2Canvas newWithExtent: 100 asPoint.
 	self
 		backend: canvas backend;
 		viewPort: canvas viewPort;

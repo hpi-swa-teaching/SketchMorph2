@@ -2,7 +2,7 @@
 	"class" : {
 		"addToWorldMenu" : "K.P. 5/27/2021 11:21",
 		"newWith:" : "CS 8/5/2021 21:57",
-		"open" : "K.P. 5/27/2021 11:22",
+		"open" : "md 6/17/2022 16:08",
 		"openWith:" : "6/28/2021 21:03:28" },
 	"instance" : {
 		"activateDefaultItem" : "CS 8/5/2021 22:07",
@@ -68,7 +68,7 @@
 		"menuMiscCollection:" : "mFr 5/19/2021 12:17",
 		"menuPanel" : "mFr 5/19/2021 10:57",
 		"menuPanel:" : "mFr 5/19/2021 10:57",
-		"minimumExtent" : "mFr 5/26/2021 12:05",
+		"minimumExtent" : "md 6/17/2022 16:04",
 		"paneColor" : "6/28/2021 21:03:28",
 		"pasteClipboard" : "ms 5/27/2022 18:09",
 		"rightPanelWidth" : "ms 6/9/2022 17:58",

@@ -1,3 +1,3 @@
 accessing
 backend
-	^ self viewPort backend
+	^ backend

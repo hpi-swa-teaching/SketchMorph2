@@ -1,11 +1,15 @@
 {
 	"class" : {
 		"defaultBackgroundColor" : "SW 6/14/2022 19:26",
-		"defaultCanvasSize" : "6/28/2021 21:03:28",
-		"newWith:ofSize:" : "CS 8/4/2021 16:28" },
+		"defaultExtent" : "md 6/17/2022 16:04",
+		"newWithBackendClass:viewportClass:" : "md 6/17/2022 16:11",
+		"newWithBackendClass:viewportClass:extent:" : "md 6/17/2022 16:38",
+		"newWithDefaults" : "md 6/17/2022 16:07",
+		"newWithExtent:" : "md 6/17/2022 16:10" },
 	"instance" : {
 		"addGripMorph:" : "JP 5/19/2021 00:31",
-		"backend" : "mk 7/27/2020 20:43",
+		"backend" : "md 6/17/2022 15:57",
+		"backend:" : "md 6/17/2022 15:57",
 		"backgroundMorph" : "SW 6/14/2022 19:27",
 		"fastFramingOn" : "JP 5/19/2021 00:17",
 		"getExtent" : "SW 6/14/2022 14:05",
@@ -17,7 +21,7 @@
 		"handlesMouseOver:" : "mFr 6/11/2021 15:31",
 		"handlesMouseOverDragging:" : "mp 5/17/2020 11:52",
 		"handlesMouseWheel:" : "6/28/2021 21:03:28",
-		"initialize" : "SW 6/14/2022 19:31",
+		"initialize" : "md 6/17/2022 16:20",
 		"isControlKeyEvent:" : "6/28/2021 21:03:28",
 		"isCtrlPressed" : "6/28/2021 21:03:28",
 		"isCtrlPressed:" : "6/28/2021 21:03:28",

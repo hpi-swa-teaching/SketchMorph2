@@ -1,4 +1,6 @@
 running
 setUp
 	self wantsToTest: (MorphicMonetMock
-		newWith: (M2Canvas newWith: M2ViewPortMock ofSize: M2Canvas defaultCanvasSize))
+		newWith: (M2Canvas
+			newWithBackendClass: M2BackendMock
+			viewportClass: M2ViewPort))

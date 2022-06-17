@@ -1,3 +1,3 @@
 defaults
-defaultCanvasSize
+defaultExtent
 	^ 800 @ 600

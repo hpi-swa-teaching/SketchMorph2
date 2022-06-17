@@ -9,7 +9,8 @@
 		"gripMorph",
 		"isCtrlPressed",
 		"isShiftPressed",
-		"viewPort" ],
+		"viewPort",
+		"backend" ],
 	"name" : "M2Canvas",
 	"pools" : [
 		 ],
