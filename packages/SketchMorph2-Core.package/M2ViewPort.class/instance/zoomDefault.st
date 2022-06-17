@@ -3,5 +3,4 @@ zoomDefault
 	self
 		scalar: self defaultScalar;
 		changed;
-		refresh;
-		reloadCurrentPen
+		refresh
