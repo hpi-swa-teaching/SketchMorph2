@@ -1,3 +1,3 @@
 accessing
-imageStack: anObject
-	imageStack := anObject
+imageStack: anOrderedCollection
+	imageStack := anOrderedCollection
