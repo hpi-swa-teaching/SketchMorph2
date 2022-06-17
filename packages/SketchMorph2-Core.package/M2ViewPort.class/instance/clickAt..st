@@ -8,4 +8,3 @@ clickAt: aPoint
 		ifTrue: [^ self projectSelectionAt: aPoint].
 	self context isInTemporaryGeometricMode
 		ifTrue: [^ self finishGeometricForm].
-	super clickAt: aPoint

@@ -1,5 +1,10 @@
 tool selection
 drawGeometricTriangle
-
-	super drawGeometricTriangle.
-	self currentCursor: Cursor crossHair
+	self context
+		isErasing: false;
+		mode: #geometric;
+		currentGeometricPreviewShape: #triangle;
+		currentTool: #drawGeometricTriangle.
+	self
+		switchMode;
+		currentCursor: Cursor crossHair

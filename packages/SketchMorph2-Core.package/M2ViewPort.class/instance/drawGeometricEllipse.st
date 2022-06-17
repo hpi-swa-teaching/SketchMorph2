@@ -1,4 +1,10 @@
 tool selection
 drawGeometricEllipse
-	super drawGeometricEllipse.
-	self currentCursor: Cursor crossHair
+	self context
+		isErasing: false;
+		mode: #geometric;
+		currentGeometricPreviewShape: #ellipse;
+		currentTool: #drawGeometricEllipse.
+	self
+		switchMode;
+		currentCursor: Cursor crossHair

@@ -1,4 +1,10 @@
 tool selection
 startLassoSelection
-	super startLassoSelection.
-	self currentCursor: Cursor crossHair
+	self context
+		isErasing: false;
+		mode: #selection;
+		currentTool: #startLassoSelection;
+		currentGeometricPreviewShape: #selectionLasso.
+	self
+		switchMode;
+		currentCursor: Cursor crossHair

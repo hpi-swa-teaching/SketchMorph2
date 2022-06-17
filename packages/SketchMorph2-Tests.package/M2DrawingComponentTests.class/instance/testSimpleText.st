@@ -1,6 +1,6 @@
 testing - tools
 testSimpleText
-	self backend addText.
+	self viewPort addText.
 	self drawAt: 25 asPoint.
 	self viewPort temporaryTextMorph contents: 'test'.
 	self

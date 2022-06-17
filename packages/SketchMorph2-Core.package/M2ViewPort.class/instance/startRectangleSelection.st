@@ -1,4 +1,10 @@
 tool selection
 startRectangleSelection
-	super startRectangleSelection.
-	self currentCursor: Cursor crossHair
+	self context
+		isErasing: false;
+		mode: #selection;
+		currentTool: #startRectangleSelection;
+		currentGeometricPreviewShape: #selectionRectangle.
+	self
+		switchMode;
+		currentCursor: Cursor crossHair

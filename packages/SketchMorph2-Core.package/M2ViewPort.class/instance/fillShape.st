@@ -1,4 +1,9 @@
 tool selection
 fillShape
-	super fillShape.
-	self currentCursor: (CursorWithAlpha fromIcon: M2FillArea icon)
+	self context
+		isErasing: false;
+		mode: #fill;
+		currentTool: #fillShape.
+	self
+		switchMode;
+		currentCursor: (CursorWithAlpha fromIcon: M2FillArea icon)

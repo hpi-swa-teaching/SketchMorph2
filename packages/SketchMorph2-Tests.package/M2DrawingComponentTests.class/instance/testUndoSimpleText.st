@@ -1,13 +1,12 @@
 testing - tools
 testUndoSimpleText
 	self executeAndTestUndo: {
-		[self backend
-			fillShape;
-			penColor: Color blue.
+		[self viewPort fillShape.
+		self backend penColor: Color blue.
 		self drawAt: 10 asPoint] .
 		[self backend penColor: Color white.
 		self drawAt: 10 asPoint] .
-		[self backend
+		[self viewPort
 			addText;
 			penColor: Color black.
 		self drawAt: 25 asPoint.

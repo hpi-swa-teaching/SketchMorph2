@@ -5,9 +5,8 @@ testUndoMultipleFillArea
 			setBrushAndEraserSizeTo: 50;
 			drawCircle.
 		self drawAt: 50 asPoint] .
-		[self backend
-			fillShape;
-			penColor: Color white.
+		[self viewPort fillShape.
+		self backend penColor: Color white.
 		self drawAt: 50 asPoint] .
 		[self backend penColor: Color blue.
 		self drawFrom: 10 asPoint to: 20 asPoint] .
