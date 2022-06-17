@@ -1,3 +1,0 @@
-accessing
-activeForm
-	^ self form
