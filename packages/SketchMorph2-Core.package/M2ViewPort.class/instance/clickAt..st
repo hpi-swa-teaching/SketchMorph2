@@ -8,3 +8,5 @@ clickAt: aPoint
 		ifTrue: [^ self projectSelectionAt: aPoint].
 	self context isInTemporaryGeometricMode
 		ifTrue: [^ self finishGeometricForm].
+	self context isInGeometricPreviewMode
+		ifTrue: [^ self startDrawingAt: aPoint]
