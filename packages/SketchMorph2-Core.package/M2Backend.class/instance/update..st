@@ -1,5 +1,6 @@
 updating
 update: anAspect
-	super update: anAspect.
+	anAspect = #activeLayer
+		ifTrue: [self activeLayerChanged].
 	anAspect = #layers
 		ifTrue: [self layersChanged]

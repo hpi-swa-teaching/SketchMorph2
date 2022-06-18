@@ -1,6 +1,8 @@
 tool selection
 drawEraser
-	super drawEraser.
+	self eraser
+		roundNib: self eraserSize;
+		combinationRule: Form over.
 	self context
 		isErasing: true;
 		mode: #pen;

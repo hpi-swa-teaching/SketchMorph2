@@ -1,3 +1,0 @@
-drawing
-userActionStopDrawing
-	^ self subclassResponsibility

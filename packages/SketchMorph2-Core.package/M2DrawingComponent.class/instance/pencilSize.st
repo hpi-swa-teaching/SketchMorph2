@@ -1,3 +1,0 @@
-accessing
-pencilSize
-	^ self subclassResponsibility
