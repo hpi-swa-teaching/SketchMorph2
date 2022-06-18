@@ -5,10 +5,10 @@ testZoomOutInPreservesInformation
 	self drawAt: 50 asPoint.
 	self viewPort refresh.
 		
-	originalForm := self viewPort copyForm.
+	originalForm := self renderCanvas.
 	
 	self viewPort
 		zoomBy: -2;
 		zoomBy: 2.
 		
-	self assertEqualityOf: self viewPort form and: originalForm
+	self assertEqualityOf: self renderCanvas and: originalForm

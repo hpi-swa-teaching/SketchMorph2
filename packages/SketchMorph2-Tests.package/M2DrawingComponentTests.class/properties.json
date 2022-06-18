@@ -7,6 +7,7 @@
 	"commentStamp" : "mk 8/3/2020 16:51",
 	"instvars" : [
 		"backend",
+		"canvas",
 		"context",
 		"fileDirectory",
 		"viewPort" ],
