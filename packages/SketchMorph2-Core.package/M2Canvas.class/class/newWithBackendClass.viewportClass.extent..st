@@ -10,12 +10,12 @@ newWithBackendClass: aBackendClass viewportClass: aViewPortClass extent: aPoint
 		viewPort: viewPort.
 	backend
 		viewPort: viewPort;
-		extent: aPoint;
 		context: context.
 	viewPort
 		backend: backend;
 		canvas: instance;
 		context: context.
+	backend extent: aPoint.
 	backend initialize.
 	viewPort initialize.
 	instance initialize.
