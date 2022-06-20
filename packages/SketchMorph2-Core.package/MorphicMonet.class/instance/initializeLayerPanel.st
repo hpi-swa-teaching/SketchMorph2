@@ -11,7 +11,7 @@ initializeLayerPanel
 					selected: #activeLayer
 					changeSelected: #activeLayer:)
 			autoDeselect: false;
-			doubleClickSelector: #renameActiveLayer;
+			doubleClickSelector: #toggleVisibleActiveLayer;
 			getIconSelector: #layerIconAt:;
 			keystrokeActionSelector: nil;
 			vResizing: #spaceFill;
