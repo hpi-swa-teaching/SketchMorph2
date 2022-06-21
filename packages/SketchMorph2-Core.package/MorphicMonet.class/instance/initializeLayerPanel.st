@@ -5,13 +5,14 @@ initializeLayerPanel
 		hResizing: #shrinkWrap;
 		vResizing: #spaceFill;
 		addMorph: self layerEditPanel;
-		addMorph: ((PluggableListMorphByItem 
+		addMorph: ((M2PluggableListMorphByItem 
 					on: self backend activeLayerStack
 					list: #layers
 					selected: #activeLayer
 					changeSelected: #activeLayer:)
 			autoDeselect: false;
-			doubleClickSelector: #toggleVisibleActiveLayer;
+			iconClickSelector: #toggleVisibleActiveLayer;
+			doubleClickSelector: #renameActiveLayer;
 			getIconSelector: #layerIconAt:;
 			keystrokeActionSelector: nil;
 			vResizing: #spaceFill;
