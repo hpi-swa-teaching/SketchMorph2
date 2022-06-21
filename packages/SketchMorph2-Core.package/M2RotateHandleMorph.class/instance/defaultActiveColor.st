@@ -1,0 +1,3 @@
+default
+defaultActiveColor
+	^ Color red
