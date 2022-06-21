@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"activateTemporaryGeometricMorph" : "kbr 6/21/2022 12:27",
 		"activateTemporaryTextMorph" : "CS 8/6/2021 18:30",
 		"assertColor:nearlyEquals:" : "CS 8/5/2021 22:49",
 		"doButtonAction:" : "CS 8/4/2021 15:15",
@@ -46,6 +47,7 @@
 		"testDoesRectangleToolButtonChangeState" : "mFr 6/25/2021 15:36",
 		"testDoesRectangleToolButtonKeepState" : "mFr 6/25/2021 15:36",
 		"testDoesRectangleToolShortcutChangeState" : "K.P. 7/8/2021 17:48",
+		"testDoesRotateHandleChangeColorOnDrag" : "kbr 6/21/2022 15:13",
 		"testDoesTextHandleMoveText" : "CS 8/6/2021 18:32",
 		"testDoesUndoSendCorrectMessage" : "CS 8/5/2021 23:48",
 		"testDoesUndoShortcutSendCorrectMessage" : "CS 8/5/2021 23:48",
