@@ -51,6 +51,7 @@
 		"drawDiagonalCirclesFrom:to:" : "CS 8/5/2021 23:00",
 		"drawFrom:to:" : "md 5/19/2022 14:40",
 		"executeAndTestUndo:" : "md 6/11/2022 23:22",
+		"expectedFailures" : "ms 6/22/2022 12:14",
 		"fileDirectory" : "mk 7/25/2020 16:15",
 		"fileDirectory:" : "mk 7/25/2020 16:16",
 		"finishDrawingIfNecessary" : "md 5/19/2022 14:40",
