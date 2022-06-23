@@ -1,0 +1,14 @@
+{
+	"category" : "SketchMorph2-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"layerStack" ],
+	"name" : "M2LayerStackTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

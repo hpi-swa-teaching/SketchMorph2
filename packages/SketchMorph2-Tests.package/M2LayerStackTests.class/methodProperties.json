@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"layerStack" : "ms 6/23/2022 17:48",
+		"layerStack:" : "ms 6/23/2022 17:49",
+		"setUp" : "ms 6/23/2022 17:48",
+		"testActiveFormIsFromActiveLayer" : "ms 6/23/2022 18:11",
+		"testAddLayerAddsNewLayerInfront" : "ms 6/23/2022 18:00",
+		"testAddLayerDoesNotChangeActiveLayer" : "ms 6/23/2022 18:00",
+		"testAsFormDisplaysAllLayers" : "ms 6/23/2022 18:49",
+		"testLayerStackIsCreatedWithOneLayer" : "ms 6/23/2022 18:57",
+		"testRemoveAllReducesToOneNewLayer" : "ms 6/23/2022 18:08",
+		"testRemoveLastLayerDoesNothing" : "ms 6/23/2022 17:59",
+		"testRemoveLayerRemovesIt" : "ms 6/23/2022 18:05",
+		"testRescaleScalesEveryLayersForm" : "ms 6/23/2022 18:59",
+		"testSetActiveLayerIndexSelectsCorrectly" : "ms 6/23/2022 18:14",
+		"testTogglesVisibleCorrectLayer" : "ms 6/23/2022 18:55" } }
