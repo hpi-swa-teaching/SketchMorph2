@@ -1,3 +1,3 @@
 as yet unclassified
 icon
-	^ MorphicMonetIcons controlRecordIcon
+	^ MorphicMonetIcons flipHorizontalIcon
