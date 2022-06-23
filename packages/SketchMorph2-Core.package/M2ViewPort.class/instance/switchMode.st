@@ -1,5 +1,5 @@
 tool selection
 switchMode
-	self context isInSelectionPreviewMode ifTrue: [ self removeSelection ].
+	self removeSelection.
 	self commitText.
-	self finishGeometricForm
+	self finishGeometricForm.

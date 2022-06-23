@@ -1,5 +1,4 @@
 drawing
 removeSelection
 
-	self temporaryGeometricMorph delete.
-	self context mode: #selection
+	self temporaryGeometricMorph ifNotNil: [ self temporaryGeometricMorph delete. ].
