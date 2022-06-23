@@ -7,8 +7,7 @@
 	"commentStamp" : "md 6/11/2022 21:17",
 	"instvars" : [
 		"layers",
-		"activeLayer",
-		"backend" ],
+		"activeLayer" ],
 	"name" : "M2LayerStack",
 	"pools" : [
 		 ],
