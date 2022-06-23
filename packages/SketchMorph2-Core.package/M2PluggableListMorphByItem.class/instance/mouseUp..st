@@ -5,7 +5,6 @@ mouseUp: event
 	model okToChange ifFalse: [^ self].
 	(self containsPoint: event position) ifFalse: [^ self].
 	atIcon := (self canHaveIcons) and: [(event position - self position) x < (self listMorph iconExtent x + 6).].
-	atIcon ifTrue: [Transcript cr; show: 'icon'.].
 
 	row := self rowAtLocation: event position.
 	row = self selectionIndex
