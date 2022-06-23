@@ -5,7 +5,6 @@ initializeLayerEditPanel
 	self layerEditPanel: (PluggablePanelMorph newRow
 		vResizing: #shrinkWrap;
 		hResizing: #shrinkWrap;
-		addMorph: ((PluggableButtonMorph on: activeLayerStack getState: nil action: #toggleVisibleActiveLayer) label: 'show/hide');
 		addMorph: ((PluggableButtonMorph on: activeLayerStack getState: nil action: #removeActiveLayer) label: 'remove');
 		addMorph: ((PluggableButtonMorph on: activeLayerStack getState: nil action: #addLayer) label: 'add');
 		yourself)
