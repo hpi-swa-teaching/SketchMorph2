@@ -1,4 +1,4 @@
-testing - tools
+testing - generate-OnNewLayer
 testUndoBrushSize
 	self executeAndTestUndo: {
 		[self viewPort fillShape.

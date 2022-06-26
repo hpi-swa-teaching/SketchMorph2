@@ -1,4 +1,4 @@
-testing - tools
+testing
 testSimpleTextColourChangeBeforeCommit
 	| temporaryTextMorph |
 	temporaryTextMorph := self viewPort temporaryTextMorph.

@@ -1,4 +1,4 @@
-testing - tools
+testing - generate-OnNewLayer
 testCompareGeometricCircleOverlapping
 	self
 		contextGeometricModeWithForm: #ellipse;

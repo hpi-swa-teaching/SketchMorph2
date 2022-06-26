@@ -1,4 +1,4 @@
-testing - tools
+testing - generate-OnNewLayer
 testCompareSelectionRectangle
 	self backend
 		drawCircle;

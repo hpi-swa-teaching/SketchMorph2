@@ -1,4 +1,4 @@
-testing - tools
+testing - generate-OnNewLayer
 testCircleBrush
 	self backend drawCircle.
 	self

@@ -1,4 +1,4 @@
-testing - tools
+testing
 testUndoStackSize
 	self
 		contextFillGeometricModeWithForm: #ellipse;

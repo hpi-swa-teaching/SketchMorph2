@@ -1,4 +1,4 @@
-testing - tools
+testing
 testCachedForm
 	self contextFillGeometricModeWithForm: #ellipse.
 	self backend pushNewUndoLevel.
