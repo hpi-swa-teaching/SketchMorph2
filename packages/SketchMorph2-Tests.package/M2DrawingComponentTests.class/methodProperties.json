@@ -64,8 +64,6 @@
 		"prepareColors" : "mFr 6/25/2021 08:56",
 		"releaseShift" : "ms 5/27/2022 16:47",
 		"renderCanvas" : "md 6/18/2022 17:55",
-		"runOtherTests:before:after:" : "md 6/11/2022 22:41",
-		"runOtherTestsInCategory:before:after:" : "md 6/11/2022 22:43",
 		"setUp" : "md 6/18/2022 17:54",
 		"tearDown" : "mk 7/25/2020 16:26",
 		"testBrushSize" : "CS 7/8/2021 12:17",
