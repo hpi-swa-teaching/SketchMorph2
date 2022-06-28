@@ -9,6 +9,5 @@ currentState
 			at: #pencilSize: put: {self pencilSize};
 			at: #eraserSize: put: {self eraserSize};
 			at: #isFillingGeometricForm: put: {self context isFillingGeometricForm};
-			at: #sourceForm: put: {self sourceForm};
 			at: #currentTool: put: {self context currentTool};
 			yourself
