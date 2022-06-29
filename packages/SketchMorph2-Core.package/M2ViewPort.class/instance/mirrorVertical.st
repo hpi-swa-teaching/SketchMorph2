@@ -1,3 +1,11 @@
 as yet unclassified
 mirrorVertical
-	self mirror: #vertical at: (0 @ self temporaryGeometricMorph height)
+	| bounds |
+	bounds := self temporaryGeometricMorph bounds.
+	self context isInSelectionPreviewMode 
+	ifTrue: [
+		self 
+			copySelection;
+			mirrorSelection: #vertical At: bounds]
+	ifFalse: 
+	[self mirror: #vertical at: (0 @ bounds height)]
