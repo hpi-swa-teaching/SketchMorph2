@@ -1,0 +1,1 @@
+Extension for PluggableListMorphByItem to allow for specialized actions after click on icon

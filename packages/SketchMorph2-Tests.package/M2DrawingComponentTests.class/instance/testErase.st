@@ -1,4 +1,4 @@
-testing - tools
+testing - generate-OnNewLayer
 testErase
 	self backend
 		penColor: self context backgroundColor negated;

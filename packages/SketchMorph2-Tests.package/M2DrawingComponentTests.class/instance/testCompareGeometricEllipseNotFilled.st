@@ -1,4 +1,4 @@
-testing - tools
+testing - generate-OnNewLayer
 testCompareGeometricEllipseNotFilled
 	self
 		contextGeometricModeWithForm: #ellipse;

@@ -1,4 +1,4 @@
-testing - tools
+testing
 testSimpleTextAfterColourChange
 	self viewPort addText.
 	self drawAt: 25 asPoint.

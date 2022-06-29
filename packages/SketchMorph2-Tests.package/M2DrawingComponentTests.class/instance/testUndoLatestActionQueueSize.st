@@ -1,4 +1,4 @@
-testing - tools
+testing
 testUndoLatestActionQueueSize
 	self contextFillGeometricModeWithForm: #ellipse.
 	

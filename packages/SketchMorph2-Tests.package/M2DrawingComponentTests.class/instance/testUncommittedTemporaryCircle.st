@@ -1,4 +1,4 @@
-testing - tools
+testing
 testUncommittedTemporaryCircle
 	self
 		contextFillGeometricModeWithForm: #ellipse;

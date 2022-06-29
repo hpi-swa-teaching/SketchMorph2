@@ -1,4 +1,4 @@
-testing - tools
+testing
 testTextVisibilityBlack
 
 	self viewPort addText.

@@ -1,4 +1,4 @@
-testing - tools
+testing - generate-OnNewLayer
 testCompareGeometricCircleFilledNarrow
 	self
 		contextFillGeometricModeWithForm: #ellipse;

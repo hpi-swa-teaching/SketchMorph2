@@ -1,4 +1,4 @@
-testing - tools
+testing - generate-OnNewLayer
 testUndoAfterImport
 	self executeAndTestUndo: {
 		[self backend importImage: self importTestPNGPath] .

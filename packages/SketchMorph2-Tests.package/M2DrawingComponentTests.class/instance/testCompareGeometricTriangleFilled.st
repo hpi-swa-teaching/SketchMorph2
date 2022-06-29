@@ -1,4 +1,4 @@
-testing - tools
+testing - generate-OnNewLayer
 testCompareGeometricTriangleFilled
 	self
 		contextFillGeometricModeWithForm: #triangle;

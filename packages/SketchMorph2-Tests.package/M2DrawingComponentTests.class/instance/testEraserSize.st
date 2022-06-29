@@ -1,4 +1,4 @@
-testing - tools
+testing - generate-OnNewLayer
 testEraserSize
 	self backend
 		setBrushAndEraserSizeTo: 50;

@@ -1,4 +1,4 @@
-testing - tools
+testing - generate-OnNewLayer
 testUndoSimpleText
 	self executeAndTestUndo: {
 		[self viewPort fillShape.

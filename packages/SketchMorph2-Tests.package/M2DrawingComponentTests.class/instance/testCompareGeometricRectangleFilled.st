@@ -1,4 +1,4 @@
-testing - tools
+testing - generate-OnNewLayer
 testCompareGeometricRectangleFilled
 	self
 		contextFillGeometricModeWithForm: #rectangle;

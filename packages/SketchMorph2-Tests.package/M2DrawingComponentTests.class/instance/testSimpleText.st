@@ -1,4 +1,4 @@
-testing - tools
+testing - generate-OnNewLayer
 testSimpleText
 	self viewPort addText.
 	self drawAt: 25 asPoint.

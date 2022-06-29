@@ -1,4 +1,4 @@
 updating
 formChanged
 	self reloadCurrentPen.
-	self eraser: self defaultEraser
+	self eraser setDestForm: self activeForm
