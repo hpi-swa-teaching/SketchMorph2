@@ -7,6 +7,7 @@
 	"commentStamp" : "K.P. 6/26/2021 14:48",
 	"instvars" : [
 		"activeTool",
+		"cachedTools",
 		"backend",
 		"canvas",
 		"viewPort",
