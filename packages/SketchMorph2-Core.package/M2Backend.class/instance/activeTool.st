@@ -1,3 +1,3 @@
-accessing
+delegation
 activeTool
 	^ self context activeTool
