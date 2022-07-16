@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"activate" : "md 7/11/2022 19:57",
+		"activeForm" : "md 7/11/2022 16:29",
+		"backend" : "md 7/11/2022 16:29",
+		"context" : "md 7/11/2022 16:30",
+		"context:" : "md 7/11/2022 16:30",
+		"cursor" : "md 7/11/2022 16:49",
+		"deactivate" : "md 7/11/2022 19:56",
+		"isActive" : "md 7/11/2022 20:00",
+		"isActive:" : "md 7/11/2022 20:00",
+		"moveTo:" : "md 7/11/2022 16:43",
+		"reactivate" : "md 7/11/2022 19:57",
+		"startAt:" : "md 7/11/2022 16:44",
+		"stop" : "md 7/11/2022 16:44" } }

@@ -1,0 +1,15 @@
+{
+	"category" : "SketchMorph2-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"context",
+		"isActive" ],
+	"name" : "M2Tool",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
