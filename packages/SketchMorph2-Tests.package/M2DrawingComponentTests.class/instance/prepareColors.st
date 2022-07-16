@@ -1,5 +1,3 @@
 running
 prepareColors
-	self backend
-		penColor: Color black;
-		reloadCurrentPen
+	self backend penColor: Color black

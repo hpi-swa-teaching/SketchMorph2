@@ -1,9 +1,7 @@
 testing
 testTextVisibilityWhite
 
-	self backend 
-		penColor: Color white;
-		reloadCurrentPen.
+	self backend penColor: Color white.
 	self viewPort addText.
 	self drawAt: 25 asPoint.
 	self viewPort temporaryTextMorph contents: 'test'.
