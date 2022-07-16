@@ -5,4 +5,4 @@ startDrawingAt: aPoint
 			self context isInGeometricMode
 				ifTrue: [self context mode: #temporaryGeometric].
 			self initializeTemporaryGeometricMorphAt: aPoint]
-		ifFalse: [	self userActionMoveDrawing: aPoint]
+		ifFalse: [	self userActionMoveToolTo: aPoint]

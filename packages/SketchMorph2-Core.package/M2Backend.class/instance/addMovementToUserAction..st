@@ -1,3 +1,3 @@
 undo
 addMovementToUserAction: aPoint
-		self currentUserAction addMethodCall: #moveDrawing: withArguments: (Array with: aPoint)
+		self currentUserAction addMethodCall: #moveToolTo: withArguments: (Array with: aPoint)

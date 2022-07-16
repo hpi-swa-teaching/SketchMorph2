@@ -1,9 +1,9 @@
 drawing
-userActionMoveDrawing: aPoint
+userActionMoveToolTo: aPoint
 	| translatedPoint |
 	translatedPoint := self getBackendPointFor: aPoint ifAbsent: [^ self].
 	
 	self context isInAnyTextMode ifTrue: [^ self].
-	self moveDrawing: aPoint.
+	self moveToolTo: aPoint.
 	self context isInGeometricPreviewMode
-		ifFalse: [self backend userActionMoveDrawing: translatedPoint]
+		ifFalse: [self backend userActionMoveToolTo: translatedPoint]

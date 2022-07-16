@@ -1,5 +1,5 @@
 drawing
-clickAt: aPoint
+startToolAt: aPoint
 	self context isInFillMode
 		ifTrue: [^ self fillShapeAt: aPoint].
 	(self context isInPenMode or: [self context isInGeometricPreviewMode])

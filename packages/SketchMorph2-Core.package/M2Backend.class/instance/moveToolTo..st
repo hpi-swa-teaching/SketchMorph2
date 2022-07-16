@@ -1,3 +1,3 @@
 drawing
-moveDrawing: aPoint
+moveToolTo: aPoint
 	self currentPen goto: aPoint

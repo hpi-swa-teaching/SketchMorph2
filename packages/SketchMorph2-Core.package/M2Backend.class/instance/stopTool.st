@@ -1,3 +1,3 @@
 drawing
-stopDrawing
+stopTool
 	self currentPen up

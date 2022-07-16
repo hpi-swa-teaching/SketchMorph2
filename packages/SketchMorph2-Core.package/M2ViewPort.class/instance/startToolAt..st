@@ -1,5 +1,5 @@
 drawing
-clickAt: aPoint
+startToolAt: aPoint
 	self context isInTextMode
 		ifTrue: [^ self startEditingTextAt: aPoint].
 	self context isInEditingTextMode
