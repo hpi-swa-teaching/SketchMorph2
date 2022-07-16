@@ -8,7 +8,6 @@ drawRectangle
 		combinationRule: Form blendAlphaScaled.
 	self context
 		isErasing: false;
-		mode: #pen;
-		currentTool: #drawRectangle.
+		mode: #pen.
 	self switchMode.
 	self viewPort drawRectangle

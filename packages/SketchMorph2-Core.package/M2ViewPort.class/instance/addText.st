@@ -4,6 +4,5 @@ addText
 		isErasing: false;
 		mode: (self context isInEditingTextMode
 			ifTrue: [#editingText]
-			ifFalse: [#text]);
-		currentTool: #addText.
+			ifFalse: [#text]).
 	self currentCursor: Cursor text

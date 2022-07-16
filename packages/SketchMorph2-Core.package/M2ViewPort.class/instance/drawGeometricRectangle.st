@@ -3,8 +3,7 @@ drawGeometricRectangle
 	self context
 		isErasing: false;
 		mode: #geometric;
-		currentGeometricPreviewShape: #rectangle;
-		currentTool: #drawGeometricRectangle.
+		currentGeometricPreviewShape: #rectangle.
 	self
 		switchMode;
 		currentCursor: Cursor crossHair

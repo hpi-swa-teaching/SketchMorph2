@@ -5,7 +5,6 @@ drawEraser
 		combinationRule: Form over.
 	self context
 		isErasing: true;
-		mode: #pen;
-		currentTool: #drawEraser.
+		mode: #pen.
 	self switchMode.
 	self viewPort drawEraser

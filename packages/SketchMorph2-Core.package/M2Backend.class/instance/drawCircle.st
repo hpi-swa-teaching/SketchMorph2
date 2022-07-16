@@ -5,7 +5,6 @@ drawCircle
 		combinationRule: Form blendAlphaScaled.
 	self context
 		isErasing: false;
-		mode: #pen;
-		currentTool: #drawCircle.
+		mode: #pen.
 	self switchMode.
 	self viewPort drawCircle

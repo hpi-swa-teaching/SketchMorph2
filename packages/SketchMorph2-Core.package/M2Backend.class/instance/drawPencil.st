@@ -5,7 +5,6 @@ drawPencil
 		combinationRule: Form blendAlphaScaled.
 	self context
 		isErasing: false;
-		mode: #pen;
-		currentTool: #drawPencil.
+		mode: #pen.
 	self switchMode.
 	self viewPort drawPencil

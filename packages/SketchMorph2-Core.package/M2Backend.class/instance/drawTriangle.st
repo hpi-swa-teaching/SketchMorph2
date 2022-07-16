@@ -8,7 +8,6 @@ drawTriangle
 		combinationRule: Form blendAlphaScaled.
 	self context
 		isErasing: false;
-		mode: #pen;
-		currentTool: #drawTriangle.
+		mode: #pen.
 	self switchMode.
 	self viewPort drawTriangle
