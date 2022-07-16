@@ -1,3 +1,3 @@
 accessing
 isActive
-	^ isActive
+	^ isActive ifNil: [isActive := false]
