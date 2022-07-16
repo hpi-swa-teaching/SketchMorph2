@@ -4,4 +4,5 @@ activeTool: anM2Tool
 	activeTool := anM2Tool.
 	self activeTool
 		context: self;
-		tryActivate
+		tryActivate.
+	self changed: #activeTool
