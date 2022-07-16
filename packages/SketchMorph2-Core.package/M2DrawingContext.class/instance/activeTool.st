@@ -1,3 +1,3 @@
 accessing
 activeTool
-	^ activeTool ifNil: [activeTool := self defaultActiveTool]
+	^ activeTool ifNil: [self activeTool: self defaultActiveTool. activeTool]
