@@ -1,3 +1,3 @@
 accessing
 viewPort
-	^ viewPort
+	^ self context viewPort

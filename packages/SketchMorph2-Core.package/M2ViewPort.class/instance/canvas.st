@@ -1,3 +1,3 @@
 accessing
 canvas
-	^ canvas
+	^ self context canvas
