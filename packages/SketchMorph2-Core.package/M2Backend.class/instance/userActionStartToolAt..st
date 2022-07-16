@@ -1,4 +1,7 @@
 undo
 userActionStartToolAt: aPoint
-	self createUserActionWithStart: aPoint.
-	self startToolAt: aPoint
+	self
+		createUserAction;
+		saveStateInCurrentUserAction;
+		userActionAddMethodCall: #startToolAt: withArgument: aPoint;
+		startToolAt: aPoint

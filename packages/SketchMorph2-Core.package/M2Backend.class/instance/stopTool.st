@@ -1,3 +1,3 @@
 drawing
 stopTool
-	self currentPen up
+	self activeTool stop

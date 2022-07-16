@@ -1,6 +1,6 @@
 undo
 userActionStopTool
-	self context isInAnyTextMode ifTrue: [^ self].
 	self
+		userActionAddMethodCall: #stopTool;
 		finishUserAction;
 		stopTool
