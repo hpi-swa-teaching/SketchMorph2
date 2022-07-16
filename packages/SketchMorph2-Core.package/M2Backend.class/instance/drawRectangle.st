@@ -6,8 +6,6 @@ drawRectangle
 	self pen
 		sourceForm: sourceForm fillBlack;
 		combinationRule: Form blendAlphaScaled.
-	self context
-		isErasing: false;
-		mode: #pen.
+	self context mode: #pen.
 	self switchMode.
 	self viewPort drawRectangle

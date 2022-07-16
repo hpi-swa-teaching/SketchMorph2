@@ -6,8 +6,6 @@ drawTriangle
 	self pen
 		sourceForm: sourceForm;
 		combinationRule: Form blendAlphaScaled.
-	self context
-		isErasing: false;
-		mode: #pen.
+	self context mode: #pen.
 	self switchMode.
 	self viewPort drawTriangle

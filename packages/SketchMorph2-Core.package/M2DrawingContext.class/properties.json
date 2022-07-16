@@ -15,7 +15,6 @@
 		"currentColor",
 		"currentGeometricPreviewShape",
 		"eraserSize",
-		"isErasing",
 		"isFillingGeometricForm",
 		"mode",
 		"pencilSize" ],

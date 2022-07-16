@@ -1,6 +1,4 @@
 tool selection
 insertSelection
-	self context
-		isErasing: false;
-		mode: #insertSelection.
+	self context mode: #insertSelection.
 	self switchMode

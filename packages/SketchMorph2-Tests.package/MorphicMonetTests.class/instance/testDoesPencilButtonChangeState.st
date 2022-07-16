@@ -6,6 +6,5 @@ testDoesPencilButtonChangeState
 	self doButtonAction: buttonLabel.
 	self assert: (self doesButtonWork: buttonLabel forTarget: self subject backend).
 	
-	self subject backend isErasing: true.
 	self doButtonAction: buttonLabel.
 	self assert: (self doesButtonWork: buttonLabel forTarget: self subject backend)
