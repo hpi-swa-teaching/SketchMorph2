@@ -2,7 +2,7 @@ rescaling
 rescaleTo: aPoint
 	self layerStack rescaleTo: aPoint.
 	self
-		formChanged;
+		activeFormChanged;
 		clearCanvas;
 		pushNewUndoLevel.
 	self viewPort refresh

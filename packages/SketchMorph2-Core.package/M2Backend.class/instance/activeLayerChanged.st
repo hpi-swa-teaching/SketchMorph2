@@ -1,3 +1,3 @@
 updating
 activeLayerChanged
-	self formChanged
+	self activeFormChanged
