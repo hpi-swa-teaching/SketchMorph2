@@ -1,3 +1,3 @@
 tool selection
 drawPencil
-	self currentCursor: (CursorWithAlpha fromIcon: M2Pencil icon)
+	self currentCursor: (CursorWithAlpha fromIcon: M2PencilBrush icon)
