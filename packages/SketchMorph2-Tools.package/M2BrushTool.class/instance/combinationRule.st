@@ -1,0 +1,3 @@
+accessing
+combinationRule
+	^ Form blendAlphaScaled
