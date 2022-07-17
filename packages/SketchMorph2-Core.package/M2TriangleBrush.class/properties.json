@@ -10,5 +10,5 @@
 	"name" : "M2TriangleBrush",
 	"pools" : [
 		 ],
-	"super" : "M2IconMenuItem",
+	"super" : "M2ToolMenuItem",
 	"type" : "normal" }
