@@ -1,3 +1,3 @@
 cursor
 cursor
-	^ self pen sourceForm
+	^ self penShape

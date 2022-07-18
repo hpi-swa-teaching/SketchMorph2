@@ -1,8 +1,8 @@
 pen creation
-createTriangle
+createPenShape
 	| dimensions form outline |
 	dimensions := self sideLength asPoint.
-	form := Form extent: dimensions offset: (self offsetFor: dimensions).
+	form := Form extent: dimensions depth: 16.
 	outline := (Pen newOnForm: form)
 		place: 0 @ (self sideLength - 1);
 		turn: 90;
@@ -10,5 +10,5 @@ createTriangle
 	
 	3 timesRepeat: [outline go: self sideLength; turn: -120].
 	
-	form convexShapeFill: Color black.
+	form convexShapeFill: self color.
 	^ form

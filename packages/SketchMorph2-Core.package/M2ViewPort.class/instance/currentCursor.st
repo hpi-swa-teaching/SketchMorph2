@@ -1,3 +1,3 @@
 accessing
 currentCursor
-	^ currentCursor
+	^ self activeTool cursor

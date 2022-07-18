@@ -1,3 +1,3 @@
 pen creation
-setPenShape
+createPenShape
 	self subclassResponsibility

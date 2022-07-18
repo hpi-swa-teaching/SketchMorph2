@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createTriangle" : "md 7/11/2022 17:21",
-		"setPenShape" : "md 7/11/2022 17:16",
+		"createPenShape" : "ms 7/18/2022 22:57",
 		"sideLength" : "md 7/11/2022 17:11",
 		"update:" : "md 7/16/2022 22:55" } }

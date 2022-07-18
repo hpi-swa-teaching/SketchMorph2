@@ -1,6 +1,6 @@
 pen creation
 configurePen
-	self setPenShape.
+	self penShape: self createPenShape.
 	self pen
 		up;
 		combinationRule: self combinationRule.
