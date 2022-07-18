@@ -1,0 +1,14 @@
+{
+	"category" : "SketchMorph2-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "M2GeometricTool",
+	"pools" : [
+		 ],
+	"super" : "M2TemporaryMorphTool",
+	"type" : "normal" }
