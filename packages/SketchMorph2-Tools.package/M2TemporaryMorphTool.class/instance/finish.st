@@ -1,3 +1,5 @@
 finishing
 finish
-	self removeMorph
+	self
+		onFinish;
+		removeMorph
