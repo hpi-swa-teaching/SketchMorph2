@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "M2TriangleMorph",
+	"name" : "M2PolygonMorph",
 	"pools" : [
 		 ],
-	"super" : "M2PolygonMorph",
+	"super" : "PolygonMorph",
 	"type" : "normal" }

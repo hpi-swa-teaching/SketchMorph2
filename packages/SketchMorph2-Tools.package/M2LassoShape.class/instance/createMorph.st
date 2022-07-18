@@ -1,5 +1,5 @@
 morph creation
 createMorph
-	^ PolygonMorph new
+	^ M2PolygonMorph new
 			setVertices: {0 @ 0};
 			yourself
