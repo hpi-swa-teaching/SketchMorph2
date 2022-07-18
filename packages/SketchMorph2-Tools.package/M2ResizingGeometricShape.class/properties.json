@@ -1,0 +1,14 @@
+{
+	"category" : "SketchMorph2-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"startPoint" ],
+	"name" : "M2ResizingGeometricShape",
+	"pools" : [
+		 ],
+	"super" : "M2GeometricShape",
+	"type" : "normal" }
