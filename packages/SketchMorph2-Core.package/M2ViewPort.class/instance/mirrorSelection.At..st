@@ -1,16 +1,15 @@
-as yet unclassified
+mirroring
 mirrorSelection: aForm At: aSymbol
-	| bounds form|
+	| bounds form pos|
 	bounds := self selectionBounds.
 	form := aForm flipBy: aSymbol centerAt: bounds center.
 	
-	"Distinction doesn't make sense yet. Or generally doesn't"
-	self context currentGeometricPreviewShape = #rectangle
-		ifTrue: [self projectSelectionAt: bounds topLeft]
-		ifFalse: [|pos| aSymbol = #horizontal 
+	self context currentGeometricPreviewShape = #selectionRectangle
+		ifTrue: [pos := bounds topLeft]
+		ifFalse: [aSymbol = #horizontal 
 			ifTrue: [pos:= bounds topRight] 
 			ifFalse: [pos := bounds bottomLeft].
-			self temporaryGeometricMorph position: pos.
-			self
-				commit: form at: pos;
-				refresh]
+			self temporaryGeometricMorph position: pos].
+	self 
+		commit: form at: pos;
+		refresh
