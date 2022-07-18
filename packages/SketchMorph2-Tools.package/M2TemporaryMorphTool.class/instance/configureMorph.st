@@ -1,0 +1,3 @@
+morph creation
+configureMorph
+	self subclassResponsibility

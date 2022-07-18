@@ -1,0 +1,14 @@
+{
+	"category" : "SketchMorph2-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "M2TriangleShape",
+	"pools" : [
+		 ],
+	"super" : "M2ResizingGeometricShape",
+	"type" : "normal" }
