@@ -2,5 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"borderStyle" : "md 7/18/2022 21:30",
-		"configureMorph" : "md 7/18/2022 21:30" } }
+		"borderStyle" : "md 7/18/2022 22:36",
+		"bounds" : "md 7/18/2022 21:51",
+		"clip:" : "md 7/18/2022 22:02",
+		"configureMorph" : "md 7/18/2022 21:30",
+		"copySelection" : "md 7/18/2022 22:41",
+		"mask" : "md 7/18/2022 22:04" } }
