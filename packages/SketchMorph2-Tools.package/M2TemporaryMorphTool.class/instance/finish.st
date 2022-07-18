@@ -1,0 +1,3 @@
+finishing
+finish
+	self removeMorph
