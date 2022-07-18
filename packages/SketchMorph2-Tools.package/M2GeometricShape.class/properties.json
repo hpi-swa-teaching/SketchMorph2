@@ -1,0 +1,15 @@
+{
+	"category" : "SketchMorph2-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"context",
+		"morph" ],
+	"name" : "M2GeometricShape",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
