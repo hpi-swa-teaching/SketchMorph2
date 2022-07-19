@@ -2,4 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"activate" : "SW 7/19/2022 14:37",
+		"deactivate" : "SW 7/19/2022 14:37",
+		"initialize" : "SW 7/19/2022 14:40" } }
