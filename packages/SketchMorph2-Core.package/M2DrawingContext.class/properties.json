@@ -18,6 +18,7 @@
 		"eraserSize",
 		"isFillingGeometricForm",
 		"mode",
+		"morphicMonet",
 		"pencilSize" ],
 	"name" : "M2DrawingContext",
 	"pools" : [
