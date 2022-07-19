@@ -1,3 +1,3 @@
 accessing
 isActivatable
-	^ false
+	^ true

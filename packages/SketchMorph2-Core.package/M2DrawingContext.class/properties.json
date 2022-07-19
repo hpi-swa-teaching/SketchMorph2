@@ -18,7 +18,8 @@
 		"eraserSize",
 		"isFillingGeometricForm",
 		"mode",
-		"pencilSize" ],
+		"pencilSize",
+		"clipboardForm" ],
 	"name" : "M2DrawingContext",
 	"pools" : [
 		 ],

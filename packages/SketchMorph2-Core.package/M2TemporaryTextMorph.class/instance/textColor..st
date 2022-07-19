@@ -1,4 +1,4 @@
-handle interaction
+interaction
 textColor: aColor
 
 	super textColor: aColor.

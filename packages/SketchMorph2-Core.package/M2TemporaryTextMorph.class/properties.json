@@ -7,8 +7,8 @@
 	"commentStamp" : "CS 6/2/2021 14:43",
 	"instvars" : [
 		"canvas",
-		"handle",
-		"isActive" ],
+		"isActive",
+		"handle" ],
 	"name" : "M2TemporaryTextMorph",
 	"pools" : [
 		 ],

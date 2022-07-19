@@ -7,5 +7,5 @@ menuBrushCollection
 			add: (M2CircleBrush getMenuItemForContext: self context);
 			add: (M2RectangleBrush getMenuItemForContext: self context);
 			add: (M2Pipette getMenuItemForTarget: self);
-			add: (M2TextTool getMenuItemForTarget: self viewPort);
+			add: (M2Text getMenuItemForContext: self context);
 			yourself]

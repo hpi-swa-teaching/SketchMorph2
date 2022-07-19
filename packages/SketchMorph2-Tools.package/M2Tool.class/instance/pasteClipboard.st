@@ -1,0 +1,3 @@
+clipboard
+pasteClipboard
+	^ false

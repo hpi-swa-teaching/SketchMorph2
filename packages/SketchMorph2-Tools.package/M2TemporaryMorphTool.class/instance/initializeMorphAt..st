@@ -6,4 +6,4 @@ initializeMorphAt: aPoint
 		morph: self createMorph;
 		configureMorph;
 		addMorphToCanvas;
-		position: aPoint
+		position: (self viewPort getViewPortPointFor: aPoint)
