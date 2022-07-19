@@ -1,3 +1,3 @@
-as yet unclassified
+mirroring
 mirrorByAxis: aSymbol
 	^ self

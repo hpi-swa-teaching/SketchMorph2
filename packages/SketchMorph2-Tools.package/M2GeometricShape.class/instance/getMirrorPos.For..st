@@ -1,4 +1,4 @@
-as yet unclassified
+mirroring
 getMirrorPos: aBoundary For: aSymbol
 	| pos|
 	aSymbol = #horizontal 

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 mask
 	^ self morph veryDeepCopy
 			color: Color white;
