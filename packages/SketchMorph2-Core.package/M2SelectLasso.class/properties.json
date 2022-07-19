@@ -10,5 +10,5 @@
 	"name" : "M2SelectLasso",
 	"pools" : [
 		 ],
-	"super" : "M2ToolMenuItem",
+	"super" : "M2SelectToolMenuItem",
 	"type" : "normal" }
