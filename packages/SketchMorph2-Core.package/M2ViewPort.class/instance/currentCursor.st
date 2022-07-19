@@ -1,3 +1,3 @@
 accessing
 currentCursor
-	^ self activeTool cursor
+	^ self activeTool cursor magnifyBy: self scalar asPoint
