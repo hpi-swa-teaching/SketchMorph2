@@ -1,4 +1,4 @@
 as yet unclassified
 cursor
 
-	^ Cursor text
+	^ Cursor text asCursorForm
