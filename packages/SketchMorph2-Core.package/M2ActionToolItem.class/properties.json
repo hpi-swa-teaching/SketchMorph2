@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "wr 8/4/2020 13:04",
+	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "M2ClearCanvas",
+	"name" : "M2ActionToolItem",
 	"pools" : [
 		 ],
-	"super" : "M2ActionToolItem",
+	"super" : "M2ToolMenuItem",
 	"type" : "normal" }

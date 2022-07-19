@@ -10,5 +10,5 @@
 	"name" : "M2Pipette",
 	"pools" : [
 		 ],
-	"super" : "M2ToolMenuItem",
+	"super" : "M2ActionToolItem",
 	"type" : "normal" }
