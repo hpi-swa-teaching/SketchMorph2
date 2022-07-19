@@ -1,3 +1,3 @@
 finishing
 commitPosition
-	^ self morph renderPosition - self canvas position
+	^ self viewPort getBackendPointFor: (self morph renderPosition - self canvas position)

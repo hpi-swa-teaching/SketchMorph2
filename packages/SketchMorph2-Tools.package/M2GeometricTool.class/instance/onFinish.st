@@ -1,4 +1,4 @@
 finishing
 onFinish
 	super onFinish.
-	self backend commit: self morph render at: self commitPosition.
+	self backend commit: self render at: self commitPosition.

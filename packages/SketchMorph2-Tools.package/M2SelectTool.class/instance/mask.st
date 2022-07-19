@@ -1,6 +1,6 @@
 as yet unclassified
 mask
-	^ self morph veryDeepCopy
+	^ (self morph veryDeepCopy
 			color: Color white;
 			borderColor: Color white;
-			render
+			render) magnifyBy: 1 / self viewPort scalar
