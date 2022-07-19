@@ -5,7 +5,7 @@ initialize
 	topPanelFrame := 0 asPoint corner: (1 @ self topPanelHeight).
 
 	super initialize.
-	self viewPort when: #clipBoardFilled send: #enableInsertSelectionButton to: self.
+	self context when: #clipBoardFilled send: #enableInsertSelectionButton to: self.
 	self
 		initializePanels;
 		setLabel: 'Morphic Monet';

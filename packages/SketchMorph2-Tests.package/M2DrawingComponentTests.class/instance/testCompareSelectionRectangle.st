@@ -7,4 +7,4 @@ testCompareSelectionRectangle
 		contextSelectionRectangleMode;
 		drawFrom: 40 asPoint to: 60 asPoint.
 	self viewPort copySelection.
-	self compare: self viewPort clipboardForm with: #clipboardRectangle
+	self compare: self context clipboardForm with: #clipboardRectangle
