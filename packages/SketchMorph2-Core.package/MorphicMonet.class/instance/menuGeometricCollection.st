@@ -4,7 +4,7 @@ menuGeometricCollection
 			add: (M2SelectRectangle getMenuItemForContext: self context);
 			add: (M2SelectLasso getMenuItemForContext: self context);
 			add: (M2InsertSelection getMenuItemForTarget: self viewPort);
-			add: (M2FillArea getMenuItemForTarget: self viewPort);
+			add: (M2FillArea getMenuItemForContext: self context);
 			add: (M2GeometricEllipse getMenuItemForContext: self context);
 			add: (M2GeometricRectangle getMenuItemForContext: self context);
 			add: (M2GeometricTriangle getMenuItemForContext: self context);
