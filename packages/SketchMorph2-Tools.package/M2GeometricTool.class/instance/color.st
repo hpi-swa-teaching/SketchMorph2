@@ -1,3 +1,5 @@
 accessing
 color
-	^ self context currentColor
+	^ self context isFillingGeometricForm
+			ifTrue: [self context currentColor]
+			ifFalse: [Color transparent]
