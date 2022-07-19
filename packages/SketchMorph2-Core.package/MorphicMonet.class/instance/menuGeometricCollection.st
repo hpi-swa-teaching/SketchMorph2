@@ -8,8 +8,8 @@ menuGeometricCollection
 			add: (M2GeometricEllipse getMenuItemForContext: self context);
 			add: (M2GeometricRectangle getMenuItemForContext: self context);
 			add: (M2GeometricTriangle getMenuItemForContext: self context);
-			add: (M2FlipHorizontal getMenuItemForTarget: self viewPort);
-			add: (M2FlipVertical getMenuItemForTarget: self viewPort);
+			add: (M2FlipHorizontal getMenuItemForContext: self context);
+			add: (M2FlipVertical getMenuItemForContext: self context);
 			add: (M2FillGeometricForm getMenuItemForTarget: self backend context);
 			add: (M2TextFont getMenuItemForTarget: self viewPort);
 			yourself]

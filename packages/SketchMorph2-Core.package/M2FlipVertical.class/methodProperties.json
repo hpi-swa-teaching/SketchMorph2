@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"actionSelector" : "AG 6/21/2022 12:24",
 		"icon" : "KR 6/23/2022 13:17",
 		"isActivatable" : "AG 6/21/2022 12:23",
-		"label" : "AG 6/21/2022 12:24" },
+		"label" : "AG 6/21/2022 12:24",
+		"mirror:" : "AG 7/19/2022 13:49" },
 	"instance" : {
 		 } }

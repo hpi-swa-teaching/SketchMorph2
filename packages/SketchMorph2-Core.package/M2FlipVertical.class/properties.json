@@ -10,5 +10,5 @@
 	"name" : "M2FlipVertical",
 	"pools" : [
 		 ],
-	"super" : "M2IconMenuItem",
+	"super" : "M2Flip",
 	"type" : "normal" }
