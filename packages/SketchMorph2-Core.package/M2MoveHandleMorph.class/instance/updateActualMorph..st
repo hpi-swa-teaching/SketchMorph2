@@ -1,4 +1,3 @@
 event handling
-updateActualMorph: mousePosition
-	
-	self owner position: self owner position - self position + mousePosition - self cursorOffset.
+updateActualMorph: mousePosition	
+	self temporaryGeometricMorph position: self temporaryGeometricMorph position - self position + mousePosition - self cursorOffset

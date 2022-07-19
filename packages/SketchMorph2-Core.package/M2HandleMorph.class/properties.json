@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "ms 5/16/2022 19:06",
 	"instvars" : [
-		"cursorOffset" ],
+		"cursorOffset",
+		"temporaryGeometricMorph" ],
 	"name" : "M2HandleMorph",
 	"pools" : [
 		 ],

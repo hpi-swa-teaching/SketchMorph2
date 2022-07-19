@@ -1,3 +1,3 @@
 initialization
 positionSelf
-	self position: (self actualMorph owner bounds) bottomRight
+	self position: self actualMorph bounds bottomRight

@@ -1,3 +1,3 @@
 accessing
 actualMorph
-	^ self owner underlyingMorph
+	^ self temporaryGeometricMorph renderSource

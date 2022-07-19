@@ -2,7 +2,7 @@
 	"class" : {
 		"newWithUnderlyingMorph:" : "ms 5/17/2022 00:24" },
 	"instance" : {
-		"addHandles" : "md 5/27/2022 22:34",
+		"addHandles" : "md 7/19/2022 23:23",
 		"beTransparent" : "md 5/27/2022 21:58",
 		"borderColor:" : "md 5/16/2022 18:05",
 		"borderStyle:" : "md 5/16/2022 18:05",
@@ -10,7 +10,6 @@
 		"dashedBorder:" : "md 5/27/2022 20:30",
 		"delete" : "md 5/19/2022 14:23",
 		"deleteHandles" : "5/23/2022 21:30:20",
-		"extent:" : "ms 5/17/2022 00:03",
 		"hasHandles" : "md 5/19/2022 14:33",
 		"initialize" : "AG 6/20/2022 21:05",
 		"isActive" : "md 5/19/2022 14:09",
@@ -24,6 +23,7 @@
 		"renderPosition" : "md 5/19/2022 14:16",
 		"renderSource" : "md 5/19/2022 14:15",
 		"renderSource:" : "md 5/19/2022 14:15",
+		"repositionUnderlyingMorph" : "md 7/19/2022 23:04",
 		"rotateHandle" : "ms 5/16/2022 22:53",
 		"rotateHandle:" : "ms 5/16/2022 22:53",
 		"setVertices:" : "md 5/27/2022 20:41",

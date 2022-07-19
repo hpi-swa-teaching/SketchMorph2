@@ -1,7 +1,9 @@
 instance creation
-newFor: temporaryMorph
+newFor: temporaryGeometricMorph
 	| handle |
 	handle := self new.
-	temporaryMorph addMorph: handle.
-	handle positionSelf.
+	temporaryGeometricMorph addMorph: handle.
+	handle
+		temporaryGeometricMorph: temporaryGeometricMorph;
+		positionSelf.
 	^ handle

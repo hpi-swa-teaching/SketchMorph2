@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"newFor:" : "ms 5/16/2022 23:43" },
+		"newFor:" : "md 7/19/2022 23:20" },
 	"instance" : {
-		"actualMorph" : "ms 5/16/2022 22:27",
+		"actualMorph" : "md 7/19/2022 23:23",
 		"cursorOffset" : "ms 5/16/2022 17:33",
 		"cursorOffset:" : "ms 5/16/2022 17:33",
 		"defaultBorderColor" : "ms 5/16/2022 17:54",
@@ -16,4 +16,6 @@
 		"mouseDown:" : "ms 5/16/2022 17:42",
 		"mouseMove:" : "ms 5/16/2022 20:25",
 		"positionSelf" : "ms 5/16/2022 19:49",
+		"temporaryGeometricMorph" : "md 7/19/2022 23:19",
+		"temporaryGeometricMorph:" : "md 7/19/2022 23:19",
 		"updateActualMorph:" : "ms 5/16/2022 17:57" } }
