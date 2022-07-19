@@ -8,8 +8,7 @@
 	"instvars" : [
 		"canvas",
 		"isActive",
-		"moveHandle",
-		"rotateHandle" ],
+		"handle" ],
 	"name" : "M2TemporaryTextMorph",
 	"pools" : [
 		 ],

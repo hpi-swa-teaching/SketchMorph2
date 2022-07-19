@@ -4,5 +4,6 @@ initialize
 	self
 		contents: '';
 		beAllFont: self defaultFont;
-		isActive: true.
+		isActive: true;
+		addMorph: self handle
 		

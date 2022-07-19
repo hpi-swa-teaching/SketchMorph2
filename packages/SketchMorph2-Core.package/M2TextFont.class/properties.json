@@ -10,5 +10,5 @@
 	"name" : "M2TextFont",
 	"pools" : [
 		 ],
-	"super" : "M2IconMenuItem",
+	"super" : "M2ToolMenuItem",
 	"type" : "normal" }

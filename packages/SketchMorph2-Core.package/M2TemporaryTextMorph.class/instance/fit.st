@@ -1,4 +1,4 @@
 private
 fit
 	super fit.
-	self positionHandles
+	self handle position: self defaultHandlePosition

@@ -1,0 +1,3 @@
+defaults
+defaultHandlePosition
+	^ self bottomRight
