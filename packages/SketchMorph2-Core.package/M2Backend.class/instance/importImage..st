@@ -8,6 +8,6 @@ importImage: aFileName
 		extent: tempForm extent.
 	self
 		paint: tempForm at: 0 asPoint;
-		formChanged;
+		activeFormChanged;
 		pushNewUndoLevel.
 	self viewPort refresh

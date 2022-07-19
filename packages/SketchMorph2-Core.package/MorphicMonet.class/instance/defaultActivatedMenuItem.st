@@ -1,3 +1,3 @@
 defaults
 defaultActivatedMenuItem
-	^ M2Pencil
+	^ M2PencilBrush

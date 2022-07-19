@@ -2,7 +2,7 @@ testing - generate-OnNewLayer
 testCompareSelectionRectangle
 	self backend
 		drawCircle;
-		clickAt: 50 asPoint.
+		startToolAt: 50 asPoint.
 	self
 		contextSelectionRectangleMode;
 		drawFrom: 40 asPoint to: 60 asPoint.

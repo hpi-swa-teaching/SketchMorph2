@@ -2,9 +2,9 @@ testing
 testZoomInBrush
 	self backend drawCircle.
 	self viewPort
-		userActionClickAt: 25 asPoint;
-		userActionStopDrawing;
+		userActionStartToolAt: 25 asPoint;
+		userActionStopTool;
 		zoomIn;
-		userActionClickAt: 75 asPoint;
-		userActionStopDrawing.
+		userActionStartToolAt: 75 asPoint;
+		userActionStopTool.
 	self compareViewPortFormWith: #zoomInBrushTest

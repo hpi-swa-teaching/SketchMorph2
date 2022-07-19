@@ -2,5 +2,5 @@ testing
 testZoomInPencil
 	self viewPort
 		zoomIn;
-		userActionClickAt: 50 asPoint.
+		userActionStartToolAt: 50 asPoint.
 	self compareViewPortFormWith: #zoomInPencilTest

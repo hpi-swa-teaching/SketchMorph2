@@ -1,8 +1,9 @@
 {
 	"class" : {
-		"actionSelector" : "md 5/27/2022 19:47",
+		"createTool" : "md 7/18/2022 21:20",
 		"icon" : "mFr 7/9/2021 17:03",
 		"isActivatable" : "ms 7/8/2021 16:07",
-		"label" : "md 5/27/2022 19:47" },
+		"label" : "md 5/27/2022 19:47",
+		"toolName" : "md 7/18/2022 21:20" },
 	"instance" : {
 		 } }

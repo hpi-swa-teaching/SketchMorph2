@@ -1,0 +1,15 @@
+{
+	"category" : "SketchMorph2-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pen",
+		"penShape" ],
+	"name" : "M2BrushTool",
+	"pools" : [
+		 ],
+	"super" : "M2Tool",
+	"type" : "normal" }

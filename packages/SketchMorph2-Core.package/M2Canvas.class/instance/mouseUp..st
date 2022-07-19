@@ -1,4 +1,4 @@
 event handling
 mouseUp: evt
-	self viewPort userActionStopDrawing.
+	self viewPort userActionStopTool.
 	self changed

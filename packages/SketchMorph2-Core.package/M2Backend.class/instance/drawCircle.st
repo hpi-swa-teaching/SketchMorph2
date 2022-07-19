@@ -3,9 +3,6 @@ drawCircle
 	self pen
 		roundNib: self brushSize;
 		combinationRule: Form blendAlphaScaled.
-	self context
-		isErasing: false;
-		mode: #pen;
-		currentTool: #drawCircle.
+	self context	mode: #pen.
 	self switchMode.
 	self viewPort drawCircle

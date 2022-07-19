@@ -6,9 +6,7 @@
 		 ],
 	"commentStamp" : "K.P. 6/26/2021 14:45",
 	"instvars" : [
-		"backend",
 		"context",
-		"canvas",
 		"clipboardForm",
 		"currentCursor",
 		"scalar",

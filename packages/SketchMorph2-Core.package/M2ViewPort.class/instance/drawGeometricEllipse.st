@@ -1,10 +1,8 @@
 tool selection
 drawGeometricEllipse
 	self context
-		isErasing: false;
 		mode: #geometric;
-		currentGeometricPreviewShape: #ellipse;
-		currentTool: #drawGeometricEllipse.
+		currentGeometricPreviewShape: #ellipse.
 	self
 		switchMode;
 		currentCursor: Cursor crossHair
