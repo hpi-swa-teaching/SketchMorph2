@@ -1,7 +1,7 @@
 accessing
 menuMiscCollection
 	^ menuMiscCollection ifNil: [menuMiscCollection := OrderedCollection new
-			add: (M2ClearCanvas getMenuItemForTarget: self);
+			add: (M2ClearCanvas getMenuItemForContext: self context);
 			add: (M2ImportImage getMenuItemForTarget: self);
 			add: (M2ExportMorph getMenuItemForTarget: self backend);
 			add: (M2ExportPNG getMenuItemForTarget: self);
