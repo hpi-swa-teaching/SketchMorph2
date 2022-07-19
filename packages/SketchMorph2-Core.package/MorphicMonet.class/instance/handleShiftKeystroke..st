@@ -10,6 +10,6 @@ handleShiftKeystroke: aKeyboardEvent
 					[$E] -> [self clickMenuItemWith: M2GeometricEllipse label].
 					[$R] -> [self clickMenuItemWith: M2GeometricRectangle label].
 					[$T] -> [self clickMenuItemWith: M2GeometricTriangle label].
-					[$F] -> [self backend toggleFillGeometricForm]
+					[$F] -> [self context toggleFillGeometricForm]
 				} otherwise: [^ aKeyboardEvent "no hit"]].
 	^ aKeyboardEvent ignore "hit!"
