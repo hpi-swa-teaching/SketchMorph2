@@ -2,7 +2,7 @@ pen creation
 createPenShape
 	| dimensions form outline |
 	dimensions := self sideLength asPoint.
-	form := Form extent: dimensions.
+	form := Form extent: dimensions offset: (self offsetFor: dimensions).
 	outline := (Pen newOnForm: form)
 		place: 0 @ (self sideLength - 1);
 		turn: 90;
