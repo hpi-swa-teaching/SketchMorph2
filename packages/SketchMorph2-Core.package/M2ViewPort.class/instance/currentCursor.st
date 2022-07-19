@@ -1,3 +1,6 @@
 accessing
 currentCursor
-	^ self activeTool cursor magnifyBy: self scalar asPoint
+	| form |
+	form := self activeTool cursor.
+	form ifNil: [^ nil].
+	^ form magnifyBy: self scalar asPoint
