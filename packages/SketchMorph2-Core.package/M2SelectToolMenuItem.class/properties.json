@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "K.P. 7/14/2021 18:07",
+	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "M2SelectRectangle",
+	"name" : "M2SelectToolMenuItem",
 	"pools" : [
 		 ],
-	"super" : "M2SelectToolMenuItem",
+	"super" : "M2ToolMenuItem",
 	"type" : "normal" }
