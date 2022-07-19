@@ -1,3 +1,0 @@
-accessing
-penShape
-	^ penShape

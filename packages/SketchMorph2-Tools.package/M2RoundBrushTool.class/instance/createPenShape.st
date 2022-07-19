@@ -1,3 +1,3 @@
 pen creation
 createPenShape
-	^ self dotOfSize: self diameter color: self color
+	^ Form dotOfSize: self diameter
