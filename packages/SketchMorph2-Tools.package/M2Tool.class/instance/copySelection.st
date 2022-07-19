@@ -1,0 +1,3 @@
+clipboard
+copySelection
+	^ false

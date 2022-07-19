@@ -1,4 +1,4 @@
 tooling
 copyToClipboard
-
-	self viewPort copySelection
+	self context activeTool copySelection
+		ifFalse: [self clickMenuItemWith: M2SelectRectangle label]
