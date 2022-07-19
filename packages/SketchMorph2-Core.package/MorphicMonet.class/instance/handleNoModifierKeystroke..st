@@ -5,7 +5,7 @@ handleNoModifierKeystroke: aKeyboardEvent
 		[$-] -> [self clickMenuItemWith: M2ZoomOut label].
 		[$p] -> [self clickMenuItemWith: M2PencilBrush label].
 		[$e] -> [self clickMenuItemWith: M2EraserBrush label].
-		[$t] -> [self clickMenuItemWith: M2TextTool label].
+		[$t] -> [self clickMenuItemWith: M2TextToolOld label].
 		[$f] -> [self clickMenuItemWith: M2FillArea label].
 		[Character space] -> [self clickMenuItemWith: M2Pipette label]
 	} otherwise: [^ aKeyboardEvent "no hit"].

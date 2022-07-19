@@ -1,3 +1,0 @@
-defaults
-defaultHandlePosition
-	^ self bottomRight

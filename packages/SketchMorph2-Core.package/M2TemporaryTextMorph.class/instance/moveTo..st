@@ -5,4 +5,4 @@ moveTo: aPoint
 		position: aPoint;
 		isActive: true.
 	self activeHand newKeyboardFocus: self.
-	self handle position: self defaultHandlePosition
+	self positionHandles

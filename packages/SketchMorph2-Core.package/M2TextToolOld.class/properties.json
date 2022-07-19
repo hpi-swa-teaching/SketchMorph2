@@ -7,7 +7,7 @@
 	"commentStamp" : "CS 6/2/2021 12:00",
 	"instvars" : [
 		 ],
-	"name" : "M2TextTool",
+	"name" : "M2TextToolOld",
 	"pools" : [
 		 ],
 	"super" : "M2IconMenuItem",
