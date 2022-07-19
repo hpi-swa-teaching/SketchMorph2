@@ -6,6 +6,6 @@ menuBrushCollection
 			add: (M2TriangleBrush getMenuItemForContext: self context);
 			add: (M2CircleBrush getMenuItemForContext: self context);
 			add: (M2RectangleBrush getMenuItemForContext: self context);
-			add: (M2Pipette getMenuItemForTarget: self);
+			add: (M2Pipette getMenuItemForContext: self context);
 			add: (M2TextTool getMenuItemForTarget: self viewPort);
 			yourself]
