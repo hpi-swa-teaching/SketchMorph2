@@ -3,7 +3,7 @@ menuGeometricCollection
 	^ menuGeometricCollection ifNil: [menuGeometricCollection := OrderedCollection new
 			add: (M2SelectRectangle getMenuItemForContext: self context);
 			add: (M2SelectLasso getMenuItemForContext: self context);
-			add: (M2InsertSelection getMenuItemForTarget: self viewPort);
+			add: (M2InsertSelection getMenuItemForContext: self context);
 			add: (M2FillArea getMenuItemForContext: self context);
 			add: (M2GeometricEllipse getMenuItemForContext: self context);
 			add: (M2GeometricRectangle getMenuItemForContext: self context);
