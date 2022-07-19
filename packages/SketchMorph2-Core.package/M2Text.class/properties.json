@@ -4,13 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "CS 6/2/2021 14:43",
+	"commentStamp" : "",
 	"instvars" : [
-		"canvas",
-		"isActive",
-		"handle" ],
-	"name" : "M2TemporaryTextMorph",
+		 ],
+	"name" : "M2Text",
 	"pools" : [
 		 ],
-	"super" : "TextMorph",
+	"super" : "M2ToolMenuItem",
 	"type" : "normal" }

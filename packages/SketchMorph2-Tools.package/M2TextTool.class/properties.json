@@ -1,14 +1,15 @@
 {
-	"category" : "SketchMorph2-Core",
+	"category" : "SketchMorph2-Tools",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "CS 6/2/2021 12:00",
+	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"nextStartFinishes",
+		"temporaryTextMorph" ],
 	"name" : "M2TextTool",
 	"pools" : [
 		 ],
-	"super" : "M2IconMenuItem",
+	"super" : "M2Tool",
 	"type" : "normal" }

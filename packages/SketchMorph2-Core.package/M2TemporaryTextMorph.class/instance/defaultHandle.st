@@ -1,5 +1,6 @@
 defaults
 defaultHandle
+
 	^ M2TextHandleMorph new
 			extent: self defaultHandleExtent;
 			borderColor: Color black;

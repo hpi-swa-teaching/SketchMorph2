@@ -11,5 +11,5 @@ menuGeometricCollection
 			add: (M2FlipHorizontal getMenuItemForTarget: self viewPort);
 			add: (M2FlipVertical getMenuItemForTarget: self viewPort);
 			add: (M2FillGeometricForm getMenuItemForTarget: self backend context);
-			add: (M2TextFont getMenuItemForTarget: self viewPort);
+			add: (M2TextFont getMenuItemForContext: self context);
 			yourself]
