@@ -1,9 +1,11 @@
 {
-	"category": "SketchMorph2-Core",
-	"classinstvars": [],
-	"classvars": [],
-	"commentStamp": "K.P. 6/26/2021 14:48",
-	"instvars": [
+	"category" : "SketchMorph2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "K.P. 6/26/2021 14:48",
+	"instvars" : [
 		"activeTool",
 		"cachedTools",
 		"backend",
@@ -18,10 +20,9 @@
 		"mode",
 		"pencilSize",
 		"morphicMonet",
-		"clipboardForm"
-	],
-	"name": "M2DrawingContext",
-	"pools": [],
-	"super": "Object",
-	"type": "normal"
-}
+		"clipboardForm" ],
+	"name" : "M2DrawingContext",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
