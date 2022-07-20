@@ -1,6 +1,4 @@
 drawing
 userActionStartToolAt: aPoint
-	| translatedPoint |
-	translatedPoint := self getBackendPointFor: aPoint ifAbsent: [^ self].
-	self backend userActionStartToolAt: translatedPoint.
+	self backend userActionStartToolAt: (self getBackendPointFor: aPoint).
 	self startToolAt: aPoint
