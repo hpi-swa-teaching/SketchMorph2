@@ -5,7 +5,7 @@ menuMiscCollection
 			add: (M2ImportImage getMenuItemForContext: self context);
 			add: (M2ExportMorph getMenuItemForContext: self context);
 			add: (M2ExportPNG getMenuItemForContext: self context);
-			add: (M2Undo getMenuItemForTarget: self);
+			add: (M2Undo getMenuItemForContext: self context);
 			add: (M2ZoomIn getMenuItemForContext: self context);
 			add: (M2ZoomOut getMenuItemForContext: self context);
 			add: (M2ZoomDefault getMenuItemForContext: self context);
