@@ -1,0 +1,3 @@
+mirroring
+mirrorByAxis: aSymbol
+	^ self

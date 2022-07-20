@@ -1,10 +1,14 @@
 {
-	"class" : {
-		 },
-	"instance" : {
-		"borderStyle" : "md 7/18/2022 22:36",
-		"bounds" : "md 7/18/2022 21:51",
-		"clip:" : "md 7/18/2022 22:02",
-		"configureMorph" : "md 7/18/2022 21:30",
-		"copySelection" : "md 7/19/2022 21:21",
-		"mask" : "md 7/19/2022 22:35" } }
+	"class": {},
+	"instance": {
+		"borderStyle": "md 7/18/2022 22:36",
+		"bounds": "md 7/18/2022 21:51",
+		"clip:": "md 7/18/2022 22:02",
+		"configureMorph": "md 7/18/2022 21:30",
+		"copySelection": "md 7/19/2022 21:21",
+		"cutSelection": "AG 7/19/2022 22:51",
+		"getMask": "AG 7/19/2022 22:49",
+		"mask": "md 7/19/2022 22:35",
+		"mirrorHorizontal": "AG 7/19/2022 12:09",
+		"mirrorSelection:At:": "AG 7/19/2022 22:48",
+		"mirrorVertical": "AG 7/19/2022 15:14" } }
