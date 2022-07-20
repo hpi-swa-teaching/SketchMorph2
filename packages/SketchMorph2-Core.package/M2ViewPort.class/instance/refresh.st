@@ -1,5 +1,7 @@
 drawing
 refresh
-	self canvas updateExtent.
+	self canvas
+		updateExtent;
+		removeImageStack.
 	self generateImageStack.
-	self canvas updateSubmorphs
+	self canvas addImageStack
