@@ -1,0 +1,14 @@
+{
+	"category" : "SketchMorph2-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "M2PipetteTool",
+	"pools" : [
+		 ],
+	"super" : "M2ActionTool",
+	"type" : "normal" }
