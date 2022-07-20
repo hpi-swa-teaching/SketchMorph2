@@ -1,6 +1,9 @@
 {
 	"class" : {
-		"getMenuItemForTarget:" : "CS 8/5/2021 21:36",
+		"actionSelector" : "md 7/20/2022 14:35",
+		"getMenuItemForContext:" : "md 7/20/2022 14:35",
+		"label" : "md 7/20/2022 14:41",
+		"target:" : "md 7/20/2022 14:35",
 		"valueSelector" : "K.P. 6/26/2021 16:42" },
 	"instance" : {
 		 } }

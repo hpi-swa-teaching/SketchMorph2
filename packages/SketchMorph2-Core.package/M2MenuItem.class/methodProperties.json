@@ -1,8 +1,5 @@
 {
 	"class" : {
-		"actionSelector" : "K.P. 6/26/2021 16:41",
-		"getMenuItemForTarget:" : "K.P. 6/26/2021 16:42",
-		"isActivatable" : "K.P. 6/26/2021 16:41",
-		"label" : "K.P. 6/26/2021 16:41" },
+		"getMenuItemForContext:" : "md 7/20/2022 14:34" },
 	"instance" : {
 		 } }

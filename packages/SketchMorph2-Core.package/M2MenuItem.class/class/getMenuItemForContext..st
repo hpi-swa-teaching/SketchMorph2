@@ -1,3 +1,3 @@
 instance creation
-getMenuItemForTarget: anObject
+getMenuItemForContext: anM2DrawingContext
 	^ self subclassResponsibility

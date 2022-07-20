@@ -1,4 +1,4 @@
-as yet unclassified
+clicking
 onClick: anM2DrawingContext
 	| tool |
 	tool := anM2DrawingContext

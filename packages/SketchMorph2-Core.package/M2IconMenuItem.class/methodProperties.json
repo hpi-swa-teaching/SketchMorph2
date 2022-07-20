@@ -1,13 +1,12 @@
 {
 	"class" : {
-		"actionSelector" : "mFr 5/19/2021 10:55",
 		"defaultIconSize" : "mFr 5/19/2021 12:14",
 		"getMenuItemForContext:" : "md 7/17/2022 00:11",
-		"getMenuItemForTarget:" : "CS 8/5/2021 21:39",
 		"icon" : "mFr 5/19/2021 10:55",
-		"isActivatable" : "mFr 5/19/2021 10:55",
+		"isActivatable" : "md 7/20/2022 14:39",
 		"isDefaultTool" : "mFr 5/19/2021 10:55",
 		"isEnabledByDefault" : "CS 8/4/2021 17:33",
-		"label" : "mFr 5/19/2021 10:55" },
+		"label" : "md 7/20/2022 14:41",
+		"onClick:" : "md 7/20/2022 14:38" },
 	"instance" : {
 		 } }

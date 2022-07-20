@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"actionSelector" : "AG 7/19/2022 12:16",
+		"isActivatable" : "md 7/20/2022 14:54",
+		"mirror:" : "md 7/20/2022 14:42",
 		"onClick:" : "md 7/20/2022 13:03" },
 	"instance" : {
 		 } }

@@ -10,6 +10,6 @@ menuGeometricCollection
 			add: (M2GeometricTriangle getMenuItemForContext: self context);
 			add: (M2FlipHorizontal getMenuItemForContext: self context);
 			add: (M2FlipVertical getMenuItemForContext: self context);
-			add: (M2FillGeometricForm getMenuItemForTarget: self backend context);
+			add: (M2FillGeometricForm getMenuItemForContext: self context);
 			add: (M2TextFont getMenuItemForContext: self context);
 			yourself]
