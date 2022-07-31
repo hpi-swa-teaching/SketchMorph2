@@ -1,7 +1,7 @@
 testing - generate-OnNewLayer
 testCompareSelectionLasso
 	self activate: M2CircleBrush.
-	self backend startToolAt: 50 asPoint.
+	self viewPort userActionStartToolAt: 50 asPoint.
 	self
 		activate: M2SelectLasso;
 		dragAlong: {40 @ 40. 60 @ 40. 40 @ 60. 60 @ 60}.
