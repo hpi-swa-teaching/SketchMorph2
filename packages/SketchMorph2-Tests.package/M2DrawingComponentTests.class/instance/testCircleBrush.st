@@ -1,6 +1,6 @@
 testing - generate-OnNewLayer
 testCircleBrush
-	self backend drawCircle.
 	self
+		activate: M2CircleBrush;
 		drawAt: 20 asPoint;
 		compareBackendFormWith: #circleBrushTest

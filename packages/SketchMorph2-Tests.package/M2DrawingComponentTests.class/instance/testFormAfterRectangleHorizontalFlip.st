@@ -1,12 +1,13 @@
 testing
 testFormAfterRectangleHorizontalFlip
 	self
-		contextFillGeometricModeWithForm: #ellipse;
+		enableFillingGeometricForm;
+		activate: M2GeometricEllipse;
 		drawFrom: (40 @ 10) to: (80 @ 90).
-	self backend clickAt: 50 asPoint.
+	self backend startToolAt: 50 asPoint.
 	self
-		contextSelectionRectangleMode;
-		drawFrom: (60 @ 10) to: 100 asPoint.
-	self viewPort mirrorHorizontal.
-	self backend clickAt: 50 asPoint.
+		activate: M2SelectRectangle;
+		drawFrom: (60 @ 10) to: 100 asPoint;
+		activate: M2FlipHorizontal.
+	self backend userActionStartToolAt: 50 asPoint.
 	self compareBackendFormWith: #mirroredRectangleHorizontal

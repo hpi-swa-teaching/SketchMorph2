@@ -1,6 +1,6 @@
 testing
 testZoomInBrush
-	self backend drawCircle.
+	self activate: M2CircleBrush.
 	self viewPort
 		userActionStartToolAt: 25 asPoint;
 		userActionStopTool;

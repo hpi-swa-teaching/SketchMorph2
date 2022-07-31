@@ -1,7 +1,8 @@
 testing
 testUncommittedTemporaryCircle
 	self
-		contextFillGeometricModeWithForm: #ellipse;
+		enableFillingGeometricForm;
+		activate: M2GeometricEllipse;
 		holdShift;
 		dragFrom: 40 @ 10 to: 80 @ 90;
 		compareBackendFormWith: #whiteBackground;

@@ -1,12 +1,13 @@
 testing
 testFormAfterLassoVerticalFlip
 	self
-		contextFillGeometricModeWithForm: #ellipse;
+		enableFillingGeometricForm;
+		activate: M2GeometricEllipse;
 		drawFrom: (10 @ 5) to: (90 @ 45).
-	self backend clickAt: 50 asPoint.
+	self backend startToolAt: 50 asPoint.
 	self
-		contextSelectionLassoMode;
-		dragAlong: {5 @ 50 . 50 @ 15 . 70 @ 5 . 95 @ 46}.
-	self viewPort mirrorVertical.
-	self backend clickAt: 50 asPoint.
+		activate: M2SelectLasso;
+		dragAlong: {5 @ 50 . 50 @ 15 . 70 @ 5 . 95 @ 46};
+		activate: M2FlipVertical.
+	self backend userActionStartToolAt: 50 asPoint.
 	self compareBackendFormWith: #mirroredLassoVertical

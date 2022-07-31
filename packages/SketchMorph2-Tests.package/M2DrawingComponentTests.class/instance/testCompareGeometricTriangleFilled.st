@@ -1,6 +1,7 @@
 testing - generate-OnNewLayer
 testCompareGeometricTriangleFilled
 	self
-		contextFillGeometricModeWithForm: #triangle;
+		enableFillingGeometricForm;
+		activate: M2GeometricTriangle;
 		drawFrom: (40 @ 10) to: (80 @ 90);
 		compareBackendFormWith: #filledTriangle

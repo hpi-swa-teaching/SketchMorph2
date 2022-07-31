@@ -1,4 +1,5 @@
 testing - generate-OnNewLayer
 testRectangleBrush
-	self backend drawRectangle.
-	self assert: (self backend sourceForm colorsUsed allSatisfy: [:color | color = Color black])
+	self
+		activate: M2RectangleBrush;
+		assert: (self backend sourceForm colorsUsed allSatisfy: [:color | color = Color black])

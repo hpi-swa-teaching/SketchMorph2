@@ -1,7 +1,7 @@
 testing - generate-OnNewLayer
 testCompareGeometricCircleOverlapping
 	self
-		contextGeometricModeWithForm: #ellipse;
+		activate: M2GeometricEllipse;
 		holdShift;
 		drawFrom: 10 asPoint to: 40 asPoint.
 	self context isFillingGeometricForm: true.

@@ -1,7 +1,8 @@
 testing - generate-OnNewLayer
 testCompareGeometricCircleFilled
 	self
-		contextFillGeometricModeWithForm: #ellipse;
+		enableFillingGeometricForm;
+		activate: M2GeometricEllipse;
 		holdShift;
 		drawFrom: (40 @ 10) to: (80 @ 90);
 		compareBackendFormWith: #filledCircle;

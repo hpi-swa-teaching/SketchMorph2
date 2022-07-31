@@ -1,10 +1,9 @@
 testing - generate-OnNewLayer
 testCompareSelectionRectangle
-	self backend
-		drawCircle;
-		startToolAt: 50 asPoint.
+	self activate: M2CircleBrush.
+	self backend startToolAt: 50 asPoint.
 	self
-		contextSelectionRectangleMode;
+		activate: M2SelectRectangle;
 		drawFrom: 40 asPoint to: 60 asPoint.
-	self viewPort copySelection.
+	self context activeTool copySelection.
 	self compare: self context clipboardForm with: #clipboardRectangle

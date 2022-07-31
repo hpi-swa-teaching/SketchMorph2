@@ -1,6 +1,6 @@
 testing - generate-OnNewLayer
 testCompareGeometricEllipseNotFilled
 	self
-		contextGeometricModeWithForm: #ellipse;
+		activate: M2GeometricEllipse;
 		drawFrom: (40 @ 10) to: (80 @ 90);
 		compareBackendFormWith: #notFilledEllipse

@@ -1,10 +1,9 @@
 testing - generate-OnNewLayer
 testCompareSelectionLasso
-	self backend
-		drawCircle;
-		startToolAt: 50 asPoint.
+	self activate: M2CircleBrush.
+	self backend startToolAt: 50 asPoint.
 	self
-		contextSelectionLassoMode;
+		activate: M2SelectLasso;
 		dragAlong: {40 @ 40. 60 @ 40. 40 @ 60. 60 @ 60}.
-	self viewPort copySelection.
+	self context activeTool copySelection.
 	self compare: self context clipboardForm with: #clipboardLasso

@@ -2,8 +2,8 @@ testing - generate-OnNewLayer
 testErase
 	self backend
 		penColor: self context backgroundColor negated;
-		fillShapeAt: 1 asPoint;
-		drawEraser.
+		fillShapeAt: 1 asPoint.
+	self activate: M2EraserBrush.
 	
 	self
 		drawFrom: 10 asPoint to: 15 asPoint;

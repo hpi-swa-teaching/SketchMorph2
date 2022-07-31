@@ -1,6 +1,6 @@
 testing - generate-OnNewLayer
 testTriangleBrush
-	self backend drawTriangle.
 	self
+		activate: M2TriangleBrush;
 		drawAt: 20 asPoint;
 		compareBackendFormWith: #triangleBrushTest

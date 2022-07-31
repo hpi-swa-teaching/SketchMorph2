@@ -1,7 +1,8 @@
 testing
 testUndoStackSize
 	self
-		contextFillGeometricModeWithForm: #ellipse;
+		enableFillingGeometricForm;
+		activate: M2GeometricEllipse;
 		drawAmountOfDiagonalCircles: 24;
 		assert: 2 equals: self backend undoStack size
 		"2 because:
