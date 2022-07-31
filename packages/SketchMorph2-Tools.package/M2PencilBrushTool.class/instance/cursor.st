@@ -1,3 +1,3 @@
 updating
 cursor
-	^ (CursorWithAlpha fromIcon: M2PencilBrush icon) asCursorForm
+	^ self offsetCursor: (CursorWithAlpha fromIcon: M2PencilBrush icon) asCursorForm

@@ -6,4 +6,4 @@ cursor
 	self pen setDestForm: form.
 	self pen drawFrom: form center to: form center.
 	self pen setDestForm: destForm.
-	^ form
+	^ self offsetCursor: form

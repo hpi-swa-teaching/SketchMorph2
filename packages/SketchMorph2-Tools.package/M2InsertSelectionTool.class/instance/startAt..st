@@ -1,7 +1,8 @@
 motion
 startAt: aPoint
-	| form |
+	| form position |
 	super startAt: aPoint.
+	self context hasClipboardForm ifFalse: [^ self].
 	form := self context clipboardForm.
-	self context hasClipboardForm
-		ifTrue: [self backend commit: form at: aPoint]
+	position := aPoint + (form extent * -0.5).
+	self backend commit: form at: position
