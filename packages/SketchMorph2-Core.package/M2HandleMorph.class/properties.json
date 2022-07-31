@@ -7,7 +7,7 @@
 	"commentStamp" : "ms 5/16/2022 19:06",
 	"instvars" : [
 		"cursorOffset",
-		"temporaryGeometricMorph" ],
+		"parentMorph" ],
 	"name" : "M2HandleMorph",
 	"pools" : [
 		 ],

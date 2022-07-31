@@ -1,1 +1,0 @@
-This class is the white box above of an M2TemporaryTextMorph, allowing the user to drag it in order to move the text.
