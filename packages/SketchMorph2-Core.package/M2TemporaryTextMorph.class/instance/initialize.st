@@ -5,5 +5,5 @@ initialize
 		contents: '';
 		beAllFont: self defaultFont;
 		isActive: true;
-		addMorph: self handle
+		handle: self defaultHandle
 		
