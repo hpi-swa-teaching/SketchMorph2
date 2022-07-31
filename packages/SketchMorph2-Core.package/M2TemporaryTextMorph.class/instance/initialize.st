@@ -4,6 +4,5 @@ initialize
 	self
 		contents: '';
 		beAllFont: self defaultFont;
-		isActive: true;
-		handle: self defaultHandle
+		isActive: true
 		
