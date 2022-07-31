@@ -1,7 +1,6 @@
 tool selection
 importImage: aFileName
 	| tempForm |
-	self switchMode.
 	tempForm := (Form fromFileNamed: aFileName).
 	self layerStack
 		removeAllLayers;

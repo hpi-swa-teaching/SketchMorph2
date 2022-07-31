@@ -1,3 +1,0 @@
-delegation
-toggleFillGeometricForm
-	self context toggleFillGeometricForm

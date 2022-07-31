@@ -27,7 +27,7 @@
 		"testDoesBrushSizeSliderSetEraserSize" : "CS 8/5/2021 23:39",
 		"testDoesClearCanvasSendCorrectMessage" : "CS 8/4/2021 18:01",
 		"testDoesClearCanvasShortcutSendCorrectMessage" : "CS 8/4/2021 18:00",
-		"testDoesColorPickerSetPenColor" : "CS 8/5/2021 22:49",
+		"testDoesColorPickerSetPenColor" : "md 7/31/2022 18:18",
 		"testDoesEllipseToolButtonChangeState" : "ms 5/27/2022 16:06",
 		"testDoesEllipseToolButtonKeepState" : "ms 5/27/2022 16:07",
 		"testDoesEllipseToolShortcutChangeState" : "ms 5/27/2022 17:53",

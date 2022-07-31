@@ -9,10 +9,8 @@
 		"currentUserAction",
 		"undoStack",
 		"context",
-		"eraser",
 		"layerStack",
-		"activeLayerStack",
-		"pen" ],
+		"activeLayerStack" ],
 	"name" : "M2Backend",
 	"pools" : [
 		 ],

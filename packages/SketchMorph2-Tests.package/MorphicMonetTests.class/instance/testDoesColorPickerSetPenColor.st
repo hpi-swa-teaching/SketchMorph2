@@ -1,7 +1,7 @@
 changing state tests
 testDoesColorPickerSetPenColor
 	| color |
-	self subject viewPort penColor: Color red.
+	self subject backend penColor: Color red.
 	self subject colorPicker colorSelected: Color blue.
 	self assert: Color blue equals: self subject backend penColor.
 	
