@@ -1,3 +1,5 @@
 accessing
 actualMorph
-	^ self temporaryGeometricMorph renderSource
+	^ [self parentMorph renderSource]
+		on: MessageNotUnderstood
+		do: [:sig | sig resume: (self parentMorph)]

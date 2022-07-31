@@ -1,3 +1,0 @@
-accessing
-temporaryGeometricMorph: anM2TemporaryGeometricMorph
-	temporaryGeometricMorph := anM2TemporaryGeometricMorph
