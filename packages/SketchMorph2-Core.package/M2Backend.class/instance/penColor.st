@@ -1,3 +1,3 @@
 accessing
 penColor
-	^ self pen color
+	^ self context currentColor
