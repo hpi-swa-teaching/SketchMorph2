@@ -1,0 +1,15 @@
+{
+	"category" : "SketchMorph2-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"moveHandle",
+		"rotateHandle" ],
+	"name" : "M2HandleMorphTests",
+	"pools" : [
+		 ],
+	"super" : "MTFTestCase",
+	"type" : "normal" }

@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"moveHandle" : "ms 8/1/2022 17:05",
+		"moveHandle:" : "ms 8/1/2022 17:05",
+		"rotateHandle" : "ms 8/1/2022 17:05",
+		"rotateHandle:" : "ms 8/1/2022 17:05",
+		"setUp" : "ms 8/1/2022 17:12",
+		"testDoesRotateHandleChangeColorOnDrag" : "ms 8/1/2022 17:13" } }
