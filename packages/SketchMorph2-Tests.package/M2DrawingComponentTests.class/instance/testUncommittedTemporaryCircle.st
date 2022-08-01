@@ -7,5 +7,5 @@ testUncommittedTemporaryCircle
 		dragFrom: 40 @ 10 to: 80 @ 90;
 		compareBackendFormWith: #whiteBackground;
 		releaseShift;
-		finishDrawingIfNecessary;
+		finishDrawing;
 		compareBackendFormWith: #filledCircle

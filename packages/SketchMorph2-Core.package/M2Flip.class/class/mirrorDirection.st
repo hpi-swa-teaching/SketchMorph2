@@ -1,3 +1,3 @@
 mirroring
-mirror: anM2Tool
+mirrorDirection
 	self subclassResponsibility

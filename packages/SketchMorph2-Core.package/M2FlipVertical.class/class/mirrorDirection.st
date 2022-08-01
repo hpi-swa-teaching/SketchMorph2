@@ -1,0 +1,3 @@
+mirroring
+mirrorDirection
+	^ #vertical
