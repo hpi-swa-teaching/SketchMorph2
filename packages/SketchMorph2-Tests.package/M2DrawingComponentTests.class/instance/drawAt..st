@@ -1,3 +1,3 @@
 support
 drawAt: aPoint
-	self drawFrom: aPoint to: aPoint
+	self dragFrom: aPoint to: aPoint
