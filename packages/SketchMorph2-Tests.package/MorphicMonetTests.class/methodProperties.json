@@ -47,7 +47,6 @@
 		"testDoesRectangleToolButtonChangeState" : "mFr 6/25/2021 15:36",
 		"testDoesRectangleToolButtonKeepState" : "mFr 6/25/2021 15:36",
 		"testDoesRectangleToolShortcutChangeState" : "K.P. 7/8/2021 17:48",
-		"testDoesTextHandleMoveText" : "CS 8/6/2021 18:32",
 		"testDoesTriangleToolShortcutChangeState" : "AK 6/19/2022 17:35",
 		"testDoesUndoSendCorrectMessage" : "CS 8/5/2021 23:48",
 		"testDoesUndoShortcutSendCorrectMessage" : "CS 8/5/2021 23:48",
