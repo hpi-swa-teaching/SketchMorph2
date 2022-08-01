@@ -1,4 +1,4 @@
-as yet unclassified
+clipboard
 copySelection
 	| form |
 	self isShapeDrawn ifFalse: [^ false].

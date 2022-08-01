@@ -1,4 +1,4 @@
-as yet unclassified
+geometry
 clip: aForm
 	| mask rect |
 	mask := self mask.
