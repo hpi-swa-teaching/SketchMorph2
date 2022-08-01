@@ -1,6 +1,6 @@
 testing - generate-OnNewLayer
 testUndoAfterClearCanvasAndDraw
 	self executeAndTestUndo: {
-		[self drawFrom: 10 asPoint to: 40 asPoint] .
+		[self dragFrom: 10 asPoint to: 40 asPoint] .
 		[self backend clearCanvasAndPushUndoLevel] .
-		[self drawFrom: (10 @ 20) to: (30 @ 40)]}
+		[self dragFrom: (10 @ 20) to: (30 @ 40)]}

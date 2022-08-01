@@ -6,7 +6,7 @@ testErase
 	self activate: M2EraserBrush.
 	
 	self
-		drawFrom: 10 asPoint to: 15 asPoint;
+		dragFrom: 10 asPoint to: 15 asPoint;
 		assertColor: self context backgroundColor
 			nearlyEquals: (self backend asForm colorAt: 10 asPoint);
 		assertColor: self context backgroundColor negated
