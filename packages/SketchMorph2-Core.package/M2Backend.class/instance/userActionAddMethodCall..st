@@ -1,3 +1,3 @@
 undo
 userActionAddMethodCall: aMethod
-	self currentUserAction addMethodCall: aMethod
+	self userActionAddMethodCall: aMethod withArguments: nil
