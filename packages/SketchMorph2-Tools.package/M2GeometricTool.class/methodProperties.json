@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"afterStop" : "md 8/2/2022 13:17",
+		"beforeStart" : "md 8/2/2022 13:17",
 		"color" : "md 7/19/2022 11:46",
 		"commitPosition" : "md 7/19/2022 22:36",
 		"configureMorph" : "ms 7/19/2022 22:57",
