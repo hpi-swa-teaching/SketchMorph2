@@ -1,4 +1,5 @@
-tool selection
+drawing
 clearCanvas
 	self activeForm fillColor: self context backgroundColor.
-	self viewPort refresh
+	self pushNewUndoLevel.
+	self canvas redraw
