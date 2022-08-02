@@ -1,4 +1,4 @@
-as yet unclassified
+motion
 startAt: aPoint
 	super startAt: aPoint.
 	self backend fillShapeAt: aPoint

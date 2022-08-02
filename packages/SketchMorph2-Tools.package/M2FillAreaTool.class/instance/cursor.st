@@ -1,3 +1,3 @@
-as yet unclassified
+cursor
 cursor
 	^  (CursorWithAlpha fromIcon: MorphicMonetIcons paintCanIcon) asCursorForm

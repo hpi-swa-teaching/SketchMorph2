@@ -1,4 +1,4 @@
-as yet unclassified
+text
 projectText: aString styled: aTextStyle colored: aColor at: aPoint
 	| textMorph |
 	textMorph := TextMorph new

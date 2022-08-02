@@ -1,4 +1,4 @@
-as yet unclassified
+text
 commitText
 	| position |
 	position := self temporaryTextMorph positionRelativeToCanvas.
