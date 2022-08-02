@@ -1,5 +1,6 @@
 undo
 finishUserAction
+	self areUserActionsLocked ifTrue: [^ self].
 	self
 		assert: self currentUserAction notNil
 		description: 'can only finish a user action when one exists'.
