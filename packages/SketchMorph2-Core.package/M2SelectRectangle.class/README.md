@@ -1,1 +1,1 @@
-M2Select is an M2IconMenuItem used to select the selection tool.
+An M2SelectRectangle is an M2SelectToolMenuItem used to select a rectangle shape.
