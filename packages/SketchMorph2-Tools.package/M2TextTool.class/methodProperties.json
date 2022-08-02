@@ -3,6 +3,8 @@
 		 },
 	"instance" : {
 		"activate" : "SW 7/19/2022 19:55",
+		"afterStop" : "md 8/2/2022 15:40",
+		"beforeStart" : "md 8/2/2022 15:39",
 		"chooseFont" : "SW 7/19/2022 19:48",
 		"commitText" : "SW 7/19/2022 18:35",
 		"createTextMorph" : "SW 7/19/2022 19:55",
