@@ -12,6 +12,7 @@
 		"activeTool:" : "md 7/16/2022 23:27",
 		"afterStopTool" : "md 8/2/2022 12:40",
 		"alphaBlend:at:" : "md 6/18/2022 18:13",
+		"areUserActionsLocked" : "md 8/2/2022 15:53",
 		"asForm" : "md 6/18/2022 18:13",
 		"beforeStartTool" : "md 8/2/2022 12:40",
 		"brushSize" : "wr 5/14/2020 16:42",
@@ -50,6 +51,7 @@
 		"layerStack" : "md 6/18/2022 18:24",
 		"layerStack:" : "md 7/16/2022 22:30",
 		"layersChanged" : "md 8/2/2022 11:53",
+		"lockUserActionsDuring:" : "md 8/2/2022 15:52",
 		"mode:" : "NC 7/24/2020 12:32",
 		"moveToolTo:" : "md 7/16/2022 21:46",
 		"paint:at:" : "md 6/18/2022 18:24",
@@ -82,4 +84,6 @@
 		"userActionMoveToolTo:" : "md 7/16/2022 21:53",
 		"userActionStartToolAt:" : "md 8/2/2022 12:42",
 		"userActionStopTool" : "md 8/2/2022 12:42",
+		"userActionsLockCount" : "md 8/2/2022 15:52",
+		"userActionsLockCount:" : "md 8/2/2022 15:51",
 		"viewPort" : "md 7/11/2022 17:35" } }
