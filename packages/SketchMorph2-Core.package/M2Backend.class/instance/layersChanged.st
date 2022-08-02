@@ -1,3 +1,4 @@
 updating
 layersChanged
-	self pushNewUndoLevel
+	self pushNewUndoLevel.
+	self viewPort refresh
