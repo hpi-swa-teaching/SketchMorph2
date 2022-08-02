@@ -3,10 +3,10 @@ testSimpleTextAfterMovingByHandle
 	self
 		activate: M2Text;
 		drawAt: 75 asPoint.
-	self viewPort temporaryTextMorph
+	self activeTool temporaryTextMorph
 		contents: 'test';
 		moveByHandleTo: 25 asPoint;
-		position: self viewPort temporaryTextMorph bottomRight.
+		position: self activeTool temporaryTextMorph bottomRight.
 	self
 		drawAt: 20 asPoint;
 		compareBackendFormWith: #simpleText

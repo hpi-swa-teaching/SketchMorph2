@@ -5,5 +5,5 @@ testTextVisibilityWhite
 	self
 		activate: M2Text;
 		drawAt: 25 asPoint.
-	self viewPort temporaryTextMorph contents: 'test'.
-	self assert: (self viewPort temporaryTextMorph backgroundColor) equals: Color black.
+	self activeTool temporaryTextMorph contents: 'test'.
+	self assert: (self activeTool temporaryTextMorph backgroundColor) equals: Color black.

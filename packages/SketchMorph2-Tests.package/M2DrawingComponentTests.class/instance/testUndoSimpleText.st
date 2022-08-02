@@ -9,5 +9,5 @@ testUndoSimpleText
 		[self activate: M2Text.
 		self backend penColor: Color black.
 		self drawAt: 25 asPoint.
-		self viewPort temporaryTextMorph contents: 'test'.
+		self activeTool temporaryTextMorph contents: 'test'.
 		self drawAt: 20 asPoint]}
