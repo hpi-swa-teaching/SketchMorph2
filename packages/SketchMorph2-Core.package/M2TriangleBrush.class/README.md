@@ -1,1 +1,1 @@
-M2TriangleBrush is an M2IconMenuItem used to select the triangle brush tool.
+An M2TriangleBrush is an M2ToolMenuItem used to select the triangle brush tool.

@@ -1,9 +1,8 @@
 accessing
-currentLayerStack: anObject
+currentLayerStack: anM2LayerStack
 	self currentLayerStack ifNotNilDo: [:layerStack | layerStack removeDependent: self].
-	currentLayerStack := anObject.
+	currentLayerStack := anM2LayerStack.
 	self currentLayerStack addDependent: self.
 	self
 		changed: #layers;
 		changed: #activeLayer
-

@@ -1,1 +1,1 @@
-An M2BrushSizeIndicator is an Indicator for the size of the current brush.
+An M2BrushSizeIndicator is an indicator/preview for the size of the current brush.
