@@ -1,5 +1,6 @@
 drawing
 project: aForm at: aPoint rule: aCombinationRule
+	self userActionAddMethodCall: #project:at:rule: withArguments: {aForm copy. aPoint. aCombinationRule}.
 	self activeForm
 		copyBits: (0 asPoint corner: aForm extent)
 		from: aForm
