@@ -6,4 +6,5 @@ project: aForm at: aPoint rule: aCombinationRule
 		at: aPoint
 		clippingBox: (0 asPoint corner: self activeForm extent)
 		rule: aCombinationRule
-		fillColor: nil
+		fillColor: nil.
+	self canvas redraw
