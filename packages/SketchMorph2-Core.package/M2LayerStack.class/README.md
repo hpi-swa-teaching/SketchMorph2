@@ -1,16 +1,1 @@
-An M2LayerStack holds an ordered collection of M2Layers.
-
-Instance Variables
-	activeLayer:		<M2Layer>
-	layers:		<SequenceableCollection>
-	backend:	<M2Backend>
-
-activeLayer
-	- the currently active layer, i. e. the current draw target
-
-layers
-	- the collection of layers
-	- the first is the topmost layer
-
-backend
-	- the corresponding backend
+An M2LayerStack is a stack of one or more M2Layers. It holds these as an OrderedCollection where the first layer is graphically the topmost layer. It also stores the currently selected (active) layer, i.e. the current draw target.

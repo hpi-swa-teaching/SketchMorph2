@@ -1,1 +1,1 @@
-M2Undo is an M2IconMenuItem used to invoke the undo functionality.
+An M2Undo is an M2IconMenuItem used to invoke the undo functionality. This is not an M2ActionToolItem because then "undo" would be registered as a UserAction and it would try to undo itself, resulting in an infinte loop.
