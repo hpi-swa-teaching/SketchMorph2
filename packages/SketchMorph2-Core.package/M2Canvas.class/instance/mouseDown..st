@@ -1,4 +1,4 @@
 event handling
 mouseDown: evt
-	self viewPort userActionStartToolAt: (self relativeMousePosition: evt position).
+	self viewPort startToolAt: (self relativeMousePosition: evt position).
 	self changed

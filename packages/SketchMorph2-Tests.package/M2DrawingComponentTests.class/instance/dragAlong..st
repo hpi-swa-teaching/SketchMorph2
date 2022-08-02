@@ -1,6 +1,6 @@
 support
 dragAlong: aSequenceableCollection
-	self viewPort userActionStartToolAt: aSequenceableCollection first.
+	self viewPort startToolAt: aSequenceableCollection first.
 	aSequenceableCollection allButFirstDo: [:each |
-		self viewPort userActionMoveToolTo: each].
-	self viewPort userActionStopTool
+		self viewPort moveToolTo: each].
+	self viewPort stopTool

@@ -2,9 +2,9 @@ testing
 testZoomInBrush
 	self activate: M2CircleBrush.
 	self viewPort
-		userActionStartToolAt: 25 asPoint;
-		userActionStopTool;
+		startToolAt: 25 asPoint;
+		stopTool;
 		zoomIn;
-		userActionStartToolAt: 75 asPoint;
-		userActionStopTool.
+		startToolAt: 75 asPoint;
+		stopTool.
 	self compareViewPortFormWith: #zoomInBrushTest

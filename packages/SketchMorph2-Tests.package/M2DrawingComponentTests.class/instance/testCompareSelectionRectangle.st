@@ -1,7 +1,7 @@
 testing - generate-OnNewLayer
 testCompareSelectionRectangle
 	self activate: M2CircleBrush.
-	self viewPort userActionStartToolAt: 50 asPoint.
+	self viewPort startToolAt: 50 asPoint.
 	self
 		activate: M2SelectRectangle;
 		dragFrom: 40 asPoint to: 60 asPoint.
