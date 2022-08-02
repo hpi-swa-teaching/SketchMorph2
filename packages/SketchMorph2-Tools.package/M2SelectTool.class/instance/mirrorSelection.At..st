@@ -1,13 +1,9 @@
 mirroring
 mirrorSelection: aForm At: aSymbol
-	| bounds form pos|
-	bounds := self bounds.
-	form := aForm flipBy: aSymbol centerAt: bounds center.
-	pos := self shape getMirrorPos: bounds For: aSymbol.
+	| form pos |
+	form := aForm flipBy: aSymbol centerAt: self backendBounds center.
+	pos := self shape getMirrorPos: self viewPortBounds For: aSymbol.
 	self shape mirrorByAxis: aSymbol.
 	self morph position: pos.
 	self morph underlyingMorph position: pos.
-	self viewPort
-		commit: form at: pos;
-		refresh.
-
+	self backend commit: form at: (self viewPort getBackendPointFor: pos)
