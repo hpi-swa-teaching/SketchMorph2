@@ -1,6 +1,6 @@
 testing
 testZoomInPencil
-	self viewPort
-		zoomIn;
-		startToolAt: 50 asPoint.
-	self compareViewPortFormWith: #zoomInPencilTest
+	self viewPort zoomIn.
+	self
+		drawAt: 50 asPoint;
+		compareViewPortFormWith: #zoomInPencilTest

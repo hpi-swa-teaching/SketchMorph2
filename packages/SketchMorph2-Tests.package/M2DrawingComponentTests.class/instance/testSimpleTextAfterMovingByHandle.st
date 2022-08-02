@@ -7,5 +7,6 @@ testSimpleTextAfterMovingByHandle
 		contents: 'test';
 		moveByHandleTo: 25 asPoint;
 		position: self viewPort temporaryTextMorph bottomRight.
-	self viewPort startToolAt: 20 asPoint.
-	self compareBackendFormWith: #simpleText
+	self
+		drawAt: 20 asPoint;
+		compareBackendFormWith: #simpleText
