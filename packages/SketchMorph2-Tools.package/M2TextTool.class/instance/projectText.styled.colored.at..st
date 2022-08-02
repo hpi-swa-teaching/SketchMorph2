@@ -6,5 +6,5 @@ projectText: aString styled: aTextStyle colored: aColor at: aPoint
 		setTextStyle: aTextStyle;
 		textColor: aColor;
 		yourself.
-	self backend commit: textMorph imageForm at: aPoint.
+	self backend alphaBlend: textMorph imageForm at: aPoint.
 	textMorph delete
