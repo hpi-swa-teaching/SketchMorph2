@@ -1,3 +1,3 @@
 zooming
 getBackendPointFor: aPoint
-	^ aPoint / self scalar
+	^ aPoint / self scalar - (1 @ 1)
