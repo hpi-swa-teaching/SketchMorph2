@@ -1,4 +1,4 @@
-as yet unclassified
+activating
 deactivate
 
 	super deactivate.

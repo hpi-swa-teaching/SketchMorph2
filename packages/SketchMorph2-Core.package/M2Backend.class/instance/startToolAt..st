@@ -1,3 +1,5 @@
 drawing
 startToolAt: aPoint
-	self activeTool startAt: aPoint
+	self activeTool
+		beforeStart;
+		startAt: aPoint

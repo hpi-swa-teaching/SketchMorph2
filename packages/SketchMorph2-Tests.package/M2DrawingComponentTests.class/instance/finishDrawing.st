@@ -1,3 +1,3 @@
 support
 finishDrawing
-	self viewPort userActionStartToolAt: 0 @ 0
+	self viewPort startToolAt: 0 @ 0

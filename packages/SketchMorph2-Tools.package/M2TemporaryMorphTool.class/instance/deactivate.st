@@ -1,4 +1,4 @@
 activating
 deactivate
 	super deactivate.
-	self removeMorphIfNecessary
+	self removeMorph

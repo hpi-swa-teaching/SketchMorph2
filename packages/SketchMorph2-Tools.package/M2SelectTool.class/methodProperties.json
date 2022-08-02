@@ -2,7 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"afterMirror" : "md 8/2/2022 17:27",
+		"afterStop" : "md 8/2/2022 16:58",
 		"backendBounds" : "md 8/2/2022 12:04",
+		"beforeStart" : "md 8/2/2022 16:58",
 		"borderStyle" : "md 7/18/2022 22:36",
 		"clip:" : "md 7/18/2022 22:02",
 		"configureMorph" : "md 7/18/2022 21:30",
@@ -10,6 +13,6 @@
 		"cutSelection" : "md 8/2/2022 12:06",
 		"getMask" : "AG 7/19/2022 22:49",
 		"mask" : "md 7/19/2022 22:35",
-		"mirrorAt:" : "AG 8/1/2022 19:06",
-		"mirrorSelection:At:" : "md 8/2/2022 12:09",
+		"mirrorAt:" : "md 8/2/2022 12:05",
+		"mirrorSelection:At:" : "md 8/2/2022 13:06",
 		"viewPortBounds" : "md 8/2/2022 12:03" } }

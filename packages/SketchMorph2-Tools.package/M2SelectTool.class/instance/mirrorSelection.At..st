@@ -6,4 +6,4 @@ mirrorSelection: aForm At: aSymbol
 	self shape mirrorByAxis: aSymbol.
 	self morph position: pos.
 	self morph underlyingMorph position: pos.
-	self backend commit: form at: (self viewPort getBackendPointFor: pos)
+	self backend alphaBlend: form at: (self viewPort getBackendPointFor: pos)

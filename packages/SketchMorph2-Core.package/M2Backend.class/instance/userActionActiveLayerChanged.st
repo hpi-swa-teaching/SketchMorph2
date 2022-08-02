@@ -1,5 +1,5 @@
 updating
 userActionActiveLayerChanged
 	self createUserAction.
-	self currentUserAction addMethodCall: #activeLayerIndex: withArguments: {self activeLayerIndex}.
+	self userActionAddMethodCall: #activeLayerIndex: withArgument: self activeLayerIndex.
 	self finishUserAction

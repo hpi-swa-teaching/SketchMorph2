@@ -1,4 +1,4 @@
-as yet unclassified
+text
 projectText: aString styled: aTextStyle colored: aColor at: aPoint
 	| textMorph |
 	textMorph := TextMorph new
@@ -6,5 +6,7 @@ projectText: aString styled: aTextStyle colored: aColor at: aPoint
 		setTextStyle: aTextStyle;
 		textColor: aColor;
 		yourself.
-	self backend commit: textMorph imageForm at: aPoint.
+	self backend
+		alphaBlend: (textMorph imageForm magnifyBy: self viewPort scalar reciprocal)
+		at: (self viewPort getBackendPointFor: aPoint).
 	textMorph delete

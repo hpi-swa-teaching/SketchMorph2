@@ -6,5 +6,5 @@ testSimpleTextAfterMovingOutside
 	self viewPort temporaryTextMorph
 		contents: 'test';
 		moveByHandleTo: 200 asPoint.
-	self viewPort userActionStartToolAt: 20 asPoint.
+	self viewPort startToolAt: 20 asPoint.
 	self compareBackendFormWith: #whiteBackground

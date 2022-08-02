@@ -1,3 +1,3 @@
 undo
 saveStateInCurrentUserAction
-	self currentUserAction addMethodCall: #restoreState: withArguments: {self currentState}
+	self userActionAddMethodCall: #restoreState: withArgument: self currentState

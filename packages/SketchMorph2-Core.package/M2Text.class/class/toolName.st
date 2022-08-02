@@ -1,4 +1,4 @@
-as yet unclassified
+tool
 toolName
 
 	^ #text

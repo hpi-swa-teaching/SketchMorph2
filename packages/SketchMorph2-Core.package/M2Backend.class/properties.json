@@ -10,7 +10,8 @@
 		"undoStack",
 		"context",
 		"layerStack",
-		"activeLayerStack" ],
+		"activeLayerStack",
+		"userActionsLockCount" ],
 	"name" : "M2Backend",
 	"pools" : [
 		 ],

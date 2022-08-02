@@ -1,4 +1,4 @@
-as yet unclassified
+font
 chooseFont
 
 	self temporaryTextMorph promptForFont

@@ -4,5 +4,5 @@ mouseMove: evt
 		ifFalse: [self viewPort setToolPreviewCursorFor: evt hand].
 	(self isMouseDown: evt) ifFalse: [^ self].
 	self hasMouseFocus ifFalse: [^ self].
-	self viewPort userActionMoveToolTo: (self relativeMousePosition: evt position).
+	self viewPort moveToolTo: (self relativeMousePosition: evt position).
 	self changed

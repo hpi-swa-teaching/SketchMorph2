@@ -1,5 +1,6 @@
 undo
 restoreUserActions
-	self latestActionQueue do:
-		[:action | action methodCalls do:
-			[:messageSend | messageSend value]]
+	self lockUserActionsDuring:
+		[self latestActionQueue do:
+			[:action | action methodCalls do:
+				[:messageSend | messageSend value]]]

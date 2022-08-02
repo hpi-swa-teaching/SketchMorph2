@@ -1,9 +1,11 @@
 drawing
 project: aForm at: aPoint rule: aCombinationRule
+	self userActionAddMethodCall: #project:at:rule: withArguments: {aForm copy. aPoint. aCombinationRule}.
 	self activeForm
 		copyBits: (0 asPoint corner: aForm extent)
 		from: aForm
 		at: aPoint
 		clippingBox: (0 asPoint corner: self activeForm extent)
 		rule: aCombinationRule
-		fillColor: nil
+		fillColor: nil.
+	self canvas redraw

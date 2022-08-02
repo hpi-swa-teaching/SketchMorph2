@@ -1,5 +1,5 @@
 morph creation
 newMorphAt: aPoint
 	self
-		removeMorphIfNecessary;
+		removeMorph;
 		initializeMorphAt: aPoint

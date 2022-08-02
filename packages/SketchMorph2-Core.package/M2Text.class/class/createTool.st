@@ -1,4 +1,4 @@
-as yet unclassified
+tool
 createTool
 
 	^ M2TextTool new

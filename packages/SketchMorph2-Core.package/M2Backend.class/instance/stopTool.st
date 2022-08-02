@@ -1,3 +1,5 @@
 drawing
 stopTool
-	self activeTool stop
+	self activeTool
+		stop;
+		afterStop
