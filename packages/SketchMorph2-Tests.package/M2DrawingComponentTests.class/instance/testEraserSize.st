@@ -1,6 +1,6 @@
 testing - generate-OnNewLayer
 testEraserSize
-	self backend setBrushAndEraserSizeTo: 50.
+	self context setBrushAndEraserSizeTo: 50.
 	self
 		activate: M2CircleBrush;
 		drawAt: 75 asPoint;

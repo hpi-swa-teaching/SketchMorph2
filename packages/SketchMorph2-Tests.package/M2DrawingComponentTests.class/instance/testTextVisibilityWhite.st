@@ -1,7 +1,7 @@
 testing
 testTextVisibilityWhite
 
-	self backend penColor: Color white.
+	self context currentColor: Color white.
 	self
 		activate: M2Text;
 		drawAt: 25 asPoint.

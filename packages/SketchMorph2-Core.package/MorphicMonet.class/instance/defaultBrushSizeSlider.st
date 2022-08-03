@@ -1,8 +1,8 @@
 defaults
 defaultBrushSizeSlider
 	^ M2BrushSliderMorph new
-			target: self backend;
+			target: self context;
 			borderWidth: self menuItemBorderWidth;
 			borderColor: self menuItemBorderColor;
-			adjustToValue: self backend context defaultBrushSize;
+			adjustToValue: self context defaultBrushSize;
 			yourself

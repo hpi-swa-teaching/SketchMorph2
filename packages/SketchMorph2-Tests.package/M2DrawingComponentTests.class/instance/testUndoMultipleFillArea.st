@@ -1,16 +1,16 @@
 testing - generate-OnNewLayer
 testUndoMultipleFillArea
 	self executeAndTestUndo: {
-		[self backend setBrushAndEraserSizeTo: 50.
+		[self context setBrushAndEraserSizeTo: 50.
 		self
 			activate: M2CircleBrush;
 			drawAt: 50 asPoint] .
 		[self activate: M2FillArea.
-		self backend penColor: Color white.
+		self context currentColor: Color white.
 		self drawAt: 50 asPoint] .
-		[self backend penColor: Color blue.
+		[self context currentColor: Color blue.
 		self dragFrom: 10 asPoint to: 20 asPoint] .
-		[self backend penColor: Color red.
+		[self context currentColor: Color red.
 		self dragFrom: 10 asPoint to: 20 asPoint] .
-		[self backend penColor: Color green.
+		[self context currentColor: Color green.
 		self dragFrom: 10 asPoint to: 20 asPoint]}

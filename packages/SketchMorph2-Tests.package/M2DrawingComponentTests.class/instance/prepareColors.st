@@ -1,3 +1,3 @@
 running
 prepareColors
-	self backend penColor: Color black
+	self context currentColor: Color black

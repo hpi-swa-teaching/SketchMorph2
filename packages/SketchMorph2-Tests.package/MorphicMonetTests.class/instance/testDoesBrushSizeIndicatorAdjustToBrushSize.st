@@ -5,5 +5,5 @@ testDoesBrushSizeIndicatorAdjustToBrushSize
 	self assert: 1 equals: indicatorWrapper morphs size.
 	indicator := indicatorWrapper morphs anyOne.
 	indicator extent: 1 asPoint.
-	self subject backend setBrushAndEraserSizeTo: 30.
+	self subject context setBrushAndEraserSizeTo: 30.
 	self assert: 30 asPoint equals: indicator extent

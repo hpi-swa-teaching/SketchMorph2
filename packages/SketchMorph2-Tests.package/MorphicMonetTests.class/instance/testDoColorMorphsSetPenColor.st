@@ -4,4 +4,4 @@ testDoColorMorphsSetPenColor
 	colorMorphs := self subject findByCriteria: [:curMorph |
 		curMorph isM2ColorMorph].
 	colorMorphs leftClickAssert: [:curMorph |
-		(self subject backend penColor diff: curMorph offColor) < 0.01]
+		(self subject context currentColor diff: curMorph offColor) < 0.01]
