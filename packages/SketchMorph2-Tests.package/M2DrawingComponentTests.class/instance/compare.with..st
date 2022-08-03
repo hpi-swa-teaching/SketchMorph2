@@ -1,4 +1,4 @@
-support
+support - comparing
 compare: aForm with: aSymbol
 	| solutionForm |
 	solutionForm := self class perform: aSymbol.

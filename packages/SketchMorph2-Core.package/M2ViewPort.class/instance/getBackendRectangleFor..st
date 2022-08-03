@@ -1,4 +1,4 @@
-zooming
+coordinate-transformation
 getBackendRectangleFor: aRectangle
 	^ Rectangle
 			origin: (self getBackendPointFor: aRectangle origin)

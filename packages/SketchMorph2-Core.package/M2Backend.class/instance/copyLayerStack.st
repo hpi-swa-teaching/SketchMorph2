@@ -1,3 +1,3 @@
-accessing
+copying
 copyLayerStack
 	^ self layerStack copy

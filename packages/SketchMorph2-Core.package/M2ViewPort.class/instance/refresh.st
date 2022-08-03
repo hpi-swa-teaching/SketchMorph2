@@ -1,4 +1,4 @@
-drawing
+updating
 refresh
 	self canvas
 		updateExtent;

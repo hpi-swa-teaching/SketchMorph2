@@ -1,4 +1,4 @@
-undo
+userActions
 userActionAddMethodCall: aMethod withArguments: anObject
 	self areUserActionsLocked ifTrue: [^ self].
 	self

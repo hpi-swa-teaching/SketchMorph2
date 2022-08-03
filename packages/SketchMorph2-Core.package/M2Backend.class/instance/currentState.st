@@ -1,4 +1,4 @@
-undo
+state
 currentState
 	^ Dictionary new
 			at: #brushSize: put: {self brushSize};

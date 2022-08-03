@@ -1,4 +1,4 @@
-support
+support - drawing
 dragAlong: aSequenceableCollection
 	self viewPort startToolAt: aSequenceableCollection first.
 	aSequenceableCollection allButFirstDo: [:each |

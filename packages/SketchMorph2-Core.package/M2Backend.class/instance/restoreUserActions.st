@@ -1,4 +1,4 @@
-undo
+userActions
 restoreUserActions
 	self lockUserActionsDuring:
 		[self latestActionQueue do:

@@ -1,4 +1,4 @@
-support
+support - drawing
 drawDiagonalCirclesFrom: aStartNumber to: anEndNumber
 	| circleDistance |
 	circleDistance := 4.

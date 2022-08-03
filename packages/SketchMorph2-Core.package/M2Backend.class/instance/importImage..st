@@ -1,4 +1,4 @@
-tool selection
+export/import
 importImage: aFileName
 	| form |
 	form := Form fromFileNamed: aFileName.

@@ -1,4 +1,4 @@
-undo
+userActions
 finishUserAction
 	self areUserActionsLocked ifTrue: [^ self].
 	self

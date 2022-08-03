@@ -1,4 +1,4 @@
-undo
+state
 saveSettingsDuring: aBlock
 	| preState |
 	preState := self currentState.
