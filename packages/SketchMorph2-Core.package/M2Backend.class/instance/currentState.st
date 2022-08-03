@@ -1,7 +1,6 @@
 undo
 currentState
 	^ Dictionary new
-			at: #mode: put: {self context mode};
 			at: #currentGeometricPreviewShape: put: {self context currentGeometricPreviewShape};
 			at: #brushSize: put: {self brushSize};
 			at: #penColor: put: {self penColor};

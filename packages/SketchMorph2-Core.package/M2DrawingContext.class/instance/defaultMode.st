@@ -1,3 +1,0 @@
-defaults
-defaultMode
-	^ #pen
