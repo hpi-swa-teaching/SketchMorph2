@@ -1,0 +1,14 @@
+{
+	"category" : "SketchMorph2-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mFr 5/19/2021 12:54",
+	"instvars" : [
+		 ],
+	"name" : "M2CustomizableColorMorph",
+	"pools" : [
+		 ],
+	"super" : "M2ColorMorph",
+	"type" : "normal" }

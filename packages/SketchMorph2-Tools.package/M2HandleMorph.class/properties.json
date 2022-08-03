@@ -1,0 +1,15 @@
+{
+	"category" : "SketchMorph2-Tools-Helpers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "kbr 8/2/2022 16:26",
+	"instvars" : [
+		"cursorOffset",
+		"parentMorph" ],
+	"name" : "M2HandleMorph",
+	"pools" : [
+		 ],
+	"super" : "MixedCurveMorph",
+	"type" : "normal" }

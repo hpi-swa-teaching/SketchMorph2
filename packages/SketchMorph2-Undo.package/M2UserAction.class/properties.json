@@ -1,0 +1,15 @@
+{
+	"category" : "SketchMorph2-Undo",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "kbr 8/2/2022 15:11",
+	"instvars" : [
+		"backend",
+		"methodCalls" ],
+	"name" : "M2UserAction",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

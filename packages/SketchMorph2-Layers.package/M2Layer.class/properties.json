@@ -1,0 +1,16 @@
+{
+	"category" : "SketchMorph2-Layers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "kbr 8/2/2022 12:22",
+	"instvars" : [
+		"form",
+		"name",
+		"isVisible" ],
+	"name" : "M2Layer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

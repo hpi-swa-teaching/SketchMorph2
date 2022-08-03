@@ -1,0 +1,18 @@
+{
+	"category" : "SketchMorph2-Tools-Helpers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "kbr 8/2/2022 16:58",
+	"instvars" : [
+		"underlyingMorph",
+		"moveHandle",
+		"rotateHandle",
+		"isActive",
+		"renderSource" ],
+	"name" : "M2TemporaryGeometricMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

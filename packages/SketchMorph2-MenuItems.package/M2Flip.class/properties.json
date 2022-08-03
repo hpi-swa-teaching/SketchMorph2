@@ -1,0 +1,14 @@
+{
+	"category" : "SketchMorph2-MenuItems",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "kbr 8/2/2022 12:38",
+	"instvars" : [
+		 ],
+	"name" : "M2Flip",
+	"pools" : [
+		 ],
+	"super" : "M2ToolMenuItem",
+	"type" : "normal" }

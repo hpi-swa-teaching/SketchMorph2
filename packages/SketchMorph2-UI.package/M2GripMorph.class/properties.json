@@ -1,0 +1,14 @@
+{
+	"category" : "SketchMorph2-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "K.P. 5/19/2021 01:01",
+	"instvars" : [
+		"cursorOffset" ],
+	"name" : "M2GripMorph",
+	"pools" : [
+		 ],
+	"super" : "BottomRightGripMorph",
+	"type" : "normal" }

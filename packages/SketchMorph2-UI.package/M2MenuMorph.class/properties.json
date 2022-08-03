@@ -1,0 +1,14 @@
+{
+	"category" : "SketchMorph2-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ClickedItem" ],
+	"commentStamp" : "kbr 8/2/2022 13:14",
+	"instvars" : [
+		 ],
+	"name" : "M2MenuMorph",
+	"pools" : [
+		 ],
+	"super" : "MenuMorph",
+	"type" : "normal" }

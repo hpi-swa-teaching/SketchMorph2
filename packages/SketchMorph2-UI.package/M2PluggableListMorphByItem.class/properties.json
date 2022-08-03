@@ -1,0 +1,14 @@
+{
+	"category" : "SketchMorph2-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "kbr 8/2/2022 13:20",
+	"instvars" : [
+		"iconClickSelector" ],
+	"name" : "M2PluggableListMorphByItem",
+	"pools" : [
+		 ],
+	"super" : "PluggableListMorphByItem",
+	"type" : "normal" }

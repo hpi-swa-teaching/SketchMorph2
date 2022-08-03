@@ -1,0 +1,15 @@
+{
+	"category" : "SketchMorph2-Layers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "kbr 8/2/2022 12:10",
+	"instvars" : [
+		"backend",
+		"currentLayerStack" ],
+	"name" : "M2ActiveLayerStack",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

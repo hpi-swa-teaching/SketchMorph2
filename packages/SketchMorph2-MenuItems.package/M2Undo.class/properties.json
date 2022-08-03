@@ -1,0 +1,14 @@
+{
+	"category" : "SketchMorph2-MenuItems",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "kbr 8/2/2022 13:11",
+	"instvars" : [
+		 ],
+	"name" : "M2Undo",
+	"pools" : [
+		 ],
+	"super" : "M2IconMenuItem",
+	"type" : "normal" }

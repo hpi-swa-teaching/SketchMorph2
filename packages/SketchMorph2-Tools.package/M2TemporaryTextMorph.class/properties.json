@@ -1,0 +1,16 @@
+{
+	"category" : "SketchMorph2-Tools-Helpers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "kbr 8/2/2022 13:36",
+	"instvars" : [
+		"canvas",
+		"isActive",
+		"handle" ],
+	"name" : "M2TemporaryTextMorph",
+	"pools" : [
+		 ],
+	"super" : "TextMorph",
+	"type" : "normal" }

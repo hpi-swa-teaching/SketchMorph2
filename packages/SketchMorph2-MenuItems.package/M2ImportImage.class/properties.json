@@ -1,0 +1,14 @@
+{
+	"category" : "SketchMorph2-MenuItems",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "kbr 8/2/2022 12:48",
+	"instvars" : [
+		 ],
+	"name" : "M2ImportImage",
+	"pools" : [
+		 ],
+	"super" : "M2ActionToolItem",
+	"type" : "normal" }

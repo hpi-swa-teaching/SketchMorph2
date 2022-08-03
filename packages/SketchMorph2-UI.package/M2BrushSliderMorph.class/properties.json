@@ -1,0 +1,14 @@
+{
+	"category" : "SketchMorph2-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "kbr 8/2/2022 12:44",
+	"instvars" : [
+		 ],
+	"name" : "M2BrushSliderMorph",
+	"pools" : [
+		 ],
+	"super" : "SimpleSliderMorph",
+	"type" : "normal" }

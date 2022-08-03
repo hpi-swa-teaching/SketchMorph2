@@ -1,0 +1,14 @@
+{
+	"category" : "SketchMorph2-Tools-Helpers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "kbr 8/2/2022 16:29",
+	"instvars" : [
+		 ],
+	"name" : "M2RotateHandleMorph",
+	"pools" : [
+		 ],
+	"super" : "M2HandleMorph",
+	"type" : "normal" }
