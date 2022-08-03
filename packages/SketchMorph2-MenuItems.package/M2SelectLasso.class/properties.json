@@ -1,11 +1,14 @@
 {
-	"category": "SketchMorph2-MenuItems",
-	"classinstvars": [],
-	"classvars": [],
-	"commentStamp": "kbr 8/2/2022 13:05",
-	"instvars": [],
-	"name": "M2SelectLasso",
-	"pools": [],
-	"super": "M2SelectToolMenuItem",
-	"type": "normal"
-}
+	"category" : "SketchMorph2-MenuItems",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "kbr 8/2/2022 13:05",
+	"instvars" : [
+		 ],
+	"name" : "M2SelectLasso",
+	"pools" : [
+		 ],
+	"super" : "M2SelectToolMenuItem",
+	"type" : "normal" }

@@ -1,11 +1,14 @@
 {
-	"category": "SketchMorph2-MenuItems",
-	"classinstvars": [],
-	"classvars": [],
-	"commentStamp": "kbr 8/2/2022 12:52",
-	"instvars": [],
-	"name": "M2EraserBrush",
-	"pools": [],
-	"super": "M2ToolMenuItem",
-	"type": "normal"
-}
+	"category" : "SketchMorph2-MenuItems",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "kbr 8/2/2022 12:52",
+	"instvars" : [
+		 ],
+	"name" : "M2EraserBrush",
+	"pools" : [
+		 ],
+	"super" : "M2ToolMenuItem",
+	"type" : "normal" }
