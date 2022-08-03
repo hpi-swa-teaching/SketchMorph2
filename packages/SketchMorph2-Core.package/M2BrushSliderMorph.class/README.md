@@ -1,1 +1,1 @@
-This slider class contains default values for the brush size slider.
+An M2BrushSliderMorph is a slider that contains default values for the brush size slider.

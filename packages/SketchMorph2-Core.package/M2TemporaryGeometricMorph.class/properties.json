@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "md 5/16/2022 17:23",
+	"commentStamp" : "kbr 8/2/2022 16:58",
 	"instvars" : [
 		"underlyingMorph",
 		"moveHandle",

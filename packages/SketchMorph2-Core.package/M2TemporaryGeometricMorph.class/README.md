@@ -1,3 +1,1 @@
-An M2TemporaryGeometricMorph is xxxxxxxxx.
-
-Instance Variables
+An M2TemporaryGeometricMorph is a Morph that gets temporarily created/drawn by the user without effecting anything permanently. When the user wants to finish the action they were performing, it is used in its last state for baking it onto the canvas, copying it into the clipboard or similar before it gets deleted.
