@@ -1,0 +1,11 @@
+{
+	"category": "SketchMorph2-MenuItems",
+	"classinstvars": [],
+	"classvars": [],
+	"commentStamp": "kbr 8/2/2022 12:46",
+	"instvars": [],
+	"name": "M2ActionToolItem",
+	"pools": [],
+	"super": "M2ToolMenuItem",
+	"type": "normal"
+}

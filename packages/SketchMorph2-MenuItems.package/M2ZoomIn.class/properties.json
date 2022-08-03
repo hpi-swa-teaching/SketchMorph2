@@ -1,0 +1,11 @@
+{
+	"category": "SketchMorph2-MenuItems",
+	"classinstvars": [],
+	"classvars": [],
+	"commentStamp": "kbr 8/2/2022 12:51",
+	"instvars": [],
+	"name": "M2ZoomIn",
+	"pools": [],
+	"super": "M2ActionToolItem",
+	"type": "normal"
+}
