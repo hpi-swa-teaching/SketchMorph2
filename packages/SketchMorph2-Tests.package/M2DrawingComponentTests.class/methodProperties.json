@@ -36,7 +36,7 @@
 		"triangleBrushTest" : "ms 8/3/2022 17:24",
 		"whiteBackground" : "md 5/26/2022 19:06",
 		"zoomInBrushTest" : "ms 8/3/2022 17:30",
-		"zoomInPencilTest" : "SW 6/14/2022 19:13" },
+		"zoomInPencilTest" : "ms 8/3/2022 17:36" },
 	"instance" : {
 		"activate:" : "md 7/30/2022 19:26",
 		"activeTool" : "SW 8/2/2022 22:09",
@@ -163,7 +163,7 @@
 		"testUndoWhenUndoStackEmptyOnNewLayer" : "md 6/26/2022 14:21",
 		"testZoomInBrush" : "md 8/2/2022 18:00",
 		"testZoomInOutPreservesInformation" : "md 6/18/2022 17:55",
-		"testZoomInPencil" : "md 8/2/2022 18:00",
+		"testZoomInPencil" : "ms 8/3/2022 17:35",
 		"testZoomOutInPreservesInformation" : "md 6/18/2022 17:56",
 		"viewPort" : "K.P. 6/26/2021 14:34",
 		"viewPort:" : "K.P. 6/24/2021 15:31" } }
