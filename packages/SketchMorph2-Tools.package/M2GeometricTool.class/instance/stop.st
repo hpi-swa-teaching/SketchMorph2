@@ -1,4 +1,6 @@
 motion
 stop
 	super stop.
-	self nextStartFinishes ifTrue: [self morph addHandles]
+	self nextStartFinishes ifTrue: [
+		self morph addHandles.
+		self configureMorph.]
