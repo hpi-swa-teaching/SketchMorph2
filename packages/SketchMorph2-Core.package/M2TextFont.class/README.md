@@ -1,1 +1,1 @@
-M2TextFont is an M2IconMenuItem used to choose the font style of texts.
+An M2TextFont is an M2ToolMenuItem used to choose the font style of texts.
