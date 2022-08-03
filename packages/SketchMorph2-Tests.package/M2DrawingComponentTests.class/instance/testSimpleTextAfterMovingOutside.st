@@ -3,8 +3,9 @@ testSimpleTextAfterMovingOutside
 	self
 		activate: M2Text;
 		drawAt: 75 asPoint.
-	self viewPort temporaryTextMorph
+	self activeTool temporaryTextMorph
 		contents: 'test';
 		moveByHandleTo: 200 asPoint.
-	self viewPort startToolAt: 20 asPoint.
-	self compareBackendFormWith: #whiteBackground
+	self
+		drawAt: 20 asPoint;
+		compareBackendFormWith: #whiteBackground

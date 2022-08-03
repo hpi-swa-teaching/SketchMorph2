@@ -1,8 +1,6 @@
 testing - generate-OnNewLayer
 testErase
-	self backend
-		penColor: self context backgroundColor negated;
-		fillShapeAt: 1 asPoint.
+	self backend activeForm fillColor: self context backgroundColor negated.
 	self activate: M2EraserBrush.
 	
 	self
