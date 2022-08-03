@@ -2,5 +2,9 @@ OrderedDictionary {
 	'packages/SketchMorph2-Tests.package' : #SquotCypressCodeSerializer,
 	'packages/BaselineOfSketchMorph2.package' : #SquotCypressCodeSerializer,
 	'packages/SketchMorph2-Core.package' : #SquotCypressCodeSerializer,
-	'packages/SketchMorph2-Tools.package' : #SquotCypressCodeSerializer
+	'packages/SketchMorph2-Tools.package' : #SquotCypressCodeSerializer,
+	'packages/SketchMorph2-Layers.package' : #SquotCypressCodeSerializer,
+	'packages/SketchMorph2-MenuItems.package' : #SquotCypressCodeSerializer,
+	'packages/SketchMorph2-UI.package' : #SquotCypressCodeSerializer,
+	'packages/SketchMorph2-Undo.package' : #SquotCypressCodeSerializer
 }
