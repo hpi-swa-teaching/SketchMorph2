@@ -12,8 +12,7 @@
 		"temporaryGeometricMorph",
 		"temporaryTextMorph",
 		"backgroundColor",
-		"imageStack",
-		"startPoint" ],
+		"imageStack" ],
 	"name" : "M2ViewPort",
 	"pools" : [
 		 ],
