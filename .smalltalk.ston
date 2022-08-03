@@ -10,7 +10,7 @@ SmalltalkCISpec {
   ],
   #testing : {
       #coverage : {
-        #packages : [ 'SketchMorph2-Core' ]
+        #packages : [ 'SketchMorph2-Core', 'SketchMorph2-Tools' ]
       }
   }
 }
