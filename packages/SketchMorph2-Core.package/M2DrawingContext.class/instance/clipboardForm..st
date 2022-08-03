@@ -1,4 +1,4 @@
 accessing
 clipboardForm: aForm
 	clipboardForm := aForm.
-	self triggerEvent: #clipBoardFilled
+	self changed: #clipboardForm

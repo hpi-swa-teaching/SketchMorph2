@@ -5,5 +5,4 @@ newOn: anM2DrawingComponent
 		model: anM2DrawingComponent;
 		color: Color darkGray;
 		updateExtent.
-	anM2DrawingComponent when: #brushSizeChanged send: #updateExtent to: instance.
 	^ instance

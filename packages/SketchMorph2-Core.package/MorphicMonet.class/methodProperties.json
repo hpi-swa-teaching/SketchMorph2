@@ -45,7 +45,7 @@
 		"handleShiftKeystroke:" : "md 7/19/2022 11:37",
 		"importImage" : "mFr 6/3/2021 21:17",
 		"importImage:" : "CS 8/5/2021 22:41",
-		"initialize" : "md 7/20/2022 12:31",
+		"initialize" : "md 8/3/2022 19:15",
 		"initializeBottomPanel" : "ms 6/9/2022 18:19",
 		"initializeCanvasPanel" : "ms 6/9/2022 18:13",
 		"initializeColorPanel" : "K.P. 8/1/2021 19:06",
@@ -81,5 +81,6 @@
 		"topPanel:" : "mFr 5/19/2021 10:58",
 		"topPanelHeight" : "CS 8/6/2021 18:57",
 		"undo" : "CS 8/5/2021 22:43",
+		"update:" : "md 8/3/2022 19:13",
 		"upperColorRow" : "CS 8/4/2021 19:33",
 		"viewPort" : "6/28/2021 21:03:28" } }

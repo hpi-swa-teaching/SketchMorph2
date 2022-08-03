@@ -6,7 +6,7 @@ initialize
 
 	super initialize.
 	self canvas context morphicMonet: self.
-	self context when: #clipBoardFilled send: #enableInsertSelectionButton to: self.
+	self context addDependent: self.
 	self
 		initializePanels;
 		setLabel: 'Morphic Monet';
