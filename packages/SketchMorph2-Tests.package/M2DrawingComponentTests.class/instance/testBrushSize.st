@@ -1,7 +1,7 @@
 testing - generate-OnNewLayer
 testBrushSize
-	self context setBrushAndEraserSizeTo: 50.
 	self
+		setBrushAndEraserSizeTo: 50;
 		activate: M2CircleBrush;
 		drawAt: 50 asPoint;
 		compareBackendFormWith: #brushSizeTest

@@ -8,7 +8,7 @@ executeAndTestUndo: aBlockArray
 		stack push: self backend asForm].
 	preState := self backend currentState.
 	aBlockArray do: [:aBlock |
-		self backend undo.
+		self undo.
 		stack pop.
 		self formCompareBackendFormWith: stack top.
 		self assert: preState equals: self backend currentState]

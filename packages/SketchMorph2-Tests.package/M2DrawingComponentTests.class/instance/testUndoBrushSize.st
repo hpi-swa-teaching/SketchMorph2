@@ -1,14 +1,18 @@
 testing - generate-OnNewLayer
 testUndoBrushSize
 	self executeAndTestUndo: {
-		[self activate: M2FillArea.
-		self context currentColor: Color blue.
-		self drawAt: 10 asPoint] .
-		[self context currentColor: Color white.
-		self drawAt: 20 asPoint] .
-		[self context setBrushAndEraserSizeTo: 50.
-		self activate: M2CircleBrush.
-		self context currentColor: Color black.
-		self drawAt: 50 asPoint] .
-		[self context setBrushAndEraserSizeTo: 40.
-		self drawAt: 20 asPoint]}
+		[self
+			activate: M2FillArea;
+			currentColor: Color blue;
+			drawAt: 10 asPoint] .
+		[self
+			currentColor: Color white;
+			drawAt: 20 asPoint] .
+		[self
+			setBrushAndEraserSizeTo: 50;
+			activate: M2CircleBrush;
+			currentColor: Color black;
+			drawAt: 50 asPoint] .
+		[self
+			setBrushAndEraserSizeTo: 40;
+			drawAt: 20 asPoint]}

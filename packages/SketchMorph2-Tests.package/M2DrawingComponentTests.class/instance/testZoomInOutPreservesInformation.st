@@ -2,11 +2,8 @@ testing
 testZoomInOutPreservesInformation
 	| originalForm |
 	self drawAt: 99 asPoint.
-		
 	originalForm := self renderCanvas.
-	
-	self viewPort
+	self
 		zoomIn;
-		zoomOut.
-		
-	self assertEqualityOf: self renderCanvas and: originalForm
+		zoomOut;
+		assertEqualityOf: self renderCanvas and: originalForm

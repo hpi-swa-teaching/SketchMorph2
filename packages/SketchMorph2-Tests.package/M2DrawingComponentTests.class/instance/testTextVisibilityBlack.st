@@ -1,8 +1,7 @@
 testing
 testTextVisibilityBlack
-
 	self
 		activate: M2Text;
-		drawAt: 25 asPoint.
-	self activeTool temporaryTextMorph contents: 'test'.
-	self assert: (self activeTool temporaryTextMorph backgroundColor) equals: Color white.
+		drawAt: 25 asPoint;
+		temporaryTextMorphContents: 'test';
+		assert: (self activeTool temporaryTextMorph backgroundColor) equals: Color white

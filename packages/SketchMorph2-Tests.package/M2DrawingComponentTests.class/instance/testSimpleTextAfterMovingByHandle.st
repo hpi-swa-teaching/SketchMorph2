@@ -3,7 +3,7 @@ testSimpleTextAfterMovingByHandle
 	self
 		activate: M2Text;
 		drawAt: 75 asPoint.
-	self activeTool temporaryTextMorph
+	self temporaryTextMorph
 		contents: 'test';
 		moveByHandleTo: 25 asPoint;
 		position: self activeTool temporaryTextMorph bottomRight.

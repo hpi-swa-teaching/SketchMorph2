@@ -1,0 +1,3 @@
+delegating
+pushNewUndoLevel
+	self backend pushNewUndoLevel
