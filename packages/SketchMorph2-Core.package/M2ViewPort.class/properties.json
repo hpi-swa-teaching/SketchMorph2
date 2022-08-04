@@ -9,9 +9,6 @@
 		"context",
 		"currentCursor",
 		"scalar",
-		"temporaryGeometricMorph",
-		"temporaryTextMorph",
-		"backgroundColor",
 		"imageStack" ],
 	"name" : "M2ViewPort",
 	"pools" : [
