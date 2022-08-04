@@ -10,5 +10,5 @@
 	"name" : "M2FlipHorizontal",
 	"pools" : [
 		 ],
-	"super" : "M2Flip",
+	"super" : "M2FlipMenuItem",
 	"type" : "normal" }
