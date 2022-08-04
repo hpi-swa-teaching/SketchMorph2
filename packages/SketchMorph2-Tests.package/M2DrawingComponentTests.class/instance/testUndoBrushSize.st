@@ -10,5 +10,5 @@ testUndoBrushSize
 		self activate: M2CircleBrush.
 		self context currentColor: Color black.
 		self drawAt: 50 asPoint] .
-		[self backend setBrushAndEraserSizeTo: 40.
+		[self context setBrushAndEraserSizeTo: 40.
 		self drawAt: 20 asPoint]}
