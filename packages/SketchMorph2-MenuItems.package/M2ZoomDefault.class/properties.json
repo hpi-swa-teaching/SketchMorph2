@@ -10,5 +10,5 @@
 	"name" : "M2ZoomDefault",
 	"pools" : [
 		 ],
-	"super" : "M2ActionToolItem",
+	"super" : "M2ActionToolMenuItem",
 	"type" : "normal" }

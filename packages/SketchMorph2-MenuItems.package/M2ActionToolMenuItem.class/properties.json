@@ -7,7 +7,7 @@
 	"commentStamp" : "kbr 8/2/2022 12:46",
 	"instvars" : [
 		 ],
-	"name" : "M2ActionToolItem",
+	"name" : "M2ActionToolMenuItem",
 	"pools" : [
 		 ],
 	"super" : "M2ToolMenuItem",

@@ -10,5 +10,5 @@
 	"name" : "M2ZoomIn",
 	"pools" : [
 		 ],
-	"super" : "M2ActionToolItem",
+	"super" : "M2ActionToolMenuItem",
 	"type" : "normal" }
