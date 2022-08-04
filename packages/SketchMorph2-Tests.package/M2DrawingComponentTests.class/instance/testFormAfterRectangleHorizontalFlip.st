@@ -6,7 +6,6 @@ testFormAfterRectangleHorizontalFlip
 		drawFrom: (40 @ 10) to: (80 @ 90);
 		drawAt: 50 asPoint;
 		activate: M2SelectRectangle;
-		drawFrom: (60 @ 10) to: 100 asPoint;
+		dragFrom: (60 @ 10) to: 100 asPoint;
 		activate: M2FlipHorizontal;
-		drawAt: 50 asPoint;
 		compareBackendFormWith: #mirroredRectangleHorizontal
