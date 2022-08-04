@@ -1,4 +1,3 @@
-support
+delegating
 releaseShift
-	
-	self viewPort canvas isShiftPressed: false.
+	self canvas isShiftPressed: false

@@ -3,4 +3,4 @@ testUndoAfterClearCanvasAndDraw
 	self executeAndTestUndo: {
 		[self dragFrom: 10 asPoint to: 40 asPoint] .
 		[self backend clearCanvas] .
-		[self dragFrom: (10 @ 20) to: (30 @ 40)]}
+		[self dragFrom: 10 @ 20 to: 30 @ 40]}

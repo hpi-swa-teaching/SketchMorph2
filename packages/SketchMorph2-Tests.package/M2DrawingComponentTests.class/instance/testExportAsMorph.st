@@ -7,6 +7,7 @@ testExportAsMorph
 	self backend exportAsMorph.
 	self assert: 1 equals: self currentHand submorphCount.
 	self currentHand submorphsDo: [:m |
-		self assert: m isImageMorph.
-		self compare: m image with: #circlesDiagonal14.
+		self
+			assert: m isImageMorph;
+			compare: m image with: #circlesDiagonal14.
 		m abandon]

@@ -1,3 +1,3 @@
-support
+delegating
 holdShift
-	self viewPort canvas isShiftPressed: true
+	self canvas isShiftPressed: true
