@@ -8,4 +8,4 @@ project: aForm at: aPoint rule: aCombinationRule
 		clippingBox: (0 asPoint corner: self activeForm extent)
 		rule: aCombinationRule
 		fillColor: nil.
-	self canvas redraw
+	self viewPort redraw
