@@ -3,9 +3,9 @@
 		 },
 	"instance" : {
 		"moveHandle" : "ms 8/1/2022 17:05",
-		"moveHandle:" : "ms 8/1/2022 17:05",
+		"moveHandle:" : "AG 8/4/2022 13:45",
 		"rotateHandle" : "ms 8/1/2022 17:05",
-		"rotateHandle:" : "ms 8/1/2022 17:05",
+		"rotateHandle:" : "AG 8/4/2022 13:45",
 		"setUp" : "ms 8/1/2022 17:12",
-		"testDoesMoveHandleMoveMorphAndSelf" : "ms 8/1/2022 17:26",
-		"testDoesRotateHandleChangeColorOnDrag" : "ms 8/1/2022 17:13" } }
+		"testDoesMoveHandleMoveMorphAndSelf" : "AG 8/4/2022 13:47",
+		"testDoesRotateHandleChangeColorOnDrag" : "AG 8/4/2022 13:48" } }

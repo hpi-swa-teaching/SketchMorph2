@@ -35,7 +35,7 @@
 		"testDoesFillShortcutChangeState" : "ms 8/1/2022 17:44",
 		"testDoesImportImageSendCorrectMessage" : "CS 8/5/2021 23:48",
 		"testDoesImportImageShortcutSendCorrectMessage" : "CS 8/5/2021 23:48",
-		"testDoesPencilShortcutChangeState" : "ms 8/1/2022 17:45",
+		"testDoesPencilShortcutChangeState" : "AG 8/4/2022 13:56",
 		"testDoesRectangleToolShortcutChangeState" : "ms 8/1/2022 17:45",
 		"testDoesUndoSendCorrectMessage" : "CS 8/5/2021 23:48",
 		"testDoesUndoShortcutSendCorrectMessage" : "CS 8/5/2021 23:48",

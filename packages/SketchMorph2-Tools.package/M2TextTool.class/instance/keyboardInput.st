@@ -1,4 +1,3 @@
 accessing
 keyboardInput
-	
 	^ self nextStartFinishes

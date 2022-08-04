@@ -13,6 +13,4 @@ testSetActiveLayerIndexSelectsCorrectly
 	self layerStack activeLayerIndex: 3.
 	self assert: self layerStack activeLayer identical: (self layerStack layers at: 3).
 	self layerStack activeLayerIndex: 5.
-	self assert: initLayer identical: self layerStack activeLayer.
-	
-	
+	self assert: initLayer identical: self layerStack activeLayer

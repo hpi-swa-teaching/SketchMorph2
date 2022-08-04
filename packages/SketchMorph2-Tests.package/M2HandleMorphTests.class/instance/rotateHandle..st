@@ -1,3 +1,3 @@
 accessing
-rotateHandle: aM2RotateHandleMorph
-	rotateHandle := aM2RotateHandleMorph
+rotateHandle: anM2RotateHandleMorph
+	rotateHandle := anM2RotateHandleMorph
