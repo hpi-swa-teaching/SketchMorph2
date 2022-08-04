@@ -6,13 +6,13 @@ assertEqualityOf: aForm and: aSecondForm
 		at: 0 asPoint.
 	"FOR DEBUGGING
 	pixelCompare isZero ifFalse: [
-			(aForm asFormOfDepth: 1) asMorph
-				color: (Color red alpha: 0.3);
+			((aForm asFormOfDepth: 1) scaledToSize: 500) asMorph
+				color: (Color red alpha: 0.5);
 				position: 50 asPoint;
 				borderStyle: (BorderStyle color: Color red width: 2);
 				openInWorld.
-			(aSecondForm asFormOfDepth: 1) asMorph
-				color: (Color green alpha: 0.3);
+			((aSecondForm asFormOfDepth: 1) scaledToSize: 500) asMorph
+				color: (Color green alpha: 0.5);
 				position: 50 asPoint;
 				borderStyle: (BorderStyle color: Color green width: 2);
 				openInWorld.
