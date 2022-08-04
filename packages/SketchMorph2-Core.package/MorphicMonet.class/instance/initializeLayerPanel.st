@@ -1,6 +1,5 @@
 initialization
 initializeLayerPanel
-
 	self layerPanel: (PluggablePanelMorph newColumn
 		hResizing: #shrinkWrap;
 		vResizing: #spaceFill;

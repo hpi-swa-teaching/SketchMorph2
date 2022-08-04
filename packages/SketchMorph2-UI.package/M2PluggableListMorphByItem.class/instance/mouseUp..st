@@ -1,6 +1,5 @@
 event handling
 mouseUp: event
-	
 	| row atIcon |
 	model okToChange ifFalse: [^ self].
 	(self containsPoint: event position) ifFalse: [^ self].
@@ -16,4 +15,4 @@ mouseUp: event
 		
 	event hand newKeyboardFocus: self.
 	hasFocus := true.
-	Cursor normal show.
+	Cursor normal show

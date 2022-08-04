@@ -1,11 +1,9 @@
 testing
 testDoesMoveHandleMoveMorphAndSelf
 	| moveEvent delta initialMorphPosition initialHandlePosition |
-	delta := 20@35.
+	delta := 20 @ 35.
 	initialMorphPosition := self subject center.
 	initialHandlePosition := self moveHandle center.
-	
-	
 	
 	self moveHandle mouseDown.
 	moveEvent := self subject generateMouseEvent: #mouseMove button: MTFMorphWrapper leftButton on: self moveHandle.

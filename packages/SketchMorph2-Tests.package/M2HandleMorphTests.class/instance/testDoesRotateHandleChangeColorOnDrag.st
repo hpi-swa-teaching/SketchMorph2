@@ -5,4 +5,4 @@ testDoesRotateHandleChangeColorOnDrag
 	self rotateHandle leftMouseDown.
 	self assert: (self rotateHandle color ~= initialColor).
 	self rotateHandle leftMouseUp.
-	self assert: (self rotateHandle color = initialColor).
+	self assert: (self rotateHandle color = initialColor)

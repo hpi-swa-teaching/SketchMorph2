@@ -5,5 +5,5 @@ generateLayer: anM2Layer
 	flex := image addFlexShellIfNecessary.
 	flex
 		scale: self scalar;
-	 	position: 0@0.
+	 	position: 0 @ 0.
 	^ flex

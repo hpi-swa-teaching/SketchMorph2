@@ -9,4 +9,4 @@ testTogglesVisibleCorrectLayer
 	secondLayer := (self layerStack layers reject: [:l | l == initLayer]) first.
 	self layerStack activeLayer: secondLayer.
 	self layerStack toggleVisibleActiveLayer.
-	self deny: secondLayer isVisible.
+	self deny: secondLayer isVisible
