@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"blackBrushWhiteBg" : "ms 8/4/2022 14:53",
 		"brushSizeTest" : "ms 8/3/2022 17:13",
 		"circleBrushTest" : "ms 8/3/2022 17:16",
 		"circlesDiagonal14" : "ms 8/4/2022 13:46",
@@ -60,7 +61,7 @@
 		"drawFrom:to:" : "AG 8/1/2022 19:12",
 		"enableFillingGeometricForm" : "md 7/31/2022 17:08",
 		"executeAndTestUndo:" : "md 6/11/2022 23:22",
-		"expectedFailures" : "ms 6/22/2022 12:14",
+		"expectedFailures" : "ms 8/4/2022 14:53",
 		"fileDirectory" : "mk 7/25/2020 16:15",
 		"fileDirectory:" : "mk 7/25/2020 16:16",
 		"finishDrawing" : "md 8/2/2022 17:54",
@@ -82,6 +83,7 @@
 		"testCachedFormAfterJPEGImport" : "CS 6/29/2021 11:29",
 		"testCachedFormAfterPNGImport" : "CS 6/29/2021 11:29",
 		"testCircleBrush" : "md 7/30/2022 19:26",
+		"testCircleBrushMultipleTimes" : "ms 8/4/2022 14:53",
 		"testCircleBrushOnNewLayer" : "md 6/26/2022 14:21",
 		"testClearCanvas" : "AG 8/1/2022 19:26",
 		"testClearCanvasOnNewLayer" : "md 6/26/2022 14:21",
