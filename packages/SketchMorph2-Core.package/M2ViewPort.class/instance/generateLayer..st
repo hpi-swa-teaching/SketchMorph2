@@ -1,5 +1,5 @@
 updating
-generateLayer: anM2Layer 
+generateLayer: anM2Layer
 	| image flex |
 	image := ImageMorph new newForm: anM2Layer form.
 	flex := image addFlexShellIfNecessary.

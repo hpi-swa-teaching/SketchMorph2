@@ -14,6 +14,6 @@ mouseUp: event
 				ifFalse: [atIcon ifTrue:[ self iconClick: event]]]
 		ifFalse: [self changeModelSelection: (self modelIndexFor: row)].
 		
-	event hand newKeyboardFocus: self. 
+	event hand newKeyboardFocus: self.
 	hasFocus := true.
 	Cursor normal show.

@@ -1,3 +1,3 @@
 accessing
-createTool 
+createTool
 	^ M2ExportMorphTool new
