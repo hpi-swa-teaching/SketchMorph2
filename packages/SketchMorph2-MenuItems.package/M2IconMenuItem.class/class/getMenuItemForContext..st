@@ -1,8 +1,8 @@
 instance creation
-getMenuItemForContext: anM2DrawingContext
+getMenuItemForContext: anM2Context
 	^ M2MenuItemMorph new
 			contents: self label;
-			target: [self onClick: anM2DrawingContext];
+			target: [self onClick: anM2Context];
 			selector: #value;
 			icon: (self icon scaledToSize: self defaultIconSize);
 			isActivatable: self isActivatable;

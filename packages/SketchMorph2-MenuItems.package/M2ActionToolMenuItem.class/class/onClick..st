@@ -1,6 +1,6 @@
 clicking
-onClick: anM2DrawingContext
+onClick: anM2Context
 	| previousTool |
-	previousTool :=	anM2DrawingContext activeTool.
-	super onClick: anM2DrawingContext.
-	anM2DrawingContext activeTool: previousTool
+	previousTool :=	anM2Context activeTool.
+	super onClick: anM2Context.
+	anM2Context activeTool: previousTool

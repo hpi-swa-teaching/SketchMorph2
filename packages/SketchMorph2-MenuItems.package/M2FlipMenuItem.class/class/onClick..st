@@ -1,11 +1,11 @@
 clicking
-onClick: anM2DrawingContext
+onClick: anM2Context
 	| selectTool |
-	selectTool := anM2DrawingContext
+	selectTool := anM2Context
 						cachedTool: #select
-						ifAbsent: [^ anM2DrawingContext morphicMonet clickMenuItemWith: M2SelectRectangle label].
+						ifAbsent: [^ anM2Context morphicMonet clickMenuItemWith: M2SelectRectangle label].
 	selectTool isShapeDrawn ifTrue: [
-			super onClick: anM2DrawingContext.
-			(self tool: anM2DrawingContext) mirrorUsing: selectTool.
-			anM2DrawingContext activeTool: selectTool.
+			super onClick: anM2Context.
+			(self tool: anM2Context) mirrorUsing: selectTool.
+			anM2Context activeTool: selectTool.
 			selectTool afterMirror]

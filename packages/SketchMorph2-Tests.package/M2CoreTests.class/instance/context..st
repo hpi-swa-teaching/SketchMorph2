@@ -1,3 +1,3 @@
 accessing
-context: anM2DrawingContext
-	context := anM2DrawingContext
+context: anM2Context
+	context := anM2Context
