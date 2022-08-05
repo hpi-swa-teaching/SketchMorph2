@@ -1,7 +1,7 @@
 testing
 testZoomOutInPreservesInformation
 	| originalForm |
-	self 
+	self
 		zoomBy: 2;
 		drawAt: 50 asPoint.
 	originalForm := self renderCanvas.
