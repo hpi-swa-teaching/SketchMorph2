@@ -19,7 +19,7 @@
 		"pencilSize",
 		"morphicMonet",
 		"clipboardForm" ],
-	"name" : "M2DrawingContext",
+	"name" : "M2Context",
 	"pools" : [
 		 ],
 	"super" : "Object",
