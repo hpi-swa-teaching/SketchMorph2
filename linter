@@ -32,7 +32,10 @@ function print_welcome {
 # Linting Functions
 
 function lint_st {
-	local content=$(<"$1")
+	# echo . used to preserve trailing newlines
+	local content="$(cat "$1"; echo .)"
+	content="${content%.}"
+
 	local line_number=1
 	while IFS= read -r line
 	do
@@ -47,6 +50,8 @@ function lint_st {
 	[[ $content =~ ^([^[]+?)([[:space:]]{3,})(\|) ]] && print_file_correctable_issue "Empty lines before method local variables" "$1"
 	[[ $content =~ ^([^[]+?)(\|)([[:space:]]{3,}) ]] && print_file_correctable_issue "Empty lines before method local variables" "$1"
 	[[ $content =~ (\.)([[:space:]]*)$ ]] && print_file_correctable_issue "Final point" "$1"
+	# bash doesn't support lookarounds in regexes, use grep with -z (effectively treats input as one line) instead
+	(echo -n "$content" | grep -zP '\S\n(?![\s\S])' >/dev/null) || print_file_correctable_issue "More or less than one trailing newline" "$1"
 }
 
 function lint_md {
