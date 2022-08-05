@@ -1,4 +1,4 @@
-testing
+testing - generate-OnNewLayer
 testSimpleTextAfterMovingByHandle
 	self
 		activate: M2Text;

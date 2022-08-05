@@ -1,4 +1,4 @@
-testing
+testing - generate-OnNewLayer
 testSimpleTextColourChangeBeforeCommit
 	self
 		activate: M2Text;

@@ -1,3 +1,3 @@
-accessing
+printing
 printOn: aStream
-	aStream nextPutAll: self name.
+	aStream nextPutAll: self name

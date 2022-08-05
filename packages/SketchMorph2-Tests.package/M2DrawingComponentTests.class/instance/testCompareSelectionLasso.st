@@ -1,6 +1,6 @@
 testing - generate-OnNewLayer
 testCompareSelectionLasso
-	self 
+	self
 		activate: M2CircleBrush;
 		setBrushAndEraserSizeTo: 15;
 		drawAt: 50 asPoint;

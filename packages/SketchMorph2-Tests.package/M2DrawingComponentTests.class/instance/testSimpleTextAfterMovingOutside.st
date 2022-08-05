@@ -1,4 +1,4 @@
-testing
+testing - generate-OnNewLayer
 testSimpleTextAfterMovingOutside
 	self
 		activate: M2Text;
