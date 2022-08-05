@@ -11,7 +11,7 @@
 		"context",
 		"fileDirectory",
 		"viewPort" ],
-	"name" : "M2DrawingComponentTests",
+	"name" : "M2CoreTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
