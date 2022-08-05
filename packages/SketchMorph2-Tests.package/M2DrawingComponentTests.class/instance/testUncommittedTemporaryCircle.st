@@ -1,4 +1,4 @@
-testing
+testing - generate-OnNewLayer
 testUncommittedTemporaryCircle
 	self
 		enableFillingGeometricForm;

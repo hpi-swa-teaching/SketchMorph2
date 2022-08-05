@@ -1,4 +1,4 @@
-testing
+testing - generate-OnNewLayer
 testSimpleTextAfterColourChange
 	self
 		activate: M2Text;

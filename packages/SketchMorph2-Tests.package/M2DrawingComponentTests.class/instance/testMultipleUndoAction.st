@@ -1,4 +1,4 @@
-testing
+testing - generate-OnNewLayer
 testMultipleUndoAction
 	self
 		enableFillingGeometricForm;
