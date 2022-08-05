@@ -6,4 +6,3 @@ testRescaleScalesEveryLayersForm
 	
 	self layerStack layers do: [:layer | self assert: 10 asPoint equals: layer extent].
 	self assert: 10 asPoint equals: self layerStack asForm extent
-	

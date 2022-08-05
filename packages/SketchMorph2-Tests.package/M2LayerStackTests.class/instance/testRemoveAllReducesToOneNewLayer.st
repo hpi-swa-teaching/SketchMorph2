@@ -9,5 +9,3 @@ testRemoveAllReducesToOneNewLayer
 	self layerStack removeAllLayers.
 	self assert: 1 equals: self layerStack layers size.
 	self deny: initLayer == self layerStack activeLayer
-	
-	
