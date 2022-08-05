@@ -1,5 +1,5 @@
 support
-doesButtonWork: aLabel forTarget: anM2DrawingComponent
+doesButtonWork: aLabel forTarget: anM2ViewPort
 	| block |
 	block := self menuButtonsDict at: aLabel.
-	^ block value: anM2DrawingComponent
+	^ block value: anM2ViewPort

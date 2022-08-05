@@ -1,8 +1,8 @@
 instance creation
-newOn: anM2DrawingComponent
+newOn: anM2Context
 	| instance |
 	instance := self new
-		model: anM2DrawingComponent;
+		model: anM2Context;
 		color: Color darkGray;
 		updateExtent.
 	^ instance

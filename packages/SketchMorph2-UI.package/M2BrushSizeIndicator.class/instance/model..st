@@ -1,4 +1,4 @@
 accessing
-model: anM2DrawingComponent
-	model := anM2DrawingComponent.
+model: anM2Context
+	model := anM2Context.
 	model addDependent: self
