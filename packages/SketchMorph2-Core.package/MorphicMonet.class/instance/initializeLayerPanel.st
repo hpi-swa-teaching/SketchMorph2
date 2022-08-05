@@ -15,6 +15,5 @@ initializeLayerPanel
 			getIconSelector: #layerIconAt:;
 			keystrokeActionSelector: nil;
 			vResizing: #spaceFill;
-			yourself
-		);
+			yourself);
 		yourself)
