@@ -3,7 +3,7 @@ initialize
 	super initialize.
 	self
 		onColor: self initialColor offColor: self initialColor;
-		model: self palette squeakPaint;
+		model: self palette morphicMonet;
 		action: #setColor:;
 		arguments: {self offColor};
 		triggerOnMouseDown: true;

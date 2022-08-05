@@ -2,10 +2,10 @@
 	"class" : {
 		"on:" : "CS 8/5/2021 17:43" },
 	"instance" : {
-		"colorPicker" : "SW 8/5/2022 15:32",
+		"colorPicker" : "md 8/5/2022 20:19",
 		"helpText" : "K.P. 5/29/2021 14:34",
-		"initialModel" : "CS 8/6/2021 18:34",
+		"initialModel" : "md 8/5/2022 20:19",
 		"initialize" : "CS 8/6/2021 18:35",
+		"morphicMonet" : "md 8/5/2022 20:19",
 		"mouseDown:" : "CS 8/5/2021 17:50",
-		"selectedColor" : "SW 8/5/2022 15:32",
-		"squeakPaint" : "SW 8/5/2022 15:32" } }
+		"selectedColor" : "SW 8/5/2022 15:32" } }

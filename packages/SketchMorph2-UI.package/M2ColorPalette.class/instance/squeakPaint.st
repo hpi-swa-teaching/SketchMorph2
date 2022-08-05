@@ -1,3 +1,0 @@
-accessing
-squeakPaint
-	^ squeakPaint

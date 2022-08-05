@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"newWithSqueakPaint:" : "CS 8/5/2021 17:52" },
+		"newWithMorphicMonet:" : "md 8/5/2022 20:21" },
 	"instance" : {
 		"buttons" : "mFr 5/18/2021 17:40",
 		"buttons:" : "mFr 5/18/2021 17:43",
@@ -10,9 +10,9 @@
 		"customizableButtons:" : "mFr 5/18/2021 17:43",
 		"defaultButtonsPerRow" : "mFr 7/14/2021 17:23",
 		"initialize" : "mFr 7/14/2021 17:37",
+		"morphicMonet" : "md 8/5/2022 20:19",
+		"morphicMonet:" : "md 8/5/2022 20:19",
 		"numberOfRows" : "CS 8/5/2021 18:02",
 		"rowPanelCollection" : "CS 8/5/2021 18:08",
-		"squeakPaint" : "mFr 5/18/2021 17:42",
-		"squeakPaint:" : "CS 8/5/2021 17:54",
 		"uncustomizableButtons" : "CS 8/5/2021 17:54",
 		"uncustomizableButtons:" : "mFr 5/18/2021 17:42" } }

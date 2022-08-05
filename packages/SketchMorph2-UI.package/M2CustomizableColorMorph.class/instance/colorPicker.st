@@ -1,3 +1,3 @@
 accessing
 colorPicker
-	^ self squeakPaint colorPicker
+	^ self morphicMonet colorPicker

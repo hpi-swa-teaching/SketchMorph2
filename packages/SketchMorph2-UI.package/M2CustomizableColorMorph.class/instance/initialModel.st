@@ -4,4 +4,4 @@ initialModel
 			| userColor |
 			userColor := self selectedColor.
 			self onColor: userColor offColor: userColor].
-			self palette squeakPaint setColor: self offColor]
+			self palette morphicMonet setColor: self offColor]

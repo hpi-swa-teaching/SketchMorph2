@@ -8,8 +8,8 @@
 	"instvars" : [
 		"buttons",
 		"customizableButtons",
-		"squeakPaint",
-		"uncustomizableButtons" ],
+		"uncustomizableButtons",
+		"morphicMonet" ],
 	"name" : "M2ColorPalette",
 	"pools" : [
 		 ],
