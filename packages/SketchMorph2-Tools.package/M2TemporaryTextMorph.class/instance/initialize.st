@@ -5,4 +5,3 @@ initialize
 		contents: '';
 		beAllFont: self defaultFont;
 		isActive: true
-		

@@ -1,5 +1,3 @@
 tool
 toolName
-
 	^ #text
-	
