@@ -47,6 +47,7 @@ function lint_st {
 	[[ $content =~ ^([^[]+?)([[:space:]]{3,})(\|) ]] && print_file_correctable_issue "Empty lines before method local variables" "$1"
 	[[ $content =~ ^([^[]+?)(\|)([[:space:]]{3,}) ]] && print_file_correctable_issue "Empty lines before method local variables" "$1"
 	[[ $content =~ (\.)([[:space:]]*)$ ]] && print_file_correctable_issue "Final point" "$1"
+	[[ $content =~ (?<=\S)\n(?![\s\S]) ]] || print_file_correctable_issue "More or less than one trailing newline" "$1"
 }
 
 function lint_md {
