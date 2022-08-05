@@ -32,9 +32,17 @@ function print_welcome {
 # Linting Functions
 
 function lint_st {
+	if [[ $1 =~ "monticello.meta/initializers.st" ]]; then
+		return
+	fi
+
 	# echo . used to preserve trailing newlines
 	local content="$(cat "$1"; echo .)"
 	content="${content%.}"
+
+	if (echo -n "$content" | grep "This is an auto-generated method" > /dev/null); then
+		return
+	fi
 
 	local line_number=1
 	while IFS= read -r line
