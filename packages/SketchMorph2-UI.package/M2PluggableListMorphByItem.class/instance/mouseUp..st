@@ -1,5 +1,6 @@
 event handling
 mouseUp: event
+	"Method copied from PluggableListMorphByItem to change behaviour for our needs."
 	| row atIcon |
 	model okToChange ifFalse: [^ self].
 	(self containsPoint: event position) ifFalse: [^ self].

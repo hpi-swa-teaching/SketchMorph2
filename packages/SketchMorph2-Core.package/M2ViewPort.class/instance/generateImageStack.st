@@ -1,7 +1,5 @@
 updating
 generateImageStack
-	self imageStack: OrderedCollection new.
-	self backend layerStack layers
-		do: [:layer | layer isVisible
-				ifTrue: [self imageStack
-						add: (self generateLayer: layer)]]
+	self imageStack: (self backend layerStack layers
+		select: [ :layer | layer isVisible ] 
+		thenCollect: [ :layer | self generateLayer: layer ])
