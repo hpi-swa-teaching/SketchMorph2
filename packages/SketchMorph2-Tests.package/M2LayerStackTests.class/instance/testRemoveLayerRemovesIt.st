@@ -6,5 +6,3 @@ testRemoveLayerRemovesIt
 	self layerStack addLayer.
 	self layerStack removeActiveLayer.
 	self deny: (self layerStack layers includes: initLayer)
-	
-	

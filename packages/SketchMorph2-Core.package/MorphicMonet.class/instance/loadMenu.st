@@ -8,5 +8,3 @@ loadMenu
 		submenu beSticky.
 		self menuPanel addMorph: submenu].
 	self activateDefaultItem
-
-	

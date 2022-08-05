@@ -7,7 +7,7 @@
 		"assertColor:nearlyEquals:" : "CS 8/5/2021 22:49",
 		"doButtonAction:" : "CS 8/4/2021 15:15",
 		"doDummyAction" : "md 8/2/2022 15:00",
-		"doesButtonWork:forTarget:" : "mFr 6/25/2021 15:35",
+		"doesButtonWork:forTarget:" : "kbr 8/5/2022 18:08",
 		"getButtonFor:" : "CS 8/4/2021 19:21",
 		"isButtonActivated:" : "ms 7/26/2021 14:32",
 		"isButtonEnabled:" : "ms 7/26/2021 14:32",
@@ -82,4 +82,4 @@
 		"testIsZoomInButtonThere" : "CS 8/5/2021 23:54",
 		"testIsZoomOutButtonThere" : "CS 8/5/2021 23:54",
 		"testPasteClipboardImage" : "SW 8/5/2022 16:17",
-		"writeTestPNG" : "SW 8/5/2022 16:18" } }
+		"writeTestPNG" : "kbr 8/5/2022 19:17" } }

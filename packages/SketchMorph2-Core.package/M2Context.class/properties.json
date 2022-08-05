@@ -1,0 +1,26 @@
+{
+	"category" : "SketchMorph2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "kbr 8/2/2022 12:13",
+	"instvars" : [
+		"activeTool",
+		"cachedTools",
+		"backend",
+		"canvas",
+		"viewPort",
+		"backgroundColor",
+		"brushSize",
+		"currentColor",
+		"eraserSize",
+		"isFillingGeometricForm",
+		"pencilSize",
+		"morphicMonet",
+		"clipboardForm" ],
+	"name" : "M2Context",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,3 +1,3 @@
 clicking
-onClick: anM2DrawingContext
+onClick: anM2Context
 	self subclassResponsibility

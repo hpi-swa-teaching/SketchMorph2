@@ -2,7 +2,7 @@ instance creation
 newWithBackendClass: aBackendClass viewportClass: aViewPortClass extent: aPoint
 	| canvas context backend viewPort |
 	canvas := self basicNew.
-	context := M2DrawingContext new.
+	context := M2Context new.
 	backend := aBackendClass basicNew.
 	viewPort := aViewPortClass basicNew.
 	context

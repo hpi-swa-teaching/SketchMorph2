@@ -1,4 +1,3 @@
 accessing
 icon
 	^ MorphicMonetIcons editIcon
-	

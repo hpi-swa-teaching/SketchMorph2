@@ -1,3 +1,3 @@
 clicking
-onClick: anM2DrawingContext
-	anM2DrawingContext activeTool: (self tool: anM2DrawingContext)
+onClick: anM2Context
+	anM2Context activeTool: (self tool: anM2Context)

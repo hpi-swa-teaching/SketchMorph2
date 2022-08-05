@@ -1,3 +1,3 @@
 tool
-tool: anM2DrawingContext
-	^ anM2DrawingContext cachedTool: self toolName ifAbsentPut: [self createTool]
+tool: anM2Context
+	^ anM2Context cachedTool: self toolName ifAbsentPut: [self createTool]

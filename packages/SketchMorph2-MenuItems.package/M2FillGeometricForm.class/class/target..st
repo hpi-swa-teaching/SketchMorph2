@@ -1,3 +1,3 @@
 accessing
-target: anM2DrawingContext
-	^ anM2DrawingContext
+target: anM2Context
+	^ anM2Context
