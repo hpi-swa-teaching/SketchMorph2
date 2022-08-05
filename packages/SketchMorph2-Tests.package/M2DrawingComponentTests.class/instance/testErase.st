@@ -1,7 +1,7 @@
 testing - generate-OnNewLayer
 testErase
 	self backend activeForm fillColor: self context backgroundColor negated.
-	self 
+	self
 		activate: M2EraserBrush;
 		dragFrom: 10 asPoint to: 15 asPoint;
 		assertColor: self context backgroundColor
