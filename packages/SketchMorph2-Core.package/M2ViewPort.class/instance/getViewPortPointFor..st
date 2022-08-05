@@ -1,3 +1,3 @@
 coordinate-transformation
 getViewPortPointFor: aPoint
-	^ aPoint + ((1 @ 1) * self scalar)
+	^ (aPoint + (1 @ 1)) * self scalar
