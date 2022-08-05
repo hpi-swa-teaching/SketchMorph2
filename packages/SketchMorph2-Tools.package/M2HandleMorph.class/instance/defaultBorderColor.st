@@ -1,3 +1,0 @@
-default
-defaultBorderColor
-	^ Color black

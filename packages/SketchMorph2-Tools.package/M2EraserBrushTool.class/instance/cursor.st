@@ -1,4 +1,4 @@
-accessing
+cursor
 cursor
 	^ self offsetCursor: (CircleMorph new
 			extent: self diameter asPoint;

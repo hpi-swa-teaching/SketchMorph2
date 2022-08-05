@@ -1,3 +1,3 @@
-initialization
+positioning
 positionSelf
 	 ^ self subclassResponsibility
